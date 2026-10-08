@@ -1,0 +1,5 @@
+src/dist/
+src/preview/
+__pycache__/
+*.pyc
+.DS_Store
