@@ -15,3 +15,5 @@ Trades: HVAC, plumbing, roofing, electrical, garage door, landscaping, cleaning,
 Portfolio: ORO Landscaping (google.orolandscape.com), Great Northern Refrigeration (gnrpdx.com), A & I Contracting (google.aandicontracting.com). Never invent testimonials or results.
 
 Blog posts: add to `src/posts.py`. Each post has a short answer box, question style H2s, FAQ, and links to a trade page and /get-started. `src/blog-plan.md` lists the next planned titles.
+
+Hosting: Cloudflare Worker `yellow-surf-96e8`, connected to this repo via Workers Builds. `wrangler.jsonc` points the Worker at `./site`. Build command empty, deploy command `npx wrangler deploy`.
