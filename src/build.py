@@ -22,7 +22,7 @@ IG = "https://www.instagram.com/sitesthatbook"
 TODAY = date.today().isoformat()
 SETUP, MONTHLY = "$349", "$99"
 # Form delivery. Fill these 3 values, rebuild, redeploy.
-GHL_WEBHOOK = "PASTE_GHL_INBOUND_WEBHOOK_URL"
+GHL_WEBHOOK = "https://services.leadconnectorhq.com/hooks/20s74Ma9bI9VvC7iqVW3/webhook-trigger/50e0a686-1484-46b6-8f98-1bdac1dab51f"
 CLOUDINARY_CLOUD = "PASTE_CLOUD_NAME"
 CLOUDINARY_PRESET = "PASTE_UNSIGNED_PRESET"
 
@@ -669,8 +669,8 @@ def get_started():
          body, priority="0.8", schema=[crumbs_schema([("Home",""),("Get started","get-started")])])
 
 def contact():
-    fields = (field("c_name","Your name") + field("c_phone","Phone","tel") + field("c_email","Email","email",full=True) +
-              field("c_message","How can we help?","textarea",full=True))
+    fields = (field("name","Your name") + field("phone","Phone","tel") + field("email","Email","email",full=True) +
+              field("notes","How can we help?","textarea",full=True))
     body = hero("Contact","Talk to a <em>real person</em>","Questions about your trade, pricing or the process? Call, text, email or send the form.",crumbs=[("Home",""),("Contact","")],ctas=False) + f'''
 <section class="section"><div class="wrap split" style="align-items:start">
  <div class="stack">

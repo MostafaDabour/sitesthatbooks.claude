@@ -52,7 +52,9 @@ document.querySelectorAll("form[data-stb]").forEach(function (f) {
     e.preventDefault();
     if (f.querySelector('[name="company_website"]').value) { window.location.href = "/thanks"; return; }
     var btn = f.querySelector("button[type=submit]"), label = btn.textContent;
-    var files = [].slice.call(f.querySelectorAll("input[type=file]")).filter(function (i) { return i.files.length; });
+    var chosen = [].slice.call(f.querySelectorAll("input[type=file]")).filter(function (i) { return i.files.length; });
+    var canUpload = STB.cloud.indexOf("PASTE") !== 0 && STB.preset.indexOf("PASTE") !== 0;
+    var files = canUpload ? chosen : [];
     btn.disabled = true;
     btn.textContent = files.length ? "Uploading your files..." : "Sending...";
     var data = new URLSearchParams();
@@ -61,6 +63,7 @@ document.querySelectorAll("form[data-stb]").forEach(function (f) {
     });
     data.append("form_name", f.getAttribute("name"));
     data.append("page", location.pathname);
+    if (!canUpload && chosen.length) { data.append("files_note", "Client attached " + chosen.length + " file(s) but uploads are not connected yet. Ask them to text or email the logo and photos."); }
     var biz = (f.querySelector('[name="business"]') || {}).value || "lead";
     var folder = "onboarding/" + biz.toLowerCase().replace(/[^a-z0-9]+/g, "-").slice(0, 40);
     Promise.all(files.map(function (i) { return uploadFile(i.files[0], folder).then(function (u) { return [i.name, u]; }); }))
