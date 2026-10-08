@@ -1,5 +1,47 @@
 POSTS = [
 {
+ "slug":"what-should-an-hvac-website-include","tag":"Website tips","read":7,
+ "title":"What Should an HVAC Website Include?",
+ "h1":"What should an <em>HVAC website</em> include?",
+ "desc":"The pages, sections and features every HVAC company website needs to turn emergency AC and furnace searches into booked service calls.",
+ "answer":"An HVAC website needs a home page with a 24/7 call button and service area in the first screen, a separate section for each main service (AC repair, heating, heat pumps, installs and maintenance plans), license and insurance details, real reviews, financing info for replacements and a short request form that asks for the job type.",
+ "toc":[("first-screen","The first screen"),("services","One section per service"),("trust","Trust signals"),("money","Financing and maintenance plans"),("area","Service area"),("form","The request form"),("speed","Speed and mobile")],
+ "faqs":[("How many pages does an HVAC website need?","Five strong pages cover what most homeowners need to decide: home, services, about, reviews and contact. Adding separate pages for big services like AC replacement or heat pumps can help you rank for those searches as you grow."),
+         ("Should my HVAC website show 24/7 emergency service?","If you offer it, yes. Put it in the header and the first screen with a tap to call button. Emergency searches are some of the highest value calls in HVAC.")],
+ "body":"""
+<p>Most HVAC calls start with something broken: no cooling in July, no heat in January. The homeowner is stressed, on a phone and ready to call the first company that looks trustworthy. Your website has one job in that moment. Make calling you the obvious next step.</p>
+<h2 id="first-screen">What should be in the first screen?</h2>
+<p>Before anyone scrolls, they should see four things:</p>
+<ul>
+<li><b>What you do and where.</b> A headline like "AC and heating repair in Phoenix, Mesa and Chandler" beats any slogan.</li>
+<li><b>A big call button.</b> On phones, a sticky bar at the bottom of the screen with call and text buttons.</li>
+<li><b>Emergency availability</b>, if you offer 24/7 or same day service.</li>
+<li><b>Two or three trust signals</b>, such as your Google rating, years in business and license number.</li>
+</ul>
+<h2 id="services">Why does each service need its own section?</h2>
+<p>Homeowners do not search for "HVAC". They search for "ac not blowing cold air", "furnace repair near me" or "heat pump installation cost". Google matches those searches to pages that clearly cover them. Give each main service a heading and a short, specific paragraph:</p>
+<ul>
+<li>AC repair and AC replacement</li>
+<li>Furnace and heating repair</li>
+<li>Heat pumps and ductless mini splits</li>
+<li>New system installs</li>
+<li>Maintenance and tune ups</li>
+<li>Indoor air quality, if you offer it</li>
+</ul>
+<p>As your site grows, the biggest of these, usually AC replacement and heat pumps, can become pages of their own.</p>
+<h2 id="trust">Which trust signals matter most?</h2>
+<p>Letting a stranger into your home and spending thousands on a new system takes trust. Show your license number, insurance, manufacturer certifications and warranty terms near the top of the page and in the footer. Add real Google reviews that mention the job and the area, like "replaced our AC in Gilbert the next morning". Photos of your actual trucks and techs do more than any stock image.</p>
+<h2 id="money">Should I show financing and maintenance plans?</h2>
+<p>Yes, both. A new system is a big purchase, and homeowners who see monthly payment options before they call are more likely to book the estimate. Maintenance plans do the opposite job: they turn one-time repair customers into recurring revenue and keep your techs busy in the slower spring and fall months. Give each a clear section with a call to action.</p>
+<h2 id="area">How should I list my service area?</h2>
+<p>Write out every city, suburb and neighborhood you serve, in plain text that Google can read. Make sure your business name, phone number and service area match your Google Business Profile exactly. That consistency is one of the simplest signals that helps you show up in local results.</p>
+<h2 id="form">What should the request form ask?</h2>
+<p>Keep it short: name, phone, address or ZIP, job type (repair, install or maintenance) and a notes box. Asking for the job type lets you prioritize emergency calls and quote installs properly when you call back. Every extra field costs you leads.</p>
+<h2 id="speed">Does site speed really matter?</h2>
+<p>It does. A homeowner standing in a hot house will not wait for a slow page to load. Compress your photos, avoid heavy sliders and auto playing videos, and test your site on your own phone over mobile data. If it feels slow to you, it feels slower to them.</p>
+<p>Every <a href="{HVAC}">HVAC website</a> we build includes all of this, written for your company and live 48 hours after you <a href="{GET}">fill the onboarding form</a>.</p>
+"""},
+{
  "slug":"how-much-does-a-contractor-website-cost","tag":"Pricing","read":7,
  "title":"How Much Does a Website Cost for a Home Service Business?",
  "h1":"How much does a website cost for a <em>home service business</em>?",
