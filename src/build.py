@@ -200,6 +200,21 @@ def proof_row():
     items = ["Live in 48 hours","Money-back guarantee","No contracts","Hosting and SEO included"]
     return '<ul class="proof-row">' + "".join(f"<li>{TICK}{i}</li>" for i in items) + "</ul>"
 
+def devices_mock(trade="Plumbing", headline="Same day plumbing you can count on", alerts=None, domain="yourcompany.com"):
+    alerts = alerts or [("New booking","Water heater leaking","9:15 PM . Tonight"),("New review","5 stars on Google","Just now"),("Missed call","Texted back automatically","2 sec ago")]
+    tickets = "".join(f'''<div class="dv-ticket t{i}"><span class="t-label">{a}</span><span class="t-main">{b}</span><span class="t-meta">{c}</span></div>''' for i,(a,b,c) in enumerate(alerts[:3]))
+    head = f'<div class="ms-bar"><span class="ms-logo"></span><span class="ms-nav"><i></i><i></i><i></i></span><span class="ms-call">Call now</span></div>'
+    hero = f'<div class="ms-hero"><span class="ms-kicker">{trade}</span><b>{headline}</b><span class="ms-btns"><span class="b1">Call now</span><span class="b2">Book online</span></span></div>'
+    cards = '<div class="ms-cards"><span><i></i>Licensed and insured</span><span><i class="st"></i>4.9 on Google</span><span><i></i>Free estimates</span></div>'
+    form = '<div class="ms-form"><span class="f-title">Request service</span><span class="f-field"><i></i></span><span class="f-field"><i></i></span><span class="f-field"><i></i></span><span class="f-btn"><em>Send request</em><em>Booked</em></span></div>'
+    return f'''<div class="devices" aria-hidden="true">
+ <div class="dv-laptop"><div class="dv-screen"><div class="dv-url"><i></i><i></i><i></i><span>{domain}</span></div>
+  <div class="ms ms-desk">{head}<div class="ms-split">{hero}{form}</div>{cards}</div></div><div class="dv-base"></div></div>
+ <div class="dv-tablet"><div class="dv-screen"><div class="ms ms-tab">{head}{hero}{cards}</div></div></div>
+ <div class="dv-phone"><div class="dv-screen"><div class="ms ms-mob"><div class="ms-bar"><span class="ms-logo"></span><span class="ms-burger"></span></div>{hero}{cards}<div class="ms-sticky"><span>Call</span><span>Book</span></div></div></div></div>
+ {tickets}
+</div>'''
+
 def phone_mock(trade="Plumbing", headline="Same day plumbing you can count on", t1=("New booking","Water heater leaking","9:15 PM . Tonight"), t2=("New review","5 stars from Dana R.","Just now")):
     return f'''<div class="mock" aria-hidden="true">
  <div class="phone"><div class="screen">
@@ -330,7 +345,7 @@ def home():
   <div class="btn-row"><a class="btn btn-primary" href="{L("get-started")}">Get my site in 48 hours</a><a class="btn btn-outline-light" href="{L("our-work")}">See our work</a></div>
   {proof_row()}
  </div>
- {phone_mock()}
+ {devices_mock()}
 </div></section>
 
 <section class="section tight"><div class="wrap"><div class="facts">
@@ -413,7 +428,7 @@ def trade_page(t):
  <div class="hero-copy"><nav class="crumbs" aria-label="Breadcrumb"><a href="{L("")}">Home</a> &rsaquo; <a href="{L("industries")}">Industries</a> &rsaquo; {t["name"]} websites</nav>
   <span class="eyebrow">{t["kw"]}</span><h1>{t["h1"]}</h1><p class="lede">{t["lede"]}</p>
   <div class="btn-row"><a class="btn btn-primary" href="{L("get-started")}?trade={t["slug"]}">Get my {t["name"].lower()} site</a><a class="btn btn-outline-light" href="#pricing">See pricing</a></div>{proof_row()}</div>
- {phone_mock(t["name"], f"Trusted {t['name'].lower()} pros in your area", t["example"], ("New review","5 stars on Google","Just now"))}
+ {devices_mock(t["name"], f"Trusted {t['name'].lower()} pros in your area", [t["example"], ("New review","5 stars on Google","Just now"), ("Missed call","Texted back automatically","2 sec ago")])}
 </div></section>
 
 <section class="section mist"><div class="wrap split">
