@@ -1,5 +1,5 @@
 /* Sends SitesThatBook forms to a GHL inbound webhook. Files go to Cloudinary first, then their links go to GHL. */
-var STB = {hook: "__HOOK__", cloud: "__CLOUD__", preset: "__PRESET__"};
+var STB = {hook: "__HOOK__", cloud: "__CLOUD__", preset: "__PRESET__", errors: []};
 
 document.querySelectorAll("[data-show-when]").forEach(function (box) {
   var n = box.getAttribute("data-show-when"), v = box.getAttribute("data-show-value");
@@ -43,8 +43,12 @@ function uploadFile(file, folder) {
     fd.append("folder", folder);
     return fetch("https://api.cloudinary.com/v1_1/" + STB.cloud + "/auto/upload", {method: "POST", body: fd})
       .then(function (r) { return r.json(); })
-      .then(function (j) { return j.secure_url || ""; })
-      .catch(function () { return ""; });
+      .then(function (j) {
+        if (j.secure_url) { return j.secure_url; }
+        STB.errors.push((j.error && j.error.message) || "no url returned");
+        return "";
+      })
+      .catch(function (err) { STB.errors.push("network: " + (err && err.message)); return ""; });
   });
 }
 
@@ -75,7 +79,10 @@ document.querySelectorAll("form[data-stb]").forEach(function (f) {
           if (p[0] === "logo") { data.append("logo_url", p[1]); } else { photos.push(p[1]); }
         });
         if (photos.length) { data.append("photo_urls", photos.join("\n")); }
-        if (failed) { data.append("files_note", failed + " file(s) failed to upload. Ask the client to text or email them."); }
+        if (failed) {
+          data.append("files_note", failed + " file(s) failed to upload. Ask the client to text or email them.");
+          data.append("upload_error", STB.errors.slice(0, 2).join(" | "));
+        }
         return fetch(STB.hook, {method: "POST", mode: "no-cors", body: data});
       })
       .then(function () { window.location.href = "/thanks"; })
