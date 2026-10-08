@@ -43,7 +43,8 @@ function uploadFile(file, folder) {
     fd.append("folder", folder);
     return fetch("https://api.cloudinary.com/v1_1/" + STB.cloud + "/auto/upload", {method: "POST", body: fd})
       .then(function (r) { return r.json(); })
-      .then(function (j) { return j.secure_url || ""; });
+      .then(function (j) { return j.secure_url || ""; })
+      .catch(function () { return ""; });
   });
 }
 
@@ -68,12 +69,13 @@ document.querySelectorAll("form[data-stb]").forEach(function (f) {
     var folder = "onboarding/" + biz.toLowerCase().replace(/[^a-z0-9]+/g, "-").slice(0, 40);
     Promise.all(files.map(function (i) { return uploadFile(i.files[0], folder).then(function (u) { return [i.name, u]; }); }))
       .then(function (pairs) {
-        var photos = [];
+        var photos = [], failed = 0;
         pairs.forEach(function (p) {
-          if (!p[1]) { return; }
+          if (!p[1]) { failed++; return; }
           if (p[0] === "logo") { data.append("logo_url", p[1]); } else { photos.push(p[1]); }
         });
         if (photos.length) { data.append("photo_urls", photos.join("\n")); }
+        if (failed) { data.append("files_note", failed + " file(s) failed to upload. Ask the client to text or email them."); }
         return fetch(STB.hook, {method: "POST", mode: "no-cors", body: data});
       })
       .then(function () { window.location.href = "/thanks"; })

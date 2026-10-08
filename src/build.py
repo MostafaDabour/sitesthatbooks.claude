@@ -23,8 +23,8 @@ TODAY = date.today().isoformat()
 SETUP, MONTHLY = "$349", "$99"
 # Form delivery. Fill these 3 values, rebuild, redeploy.
 GHL_WEBHOOK = "https://services.leadconnectorhq.com/hooks/20s74Ma9bI9VvC7iqVW3/webhook-trigger/50e0a686-1484-46b6-8f98-1bdac1dab51f"
-CLOUDINARY_CLOUD = "PASTE_CLOUD_NAME"
-CLOUDINARY_PRESET = "PASTE_UNSIGNED_PRESET"
+CLOUDINARY_CLOUD = "lfktoefi"
+CLOUDINARY_PRESET = "fekgn3gt"
 
 PAGES = []  # (path, priority) for sitemap
 
