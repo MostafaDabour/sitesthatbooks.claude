@@ -22,6 +22,7 @@ FB = "https://web.facebook.com/profile.php?id=61591392166533"
 IG = "https://www.instagram.com/sitesthatbook"
 TODAY = date.today().isoformat()
 SETUP, MONTHLY = "$349", "$99"
+INDEXNOW_KEY = "5f8f7277582d7fbfae0c523aa3bbef1e"
 GA4_ID = "G-B4F43GR07E"
 META_PIXEL_ID = "1031461002806380"
 # Form delivery. Fill these 3 values, rebuild, redeploy.
@@ -900,7 +901,7 @@ def legal():
 <h2>Your choices</h2><p>You can ask us to access, correct or delete your information at any time by emailing {EMAIL}.</p>
 <h2>Contact</h2><p>SitesThatBook, 30 N Gould St, Sheridan, WY 82801. {EMAIL}. {PHONE}.</p>
 </div></div></section>'''
-    page("privacy","Privacy Policy | SitesThatBook","How SitesThatBook collects, uses and protects your information.",
+    page("privacy","Privacy Policy | SitesThatBook","How SitesThatBook collects, uses and protects the information you share through our website, onboarding forms, phone calls and text messages.",
          hero("Legal","Privacy Policy","",crumbs=[("Home",""),("Privacy Policy","")],ctas=False)+priv, priority="0.2")
     terms = f'''<section class="section"><div class="wrap"><div class="prose">
 <p>Last updated {date.today().strftime("%B %d, %Y")}.</p>
@@ -912,7 +913,7 @@ def legal():
 <h2>Your domain and content</h2><p>You own your domain name and the content and photos you provide.</p>
 <h2>Contact</h2><p>{EMAIL}. {PHONE}.</p>
 </div></div></section>'''
-    page("terms","Terms of Service | SitesThatBook","Terms for SitesThatBook website plans, fees, timelines and cancellation.",
+    page("terms","Terms of Service | SitesThatBook","Terms for SitesThatBook website plans: setup and monthly fees, the 48 hour launch timeline, our setup fee guarantee, cancellation and ownership.",
          hero("Legal","Terms of Service","",crumbs=[("Home",""),("Terms of Service","")],ctas=False)+terms, priority="0.2")
 
 def not_found():
@@ -931,6 +932,7 @@ def extras():
     robots += "".join(f"User-agent: {b}\nAllow: /\nDisallow: /thanks\n\n" for b in ai_bots)
     robots += f"Sitemap: {SITE}/sitemap.xml\n"
     open(os.path.join(OUT,"robots.txt"),"w").write(robots)
+    open(os.path.join(OUT,INDEXNOW_KEY+".txt"),"w").write(INDEXNOW_KEY)
     redirects = ["/detailing / 301","/hvac /hvac-websites 301","/roofing /roofing-websites 301","/cleaning /cleaning-business-websites 301",
                  "/landscaping /landscaping-websites 301","/work /our-work 301"]
     open(os.path.join(OUT,"_redirects"),"w").write("\n".join(redirects) + "\n")
