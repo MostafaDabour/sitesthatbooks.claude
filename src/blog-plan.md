@@ -9,9 +9,9 @@ When fewer than 5 unchecked topics remain, the agent adds 10 new ones at the bot
 - [x] Do You Need a Website If You Have a Google Business Profile? (google-business-profile-vs-website)
 - [x] What Should an HVAC Website Include? (what-should-an-hvac-website-include)
 - [x] What Makes a Roofing Website Win Estimates? (roofing-website-design) 2026-10-09
+- [x] How to Get More Plumbing Calls From Google (get-more-plumbing-calls-from-google) 2026-10-09
 
 ## Up next
-- [ ] How to Get More Plumbing Calls From Google | target: how to get more plumbing calls | link: /plumber-websites
 - [ ] Electrician Website Checklist: 12 Must Haves | target: electrician website | link: /electrician-websites
 - [ ] How to Rank in the Google Map Pack as a Home Service Business | target: google map pack ranking | link: /local-seo-for-contractors
 - [ ] Garage Door Company Marketing: Website, Ads and Reviews | target: garage door marketing | link: /garage-door-websites

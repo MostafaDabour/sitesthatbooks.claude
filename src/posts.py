@@ -1,5 +1,81 @@
 POSTS = [
 {
+ "slug":"get-more-plumbing-calls-from-google","tag":"Local SEO","read":7,
+ "title":"How to Get More Plumbing Calls From Google",
+ "h1":"How to get more <em>plumbing calls</em> from Google",
+ "desc":"Where plumbing calls on Google come from and the fixes that bring more of them: your profile, service pages, reviews, ads and answering every call.",
+ "answer":"Plumbing calls from Google come from three places: ads at the top, the map pack and the regular results below it. To get more of them, set up your Google Business Profile completely, give every service its own page, earn a steady flow of reviews, and make sure every call that comes in actually gets answered.",
+ "toc":[("where","Where do plumbing calls from Google come from?"),("profile","How should a plumber set up a Google Business Profile?"),("pages","Why does each plumbing service need its own page?"),("reviews","How do reviews turn into more calls?"),("ads","Should plumbers pay for Google ads?"),("tap","What makes a visitor tap the call button?"),("missed","Are you losing calls you already earned?"),("start","Where should you start this week?")],
+ "faqs":[("How long does it take to get more plumbing calls from Google?","Ads can bring calls within days of going live. Map pack and regular rankings usually take a few months of steady work on your profile, reviews and website, depending on how many plumbers compete in your area."),
+         ("Do I need to be open 24/7 to get emergency plumbing calls?","No, but your hours must be honest and clearly shown. If you do take after hours calls, say so on your profile and website, because many homeowners with a burst pipe or backed up drain search for exactly that.")],
+ "body":"""
+<p>When a pipe bursts or a water heater quits, most homeowners grab their phone, search Google and call one of the first plumbers that looks trustworthy. They are not shopping around for a week. That makes Google the most important place for a plumbing company to show up, and also the place where small fixes can change how often your phone rings.</p>
+<h2 id="where">Where do plumbing calls from Google come from?</h2>
+<p>A search like "plumber near me" or "water heater repair" usually shows three kinds of results, and each one can send you calls:</p>
+<ul>
+<li><b>Ads at the very top.</b> These include Local Services Ads, the listings with a Google badge where you pay per lead, and regular search ads where you pay per click.</li>
+<li><b>The map pack.</b> The three businesses shown with a map. These come from Google Business Profiles, and a call button sits right on each listing.</li>
+<li><b>The regular results.</b> Websites listed below the map. Homeowners who scroll here often want to compare a few companies before calling.</li>
+</ul>
+<p>You do not have to win all three at once. But each one is a separate chance to get the call, and the plumbers who get the most calls usually show up in at least two of them.</p>
+<h2 id="profile">How should a plumber set up a Google Business Profile?</h2>
+<p>Your profile is what shows in the map pack, so it deserves an hour of careful work. The basics that matter most for plumbers:</p>
+<ul>
+<li><b>Primary category set to Plumber.</b> Then add secondary categories only for work you really do, such as drain cleaning or water heater services, if Google offers a matching category.</li>
+<li><b>Every service listed.</b> Drain cleaning, leak detection, water heater repair and replacement, sewer line repair, repiping, fixture installs. Google uses this list to match you to specific searches.</li>
+<li><b>An accurate service area.</b> List the cities and areas you actually drive to, not a huge region you would never serve.</li>
+<li><b>Honest hours.</b> If you take emergency calls, set hours that show it. If you do not, do not pretend.</li>
+<li><b>Real photos.</b> Your trucks, your crew and finished jobs. Add new ones regularly.</li>
+<li><b>Your website linked.</b> Point it to your home page or your main services page.</li>
+</ul>
+<p>Make sure your business name, phone number and service area match your website exactly. Mismatches confuse Google and cost you trust.</p>
+<h2 id="pages">Why does each plumbing service need its own page?</h2>
+<p>Homeowners do not search for "plumbing". They search for the problem in front of them: "water heater leaking", "toilet keeps running", "sewer smell in basement", "slab leak repair". Google tries to match those searches to the page that answers them best.</p>
+<p>If your website has one short Services page with a list of bullet points, Google has very little to match. A page for each major service, written the way customers describe the problem, gives you many more chances to show up. A good service page:</p>
+<ol>
+<li>Names the service and your main city in the heading.</li>
+<li>Describes the problem in the homeowner's words and the signs they might notice.</li>
+<li>Explains what you do when you arrive, in plain language.</li>
+<li>Answers the questions you hear on every call, like whether you can come today.</li>
+<li>Ends with a call button and a short request form.</li>
+</ol>
+<p>Start with the jobs you want more of. If water heater replacements are your best work, that page comes first.</p>
+<h2 id="reviews">How do reviews turn into more calls?</h2>
+<p>Reviews do two jobs at once. They help Google decide you are an established, trusted business, and they help a stressed homeowner pick you over the plumber listed next to you. A few habits make the biggest difference:</p>
+<ul>
+<li><b>Ask the same day.</b> Text the review link right after the job, while the customer is still relieved.</li>
+<li><b>Make it one tap.</b> Send the direct link to your review form, not instructions on how to find you.</li>
+<li><b>Keep it steady.</b> A few new reviews every month looks better than a burst once a year and then nothing.</li>
+<li><b>Reply to every review.</b> Thank the good ones and answer the bad ones calmly. Future customers read your replies.</li>
+</ul>
+<p>Never buy reviews or offer discounts in exchange for them. It breaks Google's rules and can get reviews removed or your profile suspended.</p>
+<h2 id="ads">Should plumbers pay for Google ads?</h2>
+<p>Ads are the fastest way to show up, because you do not have to wait for rankings. They make the most sense when you are a newer business, when you want to fill a slow stretch, or when you want more of a specific high value job like water heater or sewer line work.</p>
+<p>Ads only pay off if they are set up with care. Target only the areas you serve, block searches like "plumber jobs" and "how to fix a toilet" so you do not pay for clicks that will never book, and send people to a page about the service they searched for. Most important, track calls and booked jobs, not just clicks. You can read how we approach this on our <a href="/google-ads-for-contractors">Google Ads for contractors</a> page.</p>
+<h2 id="tap">What makes a visitor tap the call button?</h2>
+<p>Getting found is half the job. The other half is what happens in the few seconds after someone lands on your site from their phone. The things that turn a visit into a call:</p>
+<ul>
+<li><b>Your phone number at the top</b> of every page, as a tap to call link.</li>
+<li><b>A call bar that stays on screen</b> as people scroll on mobile.</li>
+<li><b>Your service area in plain sight,</b> so they know you cover their town.</li>
+<li><b>Trust signals up front:</b> license, insurance, years in business and your Google rating.</li>
+<li><b>A fast page.</b> Someone standing in water will not wait for a slow site to load.</li>
+<li><b>A short form</b> for people who would rather not call, with only the fields you really need.</li>
+</ul>
+<h2 id="missed">Are you losing calls you already earned?</h2>
+<p>Many plumbers work hard to get the phone ringing and then miss calls while they are under a sink or driving between jobs. A homeowner with an emergency who reaches voicemail usually calls the next plumber on the list.</p>
+<p>A few simple fixes help. Have someone or something answer when you cannot, such as an answering service or a missed call text back that sends the caller a quick message right away. Return voicemails and form requests within minutes, not hours. And ask every new customer how they found you, so you know which part of Google is actually working.</p>
+<h2 id="start">Where should you start this week?</h2>
+<ol>
+<li>Clean up your Google Business Profile: category, services, service area, hours and photos.</li>
+<li>Check that your name, phone and service area match on your profile and website.</li>
+<li>Write or improve the service page for the job you want most.</li>
+<li>Start texting a review link after every completed job.</li>
+<li>Look at how many calls you missed last month and set up a way to catch them.</li>
+</ol>
+<p>Every <a href="{PLUMB}">plumber website</a> we build comes with service pages, a mobile call bar and a short request form, and our <a href="{SEO}">Get Found plan</a> handles your profile and review requests. Plans start at $349 setup and $99 a month, with details on our <a href="{PRICING}">pricing page</a>. Your site goes live 48 hours after you <a href="{GET}">fill the onboarding form</a>.</p>
+"""},
+{
  "slug":"roofing-website-design","tag":"Website tips","read":7,
  "title":"What Makes a Roofing Website Win Estimates?",
  "h1":"What makes a <em>roofing website</em> win estimates?",
