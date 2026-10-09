@@ -3,6 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B4F43GR07E"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-B4F43GR07E');
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href^="tel:"]');if(a){gtag('event','click_to_call',{link_url:a.getAttribute('href'),page_path:location.pathname});}});</script>
 <title>Contact SitesThatBook | Call, Text or Email</title>
 <meta name="description" content="Contact SitesThatBook about a website for your home service business. Call or text +1 307-218-7725 or email info@sitesthatbook.com.">
 <link rel="canonical" href="https://www.sitesthatbook.com/contact">
@@ -159,7 +162,14 @@ document.querySelectorAll("form[data-stb]").forEach(function (f) {
         }
         return fetch(STB.hook, {method: "POST", mode: "no-cors", body: data});
       })
-      .then(function () { window.location.href = "/thanks"; })
+      .then(function () {
+        var go = function () { window.location.href = "/thanks"; };
+        if (window.gtag) {
+          var done = false, once = function () { if (!done) { done = true; go(); } };
+          window.gtag("event", "generate_lead", { form_name: f.getAttribute("name"), event_callback: once });
+          setTimeout(once, 800);
+        } else { go(); }
+      })
       .catch(function () {
         btn.disabled = false; btn.textContent = label;
         var m = f.querySelector(".form-err"); if (m) { m.hidden = false; }

@@ -85,7 +85,14 @@ document.querySelectorAll("form[data-stb]").forEach(function (f) {
         }
         return fetch(STB.hook, {method: "POST", mode: "no-cors", body: data});
       })
-      .then(function () { window.location.href = "/thanks"; })
+      .then(function () {
+        var go = function () { window.location.href = "/thanks"; };
+        if (window.gtag) {
+          var done = false, once = function () { if (!done) { done = true; go(); } };
+          window.gtag("event", "generate_lead", { form_name: f.getAttribute("name"), event_callback: once });
+          setTimeout(once, 800);
+        } else { go(); }
+      })
       .catch(function () {
         btn.disabled = false; btn.textContent = label;
         var m = f.querySelector(".form-err"); if (m) { m.hidden = false; }

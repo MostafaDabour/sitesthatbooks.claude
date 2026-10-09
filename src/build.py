@@ -21,6 +21,7 @@ FB = "https://web.facebook.com/profile.php?id=61591392166533"
 IG = "https://www.instagram.com/sitesthatbook"
 TODAY = date.today().isoformat()
 SETUP, MONTHLY = "$349", "$99"
+GA4_ID = "G-B4F43GR07E"
 # Form delivery. Fill these 3 values, rebuild, redeploy.
 GHL_WEBHOOK = "https://services.leadconnectorhq.com/hooks/20s74Ma9bI9VvC7iqVW3/webhook-trigger/50e0a686-1484-46b6-8f98-1bdac1dab51f"
 CLOUDINARY_CLOUD = "lfktoefi"
@@ -134,6 +135,13 @@ function shrink(file){return new Promise(function(res){if(!/^image\\/(jpeg|png|w
 DEPLOY_FORM_JS = '''document.querySelectorAll("form[enctype]").forEach(function(f){f.addEventListener("submit",function(e){e.preventDefault();var btn=f.querySelector("button[type=submit]");btn.disabled=true;btn.textContent="Uploading, please wait...";var fd=new FormData(f),jobs=[];f.querySelectorAll("input[type=file]").forEach(function(inp){if(inp.files.length){jobs.push(shrink(inp.files[0]).then(function(x){fd.set(inp.name,x,x.name);}));}else{fd.delete(inp.name);}});Promise.all(jobs).then(function(){return fetch("/",{method:"POST",body:fd});}).then(function(r){if(!r.ok)throw new Error(r.status);window.location.href="/thanks";}).catch(function(){btn.disabled=false;btn.textContent="Try again";alert("Upload failed. Try fewer photos, or text them to us instead.");});});});'''
 PREVIEW_FORM_JS = '''document.querySelectorAll("form[data-netlify]").forEach(function(f){f.addEventListener("submit",function(e){e.preventDefault();var m=f.querySelector(".form-ok");if(m){m.hidden=false;m.focus();}});});'''
 
+def ga_tag():
+    if MODE != "deploy" or not GA4_ID:
+        return ""
+    return f'''<script async src="https://www.googletagmanager.com/gtag/js?id={GA4_ID}"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','{GA4_ID}');
+document.addEventListener('click',function(e){{var a=e.target.closest&&e.target.closest('a[href^="tel:"]');if(a){{gtag('event','click_to_call',{{link_url:a.getAttribute('href'),page_path:location.pathname}});}}}});</script>'''
+
 def form_script(body):
     if "<form" not in body:
         return SCRIPT % ""
@@ -154,6 +162,7 @@ def page(path, title, desc, body, active="", schema=None, og_type="website", pri
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+{ga_tag()}
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
 <link rel="canonical" href="{canonical}">
