@@ -166,7 +166,7 @@ document.querySelectorAll("form[data-stb]").forEach(function (f) {
         var go = function () { window.location.href = "/thanks"; };
         if (window.gtag) {
           var done = false, once = function () { if (!done) { done = true; go(); } };
-          window.gtag("event", "generate_lead", { form_name: f.getAttribute("name"), event_callback: once });
+          window.gtag("event", f.dataset.leadSent ? "onboarding_complete" : "generate_lead", { form_name: f.getAttribute("name"), event_callback: once });
           setTimeout(once, 800);
         } else { go(); }
       })
@@ -174,6 +174,32 @@ document.querySelectorAll("form[data-stb]").forEach(function (f) {
         btn.disabled = false; btn.textContent = label;
         var m = f.querySelector(".form-err"); if (m) { m.hidden = false; }
       });
+  });
+});
+
+// Two step onboarding: step 1 sends the lead right away, step 2 is optional detail
+document.querySelectorAll("[data-step-next]").forEach(function (btn) {
+  var f = btn.closest("form");
+  btn.addEventListener("click", function () {
+    var step1 = [].slice.call(f.querySelectorAll(":scope > .field input, :scope > .field select"));
+    for (var i = 0; i < step1.length; i++) { if (!step1[i].reportValidity()) { return; } }
+    btn.disabled = true; btn.textContent = "One sec...";
+    var data = new URLSearchParams();
+    step1.forEach(function (el) { data.append(el.name, el.value); });
+    data.append("form_name", "onboarding_lead");
+    data.append("page", location.pathname);
+    var show = function () {
+      f.querySelectorAll(":scope > .field, :scope > .form-step-head, :scope > .step1-actions").forEach(function (el) { el.hidden = true; });
+      var s2 = f.querySelector(".step2"); s2.hidden = false;
+      f.dataset.leadSent = "1";
+      var first = (f.querySelector("[name=name]").value || "").split(" ")[0];
+      var h = s2.querySelector("h3"); if (first) { h.textContent = "Thanks " + first + ". Step 2: tell us about your business"; }
+      s2.scrollIntoView({ behavior: "smooth", block: "start" });
+    };
+    fetch(STB.hook, { method: "POST", mode: "no-cors", body: data }).catch(function () {}).then(function () {
+      if (window.gtag) { window.gtag("event", "generate_lead", { form_name: "onboarding_lead" }); }
+      show();
+    });
   });
 });
 </script>

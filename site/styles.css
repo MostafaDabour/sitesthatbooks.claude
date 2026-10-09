@@ -397,3 +397,13 @@ td.no{color:var(--muted)}
 .brand.light .wordmark{color:#fff}
 .brand.light .wordmark b{color:#7FB0FF}
 @media (max-width:420px){.brand-svg{width:32px;height:32px}.wordmark{font-size:1.15rem}}
+/* Two step onboarding */
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media (max-width:640px){.form-grid{grid-template-columns:1fr}}
+.form-step-head{display:flex;flex-direction:column;gap:6px}
+.form-step-head h3{font-size:1.2rem}
+.step-pill{align-self:flex-start;font:700 .74rem/1 var(--body);letter-spacing:.08em;text-transform:uppercase;color:var(--blue-ink);background:var(--sky);padding:6px 10px;border-radius:999px}
+.step-pill.done{color:var(--green-ink);background:#ECFDF3}
+.step1-actions,.step2-actions{display:flex;flex-wrap:wrap;align-items:center;gap:14px}
+.skip-link{font-size:.92rem;color:var(--muted)}
+.step2{scroll-margin-top:96px}

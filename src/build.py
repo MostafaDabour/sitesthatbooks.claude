@@ -604,7 +604,7 @@ def form_html(name, fields_html, button, ok):
     return f'''<form class="form" name="{name}" method="POST" data-stb="1" data-netlify="true">
 <p hidden><label>Leave empty <input name="company_website"></label></p>
 {fields_html}
-<div class="full"><button class="btn btn-primary" type="submit">{button}</button></div>
+{"" if "data-step-next" in fields_html else f'<div class="full"><button class="btn btn-primary" type="submit">{button}</button></div>'}
 <p class="form-note full">We reply within one business day. We never share your details.</p>
 <div class="form-ok full" hidden tabindex="-1">{ok}</div>
 <div class="form-err full" hidden>Something went wrong sending your form. Call or text {PHONE} and we will sort it out right away.</div>
@@ -621,7 +621,7 @@ def field(id_, label, type_="text", full=False, req=True, hint="", ph=""):
     return f'<div class="{cls}"><label for="{id_}">{label}</label>{inp}{h}</div>'
 
 def radios(name, legend, options, hint=""):
-    opts = "".join(f'<label class="opt"><input type="radio" name="{name}" value="{v}"{" required" if i==0 else ""}><span>{v}</span></label>' for i,v in enumerate(options))
+    opts = "".join(f'<label class="opt"><input type="radio" name="{name}" value="{v}"><span>{v}</span></label>' for i,v in enumerate(options))
     h = f'<span class="hint">{hint}</span>' if hint else ""
     return f'<fieldset class="field full choice"><legend>{legend}</legend><div class="opts">{opts}</div>{h}</fieldset>'
 
@@ -650,17 +650,25 @@ def brand_section():
 '''
 
 def get_started():
-    fields = (field("name","Your name",ph="Mike Johnson") + field("business","Business name",ph="Johnson Plumbing LLC") +
+    step1 = ('<div class="form-step-head full"><span class="step-pill">Step 1 of 2</span><h3>Start here. Takes 30 seconds.</h3><p class="form-note">We will reach out to you right after this step, even if you stop here.</p></div>' +
+              field("name","Your name",ph="Mike Johnson") + field("business","Business name",ph="Johnson Plumbing LLC") +
               f'<div class="field"><label for="trade">Your trade</label><select id="trade" name="trade" required><option value="">Choose your trade</option>{trade_options()}</select></div>' +
-              f'<div class="field"><label for="plan">Plan</label><select id="plan" name="plan"><option>Launch ({SETUP} + {MONTHLY}/mo)</option><option>Get Found (+$149/mo)</option><option>Get Booked (+$499/mo)</option><option>Not sure yet</option></select></div>' +
-              field("phone","Mobile phone","tel",ph="(555) 123 4567") + field("email","Email","email",ph="you@yourcompany.com") +
-              field("area","Cities or areas you serve",full=True,ph="Austin, Round Rock, Cedar Park, Georgetown") +
-              field("services","Main services you offer","textarea",full=True,ph="Drain cleaning, water heaters, leak repair, repiping") +
+              field("phone","Mobile phone","tel",ph="(555) 123 4567") + field("email","Email","email",full=True,ph="you@yourcompany.com") +
+              '<div class="full step1-actions"><button class="btn btn-primary" type="button" data-step-next>Continue</button><span class="form-note">No payment needed to start.</span></div>')
+    step2 = ('<div class="full step2" hidden>' +
+              '<div class="form-grid">' +
+              '<div class="form-step-head full"><span class="step-pill done">Step 1 done</span><h3>Step 2: Tell us about your business</h3><p class="form-note">Fill what you can now so we can start building right away. Anything you skip, we will cover on your launch call.</p></div>' +
+              f'<div class="field full"><label for="plan">Plan</label><select id="plan" name="plan"><option>Launch ({SETUP} + {MONTHLY}/mo)</option><option>Get Found (+$149/mo)</option><option>Get Booked (+$499/mo)</option><option>Not sure yet</option></select></div>' +
+              field("area","Cities or areas you serve",full=True,req=False,ph="Austin, Round Rock, Cedar Park, Georgetown") +
+              field("services","Main services you offer","textarea",full=True,req=False,ph="Drain cleaning, water heaters, leak repair, repiping") +
               field("domain","Current website or domain",req=False,hint="Leave blank if you don't have one yet.",ph="johnsonplumbing.com") +
               field("license","License number",req=False,hint="Optional. Shown on your site to build trust.") +
               brand_section() +
-              field("notes","Anything else we should know?","textarea",full=True,req=False,ph="Years in business, guarantees, financing, what makes you different"))
-    body = hero("Get started","Fill the form. <em>48 hours later</em> your website is live.","This is your onboarding form. It takes about 10 minutes. We review it, confirm the details with you and start building.",crumbs=[("Home",""),("Get started","")],ctas=False) + f'''
+              field("notes","Anything else we should know?","textarea",full=True,req=False,ph="Years in business, guarantees, financing, what makes you different") +
+              '<div class="full step2-actions"><button class="btn btn-primary" type="submit">Send my details</button><a class="skip-link" href="/thanks" data-skip>Skip for now, we will cover it on the call</a></div>' +
+              '</div></div>')
+    fields = step1 + step2
+    body = hero("Get started","Fill the form. <em>48 hours later</em> your website is live.","Start with your name and number. It takes 30 seconds. Add your business details now or on your launch call, whichever is easier.",crumbs=[("Home",""),("Get started","")],ctas=False) + f'''
 <section class="section"><div class="wrap split" style="align-items:start">
  {form_html("onboarding", fields, "Send my onboarding form", "Got it. Your form and files are in. We will call or text you shortly to confirm your details and lock in your launch time.")}
  <div class="stack">
