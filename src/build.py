@@ -160,9 +160,9 @@ def page(path, title, desc, body, active="", schema=None, og_type="website", pri
 {robots}
 <meta property="og:type" content="{og_type}"><meta property="og:site_name" content="SitesThatBook">
 <meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}">
-<meta property="og:url" content="{canonical}"><meta property="og:image" content="https://vibe.filesafe.space/meta/1783379195664317566/og_image.png">
+<meta property="og:url" content="{canonical}"><meta property="og:image" content="https://www.sitesthatbook.com/assets/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta property="og:locale" content="en_US">
-<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{esc(title)}"><meta name="twitter:description" content="{esc(desc)}">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://www.sitesthatbook.com/assets/og-image.png"><meta name="twitter:title" content="{esc(title)}"><meta name="twitter:description" content="{esc(desc)}">
 <meta name="theme-color" content="#0A1F44">
 <link rel="icon" href="{A}favicon.ico" sizes="any"><link rel="icon" type="image/svg+xml" href="{A}favicon.svg">
 <link rel="apple-touch-icon" href="{A}apple-touch-icon.png"><link rel="manifest" href="{A}site.webmanifest">
@@ -538,7 +538,7 @@ def how_it_works():
         {"@type":"HowToStep","position":1,"name":"Fill the onboarding form","text":"Share your trade, services, service area, logo and photos. Takes about 10 minutes."},
         {"@type":"HowToStep","position":2,"name":"We build your site","text":"We write the copy, design the pages, set up forms and add SEO."},
         {"@type":"HowToStep","position":3,"name":"Go live","text":"48 hours later we walk you through the site on a launch call and connect your domain."}]}
-    page("how-it-works","How It Works: Form Today, Website Live in 48 Hours | SitesThatBook",
+    page("how-it-works","How It Works: Website Live in 48 Hours | SitesThatBook",
          "Fill a 10 minute onboarding form. We write, design and set up your home service website. It goes live 48 hours later on a launch call.",
          body, active="how-it-works", priority="0.8", schema=[howto, faq_schema(hf), crumbs_schema([("Home",""),("How it works","how-it-works")])])
 
@@ -548,7 +548,7 @@ def our_work():
 <section class="section mist"><div class="wrap split"><div class="stack"><h2>What every site we build has in common</h2><p class="lede">Different trades, same standard.</p></div><div>{checks(["A clear headline that says what you do and where","Call and estimate buttons on every screen","Trust signals up top: license, insurance, reviews","One section per service so Google can match each search","Service area written out city by city","Fast on phones"])}</div></div></section>
 {cta_band("Want yours next?")}'''
     page("our-work","Our Work: Home Service Websites We Built | SitesThatBook",
-         "See live websites SitesThatBook built for home service businesses, including ORO Landscaping in Colorado, Great Northern Refrigeration in Portland and A & I Contracting in Denver.",
+         "Live websites we built for home service businesses: ORO Landscaping in Colorado, Great Northern Refrigeration in Portland and A & I Contracting in Denver.",
          body, active="our-work", priority="0.7", schema=[crumbs_schema([("Home",""),("Our work","our-work")])])
 
 def about():
@@ -712,7 +712,7 @@ def services():
       "Home service website design")
 
     service_page("local-seo-for-contractors",
-      "Local SEO for Contractors and Home Service Businesses | SitesThatBook",
+      "Local SEO for Contractors and Home Services | SitesThatBook",
       "Local SEO for home service businesses: Google Business Profile management, review requests, citations and monthly blog posts. Get Found plan from $149/month.",
       "Local SEO for contractors","Local SEO that gets you into the <em>Google map pack</em>",
       "The map pack is where most local calls start. Our Get Found plan keeps your Google Business Profile active, brings in reviews and builds the citations Google uses to trust your business.",
@@ -724,14 +724,30 @@ def services():
 <div class="card"><h3>2 blog posts a month</h3><p>Included with every site. Articles built around local questions your customers ask.</p></div>
 <div class="card"><h3>Quarterly strategy call</h3><p>We review rankings, calls and reviews with you and plan the next quarter.</p></div>
 </div></div></section>
-<section class="section mist"><div class="wrap split"><div class="prose"><h2>Why your website and map listing need each other</h2><p>Google looks at your website to confirm what your Business Profile says. Matching services, service areas and contact details across both is one of the simplest ways to build trust with Google. That is why every SitesThatBook website is built to support your profile from day one.</p></div><div class="stack"><div class="card"><h3>Get Found plan</h3><div class="price" style="font-family:var(--display);font-weight:800;font-size:2rem;color:var(--navy)">+$149/mo</div><p>Added to your Launch plan.</p><a class="btn btn-primary" href="{L("get-started")}?plan=get-found">Start with Get Found</a></div></div></div></section>''',
+<section class="section mist"><div class="wrap split"><div class="prose"><h2>Why your website and map listing need each other</h2><p>Google looks at your website to confirm what your Business Profile says. Matching services, service areas and contact details across both is one of the simplest ways to build trust with Google. That is why every SitesThatBook website is built to support your profile from day one.</p></div><div class="stack"><div class="card"><h3>Get Found plan</h3><div class="price" style="font-family:var(--display);font-weight:800;font-size:2rem;color:var(--navy)">+$149/mo</div><p>Added to your Launch plan.</p><a class="btn btn-primary" href="{L("get-started")}?plan=get-found">Start with Get Found</a></div></div></div></section>
+<section class="section"><div class="wrap split" style="align-items:start"><div class="prose">
+<h2>What decides who shows up in the map pack?</h2>
+<p>Google ranks local results on three things: <b>relevance</b> (does your business match the search), <b>distance</b> (how close you are to the person searching) and <b>prominence</b> (how well known and trusted you are). You cannot move your shop closer to every customer, but you can control relevance and prominence.</p>
+<ul><li><b>Relevance</b> comes from the right primary category, a full services list and a website that covers each service and city clearly.</li>
+<li><b>Prominence</b> comes from reviews, consistent business listings across the web, links from local sites and an active profile.</li></ul>
+<h2>How the Get Found plan works month by month</h2>
+<ol><li><b>Month 1:</b> profile audit and cleanup, categories, services, service area, photos and description. Citations submitted to the main directories. Review request automation switched on.</li>
+<li><b>Month 2:</b> weekly posts, photo uploads, answers to common questions on your profile and blog posts targeting your top services.</li>
+<li><b>Month 3 and on:</b> keep the review flow steady, fill gaps in citations, track calls and direction requests and adjust what we post.</li></ol>
+</div><div class="stack">
+<div class="card"><h3>What we track for you</h3><p>Calls and website clicks from your profile, direction requests, review count and rating, and where you show up for your main searches.</p></div>
+<div class="card"><h3>What we need from you</h3><p>Access to your Google Business Profile, job photos when you have them and a quick reply when a customer leaves a review that needs your voice.</p></div>
+<div class="card"><h3>Works with your trade</h3><p>We do local SEO for HVAC, plumbing, roofing, electrical, garage door, landscaping, cleaning, pest control, painting and pressure washing companies.</p></div>
+</div></div></section>''',
       [("How long does local SEO take to work?","Most businesses see movement in a few months. It depends on your competition, how many reviews you have and how complete your profile is."),
+       ("What is the Google map pack?","It is the group of three local businesses Google shows with a map for searches like plumber near me. Most local calls from Google come from these results."),
+       ("How do reviews help local SEO?","More recent reviews with a strong rating make your business look more established to Google and to customers. Our review requests go out by text right after the job, when customers are most likely to respond."),
        ("Do I need a website for local SEO?","A website makes your Google Business Profile far stronger. Google uses it to confirm your services and location."),
        ("Can you guarantee number one rankings?","No honest company can. We do the work that moves rankings and report on it every month.")],
       "Local SEO for contractors")
 
     service_page("google-ads-for-contractors",
-      "Google Ads for Contractors and Home Service Businesses | SitesThatBook",
+      "Google Ads for Contractors and Home Services | SitesThatBook",
       "Managed Google Ads for home service businesses with CRM, instant lead follow up and missed call text back. Get Booked plan from $499/month plus ad spend.",
       "Google Ads for contractors","Google Ads, CRM and follow up that <em>book jobs on demand</em>",
       "SEO takes time. Google Ads puts you at the top of search today. Our Get Booked plan runs your campaign, follows up with every lead in seconds and texts back missed calls so no job slips away.",
@@ -740,10 +756,26 @@ def services():
 <div class="card"><h3>CRM with instant follow up</h3><p>Every form lead gets a text right away, so you reach them before your competitors do.</p></div>
 <div class="card"><h3>Missed call text back</h3><p>Miss a call on a job? The caller gets an automatic text so the lead stays with you.</p></div>
 <div class="card"><h3>Monthly strategy call</h3><p>We go over spend, calls, cost per lead and booked jobs, then adjust.</p></div>
+</div></div></section>
+<section class="section mist"><div class="wrap split" style="align-items:start"><div class="prose">
+<h2>How we set up Google Ads for a home service business</h2>
+<ol><li><b>Keywords with buying intent.</b> We target searches like "water heater repair near me" and "emergency ac repair", not broad terms that bring tire kickers.</li>
+<li><b>Negative keywords from day one.</b> Jobs, DIY, free and how to searches are blocked so you do not pay for clicks that will never book.</li>
+<li><b>Tight location targeting.</b> Ads only show in the cities and ZIP codes you actually serve, and can be scheduled around your hours.</li>
+<li><b>Call tracking and form tracking.</b> We count calls and form leads, not just clicks, so we optimize for booked work.</li>
+<li><b>Landing pages that convert.</b> Ads send people to your SitesThatBook site, built with click to call and a short request form.</li></ol>
+<h2>Google Ads vs Local Services Ads</h2>
+<p>Local Services Ads are the Google Guaranteed listings at the very top of some searches, and you pay per lead. Regular Google Ads give you more control over keywords, budget and where people land. Many home service companies run both. We help you decide what fits your trade and budget.</p>
+</div><div class="stack">
+<div class="card"><h3>Budget</h3><p>You set the ad budget and pay Google directly. We recommend a starting budget based on your trade, your area and how many jobs you can handle.</p></div>
+<div class="card"><h3>Speed to lead</h3><p>Leads that get a reply within minutes book far more often than leads that wait hours. That is why every lead gets an instant text and missed calls get a text back.</p></div>
+<div class="card"><h3>Run by paid media pros</h3><p>Campaigns are managed by the Leads Magnets team, a Google Partner agency.</p></div>
 </div></div></section>''',
       [("Is ad spend included?","No. The $499 a month covers management and tools. Ad spend is paid directly to Google, so you set the budget."),
        ("Do I need the Launch plan first?","Yes. Get Booked is added to Launch so your ads send people to a site built to convert."),
-       ("Can I pause ads in slow seasons?","Yes. We can lower or pause spend anytime.")],
+       ("Can I pause ads in slow seasons?","Yes. We can lower or pause spend anytime."),
+       ("How fast do Google Ads bring calls?","Ads can show the same day the campaign goes live. The first weeks are used to learn which keywords and hours bring booked jobs, then we cut waste and scale what works."),
+       ("Which trades do you run Google Ads for?","HVAC, plumbing, roofing, electrical, garage door, landscaping, cleaning, pest control, painting and pressure washing companies.")],
       "Google Ads management for contractors")
 
 def compare_page():
@@ -754,7 +786,7 @@ def compare_page():
 <div class="card"><h3>Choose an agency if</h3><p>You need a large custom site with dozens of pages and have the budget and months to wait.</p></div>
 <div class="card"><h3>Choose SitesThatBook if</h3><p>You want a professional site that brings in calls, live in 48 hours, with everything handled for {MONTHLY} a month.</p></div>
 </div></section>{cta_band()}'''
-    page("done-for-you-vs-website-builder","Done-for-You Website vs Wix or Squarespace for Contractors | SitesThatBook",
+    page("done-for-you-vs-website-builder","Done-for-You Website vs Wix or Squarespace | SitesThatBook",
          "Compare a done-for-you home service website with DIY builders like Wix and Squarespace and with a typical agency on cost, time, SEO and updates.",
          body, priority="0.6", schema=[crumbs_schema([("Home",""),("Compare","done-for-you-vs-website-builder")])])
 
@@ -762,7 +794,7 @@ def blog():
     cards = "".join(f'''<a class="card" href="{L("blog/"+p["slug"])}"><span class="num">{p["tag"]} . {p["read"]} min read</span><h3>{p["title"]}</h3><p>{p["desc"]}</p><span class="more">Read the article &rarr;</span></a>''' for p in POSTS)
     body = hero("Blog","Website and marketing advice for <em>home service pros</em>","Straight answers on websites, SEO and getting more booked jobs. No fluff.",crumbs=[("Home",""),("Blog","")],ctas=False) + f'''
 <section class="section"><div class="wrap"><div class="grid g3">{cards}</div></div></section>{cta_band()}'''
-    page("blog","Blog: Websites and SEO for Home Service Businesses | SitesThatBook",
+    page("blog","Home Service Website and SEO Blog | SitesThatBook",
          "Practical advice for plumbers, HVAC companies, roofers and home service pros on websites, local SEO and getting more calls.",
          body, active="blog", priority="0.6", schema=[crumbs_schema([("Home",""),("Blog","blog")])])
     for p in POSTS:
@@ -776,7 +808,7 @@ def blog():
 </article></div></section>{cta_band()}'''
         art = {"@type":"BlogPosting","headline":p["title"],"description":p["desc"],"datePublished":TODAY,"dateModified":TODAY,
                "author":{"@type":"Organization","name":"SitesThatBook"},"publisher":{"@id":SITE+"/#org"},"mainEntityOfPage":SITE+"/blog/"+p["slug"]}
-        page("blog/"+p["slug"], p["title"]+" | SitesThatBook", p["desc"], b, active="blog", og_type="article", priority="0.6",
+        page("blog/"+p["slug"], p["title"]+(" | SitesThatBook" if len(p["title"])<=48 else ""), p["desc"], b, active="blog", og_type="article", priority="0.6",
              schema=[art, faq_schema(p["faqs"]), crumbs_schema([("Home",""),("Blog","blog"),(p["title"],"blog/"+p["slug"])])])
 
 def legal():

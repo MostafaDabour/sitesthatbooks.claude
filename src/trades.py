@@ -191,7 +191,7 @@ TRADES = [
 {
  "slug":"cleaning-business-websites","name":"Cleaning","who":"cleaning companies","icon":"cleaning",
  "kw":"cleaning business websites",
- "title":"Cleaning Business Websites That Fill Your Calendar | SitesThatBook",
+ "title":"Cleaning Business Websites That Get Booked | SitesThatBook",
  "meta":"Done-for-you cleaning business websites for house cleaning, deep cleans and move outs, with booking forms. $349 setup, $99/month, live in 48 hours.",
  "h1":"Cleaning business websites that <em>fill your calendar</em> with recurring clients",
  "lede":"Cleaning customers decide fast and stay for years when the first visit goes well. We build cleaning websites that make booking that first visit simple.",
