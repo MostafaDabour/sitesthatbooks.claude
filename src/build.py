@@ -116,6 +116,7 @@ def footer():
   <li><a href="{L("local-seo-for-contractors")}">Local SEO for contractors</a></li>
   <li><a href="{L("google-ads-for-contractors")}">Google Ads for contractors</a></li>
   <li><a href="{L("done-for-you-vs-website-builder")}">Done for you vs DIY builder</a></li>
+  {"".join(f'<li><a href="{L("compare/"+c["slug"])}">vs {c["name"]}</a></li>' for c in COMPARES)}
   <li><a href="{L("pricing")}">Pricing</a></li></ul></div>
  <div><h3>Company</h3><ul>
   <li><a href="{L("about")}">About</a></li><li><a href="{L("how-it-works")}">How it works</a></li><li><a href="{L("our-work")}">Our work</a></li>
@@ -442,6 +443,25 @@ def home():
          f"Done-for-you websites for plumbers, HVAC, roofers, electricians and home service pros. {SETUP} setup, {MONTHLY}/month, live in 48 hours. Hosting, SEO and blogs included.",
          body, schema=[faq_schema(GLOBAL_FAQ)], priority="1.0")
 
+def post_body(p):
+    return p["body"].replace("{GET}", L("get-started")).replace("{PRICING}", L("pricing")).replace("{PLUMB}", L("plumber-websites")).replace("{SEO}", L("local-seo-for-contractors")).replace("{HVAC}", L("hvac-websites"))
+
+def post_cards(posts, head, eyebrow="From the blog", mist=False):
+    if not posts:
+        return ""
+    cards = "".join(f'''<a class="card" href="{L("blog/"+p["slug"])}"><span class="num">{p["tag"]} . {p["read"]} min read</span><h3>{p["title"]}</h3><span class="more">Read the article &rarr;</span></a>''' for p in posts)
+    return f'''<section class="section{" mist" if mist else ""}"><div class="wrap"><div class="section-head"><span class="eyebrow">{eyebrow}</span><h2>{head}</h2></div><div class="grid g3">{cards}</div></div></section>'''
+
+def reading_for(slug, n=3):
+    href = f'href="{L(slug)}"'
+    hits = [p for p in POSTS if href in post_body(p)]
+    rest = [p for p in POSTS if p not in hits]
+    return (hits + rest)[:n]
+
+def related_posts(p, n=3):
+    i = POSTS.index(p)
+    return (POSTS[i+1:] + POSTS[:i])[:n]
+
 def trade_page(t):
     others = [x for x in TRADES if x["slug"] != t["slug"]][:4]
     body = f'''<section class="hero"><div class="wrap hero-grid">
@@ -493,6 +513,7 @@ def trade_page(t):
  <div class="section-head"><h2>Other trades we build for</h2></div>
  <div class="grid g4">{"".join(f'<a class="card" href="{L(o["slug"])}">{ico(o["icon"])}<h3>{o["name"]} websites</h3><span class="more">View &rarr;</span></a>' for o in others)}</div>
 </div></section>
+{post_cards(reading_for(t["slug"]), f"Helpful reading for {t['name'].lower()} pros", mist=True)}
 {cta_band(f"Ready for a {t['name'].lower()} website that books jobs?")}'''
     page(t["slug"], t["title"], t["meta"], body, active="industries", priority="0.9",
          schema=[service_schema(f"{t['name']} website design", t["meta"], t["slug"]), faq_schema(t["faqs"]),
@@ -719,7 +740,7 @@ def thanks():
 
 def service_page(path, title, meta, eyebrow, h1, lede, sections, faqs, name):
     body = hero(eyebrow,h1,lede,crumbs=[("Home",""),(eyebrow,"")]) + sections + f'''
-<section class="section mist"><div class="wrap"><div class="section-head"><h2>Questions</h2></div>{faq_block(faqs)}</div></section>{cta_band()}'''
+<section class="section mist"><div class="wrap"><div class="section-head"><h2>Questions</h2></div>{faq_block(faqs)}</div></section>{post_cards(reading_for(path), "Related articles")}{cta_band()}'''
     page(path, title, meta, body, priority="0.8", schema=[service_schema(name, meta, path), faq_schema(faqs), crumbs_schema([("Home",""),(eyebrow,path)])])
 
 def services():
@@ -861,8 +882,8 @@ def blog():
 <section class="section"><div class="wrap"><article class="prose">
 <div class="callout"><b>Short answer:</b> {p["answer"]}</div>
 <nav class="toc" aria-label="In this article"><b>In this article</b><ol>{toc}</ol></nav>
-{p["body"].replace("{GET}", L("get-started")).replace("{PRICING}", L("pricing")).replace("{PLUMB}", L("plumber-websites")).replace("{SEO}", L("local-seo-for-contractors")).replace("{HVAC}", L("hvac-websites"))}
-</article></div></section>{cta_band()}'''
+{post_body(p)}
+</article></div></section>{post_cards(related_posts(p), "Keep reading", eyebrow="More articles", mist=True)}{cta_band()}'''
         art = {"@type":"BlogPosting","headline":p["title"],"description":p["desc"],"datePublished":TODAY,"dateModified":TODAY,
                "author":{"@type":"Organization","name":"SitesThatBook"},"publisher":{"@id":SITE+"/#org"},"mainEntityOfPage":SITE+"/blog/"+p["slug"]}
         page("blog/"+p["slug"], p["title"]+(" | SitesThatBook" if len(p["title"])<=48 else ""), p["desc"], b, active="blog", og_type="article", priority="0.6",
@@ -942,6 +963,10 @@ Contact: {PHONE}, {EMAIL}, 30 N Gould St, Sheridan, WY 82801.
 - [Home service website design]({SITE}/home-service-website-design)
 - [Local SEO for contractors]({SITE}/local-seo-for-contractors)
 - [Google Ads for contractors]({SITE}/google-ads-for-contractors)
+
+## Comparisons
+- [Done for you vs DIY builder vs agency]({SITE}/done-for-you-vs-website-builder)
+{chr(10).join(f"- [{c['title']}]({SITE}/compare/{c['slug']})" for c in COMPARES)}
 
 ## Articles
 {posts}
