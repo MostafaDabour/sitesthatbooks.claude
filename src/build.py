@@ -127,6 +127,7 @@ def footer():
 <div class="callbar"><a class="btn btn-ghost" href="tel:{TEL}">Call us</a><a class="btn btn-primary" href="{L("get-started")}">Get my site</a></div>'''
 
 SCRIPT = '''<script>
+(function(){try{var nv=performance.getEntriesByType("navigation")[0];if(!location.hash&&(!nv||nv.type!=="back_forward")){var top=function(){document.documentElement.style.scrollBehavior="auto";window.scrollTo(0,0);document.documentElement.style.scrollBehavior="";};var moved=false;["wheel","touchstart","keydown"].forEach(function(t){window.addEventListener(t,function(){moved=true;},{once:true,passive:true});});top();window.addEventListener("load",function(){if(!moved)top();});}}catch(e){}})();
 (function(){var b=document.getElementById("menubtn"),n=document.getElementById("navlinks");if(b&&n){b.addEventListener("click",function(){var o=n.classList.toggle("open");b.setAttribute("aria-expanded",o?"true":"false");b.textContent=o?"Close":"Menu";});}
 %s})();
 </script>'''
