@@ -13,7 +13,6 @@ When fewer than 5 unchecked topics remain, the agent adds 10 new ones at the bot
 ## Up next
 - [ ] How to Get More Plumbing Calls From Google | target: how to get more plumbing calls | link: /plumber-websites
 - [ ] Electrician Website Checklist: 12 Must Haves | target: electrician website | link: /electrician-websites
-- [ ] Wix vs a Done-for-You Website for Contractors | target: wix for contractors | link: /done-for-you-vs-website-builder
 - [ ] How to Rank in the Google Map Pack as a Home Service Business | target: google map pack ranking | link: /local-seo-for-contractors
 - [ ] Garage Door Company Marketing: Website, Ads and Reviews | target: garage door marketing | link: /garage-door-websites
 - [ ] How Many Pages Does a Contractor Website Need? | target: how many pages contractor website | link: /home-service-website-design
@@ -37,3 +36,4 @@ When fewer than 5 unchecked topics remain, the agent adds 10 new ones at the bot
 - Link to the matching trade or service page and to /get-started. Use the placeholders {GET}, {PRICING}, {PLUMB}, {SEO}, {HVAC} or plain absolute paths like /roofing-websites.
 - Never invent statistics, studies, client names, results or testimonials. Price ranges must be framed as common ranges, not quotes.
 - Pricing facts: $349 setup + $99/month, Get Found +$149/month, Get Booked +$499/month, live 48 hours after the onboarding form.
+- Never publish competitor pricing, plan details or feature claims (Wix, GoDaddy, Jobber, Housecall Pro or any other brand). Those live only on the reviewed /compare pages. Educational posts may link to them.

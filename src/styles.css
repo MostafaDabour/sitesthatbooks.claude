@@ -407,3 +407,7 @@ td.no{color:var(--muted)}
 .step1-actions,.step2-actions{display:flex;flex-wrap:wrap;align-items:center;gap:14px}
 .skip-link{font-size:.92rem;color:var(--muted)}
 .step2{scroll-margin-top:96px}
+/* Comparison pages */
+table.vs td.us{background:#F3F8FF;color:var(--ink);font-weight:500}
+table.vs th[scope=col]:last-child{color:var(--blue-ink)}
+.src{margin:0;padding-left:1.1em;display:flex;flex-direction:column;gap:6px;font-size:.92rem}

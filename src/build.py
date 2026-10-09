@@ -8,6 +8,7 @@ import json, os, sys, shutil, html
 from datetime import date
 from trades import TRADES, ICONS
 from posts import POSTS
+from compare import COMPARES, CHECKED
 
 MODE = sys.argv[1] if len(sys.argv) > 1 else "deploy"
 OUT = "dist" if MODE == "deploy" else "preview"
@@ -807,7 +808,9 @@ def services():
 def compare_page():
     body = hero("Compare","Done-for-you website vs a <em>DIY builder</em> vs an agency","Wix, Squarespace and GoDaddy builders are cheap until you count your hours. Agencies are thorough until you see the invoice. Here is how they stack up for a home service business.",crumbs=[("Home",""),("Compare","")]) + f'''
 <section class="section"><div class="wrap">{compare_table()}</div></section>
-<section class="section mist"><div class="wrap grid g3">
+<section class="section mist"><div class="wrap"><div class="section-head"><span class="eyebrow">Compare by platform</span><h2>SitesThatBook vs the tools contractors ask about most</h2></div>
+<div class="grid g4">{"".join(f'<a class="card" href="{L("compare/"+c["slug"])}"><span class="eyebrow">vs {c["name"]}</span><h3>{c["short"]} vs SitesThatBook</h3><p>{c["answer"].split(".")[0]}.</p><span class="more">Read the comparison &rarr;</span></a>' for c in COMPARES)}</div></div></section>
+<section class="section"><div class="wrap grid g3">
 <div class="card"><h3>Choose DIY if</h3><p>You have spare evenings, enjoy design, and are fine handling SEO, updates and hosting yourself.</p></div>
 <div class="card"><h3>Choose an agency if</h3><p>You need a large custom site with dozens of pages and have the budget and months to wait.</p></div>
 <div class="card"><h3>Choose SitesThatBook if</h3><p>You want a professional site that brings in calls, live in 48 hours, with everything handled for {MONTHLY} a month.</p></div>
@@ -815,6 +818,33 @@ def compare_page():
     page("done-for-you-vs-website-builder","Done-for-You Website vs Wix or Squarespace | SitesThatBook",
          "Compare a done-for-you home service website with DIY builders like Wix and Squarespace and with a typical agency on cost, time, SEO and updates.",
          body, priority="0.6", schema=[crumbs_schema([("Home",""),("Compare","done-for-you-vs-website-builder")])])
+
+def comparison_pages():
+    for c in COMPARES:
+        path = "compare/" + c["slug"]
+        rows = "".join(f'<tr><th scope="row">{a}</th><td>{b}</td><td class="us">{u}</td></tr>' for a,b,u in c["rows"])
+        table = f'''<div class="table-wrap"><table class="vs"><thead><tr><th scope="col"></th><th scope="col">{c["short"]}</th><th scope="col">SitesThatBook</th></tr></thead><tbody>{rows}</tbody></table></div>
+<p class="form-note" style="margin-top:10px">Competitor details are based on their public pages and independent reviews, checked {CHECKED}. Prices and features change, so confirm on their website.</p>'''
+        src = "".join(f'<li><a href="{u}" rel="noopener nofollow" target="_blank">{t}</a></li>' for t,u in c["sources"])
+        body = hero("Compare", c["h1"], c["lede"], crumbs=[("Home",""),("Compare","done-for-you-vs-website-builder"),(c["name"],"")]) + f'''
+<section class="section"><div class="wrap stack" style="gap:28px">
+ <div class="callout" style="max-width:860px"><b>Short answer:</b> {c["answer"]}</div>
+ <div><div class="section-head" style="margin-bottom:20px"><h2>{c["short"]} vs SitesThatBook at a glance</h2></div>{table}</div>
+</div></section>
+<section class="section mist"><div class="wrap grid g2">
+ <div class="card"><h3>Choose {c["name"]} if</h3>{checks(c["them_fit"])}</div>
+ <div class="card" style="border-color:var(--blue)"><h3>Choose SitesThatBook if</h3>{checks(c["us_fit"])}</div>
+</div></section>
+<section class="section"><div class="wrap split" style="align-items:start">
+ <div class="prose"><h2>Can you use both?</h2><p>{c["both"]}</p>
+ <h2>What SitesThatBook includes</h2><p>{SETUP} setup and {MONTHLY} a month covers your 5-page site written for your trade, hosting, SSL, your domain connected, 2 content updates and 2 SEO blog posts every month and a monthly traffic report. No contracts, and your setup fee is refunded if you do not love the site on the launch call and we cannot fix it there.</p>
+ <p><a class="btn btn-primary" href="{L("get-started")}">Get my site in 48 hours</a></p></div>
+ <div class="stack"><div class="card"><h3>Sources</h3><ul class="src">{src}</ul><p class="form-note">{c["name"]} is a trademark of its owner. SitesThatBook is not affiliated with or endorsed by {c["name"]}.</p></div></div>
+</div></section>
+<section class="section mist"><div class="wrap"><div class="section-head"><h2>Questions</h2></div>{faq_block(c["faqs"])}</div></section>
+{cta_band()}'''
+        page(path, c["title"] if "SitesThatBook" in c["title"] else c["title"] + " | SitesThatBook", c["meta"], body, priority="0.7",
+             schema=[faq_schema(c["faqs"]), crumbs_schema([("Home",""),("Compare","done-for-you-vs-website-builder"),(c["name"],path)])])
 
 def blog():
     cards = "".join(f'''<a class="card" href="{L("blog/"+p["slug"])}"><span class="num">{p["tag"]} . {p["read"]} min read</span><h3>{p["title"]}</h3><p>{p["desc"]}</p><span class="more">Read the article &rarr;</span></a>''' for p in POSTS)
@@ -930,5 +960,5 @@ if __name__ == "__main__":
     shutil.copy("assets/favicon.ico", os.path.join(OUT,"favicon.ico"))
     home(); industries(); pricing(); how_it_works(); our_work(); about(); faq_page(); get_started(); contact(); thanks()
     for t in TRADES: trade_page(t)
-    services(); compare_page(); blog(); legal(); not_found(); extras()
+    services(); compare_page(); comparison_pages(); blog(); legal(); not_found(); extras()
     print(f"{MODE}: {len(PAGES)} indexable pages -> {OUT}/")
