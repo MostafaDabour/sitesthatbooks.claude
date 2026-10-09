@@ -847,7 +847,12 @@ def extras():
         return
     urls = "".join(f"<url><loc>{SITE}{'/' + p if p else '/'}</loc><lastmod>{TODAY}</lastmod><priority>{pr}</priority></url>" for p,pr in PAGES)
     open(os.path.join(OUT,"sitemap.xml"),"w").write(f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>\n')
-    open(os.path.join(OUT,"robots.txt"),"w").write(f"User-agent: *\nAllow: /\nDisallow: /thanks\n\nSitemap: {SITE}/sitemap.xml\n")
+    ai_bots = ["GPTBot","OAI-SearchBot","ChatGPT-User","ClaudeBot","Claude-SearchBot","Claude-User","PerplexityBot","Perplexity-User","Google-Extended","Applebot-Extended","Bingbot","DuckAssistBot","Amazonbot","meta-externalagent","CCBot"]
+    robots = "# SitesThatBook welcomes search engines and AI assistants.\n# Site summary for AI tools: " + SITE + "/llms.txt\n\n"
+    robots += "User-agent: *\nAllow: /\nDisallow: /thanks\n\n"
+    robots += "".join(f"User-agent: {b}\nAllow: /\nDisallow: /thanks\n\n" for b in ai_bots)
+    robots += f"Sitemap: {SITE}/sitemap.xml\n"
+    open(os.path.join(OUT,"robots.txt"),"w").write(robots)
     redirects = ["/detailing / 301","/hvac /hvac-websites 301","/roofing /roofing-websites 301","/cleaning /cleaning-business-websites 301",
                  "/landscaping /landscaping-websites 301","/work /our-work 301"]
     open(os.path.join(OUT,"_redirects"),"w").write("\n".join(redirects) + "\n")

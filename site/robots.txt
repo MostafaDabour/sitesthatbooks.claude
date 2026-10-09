@@ -1,4 +1,67 @@
+# SitesThatBook welcomes search engines and AI assistants.
+# Site summary for AI tools: https://www.sitesthatbook.com/llms.txt
+
 User-agent: *
+Allow: /
+Disallow: /thanks
+
+User-agent: GPTBot
+Allow: /
+Disallow: /thanks
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /thanks
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /thanks
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /thanks
+
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /thanks
+
+User-agent: Claude-User
+Allow: /
+Disallow: /thanks
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /thanks
+
+User-agent: Perplexity-User
+Allow: /
+Disallow: /thanks
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /thanks
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /thanks
+
+User-agent: Bingbot
+Allow: /
+Disallow: /thanks
+
+User-agent: DuckAssistBot
+Allow: /
+Disallow: /thanks
+
+User-agent: Amazonbot
+Allow: /
+Disallow: /thanks
+
+User-agent: meta-externalagent
+Allow: /
+Disallow: /thanks
+
+User-agent: CCBot
 Allow: /
 Disallow: /thanks
 
