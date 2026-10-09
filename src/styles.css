@@ -388,3 +388,12 @@ td.no{color:var(--muted)}
 .ms-desk .ms-split .ms-hero{height:100%}
 .ms-form{align-self:start}
 @media (max-width:900px){.hero-grid:has(.devices){grid-template-columns:1fr}}
+/* Logo: icon + wordmark */
+.brand{gap:10px}
+.brand-svg{width:38px;height:38px;flex:none}
+.wordmark{font-family:var(--display);font-weight:800;font-size:1.32rem;letter-spacing:-.02em;color:var(--navy);line-height:1}
+.wordmark b{color:var(--blue);font-weight:800}
+.wordmark i{color:var(--green);font-style:normal}
+.brand.light .wordmark{color:#fff}
+.brand.light .wordmark b{color:#7FB0FF}
+@media (max-width:420px){.brand-svg{width:32px;height:32px}.wordmark{font-size:1.15rem}}

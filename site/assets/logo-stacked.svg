@@ -1,0 +1,11 @@
+<svg viewBox="0 0 360 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stacked version: square placements, social posts, watermarks -->
+  <rect x="110" y="20" width="140" height="140" rx="30" fill="#1D6FF2"/>
+  <circle cx="139" cy="52" r="6.5" fill="#FFFFFF" opacity="0.85"/>
+  <circle cx="160" cy="52" r="6.5" fill="#FFFFFF" opacity="0.85"/>
+  <circle cx="181" cy="52" r="6.5" fill="#FFFFFF" opacity="0.85"/>
+  <path d="M148 108 L171 131 L218 78" fill="none" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="180" y="240" text-anchor="middle" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-weight="800" font-size="38" letter-spacing="-0.5">
+    <tspan fill="#0A1F44">sitesthat</tspan><tspan fill="#1D6FF2">book</tspan><tspan fill="#22C55E">.</tspan>
+  </text>
+</svg>

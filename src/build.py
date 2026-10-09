@@ -52,14 +52,14 @@ def checks(items, cols=False):
     return f'<ul class="checks{" cols" if cols else ""}">' + "".join(f"<li>{TICK}<span>{i}</span></li>" for i in items) + "</ul>"
 
 def brand(light=False):
-    if MODE == "deploy":
-        return f'<a class="brand" href="{L("")}" aria-label="SitesThatBook home"><img src="{LOGO_WHITE if light else LOGO}" alt="SitesThatBook" width="180" height="40"></a>'
-    return f'<a class="brand" href="{L("")}" aria-label="SitesThatBook home">{MARK}<span>Sites<b>That</b>Book</span></a>'
+    mark = open("assets/logo-mark.svg").read().replace("<svg ", '<svg class="brand-svg" aria-hidden="true" focusable="false" ')
+    cls = "brand light" if light else "brand"
+    return f'<a class="{cls}" href="{L("")}" aria-label="SitesThatBook home">{mark}<span class="wordmark">sitesthat<b>book</b><i>.</i></span></a>'
 
 # ---------------------------------------------------------------- schema
 ORG = {
  "@type":"ProfessionalService","@id":SITE+"/#org","name":"SitesThatBook","url":SITE+"/",
- "logo":LOGO,"image":LOGO,"telephone":PHONE,"email":EMAIL,
+ "logo":SITE+"/assets/logo.png","image":SITE+"/assets/logo.png","telephone":PHONE,"email":EMAIL,
  "description":"Done-for-you websites for US home service businesses. $349 setup, $99 per month, live in 48 hours, with hosting, SEO, updates and blog posts included.",
  "address":{"@type":"PostalAddress","streetAddress":"30 N Gould St","addressLocality":"Sheridan","addressRegion":"WY","postalCode":"82801","addressCountry":"US"},
  "areaServed":{"@type":"Country","name":"United States"},
