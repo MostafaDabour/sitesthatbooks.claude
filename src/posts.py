@@ -1,5 +1,69 @@
 POSTS = [
 {
+ "slug":"roofing-website-design","tag":"Website tips","read":7,
+ "title":"What Makes a Roofing Website Win Estimates?",
+ "h1":"What makes a <em>roofing website</em> win estimates?",
+ "desc":"The roofing website design choices that turn visitors into inspection and estimate requests: proof, storm pages, financing, warranties and a simple form.",
+ "answer":"A roofing website wins estimates when it proves you do good work on homes like theirs, explains your inspection and insurance process in plain words, and makes requesting a free inspection take less than a minute. Real project photos, clear warranties, financing and a short form matter far more than fancy design.",
+ "toc":[("decision","How do homeowners pick a roofer?"),("proof","What proof should a roofing site show?"),("storm","Do you need a storm damage and insurance section?"),("warranty","How should you present warranties and certifications?"),("financing","Should a roofing website talk about financing?"),("request","What makes the estimate request easy?"),("mistakes","Which design mistakes cost roofers estimates?")],
+ "faqs":[("Should a roofing website list prices?","Exact prices rarely work because every roof is different. Explaining what affects the price, such as roof size, pitch, layers to tear off and material, and offering a free inspection builds more trust than a number that might be wrong."),
+         ("How many project photos should a roofing website have?","Enough to show a range of your real work: different materials, home styles and neighborhoods. A small set of sharp before and after photos with a one line caption beats a large gallery of blurry or stock images.")],
+ "body":"""
+<p>A new roof is one of the biggest checks a homeowner will ever write, and most of them have never hired a roofer before. They are nervous about getting ripped off, about storm chasers and about picking the wrong crew for a job they cannot easily undo. A roofing website that wins estimates is built to calm those fears and make the next step feel safe.</p>
+<h2 id="decision">How do homeowners pick a roofer?</h2>
+<p>Most homeowners collect two or three estimates before they choose. That means your website is often doing the first round of screening for them. They are asking a few simple questions:</p>
+<ul>
+<li>Is this a real, local company that will still be around if something goes wrong?</li>
+<li>Have they done roofs like mine, in my area?</li>
+<li>Will they help me with my insurance claim, or leave me to figure it out?</li>
+<li>What happens after I ask for an estimate?</li>
+</ul>
+<p>If your site answers those questions faster and more clearly than the other companies on their list, you get the call. Design matters only as far as it makes those answers easy to find.</p>
+<h2 id="proof">What proof should a roofing site show?</h2>
+<p>Roofing is visual. Homeowners want to see finished work, ideally on homes that look like theirs. The strongest proof on a roofing website is:</p>
+<ul>
+<li><b>Real project photos</b> of your own jobs, not stock images. A caption with the material and the town, like "Architectural shingle replacement in Plano", turns a photo into proof.</li>
+<li><b>Before and after pairs</b> for repairs and full replacements. They show the problem you solved, not just a pretty roof.</li>
+<li><b>Photos of your crew and trucks</b>, which separate you from out of town storm chasers.</li>
+<li><b>Real Google reviews</b> that mention the job type and neighborhood. Pull them in near your photos so the story connects.</li>
+<li><b>Your physical address or home base</b> and how long you have served the area.</li>
+</ul>
+<p>Put a short strip of your best photos and reviews on the home page, then give the full gallery its own section or page.</p>
+<h2 id="storm">Do you need a storm damage and insurance section?</h2>
+<p>If you work insurance claims, yes. Hail and wind damage bring a wave of searches after every big storm, and those homeowners are confused about what to do first. A clear section, or a dedicated page, should explain:</p>
+<ol>
+<li>How to spot signs of damage from the ground, and why they should not climb up themselves.</li>
+<li>What your free inspection covers and how long it takes.</li>
+<li>How you document damage with photos for their claim.</li>
+<li>Whether you meet with the adjuster and how you handle the paperwork.</li>
+<li>What they pay, such as their deductible, and what the claim usually covers.</li>
+</ol>
+<p>Keep the tone calm and factual. Homeowners have heard pushy door knockers. A roofer who explains the process step by step reads as the safe choice. Never promise that a claim will be approved, since that decision belongs to the insurer.</p>
+<h2 id="warranty">How should you present warranties and certifications?</h2>
+<p>Warranties are a big part of why homeowners choose one roofer over another, but most roofing sites bury them in fine print. Spell out two things in plain words: the manufacturer warranty on the materials and your own workmanship warranty on the install. Say how long each lasts and what it covers.</p>
+<p>If you hold a manufacturer certification, show the badge near the top of the page and explain in one sentence what it means for the homeowner, such as access to longer warranty options. Add your license number and proof of insurance in the footer and on the about section. These are small details, but they answer the "is this company legit" question before it is asked.</p>
+<h2 id="financing">Should a roofing website talk about financing?</h2>
+<p>Yes, if you offer it. A full replacement is a large, often unplanned expense. Homeowners who see that monthly payments are possible are more likely to request the estimate instead of putting it off. Give financing its own short section with a clear headline, a sentence on how it works and a button to request an estimate. Keep the claims general, like "low monthly payment options available", and leave the exact terms to your financing partner.</p>
+<h2 id="request">What makes the estimate request easy?</h2>
+<p>The whole site should point to one action: request a free inspection or estimate. Make it easy on a phone:</p>
+<ul>
+<li><b>A sticky call and request bar</b> at the bottom of the screen on mobile.</li>
+<li><b>A short form</b>: name, phone, address, what they need (repair, replacement, storm damage or inspection) and an optional photo upload. A photo of a leak or missing shingles helps you prepare before you call back.</li>
+<li><b>A clear "what happens next"</b> line under the form, like "We call you back within one business day to schedule your free inspection."</li>
+<li><b>Fast follow up.</b> Homeowners getting several estimates often go with the roofer who responds first, so make sure requests reach your phone right away.</li>
+</ul>
+<h2 id="mistakes">Which design mistakes cost roofers estimates?</h2>
+<p>These are the problems we see most often on roofing websites:</p>
+<ul>
+<li><b>Stock photos everywhere.</b> Homeowners can tell, and it makes you look like every other contractor.</li>
+<li><b>No service area.</b> If they cannot tell whether you work in their town, they move on. List every city and suburb in plain text.</li>
+<li><b>Slow pages.</b> Huge uncompressed gallery images and auto playing video make the site crawl on mobile data.</li>
+<li><b>One page for everything.</b> Repairs, replacements, storm damage, gutters and commercial work each deserve a clear heading so Google can match the right search to the right section.</li>
+<li><b>A long form.</b> Every extra required field costs you requests.</li>
+</ul>
+<p>Every <a href="/roofing-websites">roofing website</a> we build includes project galleries, a storm damage section, financing and a short estimate form, written for your company and live 48 hours after you <a href="{GET}">fill the onboarding form</a>. Plans start at $349 setup and $99 a month. See the details on our <a href="{PRICING}">pricing page</a>.</p>
+"""},
+{
  "slug":"what-should-an-hvac-website-include","tag":"Website tips","read":7,
  "title":"What Should an HVAC Website Include?",
  "h1":"What should an <em>HVAC website</em> include?",
