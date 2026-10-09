@@ -22,6 +22,7 @@ IG = "https://www.instagram.com/sitesthatbook"
 TODAY = date.today().isoformat()
 SETUP, MONTHLY = "$349", "$99"
 GA4_ID = "G-B4F43GR07E"
+META_PIXEL_ID = "1031461002806380"
 # Form delivery. Fill these 3 values, rebuild, redeploy.
 GHL_WEBHOOK = "https://services.leadconnectorhq.com/hooks/20s74Ma9bI9VvC7iqVW3/webhook-trigger/50e0a686-1484-46b6-8f98-1bdac1dab51f"
 CLOUDINARY_CLOUD = "lfktoefi"
@@ -142,6 +143,13 @@ def ga_tag():
 <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','{GA4_ID}');
 document.addEventListener('click',function(e){{var a=e.target.closest&&e.target.closest('a[href^="tel:"]');if(a){{gtag('event','click_to_call',{{link_url:a.getAttribute('href'),page_path:location.pathname}});}}}});</script>'''
 
+def meta_pixel():
+    if MODE != "deploy" or not META_PIXEL_ID:
+        return ""
+    return f'''<script>!function(f,b,e,v,n,t,s){{if(f.fbq)return;n=f.fbq=function(){{n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)}};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','{META_PIXEL_ID}');fbq('track','PageView');
+document.addEventListener('click',function(e){{var a=e.target.closest&&e.target.closest('a[href^="tel:"]');if(a){{fbq('track','Contact');}}}});</script>
+<noscript><img height="1" width="1" style="display:none" alt="" src="https://www.facebook.com/tr?id={META_PIXEL_ID}&ev=PageView&noscript=1"></noscript>'''
+
 def form_script(body):
     if "<form" not in body:
         return SCRIPT % ""
@@ -163,6 +171,7 @@ def page(path, title, desc, body, active="", schema=None, og_type="website", pri
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 {ga_tag()}
+{meta_pixel()}
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
 <link rel="canonical" href="{canonical}">

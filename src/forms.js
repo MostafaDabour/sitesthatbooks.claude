@@ -87,6 +87,10 @@ document.querySelectorAll("form[data-stb]").forEach(function (f) {
       })
       .then(function () {
         var go = function () { window.location.href = "/thanks"; };
+        if (window.fbq) {
+          if (f.dataset.leadSent) { window.fbq("track", "CompleteRegistration", { content_name: "onboarding_details" }); }
+          else { window.fbq("track", "Lead", { content_name: f.getAttribute("name") }); }
+        }
         if (window.gtag) {
           var done = false, once = function () { if (!done) { done = true; go(); } };
           window.gtag("event", f.dataset.leadSent ? "onboarding_complete" : "generate_lead", { form_name: f.getAttribute("name"), event_callback: once });
@@ -121,6 +125,7 @@ document.querySelectorAll("[data-step-next]").forEach(function (btn) {
     };
     fetch(STB.hook, { method: "POST", mode: "no-cors", body: data }).catch(function () {}).then(function () {
       if (window.gtag) { window.gtag("event", "generate_lead", { form_name: "onboarding_lead" }); }
+      if (window.fbq) { window.fbq("track", "Lead", { content_name: "onboarding_step1" }); }
       show();
     });
   });
