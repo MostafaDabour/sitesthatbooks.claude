@@ -17,3 +17,5 @@ Portfolio: ORO Landscaping (google.orolandscape.com), Great Northern Refrigerati
 Blog posts: add to `src/posts.py`. Each post has a short answer box, question style H2s, FAQ, and links to a trade page and /get-started. `src/blog-plan.md` lists the next planned titles.
 
 Hosting: Cloudflare Worker `yellow-surf-96e8`, connected to this repo via Workers Builds. `wrangler.jsonc` points the Worker at `./site`. Build command empty, deploy command `npx wrangler deploy`.
+
+Scheduled blog agent: publishes Mon, Wed, Fri. It takes the first unchecked topic in `src/blog-plan.md`, follows the writing rules at the bottom of that file, adds the post at the top of the POSTS list in `src/posts.py`, checks the topic off, rebuilds, verifies, and pushes to `main`.
