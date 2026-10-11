@@ -1,3 +1,9 @@
+@font-face{font-family:"Inter";font-style:normal;font-weight:400;font-display:swap;src:url("assets/fonts/inter-latin-400-normal.woff2") format("woff2")}
+@font-face{font-family:"Inter";font-style:normal;font-weight:500;font-display:swap;src:url("assets/fonts/inter-latin-500-normal.woff2") format("woff2")}
+@font-face{font-family:"Inter";font-style:normal;font-weight:600;font-display:swap;src:url("assets/fonts/inter-latin-600-normal.woff2") format("woff2")}
+@font-face{font-family:"Inter";font-style:normal;font-weight:700;font-display:swap;src:url("assets/fonts/inter-latin-700-normal.woff2") format("woff2")}
+@font-face{font-family:"Poppins";font-style:normal;font-weight:700;font-display:swap;src:url("assets/fonts/poppins-latin-700-normal.woff2") format("woff2")}
+@font-face{font-family:"Poppins";font-style:normal;font-weight:800;font-display:swap;src:url("assets/fonts/poppins-latin-800-normal.woff2") format("woff2")}
 /* SitesThatBook site styles. Layout: navy job-board hero, white working sections, ticket cards as the recurring motif. */
 :root{
   --navy:#0A1F44; --navy-2:#11295A; --blue:#1D6FF2; --blue-ink:#1559C9; --sky:#EAF2FF; --green:#22C55E; --green-ink:#15803D;

@@ -143,14 +143,14 @@ PREVIEW_FORM_JS = '''document.querySelectorAll("form[data-netlify]").forEach(fun
 def ga_tag():
     if MODE != "deploy" or not GA4_ID:
         return ""
-    return f'''<script async src="https://www.googletagmanager.com/gtag/js?id={GA4_ID}"></script>
+    return f'''<script>window.addEventListener('load',function(){{var g=document.createElement('script');g.async=true;g.src='https://www.googletagmanager.com/gtag/js?id={GA4_ID}';document.head.appendChild(g);}});</script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','{GA4_ID}');
 document.addEventListener('click',function(e){{var a=e.target.closest&&e.target.closest('a[href^="tel:"]');if(a){{gtag('event','click_to_call',{{link_url:a.getAttribute('href'),page_path:location.pathname}});}}}});</script>'''
 
 def meta_pixel():
     if MODE != "deploy" or not META_PIXEL_ID:
         return ""
-    return f'''<script>!function(f,b,e,v,n,t,s){{if(f.fbq)return;n=f.fbq=function(){{n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)}};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','{META_PIXEL_ID}');fbq('track','PageView');
+    return f'''<script>!function(f,b,e,v,n,t,s){{if(f.fbq)return;n=f.fbq=function(){{n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)}};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];f.addEventListener('load',function(){{t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}})}}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','{META_PIXEL_ID}');fbq('track','PageView');
 document.addEventListener('click',function(e){{var a=e.target.closest&&e.target.closest('a[href^="tel:"]');if(a){{fbq('track','Contact');}}}});</script>
 <noscript><img height="1" width="1" style="display:none" alt="" src="https://www.facebook.com/tr?id={META_PIXEL_ID}&ev=PageView&noscript=1"></noscript>'''
 
@@ -188,8 +188,8 @@ def page(path, title, desc, body, active="", schema=None, og_type="website", pri
 <meta name="theme-color" content="#0A1F44">
 <link rel="icon" href="{A}favicon.ico" sizes="any"><link rel="icon" type="image/svg+xml" href="{A}favicon.svg">
 <link rel="apple-touch-icon" href="{A}apple-touch-icon.png"><link rel="manifest" href="{A}site.webmanifest">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@700;800&display=swap">
+<link rel="preload" href="{asset("fonts/inter-latin-400-normal.woff2")}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{asset("fonts/poppins-latin-800-normal.woff2")}" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{css_href}">
 <script type="application/ld+json">{ld}</script>
 </head>
@@ -320,7 +320,7 @@ def asset(name):
 
 def phone_shot(w, full=True):
     img = f'{w["key"]}-full.webp' if full else f'{w["key"]}-top.webp'
-    return f'''<a class="shot{" scroll" if full else ""}" href="{w["url"]}" rel="noopener" target="_blank" aria-label="Open the live {w["name"]} website"><span class="shot-frame"><img src="{asset(img)}" alt="Mobile screenshot of the {w["name"]} website built by SitesThatBook" width="420"{"" if not full else " loading=\"lazy\""}></span></a>'''
+    return f'''<a class="shot{" scroll" if full else ""}" href="{w["url"]}" rel="noopener" target="_blank" aria-label="Open the live {w["name"]} website"><span class="shot-frame"><img loading="lazy" decoding="async" src="{asset(img)}" alt="Mobile screenshot of the {w["name"]} website built by SitesThatBook" width="420"{"" if not full else " loading=\"lazy\""}></span></a>'''
 
 def work_block(w):
     return f'''<article class="work"><div class="browser">{phone_shot(w)}</div>
