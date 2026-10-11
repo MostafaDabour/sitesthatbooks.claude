@@ -1,7 +1,7 @@
 # SitesThatBook blog backlog
 
 The scheduled blog agent takes the first unchecked topic, writes it, then checks it off with the slug and date.
-When fewer than 5 unchecked topics remain, the agent adds 10 new ones at the bottom (US home service audience, no duplicates of anything published).
+When fewer than 5 unchecked topics remain, the agent adds 10 new ones at the bottom (US home service audience, no duplicates of anything published). New topics follow the keyword rules below: every topic is tagged with a priority keyword (K1 to K10), each keyword gets at least one new topic per batch of 10, and no two topics in a row share the same keyword.
 
 ## Published
 - [x] How Much Does a Website Cost for a Home Service Business? (how-much-does-a-contractor-website-cost)
@@ -11,22 +11,41 @@ When fewer than 5 unchecked topics remain, the agent adds 10 new ones at the bot
 - [x] What Makes a Roofing Website Win Estimates? (roofing-website-design) 2026-10-09
 - [x] How to Get More Plumbing Calls From Google (get-more-plumbing-calls-from-google) 2026-10-09
 
+## Priority keywords (every post must support one of these)
+| # | Keyword | Money page |
+|---|---|---|
+| K1 | plumbing website design / plumber websites | /plumber-websites |
+| K2 | hvac website design | /hvac-websites |
+| K3 | roofing website design | /roofing-websites |
+| K4 | web design for contractors / contractor website design | /home-service-website-design |
+| K5 | electrician website design | /electrician-websites |
+| K6 | landscaping website design | /landscaping-websites |
+| K7 | done for you website for contractors | /pricing |
+| K8 | jobber website / housecall pro website | /compare/sitesthatbook-vs-jobber-website and /compare/sitesthatbook-vs-housecall-pro-website |
+| K9 | contractor website cost | /blog/how-much-does-a-contractor-website-cost and /pricing |
+| K10 | local seo for contractors | /local-seo-for-contractors |
+
 ## Up next
-- [ ] Electrician Website Checklist: 12 Must Haves | target: electrician website | link: /electrician-websites
-- [ ] How to Rank in the Google Map Pack as a Home Service Business | target: google map pack ranking | link: /local-seo-for-contractors
-- [ ] Garage Door Company Marketing: Website, Ads and Reviews | target: garage door marketing | link: /garage-door-websites
-- [ ] How Many Pages Does a Contractor Website Need? | target: how many pages contractor website | link: /home-service-website-design
-- [ ] Landscaping Website Ideas That Book Projects | target: landscaping website ideas | link: /landscaping-websites
-- [ ] Cleaning Business Website: How to Get Online Bookings | target: cleaning business website | link: /cleaning-business-websites
-- [ ] How to Get More Google Reviews for Your Home Service Business | target: get more google reviews contractor | link: /local-seo-for-contractors
-- [ ] Pest Control Marketing Ideas That Fill the Schedule | target: pest control marketing | link: /pest-control-websites
-- [ ] Google Ads for Plumbers: Budget, Keywords and Mistakes | target: google ads for plumbers | link: /google-ads-for-contractors
-- [ ] Painting Contractor Website Tips That Win More Estimates | target: painting contractor website | link: /painting-contractor-websites
-- [ ] Pressure Washing Marketing: Why Before and After Photos Sell | target: pressure washing marketing | link: /pressure-washing-websites
-- [ ] HVAC Marketing Ideas for the Slow Season | target: hvac marketing ideas | link: /hvac-websites
-- [ ] Missed Calls Are Costing You Jobs: How to Fix It | target: missed call text back contractor | link: /google-ads-for-contractors
-- [ ] Do Contractors Still Need a Website in the Age of AI Search? | target: contractor website ai search | link: /home-service-website-design
-- [ ] Roofing Leads: Website vs Google Ads vs Lead Sites | target: roofing leads | link: /roofing-websites
+- [ ] Electrician Website Design: 12 Must Haves That Bring In Calls | K5 | target: electrician website design | link: /electrician-websites
+- [ ] Web Design for Contractors: What to Look For Before You Hire Anyone | K4 | target: web design for contractors | link: /home-service-website-design
+- [ ] Plumbing Website Design Mistakes That Cost You Emergency Calls | K1 | target: plumbing website design | link: /plumber-websites
+- [ ] How to Rank in the Google Map Pack as a Home Service Business | K10 | target: local seo for contractors | link: /local-seo-for-contractors
+- [ ] How to Choose an HVAC Website Design Company | K2 | target: hvac website design | link: /hvac-websites
+- [ ] What Is a Done-for-You Website and Is It Worth It for Contractors? | K7 | target: done for you website for contractors | link: /pricing
+- [ ] Landscaping Website Design Ideas That Book Bigger Projects | K6 | target: landscaping website design | link: /landscaping-websites
+- [ ] Contractor Website Cost: Monthly Plan vs One-Time Build | K9 | target: contractor website cost | link: /pricing
+- [ ] Do You Need a Separate Website If You Already Use Field Service Software? | K8 | target: jobber website | link: /compare/sitesthatbook-vs-jobber-website
+- [ ] Roofing Leads: Website vs Google Ads vs Lead Sites | K3 | target: roofing website design | link: /roofing-websites
+- [ ] How Many Pages Does a Contractor Website Need? | K4 | target: contractor website design | link: /home-service-website-design
+- [ ] How to Get More Google Reviews for Your Home Service Business | K10 | target: local seo for contractors | link: /local-seo-for-contractors
+- [ ] How to Write Service Pages for a Plumbing Website That Rank | K1 | target: plumber websites | link: /plumber-websites
+- [ ] HVAC Marketing Ideas for the Slow Season | K2 | target: hvac website design | link: /hvac-websites
+- [ ] The Hidden Costs of a Cheap Contractor Website | K9 | target: contractor website cost | link: /blog/how-much-does-a-contractor-website-cost
+- [ ] Electrician Marketing: How to Get More Local Service Calls | K5 | target: electrician website design | link: /electrician-websites
+- [ ] Missed Calls Are Costing You Jobs: How to Fix It | K7 | target: done for you website for contractors | link: /pricing
+- [ ] Landscaping Website SEO: Get Booked Before Spring | K6 | target: landscaping website design | link: /landscaping-websites
+- [ ] Garage Door Company Marketing: Website, Ads and Reviews | K4 | target: contractor website design | link: /garage-door-websites
+- [ ] Roofing Website Must Haves for Storm Season | K3 | target: roofing website design | link: /roofing-websites
 
 ## Writing rules (every post)
 - US English, plain and practical, written for the business owner, not marketers.
@@ -37,3 +56,6 @@ When fewer than 5 unchecked topics remain, the agent adds 10 new ones at the bot
 - Never invent statistics, studies, client names, results or testimonials. Price ranges must be framed as common ranges, not quotes.
 - Pricing facts: $349 setup + $99/month, Get Found +$149/month, Get Booked +$499/month, live 48 hours after the onboarding form.
 - Never publish competitor pricing, plan details or feature claims (Wix, GoDaddy, Jobber, Housecall Pro or any other brand). Those live only on the reviewed /compare pages. Educational posts may link to them.
+- Keyword rules (every post): the queue line names a priority keyword (K1 to K10) and a target phrase. Use the target phrase in the title or H1, in the first 100 words, in at least one H2, and in the meta description. Write naturally; never stuff it.
+- Link to the money page for that keyword using the target phrase (or a close variant) as the link text, for example <a href="/hvac-websites">HVAC website design</a>. Also link to one other related money page from the priority table where it fits naturally.
+- Never write a post that would compete with a money page for its own keyword. Posts answer a supporting question and send readers to the money page.
