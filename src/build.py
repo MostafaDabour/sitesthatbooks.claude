@@ -468,7 +468,7 @@ def trade_page(t):
     body = f'''<section class="hero"><div class="wrap hero-grid">
  <div class="hero-copy"><nav class="crumbs" aria-label="Breadcrumb"><a href="{L("")}">Home</a> &rsaquo; <a href="{L("industries")}">Industries</a> &rsaquo; {t["name"]} websites</nav>
   <span class="eyebrow">{t["kw"]}</span><h1>{t["h1"]}</h1><p class="lede">{t["lede"]}</p>
-  <div class="btn-row"><a class="btn btn-primary" href="{L("get-started")}?trade={t["slug"]}">Get my {t["name"].lower()} site</a><a class="btn btn-outline-light" href="#pricing">See pricing</a></div>{proof_row()}</div>
+  <div class="btn-row"><a class="btn btn-primary" href="{L("get-started")}">Get my {t["name"].lower()} site</a><a class="btn btn-outline-light" href="#pricing">See pricing</a></div>{proof_row()}</div>
  {devices_mock(t["name"], f"Trusted {t['name'].lower()} pros in your area", [t["example"], ("New review","5 stars on Google","Just now"), ("Missed call","Texted back automatically","2 sec ago")])}
 </div></section>
 
