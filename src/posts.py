@@ -5,7 +5,7 @@ POSTS = [
  "h1":"Electrician website design: <em>12 must haves</em> for more calls",
  "desc":"A 12 point electrician website design checklist: what to show first, which services need sections, how to prove you are safe and how to get more calls.",
  "answer":"Good electrician website design puts your service, city, phone number and license in the first screen, gives high value jobs like panel upgrades and EV chargers their own sections, and proves you are safe to hire with real photos and reviews. Then a short job type form and a fast mobile site turn visits into calls.",
- "toc":[("first-screen","What should the first screen of an electrician website show?"),("services","Which electrical services need their own sections?"),("trust","How does an electrician website prove you are safe to hire?"),("next-step","What helps a homeowner take the next step?"),("behind","What keeps the site working behind the scenes?"),("audit","How can you check your own site against this list?")],
+ "toc":[("first-screen","What should the first screen of an electrician website show?"),("services","Which electrical services need their own sections?"),("trust","How does an electrician website prove you are safe to hire?"),("next-step","What helps a homeowner take the next step?"),("behind","What keeps the site working behind the scenes?"),("audit","How can you check your own electrician website design against this list?")],
  "faqs":[("Should an electrician website show the license number?","Yes. Put your license number in the footer of every page and near the top of the home page. Homeowners and property managers often look for it before they call, and it costs you nothing to show."),
          ("Do I need separate pages for EV chargers and panel upgrades?","At minimum each one needs its own clearly headed section with a few paragraphs written for that job. If those are the jobs you want most, giving each its own page can help you show up for those specific searches over time.")],
  "body":"""
@@ -42,7 +42,7 @@ POSTS = [
 <p>The last two must haves are invisible to most visitors, but they decide whether people find you and stay long enough to call.</p>
 <p><b>11. A written service area that matches your Google Business Profile.</b> List every city and suburb you serve in plain text, not just a map image. Make sure your business name, phone number and service area match your Google Business Profile exactly. That consistency is one of the simplest signals for showing up in local results, and it is a core part of <a href="{SEO}">local SEO for contractors</a>.</p>
 <p><b>12. A fast, mobile first build.</b> Compress your photos, skip auto playing videos and heavy sliders, and test the site on your own phone over mobile data. Add basic SEO setup too: a clear page title and description for each page, one main heading per page and schema markup that tells Google you are an electrician and where you work. If the site feels slow to you, it feels slower to someone whose kitchen just went dark.</p>
-<h2 id="audit">How can you check your own site against this list?</h2>
+<h2 id="audit">How can you check your own electrician website design against this list?</h2>
 <p>Pull up your website on your phone and go through these checks in five minutes:</p>
 <ol>
 <li>Can you tell what you do and where within two seconds of the page loading?</li>
