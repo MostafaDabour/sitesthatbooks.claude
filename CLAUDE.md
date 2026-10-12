@@ -10,7 +10,7 @@ Workflow for any change:
 
 Content facts: US market only. Launch plan $349 setup + $99/month, Get Found +$149/month, Get Booked +$499/month. Live 48 hours after the onboarding form. Money-back on the setup fee if the client does not love the site on the launch call and it cannot be fixed on the call. No contracts. Phone +1 307-218-7725, info@sitesthatbook.com, 30 N Gould St, Sheridan, WY 82801.
 
-Trades: HVAC, plumbing, roofing, electrical, garage door, landscaping, cleaning, pest control, painting, pressure washing. No auto detailing.
+Trades: HVAC, plumbing, roofing, electrical, garage door, landscaping (and lawn care), cleaning, pest control, painting, pressure washing, general contractors. No auto detailing.
 
 Portfolio: ORO Landscaping (google.orolandscape.com), Great Northern Refrigeration (gnrpdx.com), A & I Contracting (google.aandicontracting.com). Never invent testimonials or results.
 

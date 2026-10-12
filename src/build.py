@@ -105,7 +105,7 @@ def header(active):
 </div></header>'''
 
 def footer():
-    trades = "".join(f'<li><a href="{L(t["slug"])}">{t["name"]} websites</a></li>' for t in TRADES)
+    trades = "".join(f'<li><a href="{L(t["slug"])}">{t["kw"]}</a></li>' for t in TRADES)
     return f'''<footer class="site-footer"><div class="wrap">
 <div class="foot-grid">
  <div class="stack">{brand(light=True)}<p>Done-for-you websites for home service businesses across the United States. Built to rank, built to book.</p>
@@ -253,7 +253,7 @@ def phone_mock(trade="Plumbing", headline="Same day plumbing you can count on", 
 </div>'''
 
 def trades_grid():
-    cards = "".join(f'''<a class="card" href="{L(t["slug"])}">{ico(t["icon"])}<h3>{t["name"]} websites</h3><p>{t["lede"].split(".")[0]}.</p><span class="more">See {t["name"].lower()} websites &rarr;</span></a>''' for t in TRADES)
+    cards = "".join(f'''<a class="card" href="{L(t["slug"])}">{ico(t["icon"])}<h3>{t["kw"]}</h3><p>{t["lede"].split(".")[0]}.</p><span class="more">See {phrase(t)} &rarr;</span></a>''' for t in TRADES)
     return f'<div class="grid g3 trades">{cards}</div>'
 
 INCLUDED = ["5 custom pages written for your trade","Mobile first design with sticky call bar","Click to call and click to text","Lead and booking request form","Fast cloud hosting and SSL","Your domain connected","2 content updates every month","2 SEO blog posts every month","Monthly traffic report","Schema markup and sitemap for Google"]
@@ -320,7 +320,7 @@ def asset(name):
 
 def phone_shot(w, full=True):
     img = f'{w["key"]}-full.webp' if full else f'{w["key"]}-top.webp'
-    return f'''<a class="shot{" scroll" if full else ""}" href="{w["url"]}" rel="noopener" target="_blank" aria-label="Open the live {w["name"]} website"><span class="shot-frame"><img loading="lazy" decoding="async" src="{asset(img)}" alt="Mobile screenshot of the {w["name"]} website built by SitesThatBook" width="420"{"" if not full else " loading=\"lazy\""}></span></a>'''
+    return f'''<a class="shot{" scroll" if full else ""}" href="{w["url"]}" rel="noopener" target="_blank" aria-label="Open the live {w["name"]} website"><span class="shot-frame"><img loading="lazy" decoding="async" src="{asset(img)}" alt="Mobile screenshot of the {w["name"]} website built by SitesThatBook" width="420"></span></a>'''
 
 def work_block(w):
     return f'''<article class="work"><div class="browser">{phone_shot(w)}</div>
@@ -463,10 +463,23 @@ def related_posts(p, n=3):
     i = POSTS.index(p)
     return (POSTS[i+1:] + POSTS[:i])[:n]
 
+def phrase(t):
+    k = t["kw"]
+    return k if k.startswith("HVAC") else k[0].lower() + k[1:]
+
+def proof_section(t):
+    w = next((x for x in WORK if x["key"] == t.get("proof")), None)
+    if not w:
+        return ""
+    return f'''<section class="section"><div class="wrap">
+ <div class="section-head"><span class="eyebrow">Our work</span><h2>A real {phrase(t)} project, live today</h2><p class="lede">{t.get("proof_note","")}</p></div>
+ {work_block(w)}
+</div></section>'''
+
 def trade_page(t):
     others = [x for x in TRADES if x["slug"] != t["slug"]][:4]
     body = f'''<section class="hero"><div class="wrap hero-grid">
- <div class="hero-copy"><nav class="crumbs" aria-label="Breadcrumb"><a href="{L("")}">Home</a> &rsaquo; <a href="{L("industries")}">Industries</a> &rsaquo; {t["name"]} websites</nav>
+ <div class="hero-copy"><nav class="crumbs" aria-label="Breadcrumb"><a href="{L("")}">Home</a> &rsaquo; <a href="{L("industries")}">Industries</a> &rsaquo; {t["kw"]}</nav>
   <span class="eyebrow">{t["kw"]}</span><h1>{t["h1"]}</h1><p class="lede">{t["lede"]}</p>
   <div class="btn-row"><a class="btn btn-primary" href="{L("get-started")}">Get my {t["name"].lower()} site</a><a class="btn btn-outline-light" href="#pricing">See pricing</a></div>{proof_row()}</div>
  {devices_mock(t["name"], f"Trusted {t['name'].lower()} pros in your area", [t["example"], ("New review","5 stars on Google","Just now"), ("Missed call","Texted back automatically","2 sec ago")])}
@@ -483,9 +496,10 @@ def trade_page(t):
 </div></section>
 
 <section class="section mist"><div class="wrap">
- <div class="section-head"><span class="eyebrow">Built for {t["name"].lower()}</span><h2>What goes into every {t["name"].lower()} website we build</h2><p class="lede">Features picked for how {t["who"]} actually win work.</p></div>
+ <div class="section-head"><span class="eyebrow">Built for {t["name"].lower()}</span><h2>What goes into our {phrase(t)}</h2><p class="lede">Features picked for how {t["who"]} actually win work.</p></div>
  <div class="grid g3">{"".join(f'<div class="card"><h3>{a}</h3><p>{b}</p></div>' for a,b in t["features"])}</div>
 </div></section>
+{t.get("extra","")}{proof_section(t)}
 
 <section class="section"><div class="wrap split">
  <div class="stack"><span class="eyebrow">Your 5 pages</span><h2>The pages we build for your {t["name"].lower()} business</h2><p class="lede">Every page is written for your company, your services and your service area. You review it all on the launch call.</p>
@@ -512,17 +526,17 @@ def trade_page(t):
 
 <section class="section mist tight"><div class="wrap">
  <div class="section-head"><h2>Other trades we build for</h2></div>
- <div class="grid g4">{"".join(f'<a class="card" href="{L(o["slug"])}">{ico(o["icon"])}<h3>{o["name"]} websites</h3><span class="more">View &rarr;</span></a>' for o in others)}</div>
+ <div class="grid g4">{"".join(f'<a class="card" href="{L(o["slug"])}">{ico(o["icon"])}<h3>{o["kw"]}</h3><span class="more">View &rarr;</span></a>' for o in others)}</div>
 </div></section>
 {post_cards(reading_for(t["slug"]), f"Helpful reading for {t['name'].lower()} pros", mist=True)}
 {cta_band(f"Ready for a {t['name'].lower()} website that books jobs?")}'''
     page(t["slug"], t["title"], t["meta"], body, active="industries", priority="0.9",
          schema=[service_schema(f"{t['name']} website design", t["meta"], t["slug"]), faq_schema(t["faqs"]),
-                 crumbs_schema([("Home",""),("Industries","industries"),(f"{t['name']} websites",t["slug"])])])
+                 crumbs_schema([("Home",""),("Industries","industries"),(t["kw"],t["slug"])])])
 
 def industries():
     body = hero("Industries","Websites built for <em>home service</em> businesses","We only build for home service pros. That focus is why we can go live in 48 hours and why every site speaks your customers' language.",crumbs=[("Home",""),("Industries","")]) + f'''
-<section class="section"><div class="wrap">{trades_grid()}</div></section>
+<section class="section"><div class="wrap"><div class="section-head"><h2>Pick your trade</h2></div>{trades_grid()}</div></section>
 <section class="section mist"><div class="wrap split"><div class="stack"><h2>Don't see your trade?</h2><p class="lede">Handyman, flooring, fencing, pool service, appliance repair, junk removal, window cleaning, solar and more. If you serve homeowners, we can build for you.</p></div><div><a class="btn btn-primary" href="{L("contact")}">Ask about your trade</a></div></div></section>
 {cta_band()}'''
     page("industries","Website Design for Home Service Industries | SitesThatBook",
@@ -543,7 +557,7 @@ def pricing():
           ("Can I upgrade or downgrade?","Yes. Add Get Found or Get Booked anytime, or drop back to Launch at the end of any month."),
           ("Can I cancel?","Yes. No contracts. Cancel anytime.")]
     body = hero("Pricing",f"Simple pricing. <em>{SETUP}</em> setup, <em>{MONTHLY}</em> a month.","No contracts, no hidden fees. Every plan starts with Launch. Add local SEO or ads when you want more calls.",crumbs=[("Home",""),("Pricing","")]) + f'''
-<section class="section"><div class="wrap">{plans(full=True)}</div></section>
+<section class="section"><div class="wrap"><div class="section-head"><h2>Choose your plan</h2></div>{plans(full=True)}</div></section>
 <section class="section mist"><div class="wrap"><div class="section-head"><h2>Compare plans</h2></div>{table}</div></section>
 <section class="section"><div class="wrap">{guarantee()}</div></section>
 <section class="section mist"><div class="wrap"><div class="section-head"><h2>Compared to the alternatives</h2></div>{compare_table()}</div></section>
@@ -564,7 +578,7 @@ def how_it_works():
           ("What happens on the launch call?","We share our screen, walk you through every page, make quick changes on the spot, connect your domain and go live."),
           ("What happens after launch?","Each month we publish 2 SEO blog posts, make up to 2 updates you request and send your traffic report.")]
     body = hero("How it works","From onboarding form to <em>live website</em> in 48 hours","Your part takes about 10 minutes. We handle the writing, design, SEO, hosting and setup.",crumbs=[("Home",""),("How it works","")]) + f'''
-<section class="section"><div class="wrap">{steps_block()}</div></section>
+<section class="section"><div class="wrap"><div class="section-head"><h2>The 3 steps to your new website</h2></div>{steps_block()}</div></section>
 <section class="section mist"><div class="wrap split">
  <div class="stack"><span class="eyebrow">Step 1</span><h2>What we ask for in the onboarding form</h2><p class="lede">Short and simple. If you do not have something yet, skip it. We fill the gaps so you still launch on time.</p></div>
  <div>{checks(need)}</div></div></section>
@@ -586,7 +600,7 @@ def how_it_works():
 
 def our_work():
     body = hero("Our work","Live websites for <em>real home service</em> businesses","A look at sites we have built and launched. Visit them live and judge the work yourself.",crumbs=[("Home",""),("Our work","")]) + f'''
-<section class="section"><div class="wrap">{"".join(work_block(w) for w in WORK)}</div></section>
+<section class="section"><div class="wrap"><div class="section-head"><h2>Websites we built and launched</h2></div>{"".join(work_block(w) for w in WORK)}</div></section>
 <section class="section mist"><div class="wrap split"><div class="stack"><h2>What every site we build has in common</h2><p class="lede">Different trades, same standard.</p></div><div>{checks(["A clear headline that says what you do and where","Call and estimate buttons on every screen","Trust signals up top: license, insurance, reviews","One section per service so Google can match each search","Service area written out city by city","Fast on phones"])}</div></div></section>
 {cta_band("Want yours next?")}'''
     page("our-work","Our Work: Home Service Websites We Built | SitesThatBook",
@@ -702,7 +716,7 @@ def get_started():
               '</div></div>')
     fields = step1 + step2
     body = hero("Get started","Fill the form. <em>48 hours later</em> your website is live.","Start with your name and number. It takes 30 seconds. Add your business details now or on your launch call, whichever is easier.",crumbs=[("Home",""),("Get started","")],ctas=False) + f'''
-<section class="section"><div class="wrap split" style="align-items:start">
+<section class="section"><h2 class="sr-only">Your onboarding form</h2><div class="wrap split" style="align-items:start">
  {form_html("onboarding", fields, "Send my onboarding form", "Got it. Your form and files are in. We will call or text you shortly to confirm your details and lock in your launch time.")}
  <div class="stack">
   <h2 style="font-size:1.6rem">What happens next</h2>
@@ -724,6 +738,7 @@ def contact():
     body = hero("Contact","Talk to a <em>real person</em>","Questions about your trade, pricing or the process? Call, text, email or send the form.",crumbs=[("Home",""),("Contact","")],ctas=False) + f'''
 <section class="section"><div class="wrap split" style="align-items:start">
  <div class="stack">
+  <h2 style="font-size:1.6rem">Ways to reach us</h2>
   <div class="card"><h3>Call or text</h3><p><a href="tel:{TEL}">{PHONE}</a></p></div>
   <div class="card"><h3>Email</h3><p><a href="mailto:{EMAIL}">{EMAIL}</a></p></div>
   <div class="card"><h3>Mailing address</h3><p>30 N Gould St, Sheridan, WY 82801</p></div>
@@ -746,16 +761,16 @@ def service_page(path, title, meta, eyebrow, h1, lede, sections, faqs, name):
 
 def services():
     service_page("home-service-website-design",
-      "Home Service and Contractor Website Design | SitesThatBook",
-      f"Website design for contractors and home service businesses. Written for your trade, built to rank and convert. {SETUP} setup, {MONTHLY}/month, live in 48 hours.",
-      "Home service website design","Contractor website design that <em>turns visitors into jobs</em>",
-      "Your website should work like your best salesperson: answer questions, build trust and get the homeowner to call. We design every page around that job.",
-      f'''<section class="section"><div class="wrap split"><div class="prose"><h2>What makes a home service website convert</h2>
+      "Home Service Website Design for Contractors | SitesThatBook",
+      f"Home service and contractor website design, written for your trade and built to rank. {SETUP} setup, {MONTHLY}/month, live in 48 hours.",
+      "Home service website design","Home service and contractor website design that <em>turns visitors into jobs</em>",
+      "Good home service website design works like your best salesperson: it answers questions, builds trust and gets the homeowner to call. We design every page around that job, for contractors in every trade.",
+      f'''<section class="section"><div class="wrap split"><div class="prose"><h2>What good home service website design gets right</h2>
 <p>Homeowners decide in seconds. They need to see what you do, where you work and how to reach you before they scroll. Then they look for proof: reviews, licenses, photos and a clear process.</p>
 <p>Every SitesThatBook site follows a layout built around those moments. A headline that names your service and city. Call and estimate buttons that stay on screen. Trust signals near the top. One section for each service. A service area written out town by town. A short form that collects the details you need to quote.</p>
 <h2>Designed for phones first</h2><p>Most of your customers will find you on a phone, often while something is broken. We design for that screen first, with a sticky call bar and big tap targets, then scale up to desktop.</p></div>
 <div class="stack"><h3>Included in every site</h3>{checks(INCLUDED)}</div></div></section>
-<section class="section mist"><div class="wrap"><div class="section-head"><h2>Website design by trade</h2></div>{trades_grid()}</div></section>''',
+<section class="section mist"><div class="wrap"><div class="section-head"><span class="eyebrow">Website design by trade</span><h2>Websites for contractors in every home service trade</h2><p class="lede">Every trade gets its own pages, words and features, because homeowners search for a plumber differently than for a roofer. Pick yours: {", ".join(f'<a href="{L(t["slug"])}">{phrase(t)}</a>' for t in TRADES)}.</p></div>{trades_grid()}</div></section>''',
       [("How much does contractor website design cost?",f"With SitesThatBook it is {SETUP} setup and {MONTHLY} a month, including hosting, updates and SEO blog posts. Agencies commonly charge several thousand dollars upfront plus monthly care fees."),
        ("How long does it take?","48 hours from your onboarding form to a live site."),
        ("Do I need to provide the copy?","No. We write it for you from your onboarding form.")],
@@ -872,7 +887,7 @@ def comparison_pages():
 def blog():
     cards = "".join(f'''<a class="card" href="{L("blog/"+p["slug"])}"><span class="num">{p["tag"]} . {p["read"]} min read</span><h3>{p["title"]}</h3><p>{p["desc"]}</p><span class="more">Read the article &rarr;</span></a>''' for p in POSTS)
     body = hero("Blog","Website and marketing advice for <em>home service pros</em>","Straight answers on websites, SEO and getting more booked jobs. No fluff.",crumbs=[("Home",""),("Blog","")],ctas=False) + f'''
-<section class="section"><div class="wrap"><div class="grid g3">{cards}</div></div></section>{cta_band()}'''
+<section class="section"><div class="wrap"><div class="section-head"><h2>Latest articles</h2></div><div class="grid g3">{cards}</div></div></section>{cta_band()}'''
     page("blog","Home Service Website and SEO Blog | SitesThatBook",
          "Practical advice for plumbers, HVAC companies, roofers and home service pros on websites, local SEO and getting more calls.",
          body, active="blog", priority="0.6", schema=[crumbs_schema([("Home",""),("Blog","blog")])])
@@ -918,7 +933,7 @@ def legal():
 
 def not_found():
     body = hero("404","This page <em>moved</em>","The page you are looking for does not exist. Try one of these instead.",ctas=False) + f'''
-<section class="section"><div class="wrap">{trades_grid()}</div></section>'''
+<section class="section"><div class="wrap"><div class="section-head"><h2>Popular pages</h2></div>{trades_grid()}</div></section>'''
     page("404","Page Not Found | SitesThatBook","Page not found.", body, noindex=True)
 
 def extras():

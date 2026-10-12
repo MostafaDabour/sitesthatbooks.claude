@@ -84,7 +84,7 @@ COMPARES = [
  "slug": "sitesthatbook-vs-wix",
  "name": "Wix",
  "short": "Wix",
- "title": "Wix vs a Done-for-You Website for Contractors",
+ "title": "Wix vs Done-for-You Contractor Websites | SitesThatBook",
  "meta": "Wix compared with SitesThatBook for plumbers, HVAC, roofers and other home service pros: real cost, time, SEO setup and who should build it themselves.",
  "h1": "Wix vs a <em>done-for-you</em> website for contractors",
  "lede": "Wix is one of the most popular website builders, with a lot of flexibility. The real question for a contractor is who does the work.",
