@@ -1,5 +1,63 @@
 POSTS = [
 {
+ "slug":"electrician-website-must-haves","tag":"Website tips","read":7,
+ "title":"Electrician Website Design: 12 Must Haves for More Calls",
+ "h1":"Electrician website design: <em>12 must haves</em> for more calls",
+ "desc":"A 12 point electrician website design checklist: what to show first, which services need sections, how to prove you are safe and how to get more calls.",
+ "answer":"Good electrician website design puts your service, city, phone number and license in the first screen, gives high value jobs like panel upgrades and EV chargers their own sections, and proves you are safe to hire with real photos and reviews. Then a short job type form and a fast mobile site turn visits into calls.",
+ "toc":[("first-screen","What should the first screen of an electrician website show?"),("services","Which electrical services need their own sections?"),("trust","How does an electrician website prove you are safe to hire?"),("next-step","What helps a homeowner take the next step?"),("behind","What keeps the site working behind the scenes?"),("audit","How can you check your own site against this list?")],
+ "faqs":[("Should an electrician website show the license number?","Yes. Put your license number in the footer of every page and near the top of the home page. Homeowners and property managers often look for it before they call, and it costs you nothing to show."),
+         ("Do I need separate pages for EV chargers and panel upgrades?","At minimum each one needs its own clearly headed section with a few paragraphs written for that job. If those are the jobs you want most, giving each its own page can help you show up for those specific searches over time.")],
+ "body":"""
+<p>Electrical work makes homeowners nervous. They know a bad job can start a fire, so they look harder at who they let near their panel than they would for most trades. That is why electrician website design is less about looks and more about answering one question fast: is this a licensed, local pro I can trust in my home? Below are 12 must haves, grouped by the job each one does, that help your site answer that question and turn more visits into calls.</p>
+<h2 id="first-screen">What should the first screen of an electrician website show?</h2>
+<p>Most visitors land on your site from a phone, often from Google Maps or a search like "electrician near me". Before they scroll, they decide whether to stay. The first screen needs three things.</p>
+<p><b>1. A headline that names the service and the place.</b> "Licensed electricians serving Tulsa and Broken Arrow" tells a visitor in two seconds that they are in the right spot. A slogan like "Powering your future" does not. Name the work and name the towns.</p>
+<p><b>2. A tap to call button, plus emergency availability if you offer it.</b> Put your phone number in the header as a tap to call link, and add a call bar that stays on screen as people scroll on mobile. If you take emergency calls for things like a partial power outage, a breaker that will not reset or a burning smell from an outlet, say so right here. If you do not, leave it off. Honest hours build more trust than a "24/7" badge you cannot back up.</p>
+<p><b>3. Your license and insurance, up front.</b> A short line such as "Licensed and insured, license #12345" near the headline answers the safety question before it is asked. Repeat the license number in the footer of every page.</p>
+<h2 id="services">Which electrical services need their own sections?</h2>
+<p>Homeowners do not search for "electrical services". They search for the job: "panel upgrade cost", "EV charger installation", "outlet not working", "whole house generator installer". Google tries to match each search to the page that answers it best, so a single bullet list of services gives it very little to work with.</p>
+<p><b>4. A clear section for each high value job.</b> Give each main service its own heading and a short, specific paragraph written the way customers describe the problem:</p>
+<ul>
+<li>Panel upgrades and replacements</li>
+<li>EV charger installation</li>
+<li>Whole house and standby generators</li>
+<li>Rewiring older homes</li>
+<li>Lighting, ceiling fans and fixture installs</li>
+<li>Troubleshooting and repairs, like dead outlets and tripping breakers</li>
+<li>Surge protection, smoke detectors and safety inspections</li>
+</ul>
+<p>Lead with the work you want more of. If panel upgrades and EV chargers are your most profitable jobs, they belong at the top, with enough detail to show you know what you are doing: what the job involves, how long it usually takes and what the homeowner needs to have ready.</p>
+<p><b>5. A separate commercial section, if you do commercial work.</b> Property managers and business owners want different things than homeowners: response times, after hours work that does not disrupt business, tenant improvements and code compliance. Mixing them into the residential copy confuses both groups. Give commercial work its own heading and its own call to action.</p>
+<h2 id="trust">How does an electrician website prove you are safe to hire?</h2>
+<p>Saying you are trustworthy does not work. Showing it does. Three kinds of proof carry the most weight.</p>
+<p><b>6. Real photos of your work, crew and trucks.</b> A clean panel install, a neatly mounted EV charger in a garage, a finished lighting project. Electrical work that looks tidy signals careful work. Caption each photo with the job and the town. Skip stock photos of models holding wire strippers; homeowners spot them right away.</p>
+<p><b>7. Real Google reviews, placed next to the work.</b> Reviews that mention the job and the area, like a panel swap in a specific neighborhood, sell far better than "great service". Show a few on the home page and near each service section. Never write or edit reviews yourself, and only use ones customers actually left.</p>
+<p><b>8. Your standards, in plain words.</b> Tell people what they can expect on every job: that you pull permits where your local rules require them, how you protect their home while you work, how you clean up and what your workmanship warranty covers. These are the worries that keep a homeowner from calling, so answer them before they come up.</p>
+<h2 id="next-step">What helps a homeowner take the next step?</h2>
+<p>Once a visitor trusts you, the site should make contacting you the easiest thing on the page.</p>
+<p><b>9. A short request form that asks for the job type.</b> Name, phone, address or ZIP, job type and a notes box is usually enough. A job type dropdown (repair, panel upgrade, EV charger, generator, lighting, commercial) lets you sort a quick outlet fix from a big install before you call back. An optional photo upload helps too, since a picture of an old panel tells you a lot. Under the form, add one line on what happens next, like "We call you back the same business day."</p>
+<p><b>10. Price guidance and financing for big jobs.</b> You do not need to post exact prices, but explaining what affects the cost of a panel upgrade or generator install, such as amperage, the age of the home and how far the panel sits from the meter, builds trust. If you offer financing, give it a short section with a call to action. Big tickets are where monthly payment options help people say yes instead of "maybe next year".</p>
+<h2 id="behind">What keeps the site working behind the scenes?</h2>
+<p>The last two must haves are invisible to most visitors, but they decide whether people find you and stay long enough to call.</p>
+<p><b>11. A written service area that matches your Google Business Profile.</b> List every city and suburb you serve in plain text, not just a map image. Make sure your business name, phone number and service area match your Google Business Profile exactly. That consistency is one of the simplest signals for showing up in local results, and it is a core part of <a href="{SEO}">local SEO for contractors</a>.</p>
+<p><b>12. A fast, mobile first build.</b> Compress your photos, skip auto playing videos and heavy sliders, and test the site on your own phone over mobile data. Add basic SEO setup too: a clear page title and description for each page, one main heading per page and schema markup that tells Google you are an electrician and where you work. If the site feels slow to you, it feels slower to someone whose kitchen just went dark.</p>
+<h2 id="audit">How can you check your own site against this list?</h2>
+<p>Pull up your website on your phone and go through these checks in five minutes:</p>
+<ol>
+<li>Can you tell what you do and where within two seconds of the page loading?</li>
+<li>Is the call button visible without scrolling, and does it stay on screen?</li>
+<li>Is your license number on the home page and in the footer?</li>
+<li>Do panel upgrades, EV chargers and your other best jobs each have their own heading?</li>
+<li>Are the photos yours, and are there real reviews near your services?</li>
+<li>Does the form ask for the job type, and does it fit on one phone screen?</li>
+<li>Is every town you serve written out, matching your Google profile?</li>
+<li>Does the page load quickly on mobile data?</li>
+</ol>
+<p>Every "no" is a place where calls are slipping away. Fix the first screen and the form first, since those affect every visitor, then work through the rest.</p>
+<p>If you would rather not do it yourself, our <a href="/electrician-websites">electrician website design</a> covers all 12 of these, with copy written for your company and your towns. Plans start at $349 setup and $99 a month with no contracts, and the details are on our <a href="{PRICING}">pricing page</a>. Your site goes live 48 hours after you <a href="{GET}">fill the onboarding form</a>.</p>
+"""},
+{
  "slug":"get-more-plumbing-calls-from-google","tag":"Local SEO","read":7,
  "title":"How to Get More Plumbing Calls From Google",
  "h1":"How to get more <em>plumbing calls</em> from Google",
