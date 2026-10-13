@@ -342,9 +342,9 @@ td.no{color:var(--muted)}
 .ms-hero b{font:800 1.45em/1.15 var(--display);letter-spacing:-.01em}
 .ms-btns{display:flex;gap:.5em;flex-wrap:wrap}
 .ms-btns span{font:700 .72em/1 var(--body);padding:.75em 1em;border-radius:.55em}
-.ms-btns .b1{background:var(--blue);color:#fff;animation:dvpulse 2.4s ease-out infinite}
+.ms-btns .b1{background:var(--blue);color:#fff;position:relative}.ms-btns .b1::after{content:"";position:absolute;inset:0;border-radius:inherit;box-shadow:0 0 0 .9em rgba(29,111,242,.45);opacity:0;transform:scale(.6);animation:dvpulse 2.4s ease-out infinite;pointer-events:none}
 .ms-btns .b2{background:#fff;color:var(--navy)}
-@keyframes dvpulse{0%{box-shadow:0 0 0 0 rgba(29,111,242,.7)}70%,100%{box-shadow:0 0 0 .9em rgba(29,111,242,0)}}
+@keyframes dvpulse{0%{opacity:1;transform:scale(.6)}70%,100%{opacity:0;transform:scale(1)}}
 .ms-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:.6em;padding:.9em 1em}
 .ms-cards span{display:flex;align-items:center;gap:.45em;font:600 .62em/1.2 var(--body);border:1px solid #DCE5F3;border-radius:.6em;padding:.8em .7em;color:var(--navy)}
 .ms-cards i{width:.75em;height:.75em;border-radius:50%;background:var(--green);flex:none}
@@ -355,9 +355,9 @@ td.no{color:var(--muted)}
 .ms-form{margin:1.2em 1.2em 1.2em 0;background:#fff;border-radius:.8em;padding:1em;display:flex;flex-direction:column;gap:.6em;box-shadow:0 1em 2em rgba(0,0,0,.25)}
 .f-title{font:800 .85em/1 var(--display);color:var(--navy)}
 .f-field{height:1.7em;border:1px solid #DCE5F3;border-radius:.45em;padding:.5em;display:flex;align-items:center}
-.f-field i{display:block;height:.45em;border-radius:1em;background:#9FB3D1;width:0;animation:dvtype 8s ease-in-out infinite}
+.f-field i{display:block;height:.45em;border-radius:1em;background:#9FB3D1;width:70%;transform:scaleX(0);transform-origin:left;animation:dvtype 8s ease-in-out infinite}
 .f-field:nth-of-type(3) i{animation-delay:.5s}.f-field:nth-of-type(4) i{animation-delay:1s}
-@keyframes dvtype{0%,8%{width:0}22%,88%{width:70%}100%{width:0}}
+@keyframes dvtype{0%,8%{transform:scaleX(0)}22%,88%{transform:scaleX(1)}100%{transform:scaleX(0)}}
 .f-btn{position:relative;height:2.2em;border-radius:.5em;background:var(--blue);overflow:hidden;animation:dvbook 8s ease-in-out infinite}
 .f-btn em{position:absolute;inset:0;display:grid;place-items:center;font:700 .72em/1 var(--body);color:#fff;font-style:normal;transition:opacity .3s}
 .f-btn em:last-child{opacity:0;animation:dvbooked 8s ease-in-out infinite}

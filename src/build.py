@@ -4,7 +4,7 @@ Usage: python3 build.py deploy|preview
 deploy  -> ./dist     clean URLs (/pricing), absolute assets, real form posts
 preview -> ./preview  flat .html files for the Artifact preview
 """
-import json, os, sys, shutil, html
+import json, os, re, sys, shutil, html
 from datetime import date
 from trades import TRADES, ICONS
 from posts import POSTS
@@ -140,17 +140,31 @@ function shrink(file){return new Promise(function(res){if(!/^image\\/(jpeg|png|w
 DEPLOY_FORM_JS = '''document.querySelectorAll("form[enctype]").forEach(function(f){f.addEventListener("submit",function(e){e.preventDefault();var btn=f.querySelector("button[type=submit]");btn.disabled=true;btn.textContent="Uploading, please wait...";var fd=new FormData(f),jobs=[];f.querySelectorAll("input[type=file]").forEach(function(inp){if(inp.files.length){jobs.push(shrink(inp.files[0]).then(function(x){fd.set(inp.name,x,x.name);}));}else{fd.delete(inp.name);}});Promise.all(jobs).then(function(){return fetch("/",{method:"POST",body:fd});}).then(function(r){if(!r.ok)throw new Error(r.status);window.location.href="/thanks";}).catch(function(){btn.disabled=false;btn.textContent="Try again";alert("Upload failed. Try fewer photos, or text them to us instead.");});});});'''
 PREVIEW_FORM_JS = '''document.querySelectorAll("form[data-netlify]").forEach(function(f){f.addEventListener("submit",function(e){e.preventDefault();var m=f.querySelector(".form-ok");if(m){m.hidden=false;m.focus();}});});'''
 
+_CSS = None
+def css_tag():
+    global _CSS
+    if MODE != "deploy":
+        return '<link rel="stylesheet" href="styles.css">'
+    if _CSS is None:
+        c = open("styles.css").read().replace('url("assets/', 'url("/assets/')
+        c = re.sub(r"/\*.*?\*/", "", c, flags=re.S)
+        c = re.sub(r"\s*\n\s*", " ", c).strip()
+        _CSS = c
+    return "<style>" + _CSS + "</style>"
+
+LOAD_LATE = "function(f){var d=false,go=function(){if(d)return;d=true;f();};['scroll','pointerdown','keydown','touchstart'].forEach(function(e){window.addEventListener(e,go,{once:true,passive:true});});window.addEventListener('load',function(){setTimeout(go,3500);});}"
+
 def ga_tag():
     if MODE != "deploy" or not GA4_ID:
         return ""
-    return f'''<script>window.addEventListener('load',function(){{var g=document.createElement('script');g.async=true;g.src='https://www.googletagmanager.com/gtag/js?id={GA4_ID}';document.head.appendChild(g);}});</script>
+    return f'''<script>({LOAD_LATE})(function(){{var g=document.createElement('script');g.async=true;g.src='https://www.googletagmanager.com/gtag/js?id={GA4_ID}';document.head.appendChild(g);}});</script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','{GA4_ID}');
 document.addEventListener('click',function(e){{var a=e.target.closest&&e.target.closest('a[href^="tel:"]');if(a){{gtag('event','click_to_call',{{link_url:a.getAttribute('href'),page_path:location.pathname}});}}}});</script>'''
 
 def meta_pixel():
     if MODE != "deploy" or not META_PIXEL_ID:
         return ""
-    return f'''<script>!function(f,b,e,v,n,t,s){{if(f.fbq)return;n=f.fbq=function(){{n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)}};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];f.addEventListener('load',function(){{t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}})}}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','{META_PIXEL_ID}');fbq('track','PageView');
+    return f'''<script>!function(f,b,e,v,n,t,s){{if(f.fbq)return;n=f.fbq=function(){{n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)}};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];({LOAD_LATE})(function(){{t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}})}}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','{META_PIXEL_ID}');fbq('track','PageView');
 document.addEventListener('click',function(e){{var a=e.target.closest&&e.target.closest('a[href^="tel:"]');if(a){{fbq('track','Contact');}}}});</script>
 <noscript><img height="1" width="1" style="display:none" alt="" src="https://www.facebook.com/tr?id={META_PIXEL_ID}&ev=PageView&noscript=1"></noscript>'''
 
@@ -190,7 +204,7 @@ def page(path, title, desc, body, active="", schema=None, og_type="website", pri
 <link rel="apple-touch-icon" href="{A}apple-touch-icon.png"><link rel="manifest" href="{A}site.webmanifest">
 <link rel="preload" href="{asset("fonts/inter-latin-400-normal.woff2")}" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{asset("fonts/poppins-latin-800-normal.woff2")}" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="{css_href}">
+{css_tag()}
 <script type="application/ld+json">{ld}</script>
 </head>
 <body>
@@ -947,6 +961,7 @@ def extras():
     robots += "".join(f"User-agent: {b}\nAllow: /\nDisallow: /thanks\n\n" for b in ai_bots)
     robots += f"Sitemap: {SITE}/sitemap.xml\n"
     open(os.path.join(OUT,"robots.txt"),"w").write(robots)
+    open(os.path.join(OUT,"_headers"),"w").write("/assets/*\n  Cache-Control: public, max-age=2592000\n/styles.css\n  Cache-Control: public, max-age=86400\n")
     open(os.path.join(OUT,INDEXNOW_KEY+".txt"),"w").write(INDEXNOW_KEY)
     redirects = ["/detailing / 301","/hvac /hvac-websites 301","/roofing /roofing-websites 301","/cleaning /cleaning-business-websites 301",
                  "/landscaping /landscaping-websites 301","/work /our-work 301"]
