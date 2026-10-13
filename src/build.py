@@ -20,6 +20,7 @@ LOGO = "https://vibe.filesafe.space/1783379195664317566/attachments/042b063c-12b
 LOGO_WHITE = "https://vibe.filesafe.space/1783379195664317566/attachments/2287cd0e-9e28-45f6-834a-76c017c1ceaf.png"
 FB = "https://web.facebook.com/profile.php?id=61591392166533"
 IG = "https://www.instagram.com/sitesthatbook"
+YT = "https://www.youtube.com/channel/UCRzdljB_fEA3Upj1654csDg"
 TODAY = date.today().isoformat()
 SETUP, MONTHLY = "$349", "$99"
 INDEXNOW_KEY = "5f8f7277582d7fbfae0c523aa3bbef1e"
@@ -68,7 +69,7 @@ ORG = {
  "address":{"@type":"PostalAddress","streetAddress":"30 N Gould St","addressLocality":"Sheridan","addressRegion":"WY","postalCode":"82801","addressCountry":"US"},
  "areaServed":{"@type":"Country","name":"United States"},
  "priceRange":"$349 setup, from $99/month",
- "sameAs":[FB,IG],
+ "sameAs":[FB,IG,YT],
  "knowsAbout":["Website design for contractors","Home service websites","Local SEO","Google Business Profile","Google Ads for contractors"],
 }
 WEBSITE = {"@type":"WebSite","@id":SITE+"/#website","url":SITE+"/","name":"SitesThatBook","publisher":{"@id":SITE+"/#org"}}
@@ -110,7 +111,7 @@ def footer():
 <div class="foot-grid">
  <div class="stack">{brand(light=True)}<p>Done-for-you websites for home service businesses across the United States. Built to rank, built to book.</p>
  <p>30 N Gould St, Sheridan, WY 82801<br><a href="tel:{TEL}">{PHONE}</a><br><a href="mailto:{EMAIL}">{EMAIL}</a></p>
- <p><a href="{FB}" rel="noopener">Facebook</a> &nbsp;.&nbsp; <a href="{IG}" rel="noopener">Instagram</a></p></div>
+ <p><a href="{FB}" rel="noopener">Facebook</a> &nbsp;.&nbsp; <a href="{IG}" rel="noopener">Instagram</a> &nbsp;.&nbsp; <a href="{YT}" rel="noopener">YouTube</a></p></div>
  <div><h3>Industries</h3><ul>{trades}</ul></div>
  <div><h3>Services</h3><ul>
   <li><a href="{L("home-service-website-design")}">Home service website design</a></li>
