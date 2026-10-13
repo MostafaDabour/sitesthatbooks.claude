@@ -149,6 +149,8 @@ TRADES = [
   ("Service area list","Every city you serve, written out for local search."),
  ],
  "pages":["Home with same day repair offer","Services: springs, openers, new doors, maintenance","About your crew","Reviews","Contact with quote form"],
+  "video":{"id":"sgt0svxYWLw","title":"When your nephew builds your garage door website","thumb":"https://i.ytimg.com/vi/sgt0svxYWLw/hq2.jpg",
+  "head":"Sound familiar?","text":"A lot of garage door companies are running on a site a relative built years ago. It looks fine to you, but a homeowner with a car stuck behind a broken spring needs your number, your service area and proof you show up fast, all in the first screen. That is the job of a garage door website."},
  "example":("Example booking alert","Broken spring, car stuck inside","8:05 AM . Today"),
  "faqs":[
   ("Do you build websites for garage door repair companies?","Yes. Garage door is one of our core trades. We set up repair and new door paths, a gallery, a quote form and your full service area."),

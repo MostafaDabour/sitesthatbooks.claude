@@ -132,6 +132,7 @@ def footer():
 SCRIPT = '''<script>
 (function(){try{var nv=performance.getEntriesByType("navigation")[0];if(!location.hash&&(!nv||nv.type!=="back_forward")){var top=function(){document.documentElement.style.scrollBehavior="auto";window.scrollTo(0,0);document.documentElement.style.scrollBehavior="";};var moved=false;["wheel","touchstart","keydown"].forEach(function(t){window.addEventListener(t,function(){moved=true;},{once:true,passive:true});});top();window.addEventListener("load",function(){if(!moved)top();});}}catch(e){}})();
 (function(){var b=document.getElementById("menubtn"),n=document.getElementById("navlinks");if(b&&n){b.addEventListener("click",function(){var o=n.classList.toggle("open");b.setAttribute("aria-expanded",o?"true":"false");b.textContent=o?"Close":"Menu";});}
+document.querySelectorAll("button.yt").forEach(function(b){b.addEventListener("click",function(){var f=document.createElement("iframe");f.src="https://www.youtube-nocookie.com/embed/"+b.getAttribute("data-yt")+"?autoplay=1&playsinline=1";f.title=b.getAttribute("aria-label");f.allow="autoplay; encrypted-media; picture-in-picture";f.allowFullscreen=true;b.replaceWith(f);f.className="yt-frame";});});
 %s})();
 </script>'''
 UPLOAD_JS = '''document.querySelectorAll("[data-show-when]").forEach(function(box){var n=box.getAttribute("data-show-when"),v=box.getAttribute("data-show-value");document.querySelectorAll('input[name="'+n+'"]').forEach(function(r){r.addEventListener("change",function(){box.hidden=!(r.checked&&r.value===v);});});});
@@ -491,6 +492,16 @@ def proof_section(t):
  {work_block(w)}
 </div></section>'''
 
+def video_section(t):
+    v = t.get("video")
+    if not v:
+        return ""
+    return f'''<section class="section"><div class="wrap split" style="align-items:center">
+ <div class="stack"><span class="eyebrow">Watch</span><h2>{v["head"]}</h2><p class="lede">{v["text"]}</p><p><a class="btn btn-primary" href="{L("get-started")}">Get my {t["name"].lower()} site</a></p></div>
+ <div><button class="yt" type="button" data-yt="{v["id"]}" aria-label="Play video: {html.escape(v["title"])}"><img src="{v["thumb"]}" alt="{html.escape(v["title"])}" loading="lazy" decoding="async" width="360" height="640"><span class="yt-play" aria-hidden="true"></span></button>
+ <p class="form-note" style="text-align:center;margin-top:10px"><a href="https://www.youtube.com/shorts/{v["id"]}" rel="noopener" target="_blank">Watch on YouTube</a></p></div>
+</div></section>'''
+
 def trade_page(t):
     others = [x for x in TRADES if x["slug"] != t["slug"]][:4]
     body = f'''<section class="hero"><div class="wrap hero-grid">
@@ -509,6 +520,7 @@ def trade_page(t):
  <div class="section-head"><span class="eyebrow">The problem</span><h2>Why most {t["name"].lower()} websites lose jobs</h2></div>
  <div class="grid g2">{"".join(f'<div class="card"><h3>{a}</h3><p>{b}</p></div>' for a,b in t["pains"])}</div>
 </div></section>
+{video_section(t)}
 
 <section class="section mist"><div class="wrap">
  <div class="section-head"><span class="eyebrow">Built for {t["name"].lower()}</span><h2>What goes into our {phrase(t)}</h2><p class="lede">Features picked for how {t["who"]} actually win work.</p></div>
