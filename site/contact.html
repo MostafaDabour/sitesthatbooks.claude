@@ -152,6 +152,7 @@ document.querySelectorAll("form[data-stb]").forEach(function (f) {
     });
     data.append("form_name", f.getAttribute("name"));
     data.append("page", location.pathname);
+    var planM = location.hash.match(/plan=([a-z-]+)/); if (planM) { data.append("plan", planM[1]); }
     if (!canUpload && chosen.length) { data.append("files_note", "Client attached " + chosen.length + " file(s) but uploads are not connected yet. Ask them to text or email the logo and photos."); }
     var biz = (f.querySelector('[name="business"]') || {}).value || "lead";
     var folder = "onboarding/" + biz.toLowerCase().replace(/[^a-z0-9]+/g, "-").slice(0, 40);
@@ -199,6 +200,7 @@ document.querySelectorAll("[data-step-next]").forEach(function (btn) {
     step1.forEach(function (el) { data.append(el.name, el.value); });
     data.append("form_name", "onboarding_lead");
     data.append("page", location.pathname);
+    var planM = location.hash.match(/plan=([a-z-]+)/); if (planM) { data.append("plan", planM[1]); }
     var show = function () {
       f.querySelectorAll(":scope > .field, :scope > .form-step-head, :scope > .step1-actions").forEach(function (el) { el.hidden = true; });
       var s2 = f.querySelector(".step2"); s2.hidden = false;

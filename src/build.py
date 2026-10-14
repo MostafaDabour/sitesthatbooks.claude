@@ -287,15 +287,15 @@ def plans(full=False):
  <div class="plan"><h3>Launch</h3><p class="sub">Your complete 5-page website.</p>
   <div class="price">{SETUP} <small>setup</small></div><div class="sub">then <b>{MONTHLY}/month</b>. No contract.</div>
   {checks(["Live in 48 hours","5 custom pages for your trade","Hosting, SSL and domain connection","2 updates and 2 SEO blog posts a month"]+extra_launch)}
-  <a class="btn btn-ghost" href="{L("get-started")}?plan=launch">Start with Launch</a></div>
+  <a class="btn btn-ghost" href="{L("get-started")}#plan=launch">Start with Launch</a></div>
  <div class="plan featured"><span class="badge">Most popular</span><h3>Get Found</h3><p class="sub">Show up in the Google map pack.</p>
   <div class="price">+$149 <small>/month</small></div><div class="sub">Added to Launch.</div>
   {checks(["Everything in Launch","Google Business Profile setup","5 Google Business posts a month","Automated review requests","Local directory citations"]+(["Quarterly strategy call"] if full else []))}
-  <a class="btn btn-primary" href="{L("get-started")}?plan=get-found">Start with Get Found</a></div>
+  <a class="btn btn-primary" href="{L("get-started")}#plan=get-found">Start with Get Found</a></div>
  <div class="plan"><h3>Get Booked</h3><p class="sub">Ads, CRM and follow up, done for you.</p>
   <div class="price">+$499 <small>/month</small></div><div class="sub">Added to Launch.</div>
   {checks(["Everything in Get Found","Managed Google Ads campaign","CRM with instant lead follow up","Missed call text back"]+(["Monthly strategy call"] if full else []))}
-  <a class="btn btn-ghost" href="{L("get-started")}?plan=get-booked">Start with Get Booked</a></div>
+  <a class="btn btn-ghost" href="{L("get-started")}#plan=get-booked">Start with Get Booked</a></div>
 </div>'''
 
 SHIELD = '<svg class="shield" viewBox="0 0 76 88" aria-hidden="true"><path d="M38 2L72 14v28c0 22-15 37-34 44C19 79 4 64 4 42V14L38 2z" fill="#1D6FF2"/><path d="M24 44l10 10 19-20" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>'
@@ -816,7 +816,7 @@ def services():
 <div class="card"><h3>2 blog posts a month</h3><p>Included with every site. Articles built around local questions your customers ask.</p></div>
 <div class="card"><h3>Quarterly strategy call</h3><p>We review rankings, calls and reviews with you and plan the next quarter.</p></div>
 </div></div></section>
-<section class="section mist"><div class="wrap split"><div class="prose"><h2>Why your website and map listing need each other</h2><p>Google looks at your website to confirm what your Business Profile says. Matching services, service areas and contact details across both is one of the simplest ways to build trust with Google. That is why every SitesThatBook website is built to support your profile from day one.</p></div><div class="stack"><div class="card"><h3>Get Found plan</h3><div class="price" style="font-family:var(--display);font-weight:800;font-size:2rem;color:var(--navy)">+$149/mo</div><p>Added to your Launch plan.</p><a class="btn btn-primary" href="{L("get-started")}?plan=get-found">Start with Get Found</a></div></div></div></section>
+<section class="section mist"><div class="wrap split"><div class="prose"><h2>Why your website and map listing need each other</h2><p>Google looks at your website to confirm what your Business Profile says. Matching services, service areas and contact details across both is one of the simplest ways to build trust with Google. That is why every SitesThatBook website is built to support your profile from day one.</p></div><div class="stack"><div class="card"><h3>Get Found plan</h3><div class="price" style="font-family:var(--display);font-weight:800;font-size:2rem;color:var(--navy)">+$149/mo</div><p>Added to your Launch plan.</p><a class="btn btn-primary" href="{L("get-started")}#plan=get-found">Start with Get Found</a></div></div></div></section>
 <section class="section"><div class="wrap split" style="align-items:start"><div class="prose">
 <h2>What decides who shows up in the map pack?</h2>
 <p>Google ranks local results on three things: <b>relevance</b> (does your business match the search), <b>distance</b> (how close you are to the person searching) and <b>prominence</b> (how well known and trusted you are). You cannot move your shop closer to every customer, but you can control relevance and prominence.</p>
