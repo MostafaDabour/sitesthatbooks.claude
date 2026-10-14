@@ -11,6 +11,7 @@ When fewer than 5 unchecked topics remain, the agent adds 10 new ones at the bot
 - [x] What Makes a Roofing Website Win Estimates? (roofing-website-design) 2026-10-09
 - [x] How to Get More Plumbing Calls From Google (get-more-plumbing-calls-from-google) 2026-10-09
 - [x] Electrician Website Design: 12 Must Haves for More Calls (electrician-website-must-haves) 2026-10-12
+- [x] Web Design for Contractors: What to Look For Before Hiring (web-design-for-contractors-hiring-guide) 2026-10-14
 
 ## Priority keywords (every post must support one of these)
 | # | Keyword | Money page |
@@ -27,7 +28,6 @@ When fewer than 5 unchecked topics remain, the agent adds 10 new ones at the bot
 | K10 | local seo for contractors | /local-seo-for-contractors |
 
 ## Up next
-- [ ] Web Design for Contractors: What to Look For Before You Hire Anyone | K4 | target: web design for contractors | link: /home-service-website-design
 - [ ] Plumbing Website Design Mistakes That Cost You Emergency Calls | K1 | target: plumbing website design | link: /plumber-websites
 - [ ] How to Rank in the Google Map Pack as a Home Service Business | K10 | target: local seo for contractors | link: /local-seo-for-contractors
 - [ ] How to Choose an HVAC Website Design Company | K2 | target: hvac website design | link: /hvac-websites

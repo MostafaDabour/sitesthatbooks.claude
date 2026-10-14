@@ -1,5 +1,76 @@
 POSTS = [
 {
+ "slug":"web-design-for-contractors-hiring-guide","tag":"Website tips","read":7,
+ "title":"Web Design for Contractors: What to Look For Before Hiring",
+ "h1":"Web design for contractors: <em>what to look for</em> before you hire anyone",
+ "desc":"Hiring web design for contractors? Check these 8 things first: trade experience, copy, ownership, speed, SEO setup, monthly support and red flags.",
+ "answer":"Before you hire anyone for web design for contractors, look at live sites they built for other trades, ask who writes the copy, and confirm you will own your domain and content. Then check what the monthly fee covers, how fast changes get made and whether you can leave without a long contract.",
+ "toc":[("why","Why is web design for contractors different from other websites?"),("portfolio","What should you look for in a designer's past work?"),("copy","Who writes the words on your site?"),("ownership","Will you own your domain, content and site?"),("seo","Does the designer handle local SEO setup?"),("support","What happens after the site goes live?"),("red-flags","What are the red flags when hiring a contractor web designer?"),("questions","Which questions should you ask before you sign?")],
+ "faqs":[("Should I hire a local web designer or a company that works with contractors nationwide?","Location matters less than trade experience. A designer across the country who has built many contractor sites will usually know more about what makes homeowners call than a local generalist. What matters is that the copy is written for your towns and that you can reach someone quickly when you need a change."),
+         ("How long should it take to build a contractor website?","It depends on the provider and how much content you need to supply. Custom agency builds often take several weeks. Done for you services that use a proven layout and write the copy for you can be much faster. Ask for a clear timeline in writing and what you need to hand over to hit it.")],
+ "body":"""
+<p>Most contractors hire a web designer once every few years, so it is hard to know what good looks like. You get quotes that range from a few hundred dollars to tens of thousands, and every pitch sounds the same. This guide on web design for contractors walks through what to check before you hire anyone, so you end up with a site that brings in calls instead of one that just looks nice. If you want to know what a site usually costs, our post on <a href="/blog/how-much-does-a-contractor-website-cost">contractor website cost</a> covers that. Here we focus on choosing who builds it.</p>
+<h2 id="why">Why is web design for contractors different from other websites?</h2>
+<p>A restaurant or a boutique wants people to browse. A contractor wants people to call. Homeowners usually land on your site with a problem: a leaking pipe, a dead AC, a sagging gutter, a lawn that got away from them. They want to know three things fast: do you do this job, do you work in my town, and can I trust you in my home.</p>
+<p>That changes how the site should be built. The phone number has to be one tap away on mobile. Services need to be described the way homeowners search for them. Your license, insurance, real photos and reviews need to sit near the top, not buried on an About page. A designer who mostly builds sites for other kinds of businesses may make something beautiful that misses all of this.</p>
+<h2 id="portfolio">What should you look for in a designer's past work?</h2>
+<p>Ask for links to live sites they built for home service businesses, not screenshots or mockups. Then open each one on your phone and check:</p>
+<ul>
+<li><b>Can you tell the trade and the town in two seconds?</b> The headline should say what they do and where.</li>
+<li><b>Is there a call button you can tap without scrolling?</b> Bonus if it stays on screen as you scroll.</li>
+<li><b>Does it load fast on mobile data?</b> If it feels slow on your phone, it feels slow to customers.</li>
+<li><b>Do the sites look different from each other?</b> If every site in the portfolio is the same template with a new logo, yours will be too.</li>
+<li><b>Are the photos real?</b> Stock photos of smiling models in clean hard hats are a sign the designer did not push the client for real job photos.</li>
+</ul>
+<p>You can see what we mean on our <a href="/our-work">work page</a>, which links to live sites we built for a landscaper, a refrigeration company and a general contractor.</p>
+<h2 id="copy">Who writes the words on your site?</h2>
+<p>This is the question most contractors forget to ask, and it often decides whether the site works. Many designers build the layout and then hand you a list of empty boxes to fill in. Most busy owners never get to it, so the site launches with filler text or one line per service.</p>
+<p>Ask directly: "Will you write the copy, or do I?" If they write it, ask how they learn about your business. A good process uses a short questionnaire or call about your services, service area, licenses, warranties and the jobs you want more of. The copy should read like it was written for your company and your towns, not swapped in from another client's site.</p>
+<h2 id="ownership">Will you own your domain, content and site?</h2>
+<p>Get these answers in writing before you pay anything:</p>
+<ol>
+<li><b>Who owns the domain?</b> It should be registered in your name or transferred to you on request. Losing your domain means losing the address on your trucks, cards and Google profile.</li>
+<li><b>Who owns the content?</b> Your photos, logo and text should be yours to keep.</li>
+<li><b>What happens if you leave?</b> Ask if you can take the site, the content or both, and whether there is a fee or notice period.</li>
+</ol>
+<p>Monthly website services are a fair model. You pay for hosting, updates and support instead of a big upfront bill. But the terms on leaving should be clear from day one.</p>
+<h2 id="seo">Does the designer handle local SEO setup?</h2>
+<p>A site nobody finds will not bring calls. At a minimum, the build should include a unique page title and description for each page, one clear main heading per page, a written list of every town you serve, schema markup that tells Google you are a local business, and a business name, address and phone number that match your Google Business Profile exactly.</p>
+<p>Ongoing work like building reviews and improving your Google profile is a separate service, and that is fine. Just know which one you are buying. Our guide to <a href="/local-seo-for-contractors">local SEO for contractors</a> explains what that ongoing work covers.</p>
+<h2 id="support">What happens after the site goes live?</h2>
+<p>Your site will need changes. You add a service, raise your prices, hire a crew in a new town or win a new certification. Ask:</p>
+<ul>
+<li>How do I request a change, and how long does it usually take?</li>
+<li>Are small edits included, or billed by the hour?</li>
+<li>Who handles hosting, security and backups?</li>
+<li>Do I get a real person, or a ticket queue?</li>
+</ul>
+<p>If the answer to most of these is "you do it yourself in our editor", that may suit you. If you would rather spend your evenings on estimates, look for someone who makes the changes for you.</p>
+<h2 id="red-flags">What are the red flags when hiring a contractor web designer?</h2>
+<ul>
+<li><b>No live home service sites to show.</b> Mockups are not proof.</li>
+<li><b>Long contracts with no clear exit.</b> A good provider keeps you because the site works, not because you are locked in.</li>
+<li><b>Guaranteed rankings.</b> Nobody can promise a spot on Google. Anyone who does is guessing or worse.</li>
+<li><b>The domain registered in their name with no transfer promise.</b></li>
+<li><b>Vague answers about the monthly fee.</b> If they cannot say what you get each month, you probably get very little.</li>
+<li><b>Pressure to add pages you do not need.</b> Five strong pages beat thirty thin ones for most contractors.</li>
+</ul>
+<h2 id="questions">Which questions should you ask before you sign?</h2>
+<p>Bring this short list to every call:</p>
+<ol>
+<li>Can I see three live sites you built for contractors?</li>
+<li>Who writes the copy, and what do you need from me?</li>
+<li>When will the site be live, in writing?</li>
+<li>Who owns the domain and content, and what happens if I leave?</li>
+<li>What SEO setup is included at launch?</li>
+<li>What does the monthly fee cover, and how fast are changes made?</li>
+<li>Is there a contract, and how long is it?</li>
+</ol>
+<p>Compare the answers side by side. The cheapest quote is rarely the best value, and the most expensive one is not automatically the best work. Pick the one with clear answers, real contractor sites and terms you can live with.</p>
+<p>If you want to see how we answer these questions, our <a href="/home-service-website-design">web design for contractors</a> page lays out the process, and our <a href="{PRICING}">pricing page</a> shows exactly what is included: $349 setup and $99 a month, no contracts, with copy written for you. If you do not love the site on your launch call and we cannot fix it on the call, you get your setup fee back. Your site goes live 48 hours after you <a href="{GET}">fill the onboarding form</a>.</p>
+"""
+},
+{
  "slug":"electrician-website-must-haves","tag":"Website tips","read":7,
  "title":"Electrician Website Design: 12 Must Haves for More Calls",
  "h1":"Electrician website design: <em>12 must haves</em> for more calls",
