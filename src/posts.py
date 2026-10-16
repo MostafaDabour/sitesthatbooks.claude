@@ -1,5 +1,66 @@
 POSTS = [
 {
+ "slug":"plumbing-website-design-mistakes","tag":"Website tips","read":6,
+ "title":"Plumbing Website Design Mistakes That Cost Emergency Calls",
+ "h1":"Plumbing website design mistakes that <em>cost you emergency calls</em>",
+ "desc":"Plumbing website design mistakes that lose emergency calls: hidden phone numbers, vague hours, slow pages, long forms and missing trust signals.",
+ "answer":"The plumbing website design mistakes that cost the most emergency calls are a phone number that is hard to tap, unclear emergency hours, a slow mobile page and a long form as the only way to reach you. Fix those four first, then add your license, real reviews and a phone number that matches your Google profile.",
+ "toc":[("why","Why do emergency callers leave a plumbing website so fast?"),("call","Is your phone number hard to find or tap?"),("emergency","Does your site say clearly when you take emergency calls?"),("headline","Does the first screen say what you fix and where?"),("speed","Is your plumbing website too slow on a phone?"),("forms","Are you making urgent customers fill out a long form?"),("trust","Can a stranger tell you are licensed and trusted?"),("nap","Does your phone number match everywhere?"),("fix","How do you fix these plumbing website design mistakes?")],
+ "faqs":[("Should a plumbing website say 24/7 if we only take some after hours calls?","No. Say exactly what you offer, such as \"Emergency calls until 10pm, 7 days a week\" or \"After hours calls answered for existing customers\". A homeowner who calls a 24/7 number at 2am and gets voicemail will not call back, and may leave a review about it. Specific, honest hours build more trust than a badge you cannot back up."),
+         ("Is a contact form or a phone number better for emergency plumbing leads?","For emergencies, the phone wins. Someone with water on the floor wants a person, not a reply tomorrow. Keep a short form for people booking routine work like a fixture install or a water heater quote, but make the call button the first and most visible option on every page.")],
+ "body":"""
+<p>Emergency plumbing calls are some of the best jobs you get. The homeowner needs help now, they are not collecting five quotes, and a good experience often turns them into a customer for life. But those same callers are the least patient visitors your site will ever have. Small plumbing website design mistakes that a relaxed shopper would forgive will send a panicked homeowner straight back to Google to call the next plumber. This post walks through the mistakes we see most often and how to fix each one.</p>
+<h2 id="why">Why do emergency callers leave a plumbing website so fast?</h2>
+<p>Picture who is on the other end. Water is coming through the ceiling, the basement drain is backing up or there has been no hot water since last night. They are on a phone, often with wet hands, sometimes standing in the problem. They searched something like "emergency plumber near me", tapped a result and gave your site a few seconds.</p>
+<p>In those seconds they want answers to three questions: do you handle this, do you come to my area, and can I call you right now. Anything that slows those answers down, whether it is a slow page, a hidden number or vague hours, is a reason to hit the back button. Each mistake below breaks one of those answers.</p>
+<h2 id="call">Is your phone number hard to find or tap?</h2>
+<p>This is the most common and most expensive mistake. We see plumbing sites where the number is only in the footer, sits inside an image that cannot be tapped, or is written in small gray text in the corner of the header.</p>
+<p>The fix is simple:</p>
+<ul>
+<li><b>Put the number in the header on every page</b>, as real text, large enough to read at arm's length.</li>
+<li><b>Make it a tap to call link</b>, so one tap on a phone starts the call. Test it on your own phone.</li>
+<li><b>Add a call bar that stays on screen</b> at the bottom of mobile pages as people scroll. Someone halfway down your water heater section should never have to scroll back up to call.</li>
+<li><b>Repeat a call button after every major section</b>, not just at the top and bottom.</li>
+</ul>
+<h2 id="emergency">Does your site say clearly when you take emergency calls?</h2>
+<p>There are two versions of this mistake. The first is saying nothing at all, so a homeowner at 9pm has no idea whether calling is worth it. The second is a big "24/7" badge on a company that really sends late calls to voicemail. The first loses the call. The second loses the call and often earns a bad review.</p>
+<p>Write your real availability near the top of the home page and on your contact page, in plain words: which hours you answer, which days, and whether there is an after hours fee. Then list the emergencies you actually respond to, such as burst or frozen pipes, sewer backups, no hot water, overflowing toilets and active leaks. Seeing their exact problem on the list tells a stressed homeowner they are in the right place.</p>
+<h2 id="headline">Does the first screen say what you fix and where?</h2>
+<p>A headline like "Quality you can count on" tells a visitor nothing. On a phone, the first screen is all most people see before deciding to stay, so it has to do real work. A strong first screen names the service and the place, for example "Licensed plumbers serving Mesa, Gilbert and Chandler", then shows the call button and one or two trust signals right under it.</p>
+<p>Leave the big rotating slider and the welcome paragraph about your company history for further down the page, if you keep them at all. Nobody with a burst pipe reads them.</p>
+<h2 id="speed">Is your plumbing website too slow on a phone?</h2>
+<p>A page that feels fine on your office computer can crawl on a phone with two bars of signal in a basement. The usual causes are oversized photos, auto playing videos, heavy sliders, chat widgets and pop ups that load before anything else.</p>
+<p>Open your site on your phone with WiFi turned off and count how long it takes before you can see your number and tap it. If you find yourself waiting, so are your customers. Compress photos before uploading, remove anything that moves on its own, and cut any pop up that covers the call button. A pop up asking for an email address is the last thing a homeowner with a flooded laundry room wants to close.</p>
+<h2 id="forms">Are you making urgent customers fill out a long form?</h2>
+<p>Forms are useful for routine work like a fixture install or a repiping quote. They are a poor fit for emergencies, and long forms are a poor fit for anything. Every extra field, like a dropdown for how they heard about you or a required email address, is another chance for someone to give up.</p>
+<ul>
+<li>Make the call button the first option and the form the second.</li>
+<li>Keep the form to name, phone, address or zip code, the problem and an optional notes box.</li>
+<li>Say what happens next, such as "We call back within 15 minutes during business hours", but only if that is true.</li>
+<li>Make sure form leads go somewhere someone checks, like a text alert to your phone, not an inbox nobody opens until Monday.</li>
+</ul>
+<h2 id="trust">Can a stranger tell you are licensed and trusted?</h2>
+<p>Even in a hurry, people are letting a stranger into their home. A license number, "licensed and insured", your Google rating and a couple of real reviews near the top answer the trust question without slowing anyone down. Put the license number in the footer of every page too.</p>
+<p>Use real photos of your trucks, crew and finished jobs instead of stock images of models holding wrenches. And only show reviews customers actually left. Never write or edit them yourself.</p>
+<h2 id="nap">Does your phone number match everywhere?</h2>
+<p>Many plumbers have collected several numbers over the years: an old landline, a cell, a tracking number from an ad campaign, a number from an answering service. When your website, Google Business Profile, truck wraps and directory listings show different numbers, two things go wrong. Customers get confused or reach a line nobody answers, and Google gets mixed signals about who you are.</p>
+<p>Pick one main number and use it on your website, your Google profile and your main listings. Your business name and service area should match too. If you want help keeping all of this consistent, our <a href="/local-seo-for-contractors">local SEO for contractors</a> page explains how we handle it.</p>
+<h2 id="fix">How do you fix these plumbing website design mistakes?</h2>
+<p>Run through this checklist on your phone, not your computer:</p>
+<ol>
+<li>Can you tap to call from the first screen of every page?</li>
+<li>Does a call bar stay on screen as you scroll?</li>
+<li>Are your real emergency hours and the emergencies you handle written near the top?</li>
+<li>Does the headline name your service and your towns?</li>
+<li>Can you see the number and tap it within a few seconds on mobile data?</li>
+<li>Is the form short, and do form leads reach your phone?</li>
+<li>Is your license number on the home page and in the footer?</li>
+<li>Does the phone number match your Google Business Profile exactly?</li>
+</ol>
+<p>Fix the call button, the hours and the speed first, since those affect every emergency visitor. The rest can follow. If you want to know which pages a plumbing site should have overall, our guide on <a href="/blog/what-pages-should-a-plumbing-website-have">what pages a plumbing website needs</a> covers that.</p>
+<p>If you would rather have it done for you, our <a href="/plumber-websites">plumbing website design</a> service builds every one of these fixes in from day one, with copy written for your company and your towns. Plans start at $349 setup and $99 a month with no contracts, and the details are on our <a href="{PRICING}">pricing page</a>. Your site goes live 48 hours after you <a href="{GET}">fill the onboarding form</a>.</p>
+"""},
+{
  "slug":"web-design-for-contractors-hiring-guide","tag":"Website tips","read":7,
  "title":"Web Design for Contractors: What to Look For Before Hiring",
  "h1":"Web design for contractors: <em>what to look for</em> before you hire anyone",
