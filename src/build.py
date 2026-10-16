@@ -787,20 +787,75 @@ def service_page(path, title, meta, eyebrow, h1, lede, sections, faqs, name):
     page(path, title, meta, body, priority="0.8", schema=[service_schema(name, meta, path), faq_schema(faqs), crumbs_schema([("Home",""),(eyebrow,path)])])
 
 def services():
+    ELEMENTS = [
+      ("A call button that never leaves the screen","Most homeowners find you on a phone. A tap to call button pinned to the top or bottom of every page turns a visit into a call in one tap."),
+      ("A headline that names your service and city","\"Same day plumbing in Tulsa\" beats \"Welcome to our website\". It tells the visitor and Google exactly what you do and where."),
+      ("A page or section for every service","Water heater repair, drain cleaning and repiping are searched separately. Each one needs its own section with its own words so it can rank."),
+      ("Your service area, written town by town","List the cities and neighborhoods you work in. It helps local search and stops calls from outside your area."),
+      ("A short quote or booking form","Name, phone, address and the job. Every extra field you add costs you requests, so ask only what you need to quote."),
+      ("Reviews where people decide","Put real reviews next to your call and form buttons, not on a page nobody opens."),
+      ("License, insurance and guarantees up top","Homeowners letting a stranger into their house want proof you are licensed, insured and stand behind the work."),
+      ("Real photos of your jobs and team","Before and after shots and photos of your trucks and crew build more trust than any stock image."),
+      ("Fast loading on a phone","A slow site loses the homeowner to the next listing. Light pages, compressed images and good hosting keep it quick."),
+      ("Hours, emergency service and response time","If you answer nights and weekends, say it loudly. If you offer same day service, put it in the first screen."),
+    ]
     service_page("home-service-website-design",
-      "Home Service Website Design for Contractors | SitesThatBook",
-      f"Home service and contractor website design, written for your trade and built to rank. {SETUP} setup, {MONTHLY}/month, live in 48 hours.",
+      "Home Services Website Design for Contractors | SitesThatBook",
+      f"Home service website design for contractors: the 10 things every site needs, real examples, costs and how we build yours. {SETUP} setup, {MONTHLY}/month.",
       "Home service website design","Home service and contractor website design that <em>turns visitors into jobs</em>",
-      "Good home service website design works like your best salesperson: it answers questions, builds trust and gets the homeowner to call. We design every page around that job, for contractors in every trade.",
+      "Good home service website design works like your best salesperson: it answers questions, builds trust and gets the homeowner to call. Here is what that takes, what it costs, real sites we built, and how we can build yours in 48 hours.",
       f'''<section class="section"><div class="wrap split"><div class="prose"><h2>What good home service website design gets right</h2>
-<p>Homeowners decide in seconds. They need to see what you do, where you work and how to reach you before they scroll. Then they look for proof: reviews, licenses, photos and a clear process.</p>
+<p>Homeowners decide in seconds. They need to see what you do, where you work and how to reach you before they scroll. Then they look for proof: reviews, licenses, photos and a clear process. A home services website design that answers those questions fast gets the call. One that makes people hunt for a phone number loses it to the next listing.</p>
 <p>Every SitesThatBook site follows a layout built around those moments. A headline that names your service and city. Call and estimate buttons that stay on screen. Trust signals near the top. One section for each service. A service area written out town by town. A short form that collects the details you need to quote.</p>
 <h2>Designed for phones first</h2><p>Most of your customers will find you on a phone, often while something is broken. We design for that screen first, with a sticky call bar and big tap targets, then scale up to desktop.</p></div>
 <div class="stack"><h3>Included in every site</h3>{checks(INCLUDED)}</div></div></section>
-<section class="section mist"><div class="wrap"><div class="section-head"><span class="eyebrow">Website design by trade</span><h2>Websites for contractors in every home service trade</h2><p class="lede">Every trade gets its own pages, words and features, because homeowners search for a plumber differently than for a roofer. Pick yours: {", ".join(f'<a href="{L(t["slug"])}">{phrase(t)}</a>' for t in TRADES)}.</p></div>{trades_grid()}</div></section>''',
-      [("How much does contractor website design cost?",f"With SitesThatBook it is {SETUP} setup and {MONTHLY} a month, including hosting, updates and SEO blog posts. Agencies commonly charge several thousand dollars upfront plus monthly care fees."),
-       ("How long does it take?","48 hours from your onboarding form to a live site."),
-       ("Do I need to provide the copy?","No. We write it for you from your onboarding form.")],
+
+<section class="section mist"><div class="wrap">
+ <div class="section-head"><span class="eyebrow">Checklist</span><h2>10 things every home services website design needs</h2><p class="lede">Use this list to judge your current site or any designer you are talking to. If a site misses more than two of these, it is costing you calls.</p></div>
+ <div class="grid g2">{"".join(f'<div class="card"><span class="num">{i+1:02d}</span><h3>{a}</h3><p>{b}</p></div>' for i,(a,b) in enumerate(ELEMENTS))}</div>
+</div></section>
+
+<section class="section"><div class="wrap">
+ <div class="section-head"><span class="eyebrow">Real examples</span><h2>Home service website design examples we built</h2><p class="lede">These are live sites for real home service businesses, not mockups. Open them on your phone and judge the work yourself.</p></div>
+ {"".join(work_block(w) for w in WORK)}
+</div></section>
+
+<section class="section mist"><div class="wrap">
+ <div class="section-head"><span class="eyebrow">Cost</span><h2>How much does home service website design cost?</h2><p class="lede">It depends on who builds it and what happens after launch. These are common ranges, not quotes from any specific company.</p></div>
+ <div class="grid g2">
+  <div class="card"><h3>DIY website builder</h3><p>A low monthly subscription, but you write, design, optimize and update everything yourself. The real cost is your evenings and a site that rarely ranks.</p></div>
+  <div class="card"><h3>Freelancer</h3><p>Commonly one to a few thousand dollars upfront. Quality varies a lot, and hosting, updates and SEO are often extra or left to you.</p></div>
+  <div class="card"><h3>Marketing agency</h3><p>Commonly several thousand dollars upfront plus a monthly retainer, with timelines measured in weeks or months. Good for large custom builds.</p></div>
+  <div class="card"><h3>Done for you with SitesThatBook</h3><p>{SETUP} setup and {MONTHLY} a month with hosting, SSL, updates, 2 SEO blog posts a month and a traffic report included. Live 48 hours after your onboarding form. No contract.</p></div>
+ </div>
+ <div style="margin-top:28px">{compare_table()}</div>
+</div></section>
+
+<section class="section"><div class="wrap">
+ <div class="section-head"><span class="eyebrow">Process</span><h2>How our home service website design process works</h2><p class="lede">Your part takes about 10 minutes. We do the writing, design, setup and SEO.</p></div>
+ {steps_block()}
+</div></section>
+
+<section class="section mist"><div class="wrap split"><div class="prose"><h2>Should you redesign your site or start fresh?</h2>
+<p>If your current site already ranks for a few searches and brings in some calls, a redesign that keeps your page addresses and best content is usually the safer move. If it is slow, outdated, built on a platform you cannot edit, or missing most of the checklist above, starting fresh is faster and cheaper than patching it.</p>
+<p>Either way, we keep what is working. If you already have a domain, we connect it, and if your old pages have links pointing to them, we redirect those addresses to the new pages so you do not lose them.</p></div>
+<div class="stack"><h3>Signs it is time for a new site</h3>{checks(["No click to call button on mobile","No page for your main services","Reviews hidden or missing","Takes more than a few seconds to load","You cannot update it yourself or get anyone to","Phone rings less than it used to"])}</div></div></section>
+
+<section class="section" id="pricing"><div class="wrap">
+ <div class="section-head"><span class="eyebrow">Pricing</span><h2>Home service website design pricing</h2><p class="lede">{SETUP} setup and {MONTHLY} a month. Add map pack SEO or Google Ads when you are ready.</p></div>
+ {plans()}
+</div></section>
+
+<section class="section mist"><div class="wrap">{guarantee()}</div></section>
+
+<section class="section"><div class="wrap"><div class="section-head"><span class="eyebrow">Website design by trade</span><h2>Websites for contractors in every home service trade</h2><p class="lede">Every trade gets its own pages, words and features, because homeowners search for a plumber differently than for a roofer. Pick yours: {", ".join(f'<a href="{L(t["slug"])}">{phrase(t)}</a>' for t in TRADES)}.</p></div>{trades_grid()}</div></section>''',
+      [("How much does home service website design cost?",f"With SitesThatBook it is {SETUP} setup and {MONTHLY} a month, including hosting, updates and 2 SEO blog posts a month. Freelancers commonly charge one to a few thousand dollars upfront, and agencies commonly charge several thousand dollars upfront plus monthly fees."),
+       ("What makes a great home services website design?","A call button that is always on screen, a headline with your service and city, a section for every service, your service area, reviews and licenses near the top, real job photos and a short quote form. It also has to load fast on a phone."),
+       ("How long does it take to build a home service website?","With us, 48 hours from your onboarding form to a live site. Agencies and freelancers commonly take several weeks."),
+       ("Do I need to write the content myself?","No. We write every page for your trade and service area from your onboarding form, and you review it on the launch call."),
+       ("Will my home service website show up on Google?","Every site is built with the basics Google looks for: fast pages, a page for each service, your service area, local schema markup and a sitemap. We also write 2 SEO blog posts a month. Ranking takes time, and adding the Get Found plan speeds it up with Google Business Profile work and reviews."),
+       ("Do I own my domain and content?","Yes. You own your domain name and the content and photos you provide. There is no contract, so you can cancel any time."),
+       ("Can you redesign my existing home service website?","Yes. We keep what is working, connect your domain and redirect your old page addresses to the new pages so you do not lose any links.")],
       "Home service website design")
 
     service_page("local-seo-for-contractors",
