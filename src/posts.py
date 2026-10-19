@@ -1,5 +1,78 @@
 POSTS = [
 {
+ "slug":"rank-in-google-map-pack","tag":"Local SEO","read":7,
+ "title":"How to Rank in Google's Map Pack as a Home Service Business",
+ "h1":"Local SEO for contractors: how to rank in the <em>Google map pack</em>",
+ "desc":"Local SEO for contractors: how the Google map pack picks the three businesses it shows, and the steps that move a home service company into it.",
+ "answer":"Google picks map pack businesses on three things it names itself: relevance, distance and prominence. You cannot change where the searcher stands, so you win by making your profile and website clearly match the job, keeping your details consistent everywhere, and building steady reviews and local mentions over time.",
+ "toc":[("what","What is the Google map pack and why does it matter?"),("factors","How does Google decide who shows up in the map pack?"),("relevance","How do you make Google see you as relevant?"),("distance","What can you do about distance?"),("prominence","How do you build prominence with local SEO for contractors?"),("website","What does your website have to do with the map pack?"),("avoid","What gets a home service business pushed out of the map?"),("track","How do you know if your map rankings are improving?")],
+ "faqs":[("How long does it take to get into the Google map pack?","It depends on how many competitors are in your area and how strong their profiles are. Fixing categories, services and inconsistent details can help within weeks, while reviews and local mentions build over months. In a crowded metro, expect steady work rather than a quick jump."),
+         ("Can a service area business with no storefront rank in the map pack?","Yes. Google allows service area businesses to hide their street address and list the areas they serve instead. You still need a real business location for verification, and you will usually rank best for searches near that location, so build your website and reviews around the towns you serve most.")],
+ "body":"""
+<p>When a homeowner searches "roofer near me" or "AC repair" on their phone, the first thing most of them see below the ads is a map with three businesses on it. That box is the Google map pack, and for many home service companies it is the single biggest source of calls. Getting into it is the core of local SEO for contractors. This guide explains how Google picks those three businesses and the practical steps that move you closer to the top, without tricks that can get your listing suspended.</p>
+<h2 id="what">What is the Google map pack and why does it matter?</h2>
+<p>The map pack is the group of local listings Google shows with a map for searches that have local intent. Each listing shows your name, star rating, review count, hours and, on a phone, a call button. A homeowner can call you without ever visiting your website.</p>
+<p>That is why it matters so much for trades. Someone with a leaking roof or a dead furnace is not reading ten pages of results. They look at the map, compare ratings for a few seconds and tap call. If you are not in those three spots, you are often not in the running at all. Tapping "more businesses" shows a longer list, but far fewer people go that far.</p>
+<h2 id="factors">How does Google decide who shows up in the map pack?</h2>
+<p>Google says its local results are based mainly on three things:</p>
+<ul>
+<li><b>Relevance:</b> how well your listing matches what the person searched for.</li>
+<li><b>Distance:</b> how far your business is from the searcher, or from the location named in the search.</li>
+<li><b>Prominence:</b> how well known and trusted your business is, based on things like reviews, links and mentions around the web.</li>
+</ul>
+<p>Google does not publish the exact weights, and nobody outside Google knows them. But every useful local SEO step supports one of these three. Keeping them in mind also helps you ignore advice that does not.</p>
+<h2 id="relevance">How do you make Google see you as relevant?</h2>
+<p>Relevance is the part you control most directly, and most of it lives in your Google Business Profile.</p>
+<ul>
+<li><b>Pick the right primary category.</b> This is the most important setting on your profile. Choose the one that matches your main work, such as Roofing contractor, HVAC contractor, Electrician or Landscaper. Add secondary categories only for work you really do.</li>
+<li><b>List every service.</b> Use the services section to add each job you want to be found for, written the way customers say it.</li>
+<li><b>Write a plain description.</b> Say what you do, the towns you serve and what makes you different. Skip the keyword lists.</li>
+<li><b>Add real photos.</b> Jobs, trucks and crew. Keep adding new ones as you finish work.</li>
+<li><b>Use your real business name.</b> Do not add keywords or city names to it unless they are part of your legal or branded name.</li>
+</ul>
+<p>If you have not set up your profile carefully yet, our post on <a href="/blog/get-more-plumbing-calls-from-google">getting more calls from Google</a> walks through the basics with a plumbing example that applies to any trade.</p>
+<h2 id="distance">What can you do about distance?</h2>
+<p>Not much, and that is worth knowing so you do not waste money chasing it. Google ranks you higher for searchers close to your business location and lower for searchers far away. A contractor based on the north side of a city will usually find it easier to show up for north side searches than for towns 30 miles south.</p>
+<p>What you can do:</p>
+<ul>
+<li><b>Set an honest service area</b> on your profile listing the cities and zip codes you actually serve. It tells customers where you work, though it does not make you rank everywhere inside it.</li>
+<li><b>Hide your address if customers do not come to you.</b> Google's rules ask service area businesses without a storefront to hide the street address and show the service area instead.</li>
+<li><b>Never use a fake address.</b> Virtual offices, mailboxes and a friend's garage in a bigger city break Google's guidelines and are a common reason for suspensions.</li>
+<li><b>Win farther towns another way.</b> Your website, service area pages and ads can reach towns where the map will not show you.</li>
+</ul>
+<h2 id="prominence">How do you build prominence with local SEO for contractors?</h2>
+<p>Prominence is where steady effort pays off. It is Google's sense of how established and trusted you are, and it builds over months, not days.</p>
+<ul>
+<li><b>Reviews.</b> The number of reviews, how recent they are and your average rating all matter, both to Google and to the homeowner comparing three listings. Ask every happy customer, reply to every review and never buy or fake them.</li>
+<li><b>Consistent listings.</b> Your business name, phone number and address or service area should match on your profile, your website and directories like Yelp, Angi, the BBB and your local chamber of commerce. Mismatched details make Google less sure who you are.</li>
+<li><b>Local mentions and links.</b> A link from your supplier's dealer locator, a local news story, a sponsored youth team or a trade association listing all show Google you are a real local company.</li>
+<li><b>Activity.</b> Regular photos, posts and quick answers to questions on your profile show the business is active.</li>
+</ul>
+<h2 id="website">What does your website have to do with the map pack?</h2>
+<p>More than most contractors think. Google reads the website linked from your profile to confirm what you do and where you do it. A site with one vague services page gives it little to go on. A site with a clear page for each main service, your service area spelled out, and the same name and phone number as your profile backs up everything your listing claims.</p>
+<p>Your website also catches the people who do click through from the map. They want to see real work, reviews and a way to call fast. That is why good <a href="/home-service-website-design">contractor website design</a> and map rankings work together instead of being two separate projects. Our post on <a href="/blog/google-business-profile-vs-website">whether you need a website if you have a Google Business Profile</a> covers how the two support each other.</p>
+<h2 id="avoid">What gets a home service business pushed out of the map?</h2>
+<p>Some shortcuts work for a few weeks, then cost you the whole listing. Avoid these:</p>
+<ol>
+<li>Stuffing keywords or city names into your business name.</li>
+<li>Using a virtual office, PO box or address where you do not really operate.</li>
+<li>Creating extra profiles for the same business in nearby towns.</li>
+<li>Buying reviews, writing your own, or offering discounts in exchange for them.</li>
+<li>Listing hours you do not keep, such as 24/7 when late calls go to voicemail.</li>
+<li>Changing your name, category and address over and over in a short time.</li>
+</ol>
+<p>If your profile does get suspended, fix the cause before you request reinstatement, and keep proof of your business ready, such as a license, utility bill or photos of your vehicle with your signage.</p>
+<h2 id="track">How do you know if your map rankings are improving?</h2>
+<p>Searching your own keywords from your office will mislead you. Map results change with where the searcher stands, so you may look like number one from your shop and not appear at all across town. Better ways to track progress:</p>
+<ul>
+<li><b>Check your profile performance numbers</b> in Google for calls, direction requests and website clicks over time.</li>
+<li><b>Use a map grid tracker</b> if you want detail. These tools check your rank from many points across your service area.</li>
+<li><b>Ask every new customer how they found you</b> and write it down. It is the simplest tracking there is.</li>
+</ul>
+<p>Look at trends over a few months, not day to day changes.</p>
+<p>If you would rather have this handled for you, our <a href="/local-seo-for-contractors">local SEO for contractors</a> service and the Get Found plan, $149 a month on top of the $99 a month launch plan, take care of your profile, review requests and listings. Every site we build also comes with service pages and matching business details from day one. See the full details on our <a href="{PRICING}">pricing page</a>, and your new site goes live 48 hours after you <a href="{GET}">fill the onboarding form</a>.</p>
+"""},
+{
  "slug":"plumbing-website-design-mistakes","tag":"Website tips","read":6,
  "title":"Plumbing Website Design Mistakes That Cost Emergency Calls",
  "h1":"Plumbing website design mistakes that <em>cost you emergency calls</em>",
