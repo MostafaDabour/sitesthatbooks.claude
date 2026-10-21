@@ -14,6 +14,7 @@ When fewer than 5 unchecked topics remain, the agent adds 10 new ones at the bot
 - [x] Web Design for Contractors: What to Look For Before Hiring (web-design-for-contractors-hiring-guide) 2026-10-14
 - [x] Plumbing Website Design Mistakes That Cost You Emergency Calls (plumbing-website-design-mistakes) 2026-10-16
 - [x] How to Rank in the Google Map Pack as a Home Service Business (rank-in-google-map-pack) 2026-10-19
+- [x] How to Choose an HVAC Website Design Company (choose-hvac-website-design-company) 2026-10-21
 
 ## Priority keywords (every post must support one of these)
 | # | Keyword | Money page |
@@ -30,7 +31,6 @@ When fewer than 5 unchecked topics remain, the agent adds 10 new ones at the bot
 | K10 | local seo for contractors | /local-seo-for-contractors |
 
 ## Up next
-- [ ] How to Choose an HVAC Website Design Company | K2 | target: hvac website design | link: /hvac-websites
 - [ ] What Is a Done-for-You Website and Is It Worth It for Contractors? | K7 | target: done for you website for contractors | link: /pricing
 - [ ] Landscaping Website Design Ideas That Book Bigger Projects | K6 | target: landscaping website design | link: /landscaping-websites
 - [ ] Contractor Website Cost: Monthly Plan vs One-Time Build | K9 | target: contractor website cost | link: /pricing

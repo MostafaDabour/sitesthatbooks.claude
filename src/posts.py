@@ -1,5 +1,76 @@
 POSTS = [
 {
+ "slug":"choose-hvac-website-design-company","tag":"Website tips","read":7,
+ "title":"How to Choose an HVAC Website Design Company",
+ "h1":"How to choose an <em>HVAC website design</em> company",
+ "desc":"Choosing an HVAC website design company? Test how they handle seasonal swings, emergency calls, maintenance plans and tracking before you sign.",
+ "answer":"Pick an HVAC website design company that already understands how heating and cooling businesses earn money: emergency calls, seasonal swings, replacements and maintenance plans. Test them with HVAC specific questions, make sure you own your domain and call tracking numbers, and choose the one that can change your site fast when the weather turns.",
+ "toc":[("why","Why does HVAC website design need a specialist eye?"),("types","What kinds of companies build HVAC websites?"),("seasons","Can they handle the seasonal swings of HVAC?"),("revenue","Do they understand where HVAC revenue comes from?"),("tracking","How will you know which calls came from the site?"),("speed","How fast can they make changes when the weather turns?"),("questions","What HVAC specific questions should you ask on the sales call?"),("decide","How do you make the final decision?")],
+ "faqs":[("Should I only hire a company that works with HVAC businesses?","Not necessarily. A company that builds sites for many home service trades can do great HVAC work if it understands emergency calls, seasonal demand and maintenance plans. What matters is that they can show live sites built for trades and answer HVAC specific questions without guessing."),
+         ("Can I switch HVAC website design companies without losing my Google rankings?","Usually yes, if you plan it. Keep your domain, keep your phone number the same, and make sure old page addresses redirect to the matching new pages. Most ranking losses after a switch come from a lost domain, broken page addresses or a changed phone number that no longer matches your Google Business Profile.")],
+ "body":"""
+<p>Every few weeks another agency emails you promising more AC calls. Some are good, some are not, and from the outside they all sound the same. This guide shows you how to choose an HVAC website design company by testing how well they understand the way heating and cooling businesses actually work: emergency calls, seasonal swings, big ticket replacements and maintenance plans. If you want the general hiring checklist that applies to any trade, such as ownership terms and red flags, read our guide on <a href="/blog/web-design-for-contractors-hiring-guide">what to look for before hiring a contractor web designer</a>. Here we focus on what is different about HVAC.</p>
+<h2 id="why">Why does HVAC website design need a specialist eye?</h2>
+<p>An HVAC company has three very different customers landing on the same site:</p>
+<ul>
+<li><b>The emergency caller.</b> No heat, no cooling, sometimes at night. They want a phone number and proof you will come today.</li>
+<li><b>The replacement shopper.</b> Their system is old and they are comparing quotes for a purchase worth thousands. They want to see options, financing, warranties and reviews.</li>
+<li><b>The maintenance customer.</b> They want a tune up or a plan that keeps their system running. They are low urgency but high lifetime value.</li>
+</ul>
+<p>Good HVAC website design serves all three without confusing any of them. A designer who has never thought about this tends to build one generic page that half serves everyone. If you want a quick refresher on the sections an HVAC site needs, our post on <a href="/blog/what-should-an-hvac-website-include">what an HVAC website should include</a> covers it. The company you hire should know that list without being told.</p>
+<h2 id="types">What kinds of companies build HVAC websites?</h2>
+<p>Most options fall into a few groups. None is right for everyone.</p>
+<ul>
+<li><b>General web design agencies.</b> Often strong on looks and branding. The risk is that they treat your site like any other business site and miss the phone first, call driven layout HVAC needs.</li>
+<li><b>Agencies that only serve HVAC or home services.</b> They usually know the trade well. Ask how much of your site is unique to you versus shared with other clients in nearby markets.</li>
+<li><b>Do it yourself website builders.</b> Cheapest in cash, most expensive in your time. Fine if you enjoy it and have the evenings to spare, which most owners in peak season do not.</li>
+<li><b>Websites bundled with software or lead programs.</b> Convenient, but check what happens to the site if you cancel the software or the program.</li>
+<li><b>Done for you monthly services.</b> A team writes and builds the site for a monthly fee and handles changes. Our post on <a href="/blog/how-much-does-a-contractor-website-cost">contractor website cost</a> explains how the common pricing models compare.</li>
+</ul>
+<h2 id="seasons">Can they handle the seasonal swings of HVAC?</h2>
+<p>This is the clearest test of whether a company understands your trade. Your business changes with the weather, and your website should too.</p>
+<p>In summer, the first screen should lead with AC repair and cooling. In winter, it should lead with furnace and heat pump repair. In the slower spring and fall shoulder months, it makes sense to push tune ups, maintenance plans and replacement estimates so your techs stay busy.</p>
+<p>Ask every company you talk to: "How would my home page change between July and January?" A good answer names specific swaps, like the headline, the featured services and the main offer. A weak answer is "you can log in and edit it yourself."</p>
+<h2 id="revenue">Do they understand where HVAC revenue comes from?</h2>
+<p>A designer does not need to know how to braze a line set, but they should understand what drives your numbers. Listen for whether they bring these up without prompting:</p>
+<ol>
+<li><b>Replacements are the big tickets.</b> The site should make it easy to request a replacement estimate and show financing options before the homeowner calls.</li>
+<li><b>Maintenance plans are the steady income.</b> They deserve their own clear section with what is included and how to sign up.</li>
+<li><b>Emergency service fills the schedule.</b> If you offer after hours service, it belongs in the header, not a footnote.</li>
+<li><b>Equipment and certifications build trust.</b> Brands you install, manufacturer certifications and warranty terms help a replacement shopper choose you.</li>
+<li><b>Utility rebates and incentives</b> can matter in your area. A good company will ask whether you want them mentioned rather than ignore them.</li>
+</ol>
+<p>If the conversation is all fonts, colors and animations, and none of this comes up, that tells you what they will focus on.</p>
+<h2 id="tracking">How will you know which calls came from the site?</h2>
+<p>HVAC calls are worth a lot, so you should know where they come from. Ask how the company will show you results. Common approaches include a monthly traffic report, form submission alerts, and call tracking numbers that record which source sent each call.</p>
+<p>Call tracking is useful but comes with a catch: make sure any tracking number is set up so your main business number still appears consistently across Google and your listings, and confirm who owns the tracking numbers if you leave. Losing a number that customers have saved is a real cost. Whatever the method, a simple habit still helps: ask every new customer how they found you and write it down.</p>
+<h2 id="speed">How fast can they make changes when the weather turns?</h2>
+<p>The first heat wave of the year is not the time to wait three weeks for a homepage edit. Ask:</p>
+<ul>
+<li>How do I request a change, and what is the usual turnaround?</li>
+<li>Are content updates included in the monthly fee, or billed per hour?</li>
+<li>Can you add a seasonal offer or a new service page on short notice?</li>
+<li>Who do I actually talk to when something needs fixing?</li>
+</ul>
+<p>Clear, specific answers here matter more than a long list of features.</p>
+<h2 id="questions">What HVAC specific questions should you ask on the sales call?</h2>
+<p>Bring this list and compare the answers side by side:</p>
+<ol>
+<li>Can you show me live sites you built for HVAC or other home service companies?</li>
+<li>How would my home page change between summer and winter?</li>
+<li>Where would you put emergency service, financing and maintenance plans?</li>
+<li>Will each main service, like AC repair, furnace repair and heat pumps, get its own section or page?</li>
+<li>Who writes the copy, and how do you learn about my service area and equipment?</li>
+<li>How will I know how many calls and requests the site brings in?</li>
+<li>Who owns the domain, the content and any tracking numbers?</li>
+<li>Is there a contract, and what happens if I cancel?</li>
+</ol>
+<h2 id="decide">How do you make the final decision?</h2>
+<p>Narrow it to two or three companies and score each one on three things: proof they have built sites for trades, how well they answered the HVAC questions above, and how clear their terms are. Price matters, but a site that misses the emergency caller or the replacement shopper costs far more in lost jobs than you save on the build.</p>
+<p>Also look at how they treat local search. Your website and your Google Business Profile work together, so it helps if the company can set up the basics at launch and offer <a href="/local-seo-for-contractors">local SEO for contractors</a> if you want more help later.</p>
+<p>If you want to see how we handle it, our <a href="/hvac-websites">HVAC website design</a> page shows what we build for heating and cooling companies, with copy written for you. The launch plan is $349 setup and $99 a month with no contracts, and the full details are on our <a href="{PRICING}">pricing page</a>. If you do not love the site on your launch call and we cannot fix it on the call, you get your setup fee back. Your site goes live 48 hours after you <a href="{GET}">fill the onboarding form</a>.</p>
+"""},
+{
  "slug":"rank-in-google-map-pack","tag":"Local SEO","read":7,
  "title":"How to Rank in Google's Map Pack as a Home Service Business",
  "h1":"Local SEO for contractors: how to rank in the <em>Google map pack</em>",
