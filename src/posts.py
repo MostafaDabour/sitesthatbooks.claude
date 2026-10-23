@@ -1,5 +1,89 @@
 POSTS = [
 {
+ "slug":"done-for-you-website-for-contractors","tag":"Website tips","read":7,
+ "title":"Done-for-You Website for Contractors: Is It Worth It?",
+ "h1":"What is a <em>done for you website for contractors</em>, and is it worth it?",
+ "desc":"What a done for you website for contractors includes, what you still handle, who it fits, and how to tell if it is worth the monthly fee.",
+ "answer":"A done for you website for contractors is a service where a team writes, builds, hosts and updates your site for you, usually for a setup fee plus a monthly plan. It is worth it when your time on jobs is worth more than the hours a website would take, and when the plan includes updates, SEO basics and ownership of your domain.",
+ "toc":[("what","What is a done for you website for contractors?"),("included","What is usually included?"),("your-part","What do you still have to do yourself?"),("who","Who is a done for you website a good fit for?"),("not-fit","When is it not the right choice?"),("worth","How do you tell if it is worth the money?"),("questions","What should you ask before you sign up?")],
+ "faqs":[("Do I own my website with a done for you service?","It depends on the provider, so ask before you sign. At a minimum you should own your domain name, your logo, your photos and your business information. Some services also let you take the site files if you leave, while others keep the design and code. Get the answer in writing."),
+         ("How is a done for you website different from a website builder?","With a website builder you get the tools and do the work yourself: writing, design, SEO settings and updates. With a done for you website a team does that work for you and keeps doing it each month. You trade a higher monthly cost for getting your evenings back.")],
+ "body":"""
+<p>You know you need a better website, but you also know you are not going to spend your nights learning web design. That is the gap a done for you website for contractors is meant to fill. Someone else writes the words, builds the pages, keeps the site online and makes changes when you ask. This guide explains what that really means, what you still need to do, and how to judge whether it is worth the monthly fee for your business. It is written for owners of HVAC, plumbing, roofing, electrical, landscaping, cleaning and other home service companies.</p>
+<h2 id="what">What is a done for you website for contractors?</h2>
+<p>It is a website service, not just a website. Instead of paying once for a build and then being on your own, you pay a setup fee to get the site made and a monthly fee to keep it running and improving. The provider handles the technical side so you can stay on jobs.</p>
+<p>Most done for you services for trades work the same basic way:</p>
+<ol>
+<li><b>You share your details.</b> Usually a form or short call covering your services, towns, phone number, license and photos.</li>
+<li><b>They write and build the site.</b> Copy is written for your trade and service area, and the pages are set up for phones first.</li>
+<li><b>You review and go live.</b> You check the site, ask for changes, and they connect your domain.</li>
+<li><b>They keep it going.</b> Hosting, security, small updates and often some ongoing SEO work are part of the monthly plan.</li>
+</ol>
+<p>The key difference from hiring a freelancer or using a builder is the ongoing part. The site does not sit untouched for three years. If you want a wider look at the build options and what each tends to cost, our guide on <a href="/blog/how-much-does-a-contractor-website-cost">contractor website cost</a> breaks down the common ranges.</p>
+<h2 id="included">What is usually included?</h2>
+<p>Plans vary a lot, so read the list closely. A solid done for you plan for a home service business usually covers:</p>
+<ul>
+<li><b>Copywriting.</b> Someone writes your headlines, service descriptions and calls to action. This matters more than design for getting calls.</li>
+<li><b>Design and build.</b> A mobile first layout with a tap to call button and a simple request form.</li>
+<li><b>Hosting and SSL.</b> The site stays online, loads fast and shows as secure in the browser.</li>
+<li><b>SEO basics.</b> Page titles, descriptions, headings, schema markup and a sitemap, so Google understands your services and towns.</li>
+<li><b>Monthly updates.</b> A set number of changes, like a new service, a seasonal offer or new job photos.</li>
+<li><b>Reporting.</b> A simple monthly view of visits, and ideally calls and form requests.</li>
+</ul>
+<p>Some providers also offer add ons, such as Google Business Profile management, review requests or managed ads. Those are separate from the website itself, so check what is in the base plan and what costs extra.</p>
+<h2 id="your-part">What do you still have to do yourself?</h2>
+<p>Done for you does not mean zero effort. The best results come when you give the team good raw material. Plan to spend a little time on:</p>
+<ul>
+<li><b>Accurate business details.</b> Services you want more of, towns you actually serve, hours, license and insurance info.</li>
+<li><b>Real photos.</b> Job site photos, your trucks and your crew. Real photos build trust faster than stock images.</li>
+<li><b>Your reviews.</b> Point them to your Google reviews so real customer words can be featured on the site. Never let anyone write fake ones.</li>
+<li><b>Answering the phone.</b> A website can make the phone ring. It cannot book the job if calls go to a full voicemail box.</li>
+<li><b>Asking for changes.</b> If you add a service or a new town, tell them. They cannot update what they do not know about.</li>
+</ul>
+<p>For most owners this adds up to an hour or two at the start and a few minutes a month after that.</p>
+<h2 id="who">Who is a done for you website a good fit for?</h2>
+<p>This kind of service tends to work well if most of these sound like you:</p>
+<ul>
+<li>You are on jobs most of the day and have no spare evenings for a website project.</li>
+<li>You have a small to mid size crew and do not have a marketing person on staff.</li>
+<li>Your current site is old, slow on phones, or built by a relative years ago.</li>
+<li>You get most of your work from local searches and referrals who check you out online.</li>
+<li>You would rather pay a predictable monthly fee than a large upfront invoice.</li>
+</ul>
+<p>It is a common choice for trades where calls drive the business, like plumbing, HVAC and electrical. You can see how this looks for a specific trade on our <a href="/plumber-websites">plumber websites</a> page.</p>
+<h2 id="not-fit">When is it not the right choice?</h2>
+<p>A done for you plan is not for everyone. It may not fit if:</p>
+<ul>
+<li><b>You enjoy building websites</b> and have the time. A builder plus your own effort can work well.</li>
+<li><b>You need a very large custom site</b> with dozens of locations, custom tools or complex integrations. That is usually agency territory.</li>
+<li><b>You already have an in house marketer</b> who can write, design and maintain the site.</li>
+<li><b>You want to make every small edit yourself, instantly.</b> Most done for you services handle changes for you, so check how editing works if hands on control matters to you.</li>
+</ul>
+<p>If you are weighing these paths side by side, our page comparing a <a href="/done-for-you-vs-website-builder">done for you website with a DIY builder and an agency</a> lays out the tradeoffs.</p>
+<h2 id="worth">How do you tell if it is worth the money?</h2>
+<p>Do simple math with your own numbers instead of trusting anyone's promises, including ours.</p>
+<ol>
+<li><b>Add up the yearly cost.</b> Setup fee plus twelve months of the plan.</li>
+<li><b>Look at your average job value.</b> A drain clearing, a furnace repair, a roof repair or a lawn care contract each have a typical ticket for your business.</li>
+<li><b>Work out the break even.</b> Divide the yearly cost by your average profit per job. That is how many extra jobs a year the site needs to bring in to pay for itself.</li>
+<li><b>Count your time.</b> If doing it yourself would take twenty or thirty hours, put a value on those hours too.</li>
+</ol>
+<p>For many home service companies the break even is a small number of jobs a year. The real risk is not the fee. It is paying for a site that looks fine but never makes the phone ring. That is why copy written for your trade, a clear call button and solid <a href="/home-service-website-design">contractor website design</a> matter more than fancy features.</p>
+<h2 id="questions">What should you ask before you sign up?</h2>
+<p>Bring these questions to any provider you are considering:</p>
+<ol>
+<li>Who writes the copy, and how do you learn about my services and towns?</li>
+<li>How long until the site is live, and what do you need from me to hit that date?</li>
+<li>How many updates are included each month, and how fast are they done?</li>
+<li>Who owns the domain, the content and the photos?</li>
+<li>Is there a contract, and what happens to my site if I cancel?</li>
+<li>Can I see live sites you built for other home service businesses?</li>
+<li>What exactly is in the monthly fee, and what costs extra?</li>
+</ol>
+<p>Here is how we answer them. Our done for you website for contractors starts with the Launch plan: $349 setup and $99 a month, with no contracts. We write the copy for your trade, build five pages, handle hosting and SSL, and include 2 updates and 2 SEO blog posts a month. You can add Get Found for $149 a month or Get Booked for $499 a month when you want more help with local search or ads. All the details are on our <a href="{PRICING}">done for you website pricing</a> page.</p>
+<p>Your site goes live 48 hours after you fill the onboarding form, and we walk you through it on a launch call. If you do not love it and we cannot fix it on the call, you get your setup fee back. When you are ready, <a href="{GET}">fill the onboarding form</a> and we will take it from there.</p>
+"""},
+{
  "slug":"choose-hvac-website-design-company","tag":"Website tips","read":7,
  "title":"How to Choose an HVAC Website Design Company",
  "h1":"How to choose an <em>HVAC website design</em> company",
