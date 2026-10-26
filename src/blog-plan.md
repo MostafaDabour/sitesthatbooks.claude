@@ -16,6 +16,7 @@ When fewer than 5 unchecked topics remain, the agent adds 10 new ones at the bot
 - [x] How to Rank in the Google Map Pack as a Home Service Business (rank-in-google-map-pack) 2026-10-19
 - [x] How to Choose an HVAC Website Design Company (choose-hvac-website-design-company) 2026-10-21
 - [x] What Is a Done-for-You Website and Is It Worth It for Contractors? (done-for-you-website-for-contractors) 2026-10-23
+- [x] Landscaping Website Design Ideas That Book Bigger Projects (landscaping-website-design-ideas) 2026-10-26
 
 ## Priority keywords (every post must support one of these)
 | # | Keyword | Money page |
@@ -32,7 +33,6 @@ When fewer than 5 unchecked topics remain, the agent adds 10 new ones at the bot
 | K10 | local seo for contractors | /local-seo-for-contractors |
 
 ## Up next
-- [ ] Landscaping Website Design Ideas That Book Bigger Projects | K6 | target: landscaping website design | link: /landscaping-websites
 - [ ] Contractor Website Cost: Monthly Plan vs One-Time Build | K9 | target: contractor website cost | link: /pricing
 - [ ] Do You Need a Separate Website If You Already Use Field Service Software? | K8 | target: jobber website | link: /compare/sitesthatbook-vs-jobber-website
 - [ ] Roofing Leads: Website vs Google Ads vs Lead Sites | K3 | target: roofing website design | link: /roofing-websites

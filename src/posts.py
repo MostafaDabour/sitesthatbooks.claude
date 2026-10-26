@@ -1,5 +1,74 @@
 POSTS = [
 {
+ "slug":"landscaping-website-design-ideas","tag":"Website tips","read":7,
+ "title":"Landscaping Website Design Ideas That Book Bigger Projects",
+ "h1":"<em>Landscaping website design</em> ideas that book bigger projects",
+ "desc":"Landscaping website design ideas that help you win patios, outdoor living and full yard projects, not just weekly mowing calls.",
+ "answer":"To book bigger landscaping projects, your website has to sell design and build work differently from mowing. Give big projects their own pages, show finished work with short project stories, explain your process and budget ranges, and use a quote form that asks the right questions so you can screen leads before you drive out.",
+ "toc":[("why","Why does landscaping website design affect project size?"),("separate","Should big projects and lawn care live on separate pages?"),("photos","How should you show finished projects?"),("process","Why explain your design and build process?"),("budget","Should a landscaping website talk about budget?"),("form","What should a project quote form ask?"),("seasons","How do you keep big project leads coming all year?"),("start","Which idea should you start with?")],
+ "faqs":[("Do I need a separate website for my design and build work?","Usually not. One website with clear, separate sections for maintenance and for design and build projects is easier to manage and builds more trust with Google. What matters is that each type of buyer lands on a page written for them, with the right photos and the right next step."),
+         ("How many project photos should a landscaping website have?","Quality matters more than count. A handful of strong, well lit projects with a short story each will do more than a hundred random phone shots. Start with your best five or six jobs and add new ones as you finish them.")],
+ "body":"""
+<p>Most landscapers do not have a lead problem. They have a lead mix problem. The phone rings for weekly mowing and leaf cleanup, while the patio, retaining wall and outdoor kitchen jobs that actually grow the business go to someone else. Good landscaping website design can change that mix. This guide walks through practical ideas that help your site attract and qualify bigger projects, without losing the steady maintenance work that keeps your crews busy. If you want us to build it for you, see our <a href="/landscaping-websites">landscaping website design</a> page.</p>
+<h2 id="why">Why does landscaping website design affect project size?</h2>
+<p>A homeowner planning a backyard makeover is about to spend real money. Before they call anyone, they look at a few websites and ask themselves one question: does this company do the kind of work I want? If your home page leads with mowing prices and a photo of a striped lawn, they assume you are a lawn care company and move on.</p>
+<p>Your website sets expectations before the first phone call. The words, the photos and the order of the sections all tell a visitor what size of job you take. That is why the same crew can get very different leads from two different websites.</p>
+<h2 id="separate">Should big projects and lawn care live on separate pages?</h2>
+<p>Yes. Maintenance buyers and project buyers want different things, so give them different paths.</p>
+<ul>
+<li><b>Maintenance buyers</b> want reliability, a clear schedule, the towns you cover and an easy way to sign up.</li>
+<li><b>Project buyers</b> want ideas, proof of past work, a sense of your process and confidence that you can manage a job that takes weeks, not hours.</li>
+</ul>
+<p>A simple setup works well. On the home page, show two clear choices near the top, such as "Lawn care and maintenance" and "Design, build and hardscape." Each one leads to its own page. Then give your biggest money makers their own service pages too: patios and walkways, retaining walls, outdoor living spaces, planting and garden design, drainage, lighting or irrigation. Each page should name the service and the towns you serve, so it can show up when someone searches for that exact job.</p>
+<h2 id="photos">How should you show finished projects?</h2>
+<p>Photos sell landscaping more than any other trade. But a gallery of fifty unlabeled pictures does not do much. Turn your best jobs into short project stories instead.</p>
+<ol>
+<li><b>Lead with the finished result.</b> One wide, well lit photo taken in good light, ideally late afternoon.</li>
+<li><b>Add a before photo.</b> The change from a bare or overgrown yard to a finished space is what makes people picture their own home.</li>
+<li><b>Write three or four sentences.</b> What the homeowner wanted, what you built, the materials you used and the town it was in.</li>
+<li><b>Link to the matching service.</b> A paver patio story should link to your patio page, and the patio page should link back.</li>
+</ol>
+<p>Group projects by type, like patios, walls, plantings and full yard makeovers, so visitors can jump to what they care about. You do not need dozens. Five or six strong stories are plenty to start. If you have a phone full of job photos, pick the ones that show the whole space rather than close ups.</p>
+<h2 id="process">Why explain your design and build process?</h2>
+<p>Big projects feel risky to homeowners. They worry about cost surprises, crews that disappear for a week and a torn up yard. A simple process section answers those worries before they become objections.</p>
+<p>Keep it to four or five plain steps, for example:</p>
+<ol>
+<li>Free site visit to see the yard and talk about goals.</li>
+<li>A design or plan with a written estimate.</li>
+<li>Scheduling, permits and material ordering where needed.</li>
+<li>Installation, with a point of contact during the job.</li>
+<li>Final walkthrough and care instructions.</li>
+</ol>
+<p>Use your real steps, not a generic list. If you offer 3D drawings, plant warranties or a cleanup guarantee, say so here. These details are what separate a design and build company from someone with a trailer and a skid steer.</p>
+<h2 id="budget">Should a landscaping website talk about budget?</h2>
+<p>Talking about budget is one of the most useful things you can do, and most landscapers skip it. You do not have to publish exact prices. Instead, explain what drives the cost of a project: size, materials, access to the yard, grading and drainage, and add ons like lighting or seating walls.</p>
+<p>Some companies share a starting point, such as "most of our patio projects start at" a certain amount, using their own real numbers. Others add a budget range question to the quote form. Either way, you set expectations early, so the people who call are ready to spend what the work costs. That saves you from driving across town to quote a dream yard for someone with a small budget.</p>
+<p>If you offer financing through a lender, mention it on your project pages. A monthly payment option can make a larger project feel possible for more homeowners.</p>
+<h2 id="form">What should a project quote form ask?</h2>
+<p>A form that only asks for name, phone and message gives you nothing to work with. For project work, ask a few short questions that help you decide which leads to call first:</p>
+<ul>
+<li>What type of project? (patio, wall, planting, full yard, other)</li>
+<li>Rough size or area of the yard</li>
+<li>Budget range, using simple choices</li>
+<li>When they want it done</li>
+<li>Street address or town</li>
+<li>Optional photo upload of the current space</li>
+</ul>
+<p>Keep maintenance sign ups short and separate. A homeowner who wants weekly mowing should not have to answer questions about patio budgets. Two forms, each matched to its page, work better than one long form that tries to do everything.</p>
+<h2 id="seasons">How do you keep big project leads coming all year?</h2>
+<p>Project buyers plan ahead. Many homeowners start researching spring projects in late winter, and fall is a common time to plan for next year. Your website can work with that rhythm.</p>
+<ul>
+<li><b>Swap your seasonal banner.</b> In winter, invite people to book spring design consultations. In fall, promote cleanups and planting season.</li>
+<li><b>Show your booking window.</b> If your spring install calendar fills up, saying so encourages people to reach out early.</li>
+<li><b>Keep adding projects.</b> Each finished job is a new story for your site and a reason for Google to visit again.</li>
+</ul>
+<p>Your Google Business Profile matters here too. Post project photos there, ask happy project clients for reviews that mention the work, and make sure your profile links to the right page on your site. Our guide to <a href="/local-seo-for-contractors">local SEO for contractors</a> covers how the profile and website work together to bring in calls.</p>
+<h2 id="start">Which idea should you start with?</h2>
+<p>If you only do one thing this month, split your services. Put a clear project path on your home page and build one strong page for the project type you want more of, with three real project stories on it. Then upgrade your quote form so the leads you get are easier to sort.</p>
+<p>After that, add the process section, the budget guidance and seasonal updates. Each step makes your site look more like a company that handles serious work, because it does.</p>
+<p>If you would rather not build this yourself, SitesThatBook builds landscaping websites with separate maintenance and project paths, a project gallery and a smart quote form, live 48 hours after you fill out the onboarding form. Plans start at $349 setup and $99 a month with no contracts. You can see a real example on <a href="/our-work">our work</a> page, check <a href="/pricing">pricing</a>, or <a href="/get-started">get started</a> today.</p>
+"""},
+{
  "slug":"done-for-you-website-for-contractors","tag":"Website tips","read":7,
  "title":"Done-for-You Website for Contractors: Is It Worth It?",
  "h1":"What is a <em>done for you website for contractors</em>, and is it worth it?",
