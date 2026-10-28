@@ -1,5 +1,467 @@
 POSTS = [
 {
+ "slug":"cleaning-company-website-design",
+ "tag":"Website tips",
+ "read":13,
+ "title":"Cleaning Company Website Design for More Bookings",
+ "h1":"Cleaning company website design built around <em>calls and booking requests</em>",
+ "desc":"What a cleaning company website needs to turn visits into calls and booking requests: services, service area, trust, forms, local SEO and cost.",
+ "answer":"Your cleaning company website should do more than make your business look professional. It should quickly show potential customers what you clean, where you work, why they can trust your team, and exactly how to request a quote or cleaning appointment.",
+ "toc":[("what-should-a-cleaning-company-website-actually","What should a cleaning company website actually do?"),("essential-features-of-a-cleaning-company-website","Essential features of a cleaning company website"),("make-it-easy-for-customers-to-request-the-right","Make it easy for customers to request the right cleaning service"),("pages-your-cleaning-business-website-may-need","Pages your cleaning business website may need"),("residential-and-commercial-cleaning-websites-nee","Residential and commercial cleaning websites need different messages"),("build-trust-before-someone-lets-your-team-throug","Build trust before someone lets your team through the door"),("how-a-cleaning-company-website-supports-local-se","How a cleaning company website supports local SEO"),("how-much-does-a-cleaning-company-website-cost","How much does a cleaning company website cost?"),("diy-website-builder-or-done-for-you-cleaning-web","DIY website builder or done-for-you cleaning website?"),("how-sitesthatbook-builds-websites-for-cleaning-c","How SitesThatBook builds websites for cleaning companies"),("how-your-cleaning-company-website-gets-built","How your cleaning company website gets built"),("a-cleaning-website-still-needs-attention-after-l","A cleaning website still needs attention after launch"),("turn-your-cleaning-website-into-a-simpler-path-t","Turn your cleaning website into a simpler path to the next booking"),("frequently-asked-questions-about-cleaning-compan","Frequently asked questions about cleaning company websites"),("ready-for-a-cleaning-company-website-built-aroun","Ready for a cleaning company website built around calls and booking requests?")],
+ "faqs":[("What should a cleaning company website include?","A cleaning company website should clearly explain your services, service area, trust information, and the next step for requesting a quote or cleaning. It should also work well on phones and make it easy to call or submit a booking request."),
+  ("How much does a cleaning company website cost?","The cost depends on how the site is built and what is included. Custom design, page count, copywriting, forms, hosting, maintenance, and SEO can all affect the price. SitesThatBook currently charges $349 to set up its Launch website and $99 per month, with no contract."),
+  ("Can customers book a cleaning through my website?","Yes, your website can give customers a way to request a cleaning or booking online. The current SitesThatBook cleaning setup can collect service type, home size, frequency, preferred day, and related details and send the request to the business."),
+  ("Should a cleaning company show prices on its website?","Show as much pricing information as makes sense for your business model. If every job needs a custom quote, explain the factors that affect pricing instead of publishing a number that may be misleading. If you use standardized pricing, starting prices or clear package information can help customers understand what to expect."),
+  ("How many pages does a cleaning business website need?","There is no universal page count. A small cleaning company can cover the essential customer journey with a focused group of pages, while a business with multiple services or markets may benefit from additional service or location content. SitesThatBook's current Launch plan includes five custom pages."),
+  ("Does a cleaning company website need local SEO?","A cleaning business that depends on customers in a defined service area should build its website with local search in mind. Clear services, locations, accurate business information, useful content, and alignment with your Google Business Profile help search engines understand what you offer and where you operate. Rankings are never automatic or guaranteed. Google says local visibility is primarily determined by relevance, distance, and prominence."),
+  ("Can one website work for residential and commercial cleaning?","Yes, provided the site gives each audience a clear path. Residential and commercial customers may evaluate different services, trust factors, schedules, and quote requirements, so the website should not force both groups through identical messaging."),
+  ("How quickly can SitesThatBook build a cleaning company website?","SitesThatBook's current process is built around a 48-hour launch after completed onboarding. Its terms clarify that the timeline depends on receiving the completed onboarding form and any required information, and delays in receiving those items may extend the launch."),
+  ("Will a new cleaning website automatically rank on Google?","No. A properly built website can create a stronger SEO foundation, but nobody can guarantee that a new site will rank in a particular position. Google itself states that crawling and indexing are not guaranteed, and a sitemap does not guarantee indexing or improve rankings by itself.")],
+ "body":"""
+<p>SitesThatBook builds done-for-you websites for cleaning businesses in the United States, with the copy, design, booking request form, mobile experience, hosting, SEO setup, and ongoing website support handled for you. The current Launch plan includes five custom pages and is built around a 48-hour launch process after onboarding.</p>
+<p><a href="https://www.sitesthatbook.com/get-started">Get my cleaning website</a> or <a href="https://www.sitesthatbook.com/pricing">see SitesThatBook pricing</a>.</p>
+ 
+
+
+<h2 id="what-should-a-cleaning-company-website-actually">What should a cleaning company website actually do?</h2>
+
+<p>A strong cleaning company website should help a visitor answer the important questions without making them search through multiple pages or call just to understand the basics.</p>
+
+<ul>
+<li><strong>Do you provide the cleaning service I need?</strong> House cleaning, recurring cleaning, deep cleaning, move-out cleaning, commercial cleaning, or another service should be easy to identify.</li>
+<li><strong>Do you clean in my area?</strong> Cities, neighborhoods, or service areas should be clearly stated.</li>
+<li><strong>Can I trust your company?</strong> Reviews, real business information, team photos, and legitimate credentials can reduce uncertainty.</li>
+<li><strong>How does pricing work?</strong> If you cannot publish exact prices, explain what affects the quote.</li>
+<li><strong>How do I get started?</strong> The call, quote, or booking action should be obvious.</li>
+<li><strong>What happens after I submit the form?</strong> Tell the customer what information you need and what the next step will be.</li>
+</ul>
+
+<p>A cleaning website works best when it reduces the distance between a relevant search and the next useful action. That does not mean every visitor needs to book immediately. It means the site should give qualified prospects enough information to make the next decision confidently.</p>
+
+
+
+<h2 id="essential-features-of-a-cleaning-company-website">Essential features of a cleaning company website</h2>
+
+<h3>Mobile-first design</h3>
+
+<p>Someone looking for a cleaner should be able to understand your services and contact you comfortably from a phone. Google also uses the mobile version of a website for indexing and ranking, making a strong mobile experience important for both visitors and search visibility.</p>
+
+<p>SitesThatBook currently builds its websites mobile-first and includes click-to-call functionality and booking request forms.</p>
+
+<h3>A clear next step</h3>
+
+<p>Your homepage should not leave someone wondering what to do next. Depending on how your cleaning business operates, that primary action might be:</p>
+
+<ul>
+<li>Request a cleaning</li>
+<li>Get a quote</li>
+<li>Book a cleaning</li>
+<li>Call the company</li>
+<li>Ask about commercial cleaning</li>
+</ul>
+
+<p>The most important action should be easy to find near the top of the page and repeated when a visitor reaches a natural decision point.</p>
+
+<h3>Clear cleaning service information</h3>
+
+<p>A customer should be able to distinguish between the services you actually provide. If recurring house cleaning and move-out cleaning involve different processes, expectations, or pricing, explain that difference instead of grouping everything under a vague “Cleaning Services” label.</p>
+
+<p>Common service categories can include house cleaning, recurring cleaning, deep cleaning, move-in or move-out cleaning, vacation rental turnover cleaning, office cleaning, commercial cleaning, and janitorial services. Only publish services your company genuinely offers.</p>
+
+<h3>Service-area information</h3>
+
+<p>Make it obvious where you work. A customer should not have to reach the final step of a quote request before discovering that their ZIP code is outside your coverage area.</p>
+
+<p>Your website can list the cities and areas you serve and connect those locations naturally with the relevant services. SitesThatBook's current cleaning website setup includes service-area information as part of the page content.</p>
+
+<h3>Trust information near the decision</h3>
+
+<p>Cleaning businesses often ask customers to allow a team into a home, rental, office, or facility. That makes trust part of the buying decision, not a decorative section at the bottom of the site.</p>
+
+<p>Useful trust signals may include verified customer reviews, authentic team photos, clear contact information, business history, insurance information, screening practices, and satisfaction policies when those statements are true for your company.</p>
+
+<h3>Fast, crawlable pages and SEO fundamentals</h3>
+
+<p>Website structure should make important services and locations understandable to both people and search engines. Useful fundamentals include descriptive page titles, logical headings, crawlable internal links, service content, location information, structured data where appropriate, and a sitemap.</p>
+
+<p>A sitemap can help Google discover URLs, but Google explicitly states that submitting one does not guarantee indexing or higher rankings.</p>
+
+
+
+<h2 id="make-it-easy-for-customers-to-request-the-right">Make it easy for customers to request the right cleaning service</h2>
+
+<p>A generic form asking only for a name and phone number may create unnecessary follow-up if your team still needs several details before understanding the job.</p>
+
+<p>Depending on your services and pricing model, a cleaning quote or booking form might ask for information such as:</p>
+
+<ul>
+<li>Cleaning type</li>
+<li>Bedrooms and bathrooms</li>
+<li>Property or home size</li>
+<li>Cleaning frequency</li>
+<li>Property type</li>
+<li>Service ZIP code</li>
+<li>Preferred date or day</li>
+<li>Contact information</li>
+</ul>
+
+<p>You do not need every field for every cleaning business. Collect the information that helps your team understand the request without making the form unnecessarily difficult to complete.</p>
+
+<p>For cleaning websites, SitesThatBook currently supports a booking request flow that can collect details such as home size, service type, frequency, bedrooms, bathrooms, and preferred day, with requests sent to the business's phone and email.</p>
+
+<p><a href="https://www.sitesthatbook.com/get-started">Start my cleaning website</a></p>
+
+
+
+<h2 id="pages-your-cleaning-business-website-may-need">Pages your cleaning business website may need</h2>
+
+<p>The right structure depends on what you sell and how customers search for it. A small residential cleaning business does not automatically need the same architecture as a company serving offices, property managers, and multiple markets.</p>
+
+<h3>Home</h3>
+
+<p>Your homepage should quickly establish your primary cleaning service, service area, strongest relevant trust signals, and next action.</p>
+
+<h3>Services</h3>
+
+<p>Explain what you actually clean and help visitors distinguish between service types. Standard cleaning, deep cleaning, recurring cleaning, move-out cleaning, and commercial cleaning should not be presented as interchangeable if the scope is different.</p>
+
+<h3>About</h3>
+
+<p>Explain who customers are hiring. Real information about your company, process, team, and standards can be particularly valuable when someone is deciding who to allow into a property.</p>
+
+<h3>Reviews</h3>
+
+<p>Give prospective customers an easy place to evaluate genuine customer feedback. Do not invent testimonials or display ratings that cannot be substantiated.</p>
+
+<h3>Contact or booking</h3>
+
+<p>Keep the next step straightforward. The page can collect the information your team needs to respond, quote, or schedule the service.</p>
+
+<p>The current SitesThatBook cleaning package uses a five-page structure built around Home, Services, About, Reviews, and Contact with a booking form. Every page is written for the individual company's services and service area.</p>
+
+<h3>When should a cleaning service have its own page?</h3>
+
+<p>A dedicated page can make sense when a service is important enough to deserve a complete explanation and has meaningfully different customer questions. A deep-cleaning customer, for example, may need different information than a recurring-cleaning customer or a commercial facility manager.</p>
+
+<p>If your initial website uses a smaller page structure, prioritize the services most important to your business instead of creating thin pages simply to increase the page count.</p>
+
+<h3>What about service-area pages?</h3>
+
+<p>Dedicated location pages can be useful when you have substantial, accurate information for a real market you serve. Avoid publishing near-identical city pages that provide little useful information. At minimum, make your actual service area easy to identify throughout the site.</p>
+
+
+
+<h2 id="residential-and-commercial-cleaning-websites-nee">Residential and commercial cleaning websites need different messages</h2>
+
+<p>A cleaning business can serve residential customers, commercial customers, or both, but those visitors may arrive with different questions.</p>
+
+<h3>Residential cleaning</h3>
+
+<p>A homeowner may want to understand who enters the home, what is included, whether recurring schedules are available, how the company handles access, and how easily the next cleaning can be requested.</p>
+
+<h3>Commercial cleaning and janitorial services</h3>
+
+<p>An office manager, property manager, or facility decision-maker may need to understand the type of facilities you serve, scope of work, cleaning schedule, quote process, service consistency, and relevant business credentials.</p>
+
+<p>If you serve both markets, your website should make those paths clear instead of forcing every visitor through the same generic message. SitesThatBook currently supports cleaning businesses focused on residential work, commercial work, or a combination of the two.</p>
+
+
+
+<h2 id="build-trust-before-someone-lets-your-team-throug">Build trust before someone lets your team through the door</h2>
+
+<p>Trust deserves particular attention on a cleaning company website because the service may involve access to a customer's home, rental property, workplace, or facility.</p>
+
+<p>Consider showing the trust information that is genuinely true for your business, including:</p>
+
+<ul>
+<li>Customer reviews and testimonials</li>
+<li>Real photos of your team</li>
+<li>Real cleaning or before-and-after photos</li>
+<li>Insurance information, if applicable</li>
+<li>Employee screening or background-check policies, if applicable</li>
+<li>Satisfaction policies or guarantees you actually honor</li>
+<li>Clear business phone and contact information</li>
+<li>Areas you serve</li>
+<li>How customers can expect the cleaning process to work</li>
+</ul>
+
+<p>Do not add badges, insurance claims, review scores, years in business, or background-check claims simply because they look persuasive. Trust elements work only when they accurately represent the company.</p>
+
+
+
+<h2 id="how-a-cleaning-company-website-supports-local-se">How a cleaning company website supports local SEO</h2>
+
+<p>A well-built website creates a foundation for local search visibility, but it does not guarantee rankings.</p>
+
+<p>For cleaning businesses, useful website foundations can include:</p>
+
+<ul>
+<li>Clear pages or sections for the services you provide</li>
+<li>Accurate city and service-area information</li>
+<li>Consistent business information</li>
+<li>Useful text that search engines can crawl</li>
+<li>Logical internal links</li>
+<li>Relevant structured data</li>
+<li>A sitemap</li>
+<li>Content that answers real customer questions</li>
+<li>Information that aligns with your Google Business Profile</li>
+</ul>
+
+<p>Google says local results are primarily influenced by relevance, distance, and prominence. Complete business information, reviews, links, and other signals can contribute to how Google understands and evaluates a local business.</p>
+
+<p>SitesThatBook includes page titles, descriptions, headings, schema markup, a sitemap, and service-area-focused copy in its website build. Its optional Get Found plan adds Google Business Profile setup, five Google Business posts per month, automated review requests, local directory citations, and quarterly strategy calls.</p>
+
+<p><a href="https://www.sitesthatbook.com/local-seo-for-contractors">Learn about SitesThatBook local SEO</a>.</p>
+
+
+
+<h2 id="how-much-does-a-cleaning-company-website-cost">How much does a cleaning company website cost?</h2>
+
+<p>There is no single market price that applies to every cleaning company website. Cost can change depending on whether you build it yourself or hire someone, how much custom design and copywriting is required, the number of pages, hosting, ongoing maintenance, SEO work, forms, and other functionality.</p>
+
+<p>SitesThatBook currently publishes a straightforward price for its Launch plan: <strong>$349 setup and $99 per month</strong>, with no contract. The plan includes five custom pages, hosting, SSL, domain connection, mobile-first design, click-to-call and a booking form, two content updates per month, two SEO blog posts per month, and a monthly traffic report.</p>
+
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Launch plan item</th>
+<th>Current SitesThatBook offer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Setup</td>
+<td>$349 one time</td>
+</tr>
+<tr>
+<td>Monthly fee</td>
+<td>$99/month</td>
+</tr>
+<tr>
+<td>Website</td>
+<td>5 custom pages</td>
+</tr>
+<tr>
+<td>Hosting and SSL</td>
+<td>Included</td>
+</tr>
+<tr>
+<td>Domain connection</td>
+<td>Included</td>
+</tr>
+<tr>
+<td>Content updates</td>
+<td>2 per month</td>
+</tr>
+<tr>
+<td>SEO blog posts</td>
+<td>2 per month</td>
+</tr>
+<tr>
+<td>Traffic reporting</td>
+<td>Monthly</td>
+</tr>
+<tr>
+<td>Contract</td>
+<td>No contract</td>
+</tr>
+</tbody>
+</table></div>
+
+<p>SitesThatBook also offers optional Get Found and Get Booked plans for businesses that want additional local SEO, advertising, CRM, and lead follow-up services. Google Ads spend is separate from the Get Booked management fee.</p>
+
+<p><a href="https://www.sitesthatbook.com/pricing">See current SitesThatBook pricing and plan details</a>.</p>
+
+
+
+<h2 id="diy-website-builder-or-done-for-you-cleaning-web">DIY website builder or done-for-you cleaning website?</h2>
+
+<p>Either approach can make sense. The better choice depends on your time, technical comfort, budget, and how much responsibility you want after launch.</p>
+
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Consideration</th>
+<th>DIY</th>
+<th>Done for you</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Design</td>
+<td>You choose and customize it</td>
+<td>The provider handles it</td>
+</tr>
+<tr>
+<td>Copywriting</td>
+<td>You usually write it</td>
+<td>Can be handled for you</td>
+</tr>
+<tr>
+<td>Page structure</td>
+<td>You plan it</td>
+<td>The provider can plan it</td>
+</tr>
+<tr>
+<td>Forms</td>
+<td>You configure them</td>
+<td>Can be configured for you</td>
+</tr>
+<tr>
+<td>SEO setup</td>
+<td>You manage the setup</td>
+<td>Can be included in the build</td>
+</tr>
+<tr>
+<td>Hosting and security</td>
+<td>You manage or select providers</td>
+<td>Can be included</td>
+</tr>
+<tr>
+<td>Updates</td>
+<td>You make them yourself</td>
+<td>Can be handled as part of ongoing service</td>
+</tr>
+<tr>
+<td>Time commitment</td>
+<td>More hands-on</td>
+<td>Less hands-on</td>
+</tr>
+</tbody>
+</table></div>
+
+<p>DIY may be a reasonable option if you enjoy working with website tools, want detailed control over the site, and have time to maintain it.</p>
+
+<p>A done-for-you service may make more sense if you would rather spend that time managing crews, estimates, customers, and operations.</p>
+
+<p>SitesThatBook is the second model: its team handles the copy, design, forms, SEO setup, hosting, and launch process rather than asking the cleaning business owner to assemble the website independently.</p>
+
+
+
+<h2 id="how-sitesthatbook-builds-websites-for-cleaning-c">How SitesThatBook builds websites for cleaning companies</h2>
+
+<p>SitesThatBook focuses on websites for US home service businesses, including cleaning companies. Its cleaning-specific page structure is designed around services, service areas, trust, and booking requests rather than a generic business template.</p>
+
+<p>The current Launch website service includes:</p>
+
+<ul>
+<li>Five custom pages</li>
+<li>Copy written from your business information</li>
+<li>Mobile-first design</li>
+<li>Click-to-call functionality</li>
+<li>Booking request form</li>
+<li>Hosting and SSL</li>
+<li>Domain connection</li>
+<li>Page titles, descriptions, and headings</li>
+<li>Schema markup and sitemap</li>
+<li>Two content updates each month</li>
+<li>Two SEO blog posts each month</li>
+<li>Monthly traffic reporting</li>
+</ul>
+
+
+<p>Your domain remains in your name, and SitesThatBook can connect an existing domain during the launch process.</p>
+
+<p>You can also review <a href="https://www.sitesthatbook.com/our-work">live home service websites built by SitesThatBook</a> before deciding whether the approach fits your company.</p>
+
+
+
+<h2 id="how-your-cleaning-company-website-gets-built">How your cleaning company website gets built</h2>
+
+<h3>1. Tell SitesThatBook about your cleaning business</h3>
+
+<p>The onboarding form collects information such as your business name, contact information, services, service areas, domain, logo, and available photos. You can also provide information that makes your company different.</p>
+
+<h3>2. SitesThatBook builds the website</h3>
+
+<p>The team writes the copy, designs the five pages, sets up the forms, prepares the SEO elements, adds schema markup and a sitemap, connects the required website components, and performs mobile and speed checks.</p>
+
+<h3>3. Review the website on the launch call</h3>
+
+<p>SitesThatBook's current process targets a launch 48 hours after receiving the completed onboarding information and required materials. The launch call includes a walkthrough, quick edits, and domain connection. The company's terms note that delays in receiving required information can extend the timeline.</p>
+
+<p>The published launch-call guarantee states that if you do not love the website and the team cannot fix it during the launch call, SitesThatBook refunds the $349 setup fee.</p>
+
+<p><a href="https://www.sitesthatbook.com/how-it-works">See how the website build process works</a>.</p>
+
+
+
+<h2 id="a-cleaning-website-still-needs-attention-after-l">A cleaning website still needs attention after launch</h2>
+
+<p>Launching the site is not the end of the job. Your cleaning business may add services, change service areas, update photos, adjust its offer, or need new content as the company develops.</p>
+
+<p>The current SitesThatBook Launch plan includes hosting, SSL, two requested content updates each month, two SEO blog posts each month, and a monthly traffic report.</p>
+
+<p>This ongoing structure can be useful for an owner who does not want to manage website hosting, routine edits, and recurring content personally.</p>
+
+
+
+<h2 id="turn-your-cleaning-website-into-a-simpler-path-t">Turn your cleaning website into a simpler path to the next booking</h2>
+
+<p>The goal is not to add more website features simply because they are available. Each important element should remove a question or obstacle from the customer's path.</p>
+
+<p>A practical journey looks like this:</p>
+
+<p><strong>Relevant search → right cleaning service → clear service area → trust → simple quote or booking request → qualified lead.</strong></p>
+
+<p>If someone searching for a deep clean immediately sees that you provide deep cleaning in their ZIP code, understands what affects the price, sees credible information about your company, and can request service without searching for the next step, the website is doing the job it was built to do.</p>
+
+<p><a href="https://www.sitesthatbook.com/get-started">Get my cleaning website</a></p>
+
+
+
+<h2 id="frequently-asked-questions-about-cleaning-compan">Frequently asked questions about cleaning company websites</h2>
+
+<h3>What should a cleaning company website include?</h3>
+
+<p><strong>A cleaning company website should clearly explain your services, service area, trust information, and the next step for requesting a quote or cleaning.</strong> It should also work well on phones and make it easy to call or submit a booking request.</p>
+
+<h3>How much does a cleaning company website cost?</h3>
+
+<p><strong>The cost depends on how the site is built and what is included.</strong> Custom design, page count, copywriting, forms, hosting, maintenance, and SEO can all affect the price. SitesThatBook currently charges $349 to set up its Launch website and $99 per month, with no contract.</p>
+
+<h3>Can customers book a cleaning through my website?</h3>
+
+<p><strong>Yes, your website can give customers a way to request a cleaning or booking online.</strong> The current SitesThatBook cleaning setup can collect service type, home size, frequency, preferred day, and related details and send the request to the business.</p>
+
+<h3>Should a cleaning company show prices on its website?</h3>
+
+<p><strong>Show as much pricing information as makes sense for your business model.</strong> If every job needs a custom quote, explain the factors that affect pricing instead of publishing a number that may be misleading. If you use standardized pricing, starting prices or clear package information can help customers understand what to expect.</p>
+
+<h3>How many pages does a cleaning business website need?</h3>
+
+<p><strong>There is no universal page count.</strong> A small cleaning company can cover the essential customer journey with a focused group of pages, while a business with multiple services or markets may benefit from additional service or location content. SitesThatBook's current Launch plan includes five custom pages.</p>
+
+<h3>Does a cleaning company website need local SEO?</h3>
+
+<p><strong>A cleaning business that depends on customers in a defined service area should build its website with local search in mind.</strong> Clear services, locations, accurate business information, useful content, and alignment with your Google Business Profile help search engines understand what you offer and where you operate. Rankings are never automatic or guaranteed. Google says local visibility is primarily determined by relevance, distance, and prominence.</p>
+
+<h3>Can one website work for residential and commercial cleaning?</h3>
+
+<p><strong>Yes, provided the site gives each audience a clear path.</strong> Residential and commercial customers may evaluate different services, trust factors, schedules, and quote requirements, so the website should not force both groups through identical messaging.</p>
+
+<h3>How quickly can SitesThatBook build a cleaning company website?</h3>
+
+<p><strong>SitesThatBook's current process is built around a 48-hour launch after completed onboarding.</strong> Its terms clarify that the timeline depends on receiving the completed onboarding form and any required information, and delays in receiving those items may extend the launch.</p>
+
+<h3>Will a new cleaning website automatically rank on Google?</h3>
+
+<p><strong>No.</strong> A properly built website can create a stronger SEO foundation, but nobody can guarantee that a new site will rank in a particular position. Google itself states that crawling and indexing are not guaranteed, and a sitemap does not guarantee indexing or improve rankings by itself.</p>
+
+
+
+<h2 id="ready-for-a-cleaning-company-website-built-aroun">Ready for a cleaning company website built around calls and booking requests?</h2>
+
+<p>SitesThatBook can handle the writing, design, forms, hosting, SEO setup, and ongoing website support while you focus on running your cleaning business.</p>
+
+<p>The current Launch plan is $349 setup and $99 per month with five custom pages, no contract, hosting and SSL, ongoing content updates, SEO blog posts, and monthly traffic reporting.</p>
+
+<p><a href="https://www.sitesthatbook.com/get-started">Get my site in 48 hours</a></p>
+
+<p>Prefer to talk first? Call or text <a href="tel:+13072187725">+1 307-218-7725</a>.</p>
+"""
+},
+{
  "slug":"landscaping-website-design-ideas","tag":"Website tips","read":7,
  "title":"Landscaping Website Design Ideas That Book Bigger Projects",
  "h1":"<em>Landscaping website design</em> ideas that book bigger projects",

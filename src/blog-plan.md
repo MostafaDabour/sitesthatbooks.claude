@@ -32,6 +32,8 @@ When fewer than 5 unchecked topics remain, the agent adds 10 new ones at the bot
 | K9 | contractor website cost | /blog/how-much-does-a-contractor-website-cost and /pricing |
 | K10 | local seo for contractors | /local-seo-for-contractors |
 
+- [x] Cleaning Company Website Design for More Bookings (cleaning-company-website-design) 2026-10-28, supplied by owner
+
 ## Up next
 - [ ] Contractor Website Cost: Monthly Plan vs One-Time Build | K9 | target: contractor website cost | link: /pricing
 - [ ] Do You Need a Separate Website If You Already Use Field Service Software? | K8 | target: jobber website | link: /compare/sitesthatbook-vs-jobber-website
