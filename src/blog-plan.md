@@ -33,9 +33,9 @@ When fewer than 5 unchecked topics remain, the agent adds 10 new ones at the bot
 | K10 | local seo for contractors | /local-seo-for-contractors |
 
 - [x] Cleaning Company Website Design for More Bookings (cleaning-company-website-design) 2026-10-28, supplied by owner
+- [x] Contractor Website Cost: Monthly Plan vs One-Time Build (contractor-website-cost-monthly-vs-one-time) 2026-10-28
 
 ## Up next
-- [ ] Contractor Website Cost: Monthly Plan vs One-Time Build | K9 | target: contractor website cost | link: /pricing
 - [ ] Do You Need a Separate Website If You Already Use Field Service Software? | K8 | target: jobber website | link: /compare/sitesthatbook-vs-jobber-website
 - [ ] Roofing Leads: Website vs Google Ads vs Lead Sites | K3 | target: roofing website design | link: /roofing-websites
 - [ ] How Many Pages Does a Contractor Website Need? | K4 | target: contractor website design | link: /home-service-website-design

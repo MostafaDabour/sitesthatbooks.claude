@@ -1,5 +1,90 @@
 POSTS = [
 {
+ "slug":"contractor-website-cost-monthly-vs-one-time","tag":"Pricing","read":7,
+ "title":"Contractor Website Cost: Monthly Plan vs One-Time Build",
+ "h1":"Contractor website cost: <em>monthly plan or one-time build</em>?",
+ "desc":"Contractor website cost compared two ways: a monthly plan vs a one-time build. See the 1, 3 and 5 year math and which model fits your business.",
+ "answer":"A one-time build costs more upfront but can look cheaper over five years if you never touch the site again. A monthly plan costs less to start and spreads the contractor website cost out, with hosting, updates and SEO included. The right pick depends on your cash flow, how often your site needs changes and who you want doing the work.",
+ "toc":[("two-models","What are the two ways to pay for a contractor website?"),("upfront","What do you pay upfront with each model?"),("over-time","How does contractor website cost add up over 1, 3 and 5 years?"),("included","What does each option actually include after launch?"),("ownership","Who owns the website in each model?"),("one-time-fit","When does a one-time build make more sense?"),("monthly-fit","When does a monthly plan make more sense?"),("decide","How do you decide for your business?")],
+ "faqs":[("Is a monthly website plan more expensive than buying a website outright?","Over a long enough time, it can be, if the one-time site never needs updates, new pages or SEO work. Once you add hosting, hourly change fees and the occasional redesign to the one-time build, the gap usually gets much smaller. Run both totals over three to five years with your own quotes before you decide."),
+         ("Can I switch from a one-time build to a monthly plan later?","Yes. Many owners start with a site they paid for once and move to a monthly plan when it gets outdated or stops bringing in calls. Make sure you own your domain so you can point it to the new site without losing your web address.")],
+ "body":"""
+<p>When you start pricing a new website, you quickly run into two very different offers. One company quotes a big number to build the site once. Another quotes a small setup fee and a monthly payment. Both can be fair, and both can be a bad deal, depending on what is included. This guide compares contractor website cost under each model, shows you how to run the math over several years, and helps you pick the one that fits your HVAC, plumbing, roofing, electrical, landscaping or cleaning business. If you want the broader price ranges first, start with our guide on <a href="/blog/how-much-does-a-contractor-website-cost">how much a contractor website costs</a>.</p>
+<h2 id="two-models">What are the two ways to pay for a contractor website?</h2>
+<p>Almost every offer you get will fit one of these two models:</p>
+<ul>
+<li><b>One-time build.</b> You pay a freelancer or agency to design and build the site. When it launches, the project is done. Hosting, changes and SEO are usually separate, either as a small monthly care fee or billed by the hour when you need something.</li>
+<li><b>Monthly plan.</b> You pay a setup fee to get the site built, then a fixed monthly amount. The provider keeps the site online, makes updates and often handles ongoing SEO work as part of that payment.</li>
+</ul>
+<p>Neither model is better by default. The question is which one gives you a site that keeps bringing in calls for the least total money and hassle.</p>
+<h2 id="upfront">What do you pay upfront with each model?</h2>
+<p>This is where the two models look the most different. A one-time build puts most of the cost at the start. Freelancers commonly charge somewhere in the low thousands for a small trade site, and agencies often charge several thousand or more. These are common ranges, not quotes, and your price depends on page count, who writes the copy and how custom the design is.</p>
+<p>A monthly plan flips that. The setup fee is usually a few hundred dollars, and the rest is spread across the months you use the service. For a business that is buying a new truck, hiring a tech or getting through a slow season, keeping a few thousand dollars in the bank can matter more than the long term total.</p>
+<p>Ask both types of provider the same question: what is the total due before the site goes live? Then ask what is due every month after that, even if the answer is zero.</p>
+<h2 id="over-time">How does contractor website cost add up over 1, 3 and 5 years?</h2>
+<p>The fair way to compare is total cost over time, not the first invoice. Here is an example using made up numbers for the one-time build and our real Launch plan pricing for the monthly side. Swap in the quotes you actually receive.</p>
+<ul>
+<li><b>Example one-time build:</b> $4,000 to build, plus $30 a month for hosting and basic care. That is about $4,360 after year one, $5,080 after three years and $5,800 after five years.</li>
+<li><b>Monthly plan (SitesThatBook Launch):</b> $349 setup, plus $99 a month. That is $1,537 after year one, $3,913 after three years and $6,289 after five years.</li>
+</ul>
+<p>On paper, the one-time build in this example wins by year five. But that number assumes the site never changes. In real life, most contractors need things like:</p>
+<ul>
+<li>A new service page when you add water heaters, mini splits, generators or gutter work.</li>
+<li>New towns added as your service area grows.</li>
+<li>Updated photos, prices, seasonal offers and license details.</li>
+<li>Fixes when a form breaks or a page loads slowly on phones.</li>
+<li>A refresh or full rebuild after a few years when the design starts to look dated.</li>
+</ul>
+<p>With a one-time build, each of those is usually a new invoice. Add a handful of hourly changes a year and one redesign in year four or five, and the totals often end up close, or flip. That is why you should run the math with your own quotes and an honest guess at how often your site will need work.</p>
+<h2 id="included">What does each option actually include after launch?</h2>
+<p>The biggest difference is not price. It is what happens after the site goes live.</p>
+<p>With a one-time build, the provider's job ends at launch unless you pay for more. Some freelancers offer a care plan for hosting and small fixes. Many do not include new content, SEO work or reporting. If you want changes, you send a request, wait for a quote and pay for the time.</p>
+<p>With a monthly plan, ongoing work is built in, but the amount varies a lot between providers. Before you sign, ask exactly what the monthly fee covers. A useful plan for a home service business usually includes:</p>
+<ul>
+<li>Hosting and SSL so the site stays online and secure.</li>
+<li>A set number of content updates each month.</li>
+<li>Ongoing SEO work, such as new blog posts aimed at local searches.</li>
+<li>A simple monthly report so you can see whether people are finding you.</li>
+</ul>
+<p>Our Launch plan includes hosting, SSL, 2 content updates, 2 SEO blog posts and a monthly traffic report every month. That ongoing content is a big part of why monthly sites tend to improve over time, while a site paid for once often stays exactly as it was on launch day.</p>
+<h2 id="ownership">Who owns the website in each model?</h2>
+<p>Ownership is the part owners most often forget to ask about. With a one-time build, you usually own the design and files once the final invoice is paid, but confirm that in writing. With a monthly plan, terms vary. Some providers let you take your content, others keep the design and code because it lives on their system.</p>
+<p>Whatever model you pick, insist on these three things:</p>
+<ol>
+<li>Your domain name is registered to you, not the provider.</li>
+<li>Your logo, photos and written business details belong to you.</li>
+<li>You know what happens to the site if you cancel or stop paying.</li>
+</ol>
+<p>If a provider will not answer those questions clearly, that tells you more than their price does.</p>
+<h2 id="one-time-fit">When does a one-time build make more sense?</h2>
+<p>Paying once can be the smarter move if:</p>
+<ul>
+<li>You have the cash available and would rather not add another monthly bill.</li>
+<li>Your services and service area rarely change.</li>
+<li>Someone on your team can handle hosting, updates and SEO, or you have a freelancer you trust for small jobs.</li>
+<li>You need a large custom site with features a standard plan does not cover.</li>
+</ul>
+<h2 id="monthly-fit">When does a monthly plan make more sense?</h2>
+<p>A monthly plan tends to fit better if:</p>
+<ul>
+<li>You want to keep cash in the business instead of paying thousands upfront.</li>
+<li>You do not have time to manage a website, a host and a freelancer.</li>
+<li>Your business is growing and you expect to add services or towns.</li>
+<li>You want SEO content added every month without hiring someone separately.</li>
+<li>You want the option to leave without being locked into a long contract.</li>
+</ul>
+<p>Either way, the design itself still has to do its job: clear services, a tap to call button, real photos and a simple request form. Our guide to <a href="/home-service-website-design">contractor website design</a> covers what that looks like for trades.</p>
+<h2 id="decide">How do you decide for your business?</h2>
+<ol>
+<li><b>Get real quotes for both models.</b> Ask for the upfront amount and the monthly amount from each.</li>
+<li><b>Add up three and five year totals.</b> Include hosting, an estimate of hourly change fees and a likely redesign for the one-time option.</li>
+<li><b>Compare what you get after launch.</b> Updates, SEO work and reports are worth real money.</li>
+<li><b>Check ownership and contracts.</b> Your domain should be yours, and you should know how to leave.</li>
+<li><b>Think about your average job.</b> If one extra booked job a month covers the cost, focus on which option is more likely to make the phone ring.</li>
+</ol>
+<p>If the monthly route fits, our plan is simple: $349 setup and $99 a month, no contracts, live 48 hours after you fill the onboarding form. You can add Get Found for $149 a month or Get Booked for $499 a month later if you want more local search or ads help. If you do not love the site on the launch call and we cannot fix it on the call, you get your setup fee back. See the full breakdown of our <a href="{PRICING}">contractor website cost and plans</a>, or <a href="{GET}">fill the onboarding form</a> to get started.</p>
+"""},
+{
  "slug":"cleaning-company-website-design",
  "tag":"Website tips",
  "read":13,
