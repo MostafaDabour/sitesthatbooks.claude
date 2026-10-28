@@ -235,7 +235,7 @@ def hero(eyebrow, h1, lede, crumbs=None, ctas=True, extra=""):
     return f'''<section class="hero"><div class="wrap page-hero"><div class="hero-copy">{cr}<span class="eyebrow">{eyebrow}</span><h1>{h1}</h1><p class="lede">{lede}</p>{btns}{extra}</div></div></section>'''
 
 def proof_row():
-    items = ["Live in 48 hours","Money-back guarantee","No contracts","Hosting and SEO included"]
+    items = ["Live 48 hours after onboarding","Money-back guarantee","No contracts","Hosting and SEO included"]
     return '<ul class="proof-row">' + "".join(f"<li>{TICK}{i}</li>" for i in items) + "</ul>"
 
 def devices_mock(trade="Plumbing", headline="Same day plumbing you can count on", alerts=None, domain="yourcompany.com"):
@@ -286,17 +286,18 @@ def plans(full=False):
     return f'''<div class="plans">
  <div class="plan"><h3>Launch</h3><p class="sub">Your complete 5-page website.</p>
   <div class="price">{SETUP} <small>setup</small></div><div class="sub">then <b>{MONTHLY}/month</b>. No contract.</div>
-  {checks(["Live in 48 hours","5 custom pages for your trade","Hosting, SSL and domain connection","2 updates and 2 SEO blog posts a month"]+extra_launch)}
+  {checks(["Live 48 hours after onboarding","5 custom pages for your trade","Hosting, SSL and domain connection","2 updates and 2 SEO blog posts a month"]+extra_launch)}
   <a class="btn btn-ghost" href="{L("get-started")}#plan=launch">Start with Launch</a></div>
- <div class="plan featured"><span class="badge">Most popular</span><h3>Get Found</h3><p class="sub">Show up in the Google map pack.</p>
-  <div class="price">+$149 <small>/month</small></div><div class="sub">Added to Launch.</div>
+ <div class="plan featured"><span class="badge">Most popular</span><h3>Get Found</h3><p class="sub">Local SEO to compete in the Google map pack.</p>
+  <div class="price">+$149 <small>/month</small></div><div class="sub">Added to Launch. <b>$248/month total.</b></div>
   {checks(["Everything in Launch","Google Business Profile setup","5 Google Business posts a month","Automated review requests","Local directory citations"]+(["Quarterly strategy call"] if full else []))}
   <a class="btn btn-primary" href="{L("get-started")}#plan=get-found">Start with Get Found</a></div>
  <div class="plan"><h3>Get Booked</h3><p class="sub">Ads, CRM and follow up, done for you.</p>
-  <div class="price">+$499 <small>/month</small></div><div class="sub">Added to Launch.</div>
+  <div class="price">+$499 <small>/month</small></div><div class="sub">Added to Launch and Get Found. <b>$747/month total</b>, plus ad spend.</div>
   {checks(["Everything in Get Found","Managed Google Ads campaign","CRM with instant lead follow up","Missed call text back"]+(["Monthly strategy call"] if full else []))}
   <a class="btn btn-ghost" href="{L("get-started")}#plan=get-booked">Start with Get Booked</a></div>
-</div>'''
+</div>
+<p class="form-note" style="margin-top:16px">Monthly totals: Launch {MONTHLY}, Get Found $248 ({MONTHLY} + $149), Get Booked $747 ({MONTHLY} + $149 + $499). Google Ads spend for Get Booked is paid directly to Google. Sites go live 48 hours after we receive your completed onboarding form.</p>'''
 
 SHIELD = '<svg class="shield" viewBox="0 0 76 88" aria-hidden="true"><path d="M38 2L72 14v28c0 22-15 37-34 44C19 79 4 64 4 42V14L38 2z" fill="#1D6FF2"/><path d="M24 44l10 10 19-20" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>'
 def guarantee():
@@ -365,7 +366,7 @@ def compare_table():
 GLOBAL_FAQ = [
  ("How is my website live in 48 hours?","We only build for home service businesses, so our page structure, copy approach and SEO setup are already proven. You give us your details in a 10 minute onboarding form and our team builds from there. 48 hours later we show you the finished site on a launch call."),
  ("What do you need from me?","Your business name, trade, services, service area, phone number, logo if you have one and a few job photos. No photos? We start with clean stock images and swap yours in later as one of your monthly updates."),
- ("How much does it cost?",f"{SETUP} one-time setup and {MONTHLY} a month. The monthly plan covers hosting, SSL, 2 content updates, 2 SEO blog posts and a monthly traffic report. Get Found adds $149 a month and Get Booked adds $499 a month."),
+ ("How much does it cost?",f"{SETUP} one-time setup and {MONTHLY} a month. The monthly plan covers hosting, SSL, 2 content updates, 2 SEO blog posts and a monthly traffic report. Get Found adds $149 a month ($248 total). Get Booked adds $499 on top of Get Found, so $747 a month total plus your ad spend."),
  ("Is there a contract?","No. Pay month to month and cancel anytime."),
  ("Do I own my domain?","Yes. Your domain stays in your name. If you do not have one yet, we help you pick and register it."),
  ("What if I do not like the design?",f"We fix it on the launch call. If you still do not love it and we cannot fix it there, we refund your {SETUP} setup fee."),
@@ -379,7 +380,7 @@ def home():
     body = f'''<section class="hero"><div class="wrap hero-grid">
  <div class="hero-copy"><span class="eyebrow">Websites for home service businesses</span>
   <h1>Your website. Live in 48 hours. Built to <em>get you booked.</em></h1>
-  <p class="lede">Done-for-you websites for plumbers, HVAC companies, roofers, electricians and every home service pro. {SETUP} to start, {MONTHLY} a month, no contracts. You run the jobs. We make the phone ring.</p>
+  <p class="lede">Done-for-you websites for plumbers, HVAC companies, roofers, electricians and every home service pro. {SETUP} to start, {MONTHLY} a month, no contracts, live 48 hours after your completed onboarding form. You run the jobs. We make the phone ring.</p>
   <div class="btn-row"><a class="btn btn-primary" href="{L("get-started")}">Get my site in 48 hours</a><a class="btn btn-outline-light" href="{L("our-work")}">See our work</a></div>
   {proof_row()}
  </div>
@@ -580,7 +581,7 @@ def pricing():
     table = '<div class="table-wrap"><table><thead><tr><th scope="col">Feature</th><th scope="col">Launch</th><th scope="col">Get Found</th><th scope="col">Get Booked</th></tr></thead><tbody>' + "".join(f'<tr><th scope="row">{a}</th>{cell(b)}{cell(c)}{cell(d)}</tr>' for a,b,c,d in rows) + "</tbody></table></div>"
     pf = [("Why is there a setup fee?",f"The {SETUP} covers writing your copy, designing your pages, setting up forms, SEO and connecting your domain. It is the only upfront cost."),
           ("What does the $99 a month cover?","Hosting, SSL security, 2 content updates, 2 SEO blog posts and a monthly traffic report. Your site stays fast, secure and growing."),
-          ("Are Google Ads costs included in Get Booked?","The $499 a month covers managing your campaign, the CRM and follow up tools. Your ad spend is paid directly to Google, so you control the budget."),
+          ("Are Google Ads costs included in Get Booked?","Get Booked is $747 a month in total: Launch {MONTHLY}, Get Found $149 and $499 for managing your campaign, the CRM and follow up tools. Your ad spend is paid directly to Google, so you control the budget."),
           ("Can I upgrade or downgrade?","Yes. Add Get Found or Get Booked anytime, or drop back to Launch at the end of any month."),
           ("Can I cancel?","Yes. No contracts. Cancel anytime.")]
     body = hero("Pricing",f"Simple pricing. <em>{SETUP}</em> setup, <em>{MONTHLY}</em> a month.","No contracts, no hidden fees. Every plan starts with Launch. Add local SEO or ads when you want more calls.",crumbs=[("Home",""),("Pricing","")]) + f'''
@@ -592,10 +593,10 @@ def pricing():
 {cta_band()}'''
     offer = {"@type":"OfferCatalog","name":"SitesThatBook plans","itemListElement":[
         {"@type":"Offer","name":"Launch","price":"349","priceCurrency":"USD","description":"$349 setup plus $99 per month. 5-page website live in 48 hours."},
-        {"@type":"Offer","name":"Get Found","price":"149","priceCurrency":"USD","description":"Adds $149 per month to Launch. Google Business Profile, posts, reviews, citations."},
-        {"@type":"Offer","name":"Get Booked","price":"499","priceCurrency":"USD","description":"Adds $499 per month to Launch. Google Ads management, CRM, missed call text back."}]}
+        {"@type":"Offer","name":"Get Found","price":"248","priceCurrency":"USD","description":"$248 per month total: Launch plus $149 per month. Google Business Profile, posts, reviews, citations."},
+        {"@type":"Offer","name":"Get Booked","price":"747","priceCurrency":"USD","description":"$747 per month total: Launch, Get Found and $499 for Google Ads management, CRM and missed call text back. Ad spend separate."}]}
     page("pricing",f"Pricing: {SETUP} Setup, {MONTHLY}/Month, No Contracts | SitesThatBook",
-         f"Home service website pricing: {SETUP} setup and {MONTHLY}/month with hosting, updates and SEO blog posts. Add local SEO for $149/month or Google Ads for $499/month.",
+         f"Home service website pricing: {SETUP} setup and {MONTHLY}/month with hosting, updates and SEO blog posts. Get Found $248/month total, Get Booked $747/month total.",
          body, active="pricing", priority="0.9", schema=[offer, faq_schema(pf), crumbs_schema([("Home",""),("Pricing","pricing")])])
 
 def how_it_works():
@@ -661,7 +662,7 @@ def faq_page():
             ("Do you write the content?","Yes. We write all the copy from your onboarding form. You review it on the launch call."),
             ("Will my site work on phones?","Every site is designed mobile first with a sticky call bar, because most of your customers will find you on a phone."),
             ("What is the Get Found plan?","It adds Google Business Profile setup and management, 5 Google Business posts a month, automated review requests and local directory citations for $149 a month."),
-            ("What is the Get Booked plan?","It adds a managed Google Ads campaign, a CRM with instant lead follow up and missed call text back for $499 a month. Ad spend is paid to Google separately."),
+            ("What is the Get Booked plan?","It adds a managed Google Ads campaign, a CRM with instant lead follow up and missed call text back on top of Get Found. It is $747 a month in total ($99 Launch, $149 Get Found and $499 Get Booked). Ad spend is paid to Google separately."),
             ("Do you serve businesses outside the US?","We focus on US home service businesses."),
             ("Can you move my existing website?","Yes. We rebuild it on our platform and connect your existing domain, so you keep your web address.")]
     allf = GLOBAL_FAQ + more
@@ -679,10 +680,14 @@ def form_html(name, fields_html, button, ok):
 <p hidden><label>Leave empty <input name="company_website"></label></p>
 {fields_html}
 {"" if "data-step-next" in fields_html else f'<div class="full"><button class="btn btn-primary" type="submit">{button}</button></div>'}
-<p class="form-note full">We reply within one business day. We never share your details.</p>
+<p class="form-note full">We reply within one business day. We only use your details to contact you about your project. See our <a href="{L("privacy")}">Privacy Policy</a>.</p>
 <div class="form-ok full" hidden tabindex="-1">{ok}</div>
 <div class="form-err full" hidden>Something went wrong sending your form. Call or text {PHONE} and we will sort it out right away.</div>
 </form>'''
+
+SMS_CONSENT = "By sharing your number you agree to get calls and texts from SitesThatBook about your project. Msg and data rates may apply. Reply STOP to opt out."
+def phone_field(label):
+    return f'<div class="field"><label for="phone">{label}</label><input id="phone" name="phone" type="tel" placeholder="(555) 123 4567" autocomplete="tel" required><input type="hidden" name="sms_consent" value="Agreed: {SMS_CONSENT}"><span class="hint">{SMS_CONSENT}</span></div>'
 
 def field(id_, label, type_="text", full=False, req=True, hint="", ph=""):
     r = " required" if req else ""
@@ -727,12 +732,12 @@ def get_started():
     step1 = ('<div class="form-step-head full"><span class="step-pill">Step 1 of 2</span><h3>Start here. Takes 30 seconds.</h3><p class="form-note">We will reach out to you right after this step, even if you stop here.</p></div>' +
               field("name","Your name",ph="Mike Johnson") + field("business","Business name",ph="Johnson Plumbing LLC") +
               f'<div class="field"><label for="trade">Your trade</label><select id="trade" name="trade" required><option value="">Choose your trade</option>{trade_options()}</select></div>' +
-              field("phone","Mobile phone","tel",ph="(555) 123 4567") + field("email","Email","email",full=True,ph="you@yourcompany.com") +
+              phone_field("Mobile phone") + field("email","Email","email",full=True,ph="you@yourcompany.com") +
               '<div class="full step1-actions"><button class="btn btn-primary" type="button" data-step-next>Continue</button><span class="form-note">No payment needed to start.</span></div>')
     step2 = ('<div class="full step2" hidden>' +
               '<div class="form-grid">' +
               '<div class="form-step-head full"><span class="step-pill done">Step 1 done</span><h3>Step 2: Tell us about your business</h3><p class="form-note">Fill what you can now so we can start building right away. Anything you skip, we will cover on your launch call.</p></div>' +
-              f'<div class="field full"><label for="plan">Plan</label><select id="plan" name="plan"><option>Launch ({SETUP} + {MONTHLY}/mo)</option><option>Get Found (+$149/mo)</option><option>Get Booked (+$499/mo)</option><option>Not sure yet</option></select></div>' +
+              f'<div class="field full"><label for="plan">Plan</label><select id="plan" name="plan"><option>Launch ({SETUP} + {MONTHLY}/mo)</option><option>Get Found ($248/mo total)</option><option>Get Booked ($747/mo total)</option><option>Not sure yet</option></select></div>' +
               field("area","Cities or areas you serve",full=True,req=False,ph="Austin, Round Rock, Cedar Park, Georgetown") +
               field("services","Main services you offer","textarea",full=True,req=False,ph="Drain cleaning, water heaters, leak repair, repiping") +
               field("domain","Current website or domain",req=False,hint="Leave blank if you don't have one yet.",ph="johnsonplumbing.com") +
@@ -760,7 +765,7 @@ def get_started():
          body, priority="0.8", schema=[crumbs_schema([("Home",""),("Get started","get-started")])])
 
 def contact():
-    fields = (field("name","Your name") + field("phone","Phone","tel") + field("email","Email","email",full=True) +
+    fields = (field("name","Your name") + phone_field("Phone") + field("email","Email","email",full=True) +
               field("notes","How can we help?","textarea",full=True))
     body = hero("Contact","Talk to a <em>real person</em>","Questions about your trade, pricing or the process? Call, text, email or send the form.",crumbs=[("Home",""),("Contact","")],ctas=False) + f'''
 <section class="section"><div class="wrap split" style="align-items:start">
@@ -861,7 +866,7 @@ def services():
     service_page("local-seo-for-contractors",
       "Local SEO for Contractors and Home Services | SitesThatBook",
       "Local SEO for home service businesses: Google Business Profile management, review requests, citations and monthly blog posts. Get Found plan from $149/month.",
-      "Local SEO for contractors","Local SEO that gets you into the <em>Google map pack</em>",
+      "Local SEO for contractors","Local SEO built to get you into the <em>Google map pack</em>",
       "The map pack is where most local calls start. Our Get Found plan keeps your Google Business Profile active, brings in reviews and builds the citations Google uses to trust your business.",
       f'''<section class="section"><div class="wrap"><div class="section-head"><h2>What local SEO includes</h2></div><div class="grid g3">
 <div class="card"><h3>Google Business Profile setup</h3><p>Categories, services, service area, hours, photos and description set up the right way.</p></div>
@@ -895,9 +900,9 @@ def services():
 
     service_page("google-ads-for-contractors",
       "Google Ads for Contractors and Home Services | SitesThatBook",
-      "Managed Google Ads for home service businesses with CRM, instant lead follow up and missed call text back. Get Booked plan from $499/month plus ad spend.",
+      "Managed Google Ads for home service businesses with CRM, instant lead follow up and missed call text back. Get Booked plan $747/month total plus ad spend.",
       "Google Ads for contractors","Google Ads, CRM and follow up that <em>book jobs on demand</em>",
-      "SEO takes time. Google Ads puts you at the top of search today. Our Get Booked plan runs your campaign, follows up with every lead in seconds and texts back missed calls so no job slips away.",
+      "SEO takes time. Google Ads can put you in front of searchers as soon as your campaign is live. Our Get Booked plan runs your campaign, follows up with every lead in seconds and texts back missed calls so no job slips away.",
       f'''<section class="section"><div class="wrap"><div class="section-head"><h2>What Get Booked includes</h2></div><div class="grid g2">
 <div class="card"><h3>Managed Google Ads campaign</h3><p>Keyword research, ad copy, location targeting and ongoing optimization, run by a team with over 14 years in paid media.</p></div>
 <div class="card"><h3>CRM with instant follow up</h3><p>Every form lead gets a text right away, so you reach them before your competitors do.</p></div>
@@ -918,7 +923,7 @@ def services():
 <div class="card"><h3>Speed to lead</h3><p>Leads that get a reply within minutes book far more often than leads that wait hours. That is why every lead gets an instant text and missed calls get a text back.</p></div>
 <div class="card"><h3>Run by paid media pros</h3><p>Campaigns are managed by the Leads Magnets team, a Google Partner agency.</p></div>
 </div></div></section>''',
-      [("Is ad spend included?","No. The $499 a month covers management and tools. Ad spend is paid directly to Google, so you set the budget."),
+      [("Is ad spend included?","No. Get Booked is $747 a month in total for your website, local SEO, campaign management and tools. Ad spend is paid directly to Google, so you set the budget."),
        ("Do I need the Launch plan first?","Yes. Get Booked is added to Launch so your ads send people to a site built to convert."),
        ("Can I pause ads in slow seasons?","Yes. We can lower or pause spend anytime."),
        ("How fast do Google Ads bring calls?","Ads can show the same day the campaign goes live. The first weeks are used to learn which keywords and hours bring booked jobs, then we cut waste and scale what works."),
@@ -966,6 +971,14 @@ def comparison_pages():
         page(path, c["title"] if "SitesThatBook" in c["title"] else c["title"] + " | SitesThatBook", c["meta"], body, priority="0.7",
              schema=[faq_schema(c["faqs"]), crumbs_schema([("Home",""),("Compare","done-for-you-vs-website-builder"),(c["name"],path)])])
 
+def post_date(p):
+    return p.get("date") or TODAY
+
+def nice_date(d):
+    from datetime import date as _d
+    y,m,dd = map(int, d.split("-"))
+    return _d(y,m,dd).strftime("%B ") + str(dd) + _d(y,m,dd).strftime(", %Y")
+
 def blog():
     cards = "".join(f'''<a class="card" href="{L("blog/"+p["slug"])}"><span class="num">{p["tag"]} . {p["read"]} min read</span><h3>{p["title"]}</h3><p>{p["desc"]}</p><span class="more">Read the article &rarr;</span></a>''' for p in POSTS)
     body = hero("Blog","Website and marketing advice for <em>home service pros</em>","Straight answers on websites, SEO and getting more booked jobs. No fluff.",crumbs=[("Home",""),("Blog","")],ctas=False) + f'''
@@ -976,13 +989,13 @@ def blog():
     for p in POSTS:
         toc = "".join(f'<li><a href="#{a}">{h}</a></li>' for a,h in p["toc"])
         b = hero(p["tag"], p["h1"], p["desc"], crumbs=[("Home",""),("Blog","blog"),(p["tag"],"")], ctas=False,
-                 extra=f'<p class="post-meta">By the SitesThatBook team . Updated {date.today().strftime("%B %Y")} . {p["read"]} min read</p>') + f'''
+                 extra=f'<p class="post-meta">By the SitesThatBook team . Published <time datetime="{post_date(p)}">{nice_date(post_date(p))}</time>{(" . Updated " + nice_date(p["updated"])) if p.get("updated") else ""} . {p["read"]} min read</p>') + f'''
 <section class="section"><div class="wrap"><article class="prose">
 <div class="callout"><b>Short answer:</b> {p["answer"]}</div>
 <nav class="toc" aria-label="In this article"><b>In this article</b><ol>{toc}</ol></nav>
 {post_body(p)}
 </article></div></section>{post_cards(related_posts(p), "Keep reading", eyebrow="More articles", mist=True)}{cta_band()}'''
-        art = {"@type":"BlogPosting","headline":p["title"],"description":p["desc"],"datePublished":TODAY,"dateModified":TODAY,
+        art = {"@type":"BlogPosting","headline":p["title"],"description":p["desc"],"datePublished":post_date(p),"dateModified":p.get("updated") or post_date(p),
                "author":{"@type":"Organization","name":"SitesThatBook"},"publisher":{"@id":SITE+"/#org"},"mainEntityOfPage":SITE+"/blog/"+p["slug"]}
         page("blog/"+p["slug"], p["title"]+(" | SitesThatBook" if len(p["title"])<=48 else ""), p["desc"], b, active="blog", og_type="article", priority="0.6",
              schema=[art, faq_schema(p["faqs"]), crumbs_schema([("Home",""),("Blog","blog"),(p["title"],"blog/"+p["slug"])])])
@@ -1021,7 +1034,8 @@ def not_found():
 def extras():
     if MODE != "deploy":
         return
-    urls = "".join(f"<url><loc>{SITE}{'/' + p if p else '/'}</loc><lastmod>{TODAY}</lastmod><priority>{pr}</priority></url>" for p,pr in PAGES)
+    post_mod = {"blog/"+x["slug"]: (x.get("updated") or post_date(x)) for x in POSTS}
+    urls = "".join(f"<url><loc>{SITE}{'/' + p if p else '/'}</loc><lastmod>{post_mod.get(p, TODAY)}</lastmod><priority>{pr}</priority></url>" for p,pr in PAGES)
     open(os.path.join(OUT,"sitemap.xml"),"w").write(f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>\n')
     ai_bots = ["GPTBot","OAI-SearchBot","ChatGPT-User","ClaudeBot","Claude-SearchBot","Claude-User","PerplexityBot","Perplexity-User","Google-Extended","Applebot-Extended","Bingbot","DuckAssistBot","Amazonbot","meta-externalagent","CCBot"]
     robots = "# SitesThatBook welcomes search engines and AI assistants.\n# Site summary for AI tools: " + SITE + "/llms.txt\n\n"
@@ -1040,7 +1054,7 @@ def extras():
 
 > SitesThatBook builds done-for-you websites for US home service businesses: HVAC, plumbing, roofing, electrical, garage door, landscaping, cleaning, pest control, painting and pressure washing. Websites go live 48 hours after the client fills an onboarding form. Pricing is $349 setup and $99 per month with hosting, SSL, 2 content updates, 2 SEO blog posts and a monthly traffic report included. No contracts. If the client does not love the site on the launch call and it cannot be fixed on the call, the setup fee is refunded.
 
-Add-on plans: Get Found (+$149/month) adds Google Business Profile setup, 5 posts a month, automated review requests and local citations. Get Booked (+$499/month, ad spend separate) adds managed Google Ads, a CRM with instant lead follow up and missed call text back.
+Add-on plans: Get Found ($248/month total with Launch, +$149) adds Google Business Profile setup, 5 posts a month, automated review requests and local citations. Get Booked ($747/month total including Launch and Get Found, ad spend separate) adds managed Google Ads, a CRM with instant lead follow up and missed call text back.
 
 Live client sites: ORO Landscaping (Colorado landscape design and build, google.orolandscape.com), Great Northern Refrigeration (Portland HVAC and refrigeration, gnrpdx.com), A & I Contracting (Denver home remodeling, google.aandicontracting.com).
 

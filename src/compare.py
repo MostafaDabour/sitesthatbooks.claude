@@ -16,7 +16,7 @@ COMPARES = [
  "rows": [
   ("What it is", "A website builder included inside Jobber's field service software", "A done-for-you website service for home service businesses"),
   ("Who builds it", "Jobber creates a starter site, then you personalize it yourself", "We write the copy, design the pages and set everything up"),
-  ("Price", "Included on every Jobber plan. Jobber plans are listed from $29 a month (Core, 1 user, paid yearly)", "$349 setup, then $99 a month. No contract"),
+  ("Price", "Included on every Jobber plan. Core is listed at $49 a month billed monthly, with lower effective rates on yearly billing and frequent annual promotions", "$349 setup, then $99 a month. No contract"),
   ("Time to launch", "Depends on how much time you spend customizing", "48 hours after your onboarding form"),
   ("Copy written for your trade and cities", "Pages are generated from the services in your Jobber account. Wording is up to you", "Written for you, service by service and city by city"),
   ("Ongoing content", "Job Showcase can publish posts about completed jobs", "2 SEO blog posts and 2 content updates every month"),
@@ -36,11 +36,11 @@ COMPARES = [
  ],
  "both": "Yes. Jobber is excellent at scheduling, quotes, invoicing and payments. Your SitesThatBook site can link to your Jobber online request form or client hub, so you keep your Jobber workflow and still get a site built to win the job.",
  "faqs": [
-  ("Is the Jobber website builder free?", "Jobber says its website builder is included with every Jobber plan at no additional cost. You still need a paid Jobber plan. Check Jobber's pricing page for current plan prices."),
+  ("Is the Jobber website builder free?", "Jobber says its website builder is included with every Jobber plan at no additional cost. You still need a paid Jobber plan: Core was listed at $49 a month billed monthly in October 2026, with cheaper yearly billing and promotions that change often. Check Jobber's pricing page for the current offer and what it renews at."),
   ("Can I use SitesThatBook if I use Jobber?", "Yes. We build your website, and you keep using Jobber for scheduling, quotes and invoicing. We can link your site to your Jobber request form."),
   ("Which one is better for SEO?", "Both give you a site Google can read. The difference is effort: with Jobber you write and expand the content yourself, while SitesThatBook writes service and city content for you and adds 2 SEO blog posts every month."),
  ],
- "sources": [("Jobber website builder feature page", "https://www.getjobber.com/features/marketing-tools/website/"), ("Jobber pricing breakdown, September 2026", "https://www.forz.io/blog/jobber-pricing/")],
+ "sources": [("Jobber official pricing page", "https://www.getjobber.com/pricing/"), ("Jobber website builder feature page", "https://www.getjobber.com/features/marketing-tools/website/"), ("Jobber price index, checked October 2026", "https://skillmammoth.com/price-index/jobber")],
 },
 {
  "slug": "sitesthatbook-vs-housecall-pro-website",
@@ -126,12 +126,12 @@ COMPARES = [
  "meta": "GoDaddy Website Builder compared with SitesThatBook for home service businesses: cost, AI setup, who does the work, SEO and monthly content.",
  "h1": "GoDaddy Website Builder vs <em>SitesThatBook</em>",
  "lede": "GoDaddy is known for domains and offers a low cost, AI assisted website builder. Here is how it compares with having the site built for you.",
- "answer": "GoDaddy's builder is one of the cheapest ways to get a basic site online, and its AI tools can get you started fast. If you want a site written for your trade, built by a team and kept fresh with monthly SEO content, SitesThatBook costs more per month but does the work for you.",
+ "answer": "GoDaddy's builder is one of the cheapest ways to get a basic site online, and its AI tools can get you started fast. If you want a site written for your trade, built by a team and kept fresh with monthly SEO content, SitesThatBook costs more than GoDaddy's entry plans but does the work for you.",
  "rows": [
   ("What it is", "A do-it-yourself website builder with AI assisted setup", "A done-for-you website service for home service businesses"),
   ("Who builds it", "You do, with AI help", "We do. You fill a 10 minute form"),
-  ("Price", "A free plan with GoDaddy branding. Paid plans commonly listed around $10 to $30 a month depending on plan and billing", "$349 setup, then $99 a month. No contract"),
-  ("Domain", "Free domain with annual plans", "We connect your domain. You own it"),
+  ("Price", "A free plan with GoDaddy branding. Paid Airo plans (Starter, Professional, Ultimate) listed from about $10 to $100 a month billed yearly, and roughly double billed monthly", "$349 setup, then $99 a month. No contract"),
+  ("Domain", "Free domain options on paid plans", "We connect your domain. You own it"),
   ("Written for your trade", "AI generated starting copy. You edit it", "Written for your services and service area"),
   ("SEO setup", "Built-in SEO tools. You set them up", "Done for you, plus 2 SEO blog posts a month"),
   ("Updates", "You make them", "2 updates a month included"),
@@ -150,10 +150,10 @@ COMPARES = [
  ],
  "both": "Partly. If your domain is registered at GoDaddy, you can keep it there. We connect it to your new SitesThatBook site on launch day.",
  "faqs": [
-  ("How much is GoDaddy Website Builder?", "GoDaddy offers a free plan with GoDaddy branding. Independent reviews in 2026 list paid plans roughly between $10 and $30 a month depending on the plan and whether you pay yearly. Check GoDaddy's pricing page for current prices."),
+  ("How much is GoDaddy Website Builder?", "GoDaddy offers a free plan with GoDaddy branding. Its paid Airo plans were listed in September 2026 as Starter at $9.99, Professional at $24.99 and Ultimate at $99.99 a month billed yearly, with higher prices when billed monthly. Prices vary by term and promotion, so check GoDaddy's pricing page for current rates."),
   ("Can I keep my GoDaddy domain?", "Yes. You keep your domain at GoDaddy and we point it to your new site."),
   ("Is a GoDaddy site good enough for a contractor?", "For a basic online presence, it can be. To compete in local search, you need detailed service pages, city content and regular updates, which takes time to do yourself."),
  ],
- "sources": [("GoDaddy Website Builder page", "https://www.godaddy.com/websites/website-builder"), ("Independent GoDaddy pricing review, August 2026", "https://servsw.com/godaddy-pricing")],
+ "sources": [("GoDaddy Website Builder official page", "https://www.godaddy.com/websites/website-builder"), ("GoDaddy pricing guide, updated September 2026", "https://www.websitebuilderexpert.com/web-hosting/godaddy-hosting-costs/")],
 },
 ]

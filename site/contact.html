@@ -46,9 +46,9 @@ document.addEventListener('click',function(e){var a=e.target.closest&&e.target.c
  </div>
  <form class="form" name="contact" method="POST" data-stb="1" data-netlify="true">
 <p hidden><label>Leave empty <input name="company_website"></label></p>
-<div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" placeholder="" required></div><div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" placeholder="" required></div><div class="field full"><label for="email">Email</label><input id="email" name="email" type="email" placeholder="" required></div><div class="field full"><label for="notes">How can we help?</label><textarea id="notes" name="notes" placeholder="" required></textarea></div>
+<div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" placeholder="" required></div><div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" placeholder="(555) 123 4567" autocomplete="tel" required><input type="hidden" name="sms_consent" value="Agreed: By sharing your number you agree to get calls and texts from SitesThatBook about your project. Msg and data rates may apply. Reply STOP to opt out."><span class="hint">By sharing your number you agree to get calls and texts from SitesThatBook about your project. Msg and data rates may apply. Reply STOP to opt out.</span></div><div class="field full"><label for="email">Email</label><input id="email" name="email" type="email" placeholder="" required></div><div class="field full"><label for="notes">How can we help?</label><textarea id="notes" name="notes" placeholder="" required></textarea></div>
 <div class="full"><button class="btn btn-primary" type="submit">Send message</button></div>
-<p class="form-note full">We reply within one business day. We never share your details.</p>
+<p class="form-note full">We reply within one business day. We only use your details to contact you about your project. See our <a href="/privacy">Privacy Policy</a>.</p>
 <div class="form-ok full" hidden tabindex="-1">Thanks. We will get back to you within one business day.</div>
 <div class="form-err full" hidden>Something went wrong sending your form. Call or text +1 307-218-7725 and we will sort it out right away.</div>
 </form>

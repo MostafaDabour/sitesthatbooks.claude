@@ -56,8 +56,9 @@ When fewer than 5 unchecked topics remain, the agent adds 10 new ones at the bot
 - Structure: "answer" box (2 to 3 sentence direct answer), table of contents, question style H2s, 2 FAQs.
 - Link to the matching trade or service page and to /get-started. Use the placeholders {GET}, {PRICING}, {PLUMB}, {SEO}, {HVAC} or plain absolute paths like /roofing-websites.
 - Never invent statistics, studies, client names, results or testimonials. Price ranges must be framed as common ranges, not quotes.
-- Pricing facts: $349 setup + $99/month, Get Found +$149/month, Get Booked +$499/month, live 48 hours after the onboarding form.
+- Pricing facts: $349 setup + $99/month, Get Found +$149/month, Get Booked +$499/month on top of Get Found ($747/month total; Get Found is $248/month total), live 48 hours after the onboarding form.
 - Never publish competitor pricing, plan details or feature claims (Wix, GoDaddy, Jobber, Housecall Pro or any other brand). Those live only on the reviewed /compare pages. Educational posts may link to them.
 - Keyword rules (every post): the queue line names a priority keyword (K1 to K10) and a target phrase. Use the target phrase in the title or H1, in the first 100 words, in at least one H2, and in the meta description. Write naturally; never stuff it.
 - Link to the money page for that keyword using the target phrase (or a close variant) as the link text, for example <a href="/hvac-websites">HVAC website design</a>. Also link to one other related money page from the priority table where it fits naturally.
 - Never write a post that would compete with a money page for its own keyword. Posts answer a supporting question and send readers to the money page.
+- Every new post entry in posts.py must include "date":"YYYY-MM-DD" (the publish date, today) right after "slug". Never change the date of an existing post. If you meaningfully rewrite an old post, add "updated":"YYYY-MM-DD" instead.

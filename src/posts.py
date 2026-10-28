@@ -1,6 +1,6 @@
 POSTS = [
 {
- "slug":"contractor-website-cost-monthly-vs-one-time","tag":"Pricing","read":7,
+ "slug":"contractor-website-cost-monthly-vs-one-time","date":"2026-10-28","tag":"Pricing","read":7,
  "title":"Contractor Website Cost: Monthly Plan vs One-Time Build",
  "h1":"Contractor website cost: <em>monthly plan or one-time build</em>?",
  "desc":"Contractor website cost compared two ways: a monthly plan vs a one-time build. See the 1, 3 and 5 year math and which model fits your business.",
@@ -82,10 +82,10 @@ POSTS = [
 <li><b>Check ownership and contracts.</b> Your domain should be yours, and you should know how to leave.</li>
 <li><b>Think about your average job.</b> If one extra booked job a month covers the cost, focus on which option is more likely to make the phone ring.</li>
 </ol>
-<p>If the monthly route fits, our plan is simple: $349 setup and $99 a month, no contracts, live 48 hours after you fill the onboarding form. You can add Get Found for $149 a month or Get Booked for $499 a month later if you want more local search or ads help. If you do not love the site on the launch call and we cannot fix it on the call, you get your setup fee back. See the full breakdown of our <a href="{PRICING}">contractor website cost and plans</a>, or <a href="{GET}">fill the onboarding form</a> to get started.</p>
+<p>If the monthly route fits, our plan is simple: $349 setup and $99 a month, no contracts, live 48 hours after you fill the onboarding form. You can add Get Found for $149 a month or Get Booked ($747 a month in total) later if you want more local search or ads help. If you do not love the site on the launch call and we cannot fix it on the call, you get your setup fee back. See the full breakdown of our <a href="{PRICING}">contractor website cost and plans</a>, or <a href="{GET}">fill the onboarding form</a> to get started.</p>
 """},
 {
- "slug":"cleaning-company-website-design",
+ "slug":"cleaning-company-website-design","date":"2026-10-28",
  "tag":"Website tips",
  "read":13,
  "title":"Cleaning Company Website Design for More Bookings",
@@ -547,7 +547,7 @@ POSTS = [
 """
 },
 {
- "slug":"landscaping-website-design-ideas","tag":"Website tips","read":7,
+ "slug":"landscaping-website-design-ideas","date":"2026-10-26","tag":"Website tips","read":7,
  "title":"Landscaping Website Design Ideas That Book Bigger Projects",
  "h1":"<em>Landscaping website design</em> ideas that book bigger projects",
  "desc":"Landscaping website design ideas that help you win patios, outdoor living and full yard projects, not just weekly mowing calls.",
@@ -616,7 +616,7 @@ POSTS = [
 <p>If you would rather not build this yourself, SitesThatBook builds landscaping websites with separate maintenance and project paths, a project gallery and a smart quote form, live 48 hours after you fill out the onboarding form. Plans start at $349 setup and $99 a month with no contracts. You can see a real example on <a href="/our-work">our work</a> page, check <a href="/pricing">pricing</a>, or <a href="/get-started">get started</a> today.</p>
 """},
 {
- "slug":"done-for-you-website-for-contractors","tag":"Website tips","read":7,
+ "slug":"done-for-you-website-for-contractors","date":"2026-10-23","tag":"Website tips","read":7,
  "title":"Done-for-You Website for Contractors: Is It Worth It?",
  "h1":"What is a <em>done for you website for contractors</em>, and is it worth it?",
  "desc":"What a done for you website for contractors includes, what you still handle, who it fits, and how to tell if it is worth the monthly fee.",
@@ -696,11 +696,11 @@ POSTS = [
 <li>Can I see live sites you built for other home service businesses?</li>
 <li>What exactly is in the monthly fee, and what costs extra?</li>
 </ol>
-<p>Here is how we answer them. Our done for you website for contractors starts with the Launch plan: $349 setup and $99 a month, with no contracts. We write the copy for your trade, build five pages, handle hosting and SSL, and include 2 updates and 2 SEO blog posts a month. You can add Get Found for $149 a month or Get Booked for $499 a month when you want more help with local search or ads. All the details are on our <a href="{PRICING}">done for you website pricing</a> page.</p>
+<p>Here is how we answer them. Our done for you website for contractors starts with the Launch plan: $349 setup and $99 a month, with no contracts. We write the copy for your trade, build five pages, handle hosting and SSL, and include 2 updates and 2 SEO blog posts a month. You can add Get Found for $149 a month or Get Booked ($747 a month in total) when you want more help with local search or ads. All the details are on our <a href="{PRICING}">done for you website pricing</a> page.</p>
 <p>Your site goes live 48 hours after you fill the onboarding form, and we walk you through it on a launch call. If you do not love it and we cannot fix it on the call, you get your setup fee back. When you are ready, <a href="{GET}">fill the onboarding form</a> and we will take it from there.</p>
 """},
 {
- "slug":"choose-hvac-website-design-company","tag":"Website tips","read":7,
+ "slug":"choose-hvac-website-design-company","date":"2026-10-21","tag":"Website tips","read":7,
  "title":"How to Choose an HVAC Website Design Company",
  "h1":"How to choose an <em>HVAC website design</em> company",
  "desc":"Choosing an HVAC website design company? Test how they handle seasonal swings, emergency calls, maintenance plans and tracking before you sign.",
@@ -771,7 +771,7 @@ POSTS = [
 <p>If you want to see how we handle it, our <a href="/hvac-websites">HVAC website design</a> page shows what we build for heating and cooling companies, with copy written for you. The launch plan is $349 setup and $99 a month with no contracts, and the full details are on our <a href="{PRICING}">pricing page</a>. If you do not love the site on your launch call and we cannot fix it on the call, you get your setup fee back. Your site goes live 48 hours after you <a href="{GET}">fill the onboarding form</a>.</p>
 """},
 {
- "slug":"rank-in-google-map-pack","tag":"Local SEO","read":7,
+ "slug":"rank-in-google-map-pack","date":"2026-10-19","tag":"Local SEO","read":7,
  "title":"How to Rank in Google's Map Pack as a Home Service Business",
  "h1":"Local SEO for contractors: how to rank in the <em>Google map pack</em>",
  "desc":"Local SEO for contractors: how the Google map pack picks the three businesses it shows, and the steps that move a home service company into it.",
@@ -844,7 +844,7 @@ POSTS = [
 <p>If you would rather have this handled for you, our <a href="/local-seo-for-contractors">local SEO for contractors</a> service and the Get Found plan, $149 a month on top of the $99 a month launch plan, take care of your profile, review requests and listings. Every site we build also comes with service pages and matching business details from day one. See the full details on our <a href="{PRICING}">pricing page</a>, and your new site goes live 48 hours after you <a href="{GET}">fill the onboarding form</a>.</p>
 """},
 {
- "slug":"plumbing-website-design-mistakes","tag":"Website tips","read":6,
+ "slug":"plumbing-website-design-mistakes","date":"2026-10-16","tag":"Website tips","read":6,
  "title":"Plumbing Website Design Mistakes That Cost Emergency Calls",
  "h1":"Plumbing website design mistakes that <em>cost you emergency calls</em>",
  "desc":"Plumbing website design mistakes that lose emergency calls: hidden phone numbers, vague hours, slow pages, long forms and missing trust signals.",
@@ -905,7 +905,7 @@ POSTS = [
 <p>If you would rather have it done for you, our <a href="/plumber-websites">plumbing website design</a> service builds every one of these fixes in from day one, with copy written for your company and your towns. Plans start at $349 setup and $99 a month with no contracts, and the details are on our <a href="{PRICING}">pricing page</a>. Your site goes live 48 hours after you <a href="{GET}">fill the onboarding form</a>.</p>
 """},
 {
- "slug":"web-design-for-contractors-hiring-guide","tag":"Website tips","read":7,
+ "slug":"web-design-for-contractors-hiring-guide","date":"2026-10-14","tag":"Website tips","read":7,
  "title":"Web Design for Contractors: What to Look For Before Hiring",
  "h1":"Web design for contractors: <em>what to look for</em> before you hire anyone",
  "desc":"Hiring web design for contractors? Check these 8 things first: trade experience, copy, ownership, speed, SEO setup, monthly support and red flags.",
@@ -976,7 +976,7 @@ POSTS = [
 """
 },
 {
- "slug":"electrician-website-must-haves","tag":"Website tips","read":7,
+ "slug":"electrician-website-must-haves","date":"2026-10-12","tag":"Website tips","read":7,
  "title":"Electrician Website Design: 12 Must Haves for More Calls",
  "h1":"Electrician website design: <em>12 must haves</em> for more calls",
  "desc":"A 12 point electrician website design checklist: what to show first, which services need sections, how to prove you are safe and how to get more calls.",
@@ -1034,7 +1034,7 @@ POSTS = [
 <p>If you would rather not do it yourself, our <a href="/electrician-websites">electrician website design</a> covers all 12 of these, with copy written for your company and your towns. Plans start at $349 setup and $99 a month with no contracts, and the details are on our <a href="{PRICING}">pricing page</a>. Your site goes live 48 hours after you <a href="{GET}">fill the onboarding form</a>.</p>
 """},
 {
- "slug":"get-more-plumbing-calls-from-google","tag":"Local SEO","read":7,
+ "slug":"get-more-plumbing-calls-from-google","date":"2026-10-09","tag":"Local SEO","read":7,
  "title":"How to Get More Plumbing Calls From Google",
  "h1":"How to get more <em>plumbing calls</em> from Google",
  "desc":"Where plumbing calls on Google come from and the fixes that bring more of them: your profile, service pages, reviews, ads and answering every call.",
@@ -1110,7 +1110,7 @@ POSTS = [
 <p>Every <a href="{PLUMB}">plumber website</a> we build comes with service pages, a mobile call bar and a short request form, and our <a href="{SEO}">Get Found plan</a> handles your profile and review requests. Plans start at $349 setup and $99 a month, with details on our <a href="{PRICING}">pricing page</a>. Your site goes live 48 hours after you <a href="{GET}">fill the onboarding form</a>.</p>
 """},
 {
- "slug":"roofing-website-design","tag":"Website tips","read":7,
+ "slug":"roofing-website-design","date":"2026-10-09","tag":"Website tips","read":7,
  "title":"What Makes a Roofing Website Win Estimates?",
  "h1":"What makes a <em>roofing website</em> win estimates?",
  "desc":"The roofing website design choices that turn visitors into inspection and estimate requests: proof, storm pages, financing, warranties and a simple form.",
@@ -1174,7 +1174,7 @@ POSTS = [
 <p>Every <a href="/roofing-websites">roofing website</a> we build includes project galleries, a storm damage section, financing and a short estimate form, written for your company and live 48 hours after you <a href="{GET}">fill the onboarding form</a>. Plans start at $349 setup and $99 a month. See the details on our <a href="{PRICING}">pricing page</a>.</p>
 """},
 {
- "slug":"what-should-an-hvac-website-include","tag":"Website tips","read":7,
+ "slug":"what-should-an-hvac-website-include","date":"2026-10-08","tag":"Website tips","read":7,
  "title":"What Should an HVAC Website Include?",
  "h1":"What should an <em>HVAC website</em> include?",
  "desc":"The pages, sections and features every HVAC company website needs to turn emergency AC and furnace searches into booked service calls.",
@@ -1216,7 +1216,7 @@ POSTS = [
 <p>Every <a href="{HVAC}">HVAC website</a> we build includes all of this, written for your company and live 48 hours after you <a href="{GET}">fill the onboarding form</a>.</p>
 """},
 {
- "slug":"how-much-does-a-contractor-website-cost","tag":"Pricing","read":7,
+ "slug":"how-much-does-a-contractor-website-cost","date":"2026-10-08","tag":"Pricing","read":7,
  "title":"How Much Does a Website Cost for a Home Service Business?",
  "h1":"How much does a website cost for a <em>home service business</em>?",
  "desc":"Real cost ranges for contractor websites in the US: DIY builders, freelancers, agencies and done-for-you services, plus the hidden costs most owners miss.",
@@ -1258,7 +1258,7 @@ POSTS = [
 <p>If you want a professional site without the agency price, see our <a href="{PRICING}">pricing</a> or <a href="{GET}">fill the onboarding form</a> and go live in 48 hours.</p>
 """},
 {
- "slug":"what-pages-should-a-plumbing-website-have","tag":"Website tips","read":6,
+ "slug":"what-pages-should-a-plumbing-website-have","date":"2026-10-08","tag":"Website tips","read":6,
  "title":"What Pages Should a Plumbing Website Have?",
  "h1":"What pages should a <em>plumbing website</em> have?",
  "desc":"The 5 pages every plumbing website needs, what goes on each one, and the sections that turn emergency searches into booked jobs.",
@@ -1287,7 +1287,7 @@ POSTS = [
 <p>Every <a href="{PLUMB}">plumber website</a> we build includes all five pages and these sections, written for your company and live 48 hours after you <a href="{GET}">fill the onboarding form</a>.</p>
 """},
 {
- "slug":"google-business-profile-vs-website","tag":"Local SEO","read":5,
+ "slug":"google-business-profile-vs-website","date":"2026-10-08","tag":"Local SEO","read":5,
  "title":"Do You Need a Website If You Have a Google Business Profile?",
  "h1":"Do you need a website if you have a <em>Google Business Profile</em>?",
  "desc":"Why home service businesses need both a Google Business Profile and a website, how they work together, and what to fix first.",

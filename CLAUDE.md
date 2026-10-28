@@ -8,7 +8,7 @@ Workflow for any change:
 3. Check: no em dashes or en dashes anywhere, all internal links resolve.
 4. Commit both `src/` and `site/`, push to `main`. Hosting auto-deploys.
 
-Content facts: US market only. Launch plan $349 setup + $99/month, Get Found +$149/month, Get Booked +$499/month. Live 48 hours after the onboarding form. Money-back on the setup fee if the client does not love the site on the launch call and it cannot be fixed on the call. No contracts. Phone +1 307-218-7725, info@sitesthatbook.com, 30 N Gould St, Sheridan, WY 82801.
+Content facts: US market only. Launch plan $349 setup + $99/month, Get Found +$149/month, Get Booked +$499/month on top of Get Found, so $747/month total (Get Found total $248/month). Live 48 hours after the onboarding form. Money-back on the setup fee if the client does not love the site on the launch call and it cannot be fixed on the call. No contracts. Phone +1 307-218-7725, info@sitesthatbook.com, 30 N Gould St, Sheridan, WY 82801.
 
 Trades: HVAC, plumbing, roofing, electrical, garage door, landscaping (and lawn care), cleaning, pest control, painting, pressure washing, general contractors. No auto detailing.
 
