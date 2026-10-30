@@ -1,5 +1,80 @@
 POSTS = [
 {
+ "slug":"jobber-website-vs-separate-website","date":"2026-10-30","tag":"Website tips","read":7,
+ "title":"Do You Need a Separate Website If You Use Jobber?",
+ "h1":"Already on field service software? When a <em>Jobber website</em> is enough",
+ "desc":"Is the Jobber website from your field service software enough, or do you need a separate site? How to tell, and how the two can work together.",
+ "answer":"If you mostly get work from referrals and repeat customers, the basic Jobber website or built-in site that comes with your field service software can be enough to start. If you want to win new customers from Google, a separate website built around your services and towns usually does that job better. Many owners keep their software for scheduling and invoicing and use their own site to bring in the calls.",
+ "toc":[("software-job","What is field service software actually built to do?"),("separate","Do you need a separate website if you already use field service software?"),("enough","When is a Jobber website enough for your business?"),("outgrown","What are the signs you have outgrown a built-in website?"),("together","How do your website and your software work together?"),("switching","What happens to your website if you switch software?"),("decide","How do you decide what is right for you?")],
+ "faqs":[("Can I keep my field service software and still get a separate website?","Yes. Your website and your scheduling software do different jobs, so most owners keep both. The website brings in calls and requests, and the software handles the work after the customer says yes. A separate site can link to your online request form or client portal so nothing in your workflow changes."),
+         ("Will a separate website hurt my Google rankings if I already have a site in my software?","Not if you set it up cleanly. The main thing is to have one main website on your own domain, linked from your Google Business Profile, so Google is not confused about which site is yours. If you move from a built-in site to a separate one, point your domain to the new site and update your profile link.")],
+ "body":"""
+<p>If you already pay for field service software to run your schedule, quotes and invoices, you have probably noticed it offers you a website too. So the question comes up fast: is that Jobber website, or the one built into your other software, good enough, or do you need a separate site? The honest answer depends on where your next customers come from. This guide walks through when a built-in site is enough, when it starts holding you back, and how to run both without making a mess of your setup.</p>
+<h2 id="software-job">What is field service software actually built to do?</h2>
+<p>Field service software is built to run the work after a customer finds you. Depending on the tool, that usually means things like:</p>
+<ul>
+<li>Scheduling jobs and dispatching techs or crews.</li>
+<li>Sending quotes and turning them into jobs.</li>
+<li>Invoicing and collecting payments.</li>
+<li>Keeping customer history, notes and job photos in one place.</li>
+</ul>
+<p>That is a big job, and good software does it well. A website has a different job: getting a stranger who has never heard of you to pick up the phone. That means showing up in Google, explaining each service clearly, proving you are local and trustworthy, and making the call or request button impossible to miss. When a software company adds a website feature, it is usually a helpful extra on top of its main product, not the main product itself.</p>
+<h2 id="separate">Do you need a separate website if you already use field service software?</h2>
+<p>Not always. Ask yourself one question: where do new customers come from today, and where do you want them to come from next year?</p>
+<ul>
+<li><b>Mostly referrals, repeat customers and word of mouth.</b> People already know your name. They just need a place to confirm you are real and send a request. A simple built-in site can handle that.</li>
+<li><b>You want more new customers from Google.</b> Now your site has to compete with every other plumber, roofer or HVAC company in town. That takes pages written around each service and each city you cover, plus regular content. This is where a separate site usually earns its keep.</li>
+</ul>
+<p>Most owners who are trying to grow end up in the second group. That does not mean you drop your software. It means the website and the software each do what they are best at.</p>
+<h2 id="enough">When is a Jobber website enough for your business?</h2>
+<p>A built-in site from your software, whether that is a Jobber website or a similar tool, can be a reasonable choice when:</p>
+<ul>
+<li>You are just starting out and need a basic online presence without another bill.</li>
+<li>Your calendar is already full from referrals, and you are not trying to rank in Google right now.</li>
+<li>You are comfortable spending some evenings writing and editing the pages yourself.</li>
+<li>You want web requests to land straight in the same system you already use.</li>
+</ul>
+<p>What each tool includes, and what it costs, changes over time and differs from plan to plan. We keep the details on our reviewed comparison pages instead of in blog posts. If you are weighing it up, read our <a href="/compare/sitesthatbook-vs-jobber-website">Jobber website comparison</a> or our <a href="/compare/sitesthatbook-vs-housecall-pro-website">Housecall Pro website comparison</a>, and always confirm current plans on the software company's own site.</p>
+<h2 id="outgrown">What are the signs you have outgrown a built-in website?</h2>
+<p>These are the signals that your site is not pulling its weight anymore:</p>
+<ol>
+<li><b>You do not show up when people search your service and town.</b> If someone searches "water heater repair" plus your city and you are nowhere, your site is not doing its main job.</li>
+<li><b>You have one page that lists every service.</b> Google and customers both do better with a dedicated page for each main service, like AC repair, drain cleaning or roof replacement.</li>
+<li><b>You cover several towns but your site only names one.</b> People search by their own town. If your site never mentions it, you are harder to find there.</li>
+<li><b>Nobody has updated it in months.</b> Old photos, old offers and no new content tell customers and Google that the site is not looked after.</li>
+<li><b>It looks like everyone else's.</b> If your site uses the same layout and wording as other companies on the same tool, it is hard to stand out.</li>
+<li><b>You never have time to work on it.</b> A site you have to build and maintain yourself only works if you actually do it.</li>
+</ol>
+<p>If three or more of these sound familiar, a separate site built for your trade is worth a serious look. Our guide to <a href="/home-service-website-design">contractor website design</a> shows what a site built to win calls should include.</p>
+<h2 id="together">How do your website and your software work together?</h2>
+<p>You do not have to choose one or the other. The cleanest setup for most home service businesses looks like this:</p>
+<ul>
+<li><b>Your website lives on your own domain.</b> It is the address on your trucks, your cards and your Google Business Profile.</li>
+<li><b>Your website brings in the lead.</b> Clear service pages, a tap to call button and a short request form.</li>
+<li><b>Your software runs the job.</b> If your software has an online request form or client portal, your website can link to it, so requests still flow into the system your office already uses.</li>
+<li><b>One link on Google.</b> Your Google Business Profile points to your main website, not to a second site, so there is no confusion about which one is yours.</li>
+</ul>
+<p>This way your team keeps the workflow it knows, and your website is free to focus on winning the call in the first place.</p>
+<h2 id="switching">What happens to your website if you switch software?</h2>
+<p>This is the question most owners forget to ask. Plenty of businesses change scheduling software as they grow, add a second crew or need different features. If your website lives inside that software, changing tools can mean rebuilding your website too, at the same time you are moving all your customer data.</p>
+<p>Before you rely on any built-in site, find out:</p>
+<ul>
+<li>Do you own the domain, and is it registered in your name?</li>
+<li>Can you take your pages, text and photos with you if you leave?</li>
+<li>What happens to the site if your subscription lapses?</li>
+</ul>
+<p>Keeping your website separate from your software means you can change one without breaking the other. Whatever you choose, make sure the domain is yours. That address is what customers, Google and every review site point to.</p>
+<h2 id="decide">How do you decide what is right for you?</h2>
+<ol>
+<li><b>Look at where your last 20 jobs came from.</b> Referrals, Google, ads, yard signs. Be honest about the mix.</li>
+<li><b>Search your main service and town on your phone.</b> See whether you show up, and who does.</li>
+<li><b>Decide whether you have time to write and update pages.</b> If not, a site you have to build yourself will likely sit unfinished.</li>
+<li><b>Check who owns your domain.</b> Fix that first, no matter which option you pick.</li>
+<li><b>Think about one extra job a month.</b> If a better site brings in even one more job, would it cover the cost?</li>
+</ol>
+<p>If you want a separate site without taking on the work, that is what we do. We write and build a 5-page site for your trade, whether you need <a href="/plumber-websites">plumber websites</a>, <a href="/hvac-websites">HVAC websites</a> or another trade, and it can link to the scheduling tool you already use. The Launch plan is $349 setup and $99 a month, no contracts, and your site goes live 48 hours after you fill the onboarding form. If you do not love it on the launch call and we cannot fix it on the call, your setup fee is refunded. <a href="{GET}">Fill the onboarding form</a> to get started.</p>
+"""},
+{
  "slug":"contractor-website-cost-monthly-vs-one-time","date":"2026-10-28","tag":"Pricing","read":7,
  "title":"Contractor Website Cost: Monthly Plan vs One-Time Build",
  "h1":"Contractor website cost: <em>monthly plan or one-time build</em>?",
