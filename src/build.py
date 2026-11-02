@@ -63,8 +63,10 @@ def brand(light=False):
 
 # ---------------------------------------------------------------- schema
 ORG = {
- "@type":"ProfessionalService","@id":SITE+"/#org","name":"SitesThatBook","url":SITE+"/",
- "logo":SITE+"/assets/logo.png","image":SITE+"/assets/logo.png","telephone":PHONE,"email":EMAIL,
+ "@type":["Organization","ProfessionalService"],"@id":SITE+"/#org","name":"SitesThatBook","url":SITE+"/",
+ "logo":{"@type":"ImageObject","url":SITE+"/assets/logo.png"},"image":SITE+"/assets/logo.png","telephone":PHONE,"email":EMAIL,
+ "contactPoint":{"@type":"ContactPoint","contactType":"sales","telephone":PHONE,"email":EMAIL,"areaServed":"US","availableLanguage":"English"},
+ "founder":{"@type":"Person","name":"Mostafa Dabour"},
  "description":"Done-for-you websites for US home service businesses. $349 setup, $99 per month, live in 48 hours, with hosting, SEO, updates and blog posts included.",
  "address":{"@type":"PostalAddress","streetAddress":"30 N Gould St","addressLocality":"Sheridan","addressRegion":"WY","postalCode":"82801","addressCountry":"US"},
  "areaServed":{"@type":"Country","name":"United States"},
@@ -995,7 +997,7 @@ def blog():
 <nav class="toc" aria-label="In this article"><b>In this article</b><ol>{toc}</ol></nav>
 {post_body(p)}
 </article></div></section>{post_cards(related_posts(p), "Keep reading", eyebrow="More articles", mist=True)}{cta_band()}'''
-        art = {"@type":"BlogPosting","headline":p["title"],"description":p["desc"],"datePublished":post_date(p),"dateModified":p.get("updated") or post_date(p),
+        art = {"@type":["Article","BlogPosting"],"@id":SITE+"/blog/"+p["slug"]+"#article","headline":p["title"],"image":SITE+"/assets/og-image.png","inLanguage":"en-US","url":SITE+"/blog/"+p["slug"],"description":p["desc"],"datePublished":post_date(p),"dateModified":p.get("updated") or post_date(p),
                "author":{"@type":"Organization","name":"SitesThatBook"},"publisher":{"@id":SITE+"/#org"},"mainEntityOfPage":SITE+"/blog/"+p["slug"]}
         page("blog/"+p["slug"], p["title"]+(" | SitesThatBook" if len(p["title"])<=48 else ""), p["desc"], b, active="blog", og_type="article", priority="0.6",
              schema=[art, faq_schema(p["faqs"]), crumbs_schema([("Home",""),("Blog","blog"),(p["title"],"blog/"+p["slug"])])])
