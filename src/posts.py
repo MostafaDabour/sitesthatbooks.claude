@@ -1,5 +1,82 @@
 POSTS = [
 {
+ "slug":"roofing-leads-website-vs-ads-vs-lead-sites","date":"2026-11-02","tag":"Lead generation","read":7,
+ "title":"Roofing Leads: Website vs Google Ads vs Lead Sites",
+ "h1":"Roofing leads: your <em>roofing website</em> vs Google Ads vs lead sites",
+ "desc":"Roofing leads from your website, Google Ads or shared lead sites: how each works, what you really own, and why roofing website design ties them together.",
+ "answer":"Your own website is the roofing lead source you control and keep, Google Ads buy calls quickly while you pay, and shared lead sites sell the same homeowner to several roofers at once. Most roofers do best with a strong website as the base, ads when they need volume fast, and lead sites only as a short term filler.",
+ "toc":[("three-sources","Where do roofing leads actually come from?"),("website","How does a roofing website bring in leads?"),("ads","When do Google Ads make sense for roofers?"),("lead-sites","What is the catch with shared lead sites?"),("compare","How do the three roofing lead sources compare?"),("design","Why does roofing website design matter for every lead source?"),("plan","What mix should a roofing company start with?")],
+ "faqs":[("Should I stop buying leads once my website is live?","Not on day one. A new site takes time to build up Google rankings and reviews, so many roofers keep a small amount of paid or purchased leads running while their own site grows. Track where every signed job comes from, and cut the sources that cost the most per signed roof first."),
+         ("Can Google Ads send traffic to my roofing website instead of a separate landing page?","Yes. Many roofers send ad clicks to a page on their own site for the service being searched, like roof replacement or storm damage. That page needs a clear headline, real project photos, reviews and a big call button, the same things that help your site convert visitors from Google search.")],
+ "body":"""
+<p>Every roofer wants more estimate requests, and there is no shortage of people offering to sell them to you. Most roofing leads come from three places: your own website, Google Ads and shared lead sites that sell homeowner requests. Each one works differently, costs money in a different way and leaves you with a different asset at the end. This guide compares them in plain terms and shows why good roofing website design sits underneath all three.</p>
+<h2 id="three-sources">Where do roofing leads actually come from?</h2>
+<p>Outside of referrals, yard signs and door knocking, most online roofing leads arrive through one of these doors:</p>
+<ul>
+<li><b>Your own website.</b> Homeowners find you on Google search or the map results, land on your site and call or request an estimate.</li>
+<li><b>Google Ads.</b> You pay to show up at the top of the results for searches like "roof replacement near me" and pay when people click or call.</li>
+<li><b>Shared lead sites.</b> A homeowner fills out a form on a third party site, and that request is sold to one or more roofing companies in the area.</li>
+</ul>
+<p>None of these is good or bad on its own. The question is what each one costs you per signed roof, and what you still have when you stop paying.</p>
+<h2 id="website">How does a roofing website bring in leads?</h2>
+<p>Your website is the only lead source on this list that you own. When it is built well, it brings in calls in a few ways:</p>
+<ul>
+<li><b>Google search.</b> Pages for each service, like roof replacement, roof repair, storm damage and gutters, give you a chance to show up when homeowners search for those jobs in your towns.</li>
+<li><b>The map pack.</b> Your Google Business Profile links to your site, and a strong site helps Google trust your business. Our guide to <a href="/blog/rank-in-google-map-pack">ranking in the Google map pack</a> covers that side.</li>
+<li><b>Every other source.</b> People who see your truck, your yard sign or a neighbor's review almost always look you up before they call. Your site is where they decide.</li>
+</ul>
+<p>The tradeoff is time. A website does not flood your phone the week it launches. Rankings build over months as you add service pages, collect reviews and keep the site current. But once it is working, those calls do not stop the moment you stop spending.</p>
+<h2 id="ads">When do Google Ads make sense for roofers?</h2>
+<p>Google Ads are the fastest way to show up for roofing searches in your area. You set a budget, pick the searches you want, and your ad can appear the same day. That makes ads useful when:</p>
+<ol>
+<li>You just launched and need calls before your site ranks on its own.</li>
+<li>A storm just rolled through and you want to be seen while homeowners are searching.</li>
+<li>You have crew capacity to fill and want to turn up volume for a few weeks.</li>
+</ol>
+<p>The catch is that the calls stop the moment the budget runs out, and roofing clicks are often expensive because so many companies compete for them. Ads also only work as well as the page they send people to. If the ad lands on a slow, generic page with no photos and a buried phone number, you pay for the click and lose the homeowner anyway. If you want help running ads, see our page on <a href="/google-ads-for-contractors">Google Ads for contractors</a>.</p>
+<h2 id="lead-sites">What is the catch with shared lead sites?</h2>
+<p>Lead sites are tempting because they feel simple: pay per lead, get a name and a phone number. A few things are worth knowing before you lean on them:</p>
+<ul>
+<li><b>The lead is often shared.</b> The same homeowner may be sent to several roofers at once, so it becomes a race to call first and a fight on price.</li>
+<li><b>You pay whether or not you win.</b> Wrong numbers, tire kickers and people who already hired someone can still count as leads, depending on the terms.</li>
+<li><b>You build their brand, not yours.</b> The homeowner remembers the site they used, not your company name, and you start from zero with every lead.</li>
+<li><b>It stops when you stop paying.</b> Like ads, nothing is left behind when you cancel.</li>
+</ul>
+<p>Terms, pricing and how leads are shared differ a lot from one service to the next, so read the fine print and ask how many companies receive each request. Lead sites can fill gaps in a slow month, but they are hard to build a business on.</p>
+<h2 id="compare">How do the three roofing lead sources compare?</h2>
+<p>Here is the simple version, side by side:</p>
+<ul>
+<li><b>Speed.</b> Ads and lead sites are fast. A website is slower to build momentum.</li>
+<li><b>Who owns it.</b> You own your website, your domain and your reviews. Ads and lead sites are rented.</li>
+<li><b>Lead quality.</b> Website and ad leads are usually calling you and only you. Shared leads are often calling your competitors too.</li>
+<li><b>Cost over time.</b> A website is a fairly steady cost that gets more valuable as it ranks. Ads and lead sites cost more the more you use them.</li>
+<li><b>Brand.</b> Website and ad leads learn your name. Lead site leads mostly remember the lead site.</li>
+</ul>
+<p>The honest takeaway: ads and lead sites are tools for speed, and a website is the foundation that keeps working.</p>
+<h2 id="design">Why does roofing website design matter for every lead source?</h2>
+<p>Even if you buy every lead you get, homeowners still check you out before they sign a five figure roofing contract. They search your name, look at your photos and read your reviews. That means roofing website design affects your close rate on every lead, not just the ones that come from Google.</p>
+<p>A site that turns those visitors into booked inspections usually has:</p>
+<ul>
+<li>A click to call button and an estimate form that are easy to find on a phone.</li>
+<li>Real photos of your own roofs, crew and trucks, with the town in the caption.</li>
+<li>A clear storm damage and insurance section if you work claims.</li>
+<li>Warranties, certifications and real reviews close to the call button.</li>
+<li>A separate page for each main service and the towns you cover.</li>
+</ul>
+<p>We go deeper on these details on our <a href="/roofing-websites">roofing website design</a> page, and our post on <a href="/blog/roofing-website-design">what makes a roofing website win estimates</a> walks through the trust signals homeowners look for.</p>
+<h2 id="plan">What mix should a roofing company start with?</h2>
+<p>There is no single right answer, but a simple plan works for most small and mid sized roofing companies:</p>
+<ol>
+<li><b>Start with a strong website.</b> Make sure it loads fast, works on phones, shows real work and makes calling you easy. This raises your close rate on every other source.</li>
+<li><b>Get your local search basics right.</b> Complete your Google Business Profile, keep your name and phone number consistent everywhere, and ask every happy customer for a review. Our <a href="/local-seo-for-contractors">local SEO for contractors</a> service covers this.</li>
+<li><b>Add ads when you need speed.</b> Use Google Ads for storm season or slow months, and send clicks to the matching service page on your own site.</li>
+<li><b>Use lead sites sparingly.</b> If you buy shared leads, track how many turn into signed jobs, and cut them back as your own site brings in more calls.</li>
+<li><b>Track every job back to its source.</b> Ask "how did you find us?" on every call and write it down. After a few months, the numbers will tell you where to spend.</li>
+</ol>
+<p>If you want the website part handled for you, our Launch plan is $349 setup and $99 a month with no contracts, and your site goes live 48 hours after you fill the onboarding form. You can add Get Found for $149 a month for local search help, or Get Booked ($747 a month in total) if you also want ads managed. If you do not love the site on the launch call and we cannot fix it on the call, you get your setup fee back. See the details on our <a href="{PRICING}">pricing page</a>, or <a href="{GET}">get started here</a>.</p>
+"""
+},
+{
  "slug":"jobber-website-vs-separate-website","date":"2026-10-30","tag":"Website tips","read":7,
  "title":"Do You Need a Separate Website If You Use Jobber?",
  "h1":"Already on field service software? When a <em>Jobber website</em> is enough",

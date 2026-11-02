@@ -35,9 +35,9 @@ When fewer than 5 unchecked topics remain, the agent adds 10 new ones at the bot
 - [x] Cleaning Company Website Design for More Bookings (cleaning-company-website-design) 2026-10-28, supplied by owner
 - [x] Contractor Website Cost: Monthly Plan vs One-Time Build (contractor-website-cost-monthly-vs-one-time) 2026-10-28
 - [x] Do You Need a Separate Website If You Already Use Field Service Software? (jobber-website-vs-separate-website) 2026-10-30
+- [x] Roofing Leads: Website vs Google Ads vs Lead Sites (roofing-leads-website-vs-ads-vs-lead-sites) 2026-11-02
 
 ## Up next
-- [ ] Roofing Leads: Website vs Google Ads vs Lead Sites | K3 | target: roofing website design | link: /roofing-websites
 - [ ] How Many Pages Does a Contractor Website Need? | K4 | target: contractor website design | link: /home-service-website-design
 - [ ] How to Get More Google Reviews for Your Home Service Business | K10 | target: local seo for contractors | link: /local-seo-for-contractors
 - [ ] How to Write Service Pages for a Plumbing Website That Rank | K1 | target: plumber websites | link: /plumber-websites
