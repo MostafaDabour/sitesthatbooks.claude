@@ -36,6 +36,7 @@ When fewer than 5 unchecked topics remain, the agent adds 10 new ones at the bot
 - [x] Contractor Website Cost: Monthly Plan vs One-Time Build (contractor-website-cost-monthly-vs-one-time) 2026-10-28
 - [x] Do You Need a Separate Website If You Already Use Field Service Software? (jobber-website-vs-separate-website) 2026-10-30
 - [x] Roofing Leads: Website vs Google Ads vs Lead Sites (roofing-leads-website-vs-ads-vs-lead-sites) 2026-11-02
+- [x] Website Design for Painting Contractors (website-design-for-painting-contractors) 2026-11-02, supplied by owner
 
 ## Up next
 - [ ] How Many Pages Does a Contractor Website Need? | K4 | target: contractor website design | link: /home-service-website-design

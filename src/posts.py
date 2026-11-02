@@ -1,5 +1,200 @@
 POSTS = [
 {
+ "slug":"website-design-for-painting-contractors","date":"2026-11-02",
+ "tag":"Website tips",
+ "read":11,
+ "title":"Website Design for Painting Contractors",
+ "h1":"Website design for painting contractors built to <em>get the estimate</em>",
+ "desc":"Website design for painting contractors: project gallery, services, process, estimate form, local SEO, the 5 pages we build and pricing from $349 setup.",
+ "answer":"SitesThatBook builds done-for-you websites for painting contractors who want more calls and estimate requests from the people already searching for their services. We write the copy, design the pages, set up the forms, handle the SEO foundation, connect your domain and get the site ready to turn painting searches into real opportunities.",
+ "toc":[("a-painting-contractor-website-has-to-do-more-tha","A Painting Contractor Website Has to Do More Than Look Good"),("what-goes-into-our-website-design-for-painting-c","What Goes Into Our Website Design for Painting Contractors"),("turn-your-best-painting-work-into-sales-proof","Turn Your Best Painting Work Into Sales Proof"),("make-interior-exterior-cabinet-and-commercial-pa","Make Interior, Exterior, Cabinet and Commercial Painting Easy to Understand"),("show-homeowners-what-happens-before-the-final-co","Show Homeowners What Happens Before the Final Coat"),("built-to-turn-visitors-into-painting-estimate-re","Built to Turn Visitors Into Painting Estimate Requests"),("seo-for-painting-contractor-websites-starts-with","SEO for Painting Contractor Websites Starts With the Site Itself"),("the-5-pages-we-build-for-your-painting-company","The 5 Pages We Build for Your Painting Company"),("your-painting-website-from-onboarding-to-launch","Your Painting Website, From Onboarding to Launch"),("painting-contractor-website-design-pricing","Painting Contractor Website Design Pricing"),("the-launch-call-money-back-guarantee","The Launch Call Money-Back Guarantee"),("why-painting-contractors-choose-sitesthatbook","Why Painting Contractors Choose SitesThatBook"),("sitesthatbook-vs-building-your-painting-website","SitesThatBook vs. Building Your Painting Website Yourself"),("frequently-asked-questions-about-website-design","Frequently Asked Questions About Website Design for Painting Contractors"),("ready-for-a-painting-website-built-to-get-the-es","Ready for a Painting Website Built to Get the Estimate?")],
+ "faqs":[("How much does website design for painting contractors cost with SitesThatBook?","SitesThatBook's Launch plan costs $349 for setup and $99 per month after that, with no long-term contract. The plan includes the five-page site, hosting, SSL, domain connection, two monthly content updates, two monthly SEO blog posts and a monthly traffic report."),
+  ("How long does a painting contractor website take to build?","SitesThatBook aims to launch your website 48 hours after receiving your completed onboarding information and any required items. You review the finished website on a launch call before it goes live."),
+  ("What pages are included in a painting company website?","The current Launch plan includes five pages: Home, Services, About and Process, Reviews and Gallery, and Contact with an estimate form. The content is customized around your painting services and service area."),
+  ("Will SitesThatBook write my painting website content?","Yes. SitesThatBook writes the website copy for your trade, services and service area. You provide the business information during onboarding, and the team handles the writing and website build."),
+  ("Can I show painting projects and before-and-after photos?","Yes. Your painting website includes space for featured projects and a project gallery. You can also send new project photos after launch and use one of your two included monthly updates to have them added."),
+  ("Does the website include SEO?","Yes. The Launch website includes an SEO foundation with search-focused titles, descriptions and headings, service and service-area content, schema markup, a sitemap, mobile and speed checks, and two SEO blog posts per month. Specific Google rankings are not guaranteed and also depend on factors such as your market, reviews, Google Business Profile and competition."),
+  ("Can customers request painting estimates through the website?","Yes. The site includes an estimate request form. For painting businesses, the form can collect useful project information such as the project type, rooms and expected timeline."),
+  ("Do I have to sign a long-term contract?","No. The Launch plan has no long-term contract and can be canceled. The website remains live through the end of the paid month after cancellation.")],
+ "body":"""
+<p>SitesThatBook builds done-for-you websites for painting contractors who want more calls and estimate requests from the people already searching for their services. We write the copy, design the pages, set up the forms, handle the SEO foundation, connect your domain and get the site ready to turn painting searches into real opportunities.</p>
+
+<p><a href="/get-started">Get my painting site</a></p>
+
+<p><a href="/pricing">See pricing</a> | <a href="/our-work">See our work</a> | <a href="/painting-contractor-websites">Painting contractor website design</a></p>
+
+<ul> <li>5 custom pages for your painting business</li> <li>Live 48 hours after completed onboarding</li> <li>$349 setup, then $99/month</li><li>No contract</li><li>Hosting, SSL and domain connection included</li><li>SEO foundation and ongoing SEO blog content included</li><li>Money-back launch call guarantee</li></ul>
+
+<h2 id="a-painting-contractor-website-has-to-do-more-tha">A Painting Contractor Website Has to Do More Than Look Good</h2>
+<p>Painting is visual, but photos alone do not close the estimate. A homeowner deciding who to invite into their property also wants to understand what you paint, where you work, how you prepare the job and what happens from the first estimate through the final walkthrough.</p>
+
+<p>Your website should make those answers easy to find while giving visitors a clear next step.</p>
+
+<p>For a painting company, that means showing completed rooms, exteriors and cabinets without burying the work in a generic gallery. It means separating interior, exterior, cabinet and commercial painting clearly enough that a prospect can immediately tell whether you handle their project. It also means explaining the prep and cleanup that happen before and after the finish coat.</p>
+
+<p>If your current site is slow, outdated or vague about your services, visitors may never get far enough to see why your workmanship is worth considering. SitesThatBook builds the website around how painting customers evaluate contractors, not around a generic home-service template.</p>
+
+<h2 id="what-goes-into-our-website-design-for-painting-c">What Goes Into Our Website Design for Painting Contractors</h2>
+<p>Your site is built around your company, your services and the areas you actually serve. The Launch plan includes five custom pages, with painting-specific content and conversion features designed to move a visitor toward a call or estimate request.</p>
+
+<h3>Project gallery</h3><p>Show completed rooms, exterior repaints, cabinets and other real projects in clear, high-quality images. Your work becomes visible proof of the finish quality a prospect can expect.</p>
+
+<h3>Interior, exterior, cabinet and commercial painting</h3><p>Your services are clearly identified instead of being hidden inside one vague paragraph. The content can explain the differences between the types of painting work you perform while staying within the five-page structure of the Launch plan.</p>
+
+<h3>Your painting process</h3><p>Explain how your crew handles preparation, protection, painting, cleanup and the final walkthrough. This gives prospects more to compare than a price alone.</p>
+
+<h3>Paint brands and workmanship warranty</h3><p>If you want them included, the website can show the paint brands you use and your workmanship warranty information based on the details you provide during onboarding.</p>
+
+<h3>Estimate request form</h3><p>Your painting website includes an estimate request form that can collect useful details such as the project type, rooms and expected timeline before you follow up.</p>
+
+<h3>Service-area coverage</h3><p>The towns and cities you serve are written into the site so visitors can quickly confirm that you work in their area while giving search engines clearer local context.</p>
+
+<h3>Mobile-first conversion features</h3><p>The site is designed for phones and includes direct calling features, a sticky mobile call bar and lead forms connected to your phone and email.</p>
+
+<p><a href="/get-started">Get my painting site</a></p>
+
+<h2 id="turn-your-best-painting-work-into-sales-proof">Turn Your Best Painting Work Into Sales Proof</h2>
+<p>A painting gallery should do more than fill space on a page. A homeowner considering an interior repaint wants to see clean finished rooms. Someone researching exterior painting wants to see complete properties. A cabinet painting prospect may pay close attention to smooth finishes and the overall transformation.</p>
+
+<p>Organizing real project photos around the work you want to sell helps visitors find examples that resemble their own project. Before-and-after photos can be especially useful because they show the transformation rather than only the final surface.</p>
+
+<p>The Launch website structure includes a Reviews and Gallery page, and featured projects can also appear on the homepage. After launch, you can send new project photos and have them added as one of your two included monthly content updates.</p>
+
+<p>If you are replacing a website that relies heavily on stock photography, adding real jobs over time can make the site a stronger reflection of the work your crews actually perform.</p>
+
+<h2 id="make-interior-exterior-cabinet-and-commercial-pa">Make Interior, Exterior, Cabinet and Commercial Painting Easy to Understand</h2>
+<p>Different painting prospects arrive with different questions. Someone planning an interior project may care about protecting furniture, occupied rooms and cleanup. An exterior customer may be evaluating preparation, surfaces and the finished appearance of the whole property. Cabinet painting prospects often want to see examples of the finish before requesting an estimate.</p>
+
+<p>Commercial customers may also be evaluating a contractor differently from residential homeowners.</p>
+
+<p>SitesThatBook structures your Services content around the work your company actually provides. The standard Launch plan is a five-page website, so this does not mean promising a separate page for every painting service. Interior, exterior, cabinet and commercial painting can be organized clearly within the Services page while the rest of the site supports the buying decision with projects, reviews, process information and an estimate form.</p>
+
+<h2 id="show-homeowners-what-happens-before-the-final-co">Show Homeowners What Happens Before the Final Coat</h2>
+<p>Finished photos show the result. Your process helps explain how you get there.</p>
+
+<p>A painting company website can describe the steps that matter to your customer:</p>
+
+<ul><li>Preparing the surfaces</li><li>Protecting floors, furniture and surrounding areas</li><li>Completing the painting work</li><li>Cleaning the work area</li><li>Walking through the finished project</li></ul>
+
+<p>This is useful when your workmanship depends on details that are difficult to communicate with a single finished photo. A clear process gives prospects a better understanding of what hiring your company involves and helps your website communicate professionalism without relying on generic claims about quality.</p>
+
+<h2 id="built-to-turn-visitors-into-painting-estimate-re">Built to Turn Visitors Into Painting Estimate Requests</h2>
+<p>Your website is not being built as an online brochure. Every important page should make the next step obvious.</p>
+
+<p>SitesThatBook includes conversion features that help a prospect contact your company without hunting for a phone number or navigating through unnecessary steps:</p>
+
+<ul><li>Click-to-call functionality</li><li>Click-to-text functionality</li><li>Sticky mobile call bar</li><li>Lead and booking request forms</li><li>Clear calls to action</li><li>Contact information placed where customers can find it</li></ul>
+
+<p>For painting businesses, the estimate form can collect project type, rooms and timeline information. That gives you more context than a form that only asks for a name and email address.</p>
+
+<p>The goal is straightforward: make it easy for a qualified prospect to see your work, understand your services and request an estimate.</p>
+
+<h2 id="seo-for-painting-contractor-websites-starts-with">SEO for Painting Contractor Websites Starts With the Site Itself</h2>
+<p>Every SitesThatBook Launch website includes an SEO foundation as part of the build. SEO is not treated as a separate technical task that gets added after the website is finished.</p>
+
+<p>The build includes:</p>
+
+<ul><li>Copy written around your trade and service area</li><li>Page titles, meta descriptions and headings set for search</li><li>Mobile-first pages</li><li>Speed and mobile checks before launch</li><li>Schema markup</li><li>An XML sitemap</li><li>Site submission to Google</li><li>Two SEO blog posts each month</li><li>Monthly traffic reporting</li></ul>
+
+<p>The site can also identify the cities and towns you serve, helping both customers and search engines understand your local coverage.</p>
+
+<p>No website can guarantee a particular Google position. Search visibility also depends on factors such as competition in your market, reviews, your Google Business Profile, local authority and ongoing SEO work.</p>
+
+<p>If you want ongoing Google Business Profile management, review requests and local citation work in addition to the website, SitesThatBook offers the optional <a href="/local-seo-for-contractors">Get Found local SEO plan</a>.</p>
+
+<p><a href="/get-started">Start my painting website</a></p>
+
+<h2 id="the-5-pages-we-build-for-your-painting-company">The 5 Pages We Build for Your Painting Company</h2>
+<p>The Launch plan includes five custom pages written for your painting business. The current painting website structure is:</p>
+
+<ol><li><strong>Home:</strong> Introduces your company, key services and featured painting projects while directing visitors toward a call or estimate.</li><li><strong>Services:</strong> Covers the painting work you offer, such as interior, exterior, cabinet and commercial painting.</li><li><strong>About and Process:</strong> Explains your company and how you handle preparation, protection, painting, cleanup and the final walkthrough.</li><li><strong>Reviews and Gallery:</strong> Gives customers a place to evaluate your reputation and see completed painting work.</li><li><strong>Contact:</strong> Includes your estimate request form and the information a prospect needs to contact you.</li></ol>
+
+<p>Every page is written for your company, services and service area rather than asking you to fill a template yourself.</p>
+
+<h2 id="your-painting-website-from-onboarding-to-launch">Your Painting Website, From Onboarding to Launch</h2>
+<p>SitesThatBook handles the website work so you can keep running your painting business.</p>
+
+<h3>1. Fill out the onboarding form</h3><p>Tell us about your company, painting services, service area and what makes your business different. You can also provide your logo and job photos. The core onboarding takes about 10 minutes.</p>
+
+<h3>2. We write and build the site</h3><p>SitesThatBook writes the copy, designs the five pages, sets up your forms, adds the SEO foundation, prepares the schema and sitemap, and handles the hosting setup.</p>
+
+<h3>3. Review the site on your launch call</h3><p>SitesThatBook aims to launch the website 48 hours after receiving your completed onboarding information and anything required to complete the build. On the launch call, the team walks you through the site, makes quick changes and connects your domain.</p>
+
+<h3>4. We keep supporting the site after launch</h3><p>Your monthly Launch service includes hosting, SSL, up to two content updates, two SEO blog posts and a traffic report.</p>
+
+<p>If you do not have a logo, SitesThatBook can start with a clean text logo. If you do not yet have project photos, the site can launch with suitable stock images and your real work can be added later.</p>
+
+<p><a href="/how-it-works">See exactly how the website process works</a></p>
+
+<h2 id="painting-contractor-website-design-pricing">Painting Contractor Website Design Pricing</h2>
+<p>SitesThatBook's Launch plan costs <strong>$349 as a one-time setup fee, then $99 per month</strong>. There is no long-term contract.</p>
+
+<p>The setup fee covers writing your copy, designing the pages, setting up the forms and SEO foundation, and connecting your domain.</p>
+
+<p>The $99 monthly fee keeps the website hosted and maintained and includes SSL, two content updates, two SEO blog posts and a monthly traffic report.</p>
+
+<div class="table-wrap"><table><thead><tr><th>Plan</th><th>Current Price</th><th>What It Adds</th></tr></thead><tbody><tr><td>Launch</td><td>$349 setup, then $99/month</td><td>5-page website, hosting, SSL, domain connection, updates, SEO blog posts and traffic reporting</td></tr><tr><td>Get Found</td><td>+$149/month, $248/month total with Launch</td><td>Google Business Profile setup, 5 posts per month, automated review requests, local citations and quarterly strategy calls</td></tr><tr><td>Get Booked</td><td>+$499/month, $747/month total with Launch and Get Found</td> <td>Managed Google Ads, CRM, instant lead follow-up, missed-call text back and monthly strategy calls. Google Ads spend is paid separately to Google.</td> </tr> </tbody> </table></div>
+
+<p>You do not need the growth plans to start. Every plan begins with Launch, and the local SEO or advertising services can be added later.</p>
+
+<p><a href="/pricing">Compare SitesThatBook pricing</a></p>
+
+<p><a href="/get-started">Start with Launch</a></p>
+
+<h2 id="the-launch-call-money-back-guarantee">The Launch Call Money-Back Guarantee</h2>
+<p>You review the finished website with SitesThatBook on a live launch call. If you do not love the site and the team cannot fix the problem during that call, SitesThatBook refunds your $349 setup fee.</p>
+
+<p>You also have no long-term website contract. The Launch plan is billed monthly and can be canceled.</p>
+
+<h2 id="why-painting-contractors-choose-sitesthatbook">Why Painting Contractors Choose SitesThatBook</h2>
+
+<h3>Built specifically for home service businesses</h3> <p>SitesThatBook focuses on home services rather than building generic websites for every type of business. Painting is treated as its own trade, with a structure designed around finished work, service categories, preparation, reviews and estimate requests.</p>
+
+<h3>Done for you</h3> <p>You provide the facts about your business. SitesThatBook handles the copy, design, forms, SEO setup, hosting and launch process.</p>
+
+<h3>Your painting work is part of the sales process</h3> <p>Featured projects and a dedicated gallery give homeowners a reason to look beyond a logo and a list of services.</p>
+
+<h3>Clear pricing</h3> <p>The core website offer is published upfront: $349 setup and $99 per month, with no long-term contract.</p>
+
+<h3>Ongoing updates are included</h3> <p>You can request up to two content updates each month, which can be used for changes such as adding new painting project photos to your gallery.</p>
+
+<h3>Built around calls and estimate requests</h3> <p>The site includes mobile calling and lead-generation features rather than treating conversion as an afterthought.</p>
+
+<p>SitesThatBook is built by the team behind Leads Magnets, a Google Partner performance marketing agency. Founder Mostafa Dabour has more than 14 years of paid media and lead-generation experience across the US, UK and Australia.</p>
+
+<p><a href="/about">About SitesThatBook</a> | <a href="/our-work">View live home-service website examples</a></p>
+
+<h2 id="sitesthatbook-vs-building-your-painting-website">SitesThatBook vs. Building Your Painting Website Yourself</h2>
+<div class="table-wrap"><table> <thead> <tr> <th>What You Need</th> <th>SitesThatBook</th> <th>DIY Website Builder</th> <th>General Web Designer</th> </tr> </thead> <tbody> <tr> <td>Who writes the website copy?</td> <td>SitesThatBook</td> <td>You</td> <td>Varies</td> </tr> <tr> <td>Who builds the website?</td> <td>SitesThatBook</td> <td>You</td> <td>The designer or agency</td> </tr> <tr> <td>Painting-specific structure</td> <td>Included</td> <td>You plan it</td> <td>Varies</td> </tr> <tr> <td>SEO foundation and schema</td> <td>Included</td> <td>You configure it</td> <td>Varies</td> </tr> <tr> <td>Hosting and SSL</td> <td>Included</td> <td>Depends on the platform</td> <td>Varies</td> </tr> <tr> <td>Ongoing content updates</td> <td>2 included each month</td> <td>You make them</td> <td>Varies</td> </tr> <tr> <td>Monthly SEO blog posts</td> <td>2 included</td> <td>You create them</td> <td>Varies</td> </tr> <tr> <td>Time required from the contractor</td> <td>About 10 minutes for core onboarding, plus review</td> <td>You plan, write and build the site</td> <td>Depends on the process</td> </tr> </tbody> </table></div>
+
+<h2 id="frequently-asked-questions-about-website-design">Frequently Asked Questions About Website Design for Painting Contractors</h2>
+
+<h3>How much does website design for painting contractors cost with SitesThatBook?</h3> <p>SitesThatBook's Launch plan costs $349 for setup and $99 per month after that, with no long-term contract. The plan includes the five-page site, hosting, SSL, domain connection, two monthly content updates, two monthly SEO blog posts and a monthly traffic report.</p>
+
+<h3>How long does a painting contractor website take to build?</h3><p>SitesThatBook aims to launch your website 48 hours after receiving your completed onboarding information and any required items. You review the finished website on a launch call before it goes live.</p>
+
+<h3>What pages are included in a painting company website?</h3><p>The current Launch plan includes five pages: Home, Services, About and Process, Reviews and Gallery, and Contact with an estimate form. The content is customized around your painting services and service area.</p>
+
+<h3>Will SitesThatBook write my painting website content?</h3><p>Yes. SitesThatBook writes the website copy for your trade, services and service area. You provide the business information during onboarding, and the team handles the writing and website build.</p>
+
+<h3>Can I show painting projects and before-and-after photos?</h3><p>Yes. Your painting website includes space for featured projects and a project gallery. You can also send new project photos after launch and use one of your two included monthly updates to have them added.</p>
+
+<h3>Does the website include SEO?</h3><p>Yes. The Launch website includes an SEO foundation with search-focused titles, descriptions and headings, service and service-area content, schema markup, a sitemap, mobile and speed checks, and two SEO blog posts per month. Specific Google rankings are not guaranteed and also depend on factors such as your market, reviews, Google Business Profile and competition.</p>
+
+<h3>Can customers request painting estimates through the website?</h3><p>Yes. The site includes an estimate request form. For painting businesses, the form can collect useful project information such as the project type, rooms and expected timeline.</p>
+
+<h3>Do I have to sign a long-term contract?</h3><p>No. The Launch plan has no long-term contract and can be canceled. The website remains live through the end of the paid month after cancellation.</p>
+
+<h2 id="ready-for-a-painting-website-built-to-get-the-es">Ready for a Painting Website Built to Get the Estimate?</h2>
+<p>Show homeowners the work you are proud of, explain the painting services you actually perform and give prospects a direct way to request an estimate. SitesThatBook handles the copy, design, SEO foundation, forms, hosting and launch for you.</p>
+
+<p><strong>$349 setup. $99/month. No long-term contract.</strong></p>
+
+<p><a href="/get-started">Get my painting site</a></p>
+
+<p>Prefer to talk first? <a href="tel:+13072187725">Call +1 307-218-7725</a>.</p>
+"""},
+{
  "slug":"roofing-leads-website-vs-ads-vs-lead-sites","date":"2026-11-02","tag":"Lead generation","read":7,
  "title":"Roofing Leads: Website vs Google Ads vs Lead Sites",
  "h1":"Roofing leads: your <em>roofing website</em> vs Google Ads vs lead sites",
