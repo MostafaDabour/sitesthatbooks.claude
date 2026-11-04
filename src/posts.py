@@ -1,5 +1,86 @@
 POSTS = [
 {
+ "slug":"how-many-pages-contractor-website","date":"2026-11-04",
+ "tag":"Website tips",
+ "read":6,
+ "title":"How Many Pages Does a Contractor Website Need?",
+ "h1":"How many pages does a <em>contractor website</em> need?",
+ "desc":"Contractor website design: how many pages you need to launch, which 5 come first, and when to add service, city and blog pages without thin filler.",
+ "answer":"Most contractors can launch with five strong pages: Home, Services, About, Reviews and Contact. Add more pages only when each one answers a real search, like a major service people look up on its own, and grow from there with helpful blog posts instead of thin filler pages.",
+ "toc":[("short-answer","How many pages does a contractor website need to start?"),("core-five","Which five pages should every contractor website have?"),("more-pages","Do more pages help you rank on Google?"),("service-pages","When should a service get its own page?"),("city-pages","Should you build a page for every town you serve?"),("grow","How should a contractor website grow after launch?"),("design","What matters more than page count in contractor website design?")],
+ "faqs":[("Is a one page website enough for a contractor?","It can work as a placeholder, but it makes it hard to show up for different services and to answer the questions homeowners ask before they call. A small site with a separate Services, Reviews and Contact page gives Google and customers more to work with, without being much harder to keep current."),
+  ("How long should each page on a contractor website be?","Long enough to answer the visitor's question and no longer. A home page might be a few hundred words with clear sections, while a detailed service page can run longer if it explains the job, the process and common questions. Clear headings and a visible call button matter more than hitting a word count.")],
+ "body":"""
+<p>If you are planning a new site, one of the first questions is how big it needs to be. Some web designers pitch 30 pages, others hand you a single page with a phone number. Good contractor website design starts somewhere in between: a small set of strong pages that answer what homeowners want to know, then steady growth as your business and your search traffic grow. This guide walks through how many pages you actually need, which ones come first and when it makes sense to add more.</p>
+
+<h2 id="short-answer">How many pages does a contractor website need to start?</h2>
+<p>For most home service businesses, five well written pages is enough to launch and start getting calls. That covers who you are, what you do, where you work, why people trust you and how to reach you.</p>
+<p>The right number depends less on a target and more on what your customers need to decide. A homeowner with a leaking water heater or a sagging garage door is not counting your pages. They want to know three things fast:</p>
+<ul>
+<li>Do you do this job?</li>
+<li>Do you work in my area?</li>
+<li>Can I trust you, and how do I reach you right now?</li>
+</ul>
+<p>If five pages answer those questions clearly, you have a solid foundation. If you have 25 pages and none of them answer those questions in the first screen on a phone, the extra pages are not helping.</p>
+
+<h2 id="core-five">Which five pages should every contractor website have?</h2>
+<p>These are the pages almost every trade needs, whether you run an HVAC shop, a roofing crew or a cleaning company:</p>
+<ol>
+<li><b>Home.</b> Your phone number, service area and main services in the first screen, plus reviews and a clear call or estimate button.</li>
+<li><b>Services.</b> Every major job you do, each with its own section, so a visitor can quickly confirm you handle their problem.</li>
+<li><b>About.</b> Who owns the company, how long you have been working, licenses and insurance, and how your process works from first call to finished job.</li>
+<li><b>Reviews and gallery.</b> Real reviews from real customers and photos of your own work, not stock images.</li>
+<li><b>Contact.</b> A short request form, click to call, your hours and the towns you cover.</li>
+</ol>
+<p>If you want a trade specific example, our breakdown of <a href="/blog/what-pages-should-a-plumbing-website-have">what pages a plumbing website should have</a> shows what goes on each one in detail.</p>
+
+<h2 id="more-pages">Do more pages help you rank on Google?</h2>
+<p>Not by themselves. Google does not reward a site for having a lot of pages. It rewards pages that match what someone searched for and answer it well.</p>
+<p>More pages can help when each page targets a different search. A roofer with separate, useful content on roof replacement, roof repair and storm damage has more chances to show up for those searches than a roofer with one vague paragraph. But ten pages that say the same thing with a different headline can work against you, because they split your attention and give Google nothing new.</p>
+<p>A simple test before adding any page: would a real customer search for this, and does the page tell them something the rest of your site does not?</p>
+
+<h2 id="service-pages">When should a service get its own page?</h2>
+<p>Start by giving every service its own section on your Services page. Then consider a separate page when a service meets most of these points:</p>
+<ul>
+<li>People search for it on its own, like "water heater replacement" or "emergency electrician."</li>
+<li>It is a big part of your revenue or a job you want more of.</li>
+<li>You have enough to say about it: what it involves, signs a homeowner needs it, your process and common questions.</li>
+<li>You have your own photos or project examples to show.</li>
+</ul>
+<p>If you can only write two sentences about a service, keep it as a section for now. A thin page with a headline and a paragraph rarely earns calls.</p>
+
+<h2 id="city-pages">Should you build a page for every town you serve?</h2>
+<p>This is where many contractor sites go wrong. Copying the same page 20 times and swapping the town name creates thin, near duplicate pages. Google tends to ignore them, and homeowners can tell they are filler.</p>
+<p>A better approach for most contractors:</p>
+<ol>
+<li>List your service area clearly on your home page, Contact page and footer.</li>
+<li>Make sure your Google Business Profile service area matches your website.</li>
+<li>Only build a separate town page when you have something real to say about working there, like local projects, common issues in that area or how fast you can get there.</li>
+</ol>
+<p>Showing up in local results depends a lot on your Google Business Profile, reviews and consistent business details across the web. Our page on <a href="/local-seo-for-contractors">local SEO for contractors</a> covers that side.</p>
+
+<h2 id="grow">How should a contractor website grow after launch?</h2>
+<p>The best contractor websites are not finished on launch day. They grow a little every month based on what customers ask and search for. Good ways to add useful pages over time:</p>
+<ul>
+<li><b>Blog posts that answer real questions.</b> Topics like how long a roof replacement takes or what to do when your AC stops cooling bring in people early in their search and link them to your services.</li>
+<li><b>Project updates.</b> New photos and short write ups of recent jobs keep the gallery fresh and show you are active.</li>
+<li><b>Service sections that grow into pages.</b> When a service section gets long enough and gets search interest, promote it to its own page.</li>
+</ul>
+<p>This is why the monthly plan matters as much as the build. A site that never changes after launch usually falls behind competitors who keep adding helpful content.</p>
+
+<h2 id="design">What matters more than page count in contractor website design?</h2>
+<p>When homeowners judge your site, they judge how fast it answers their question, not how big it is. These details usually matter more than adding another page:</p>
+<ul>
+<li>A phone number and call button visible on every page, especially on mobile.</li>
+<li>Fast load times on a phone with a weak signal.</li>
+<li>Your own photos, real reviews and proof of license and insurance.</li>
+<li>Clear service and service area wording that matches your Google Business Profile.</li>
+<li>A short request form that does not ask for more than you need.</li>
+</ul>
+<p>That is the approach behind our <a href="/home-service-website-design">contractor website design</a>. Every SitesThatBook site launches with five custom pages written for your trade and service area, and the monthly plan includes two content updates and two SEO blog posts a month so the site keeps growing after launch. The Launch plan is $349 setup and $99 a month with no contract, and you can see everything included on our <a href="/pricing">done for you website pricing</a> page.</p>
+<p>Ready for a site with the right pages from day one? <a href="/get-started">Get started here</a>, and your site goes live 48 hours after you complete the onboarding form.</p>
+"""},
+{
  "slug":"website-design-for-painting-contractors","date":"2026-11-02",
  "tag":"Website tips",
  "read":11,

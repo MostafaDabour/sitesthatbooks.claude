@@ -37,9 +37,9 @@ When fewer than 5 unchecked topics remain, the agent adds 10 new ones at the bot
 - [x] Do You Need a Separate Website If You Already Use Field Service Software? (jobber-website-vs-separate-website) 2026-10-30
 - [x] Roofing Leads: Website vs Google Ads vs Lead Sites (roofing-leads-website-vs-ads-vs-lead-sites) 2026-11-02
 - [x] Website Design for Painting Contractors (website-design-for-painting-contractors) 2026-11-02, supplied by owner
+- [x] How Many Pages Does a Contractor Website Need? (how-many-pages-contractor-website) 2026-11-04
 
 ## Up next
-- [ ] How Many Pages Does a Contractor Website Need? | K4 | target: contractor website design | link: /home-service-website-design
 - [ ] How to Get More Google Reviews for Your Home Service Business | K10 | target: local seo for contractors | link: /local-seo-for-contractors
 - [ ] How to Write Service Pages for a Plumbing Website That Rank | K1 | target: plumber websites | link: /plumber-websites
 - [ ] HVAC Marketing Ideas for the Slow Season | K2 | target: hvac website design | link: /hvac-websites
