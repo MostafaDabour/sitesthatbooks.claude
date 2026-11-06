@@ -38,9 +38,9 @@ When fewer than 5 unchecked topics remain, the agent adds 10 new ones at the bot
 - [x] Roofing Leads: Website vs Google Ads vs Lead Sites (roofing-leads-website-vs-ads-vs-lead-sites) 2026-11-02
 - [x] Website Design for Painting Contractors (website-design-for-painting-contractors) 2026-11-02, supplied by owner
 - [x] How Many Pages Does a Contractor Website Need? (how-many-pages-contractor-website) 2026-11-04
+- [x] How to Get More Google Reviews for a Home Service Business (get-more-google-reviews) 2026-11-06
 
 ## Up next
-- [ ] How to Get More Google Reviews for Your Home Service Business | K10 | target: local seo for contractors | link: /local-seo-for-contractors
 - [ ] How to Write Service Pages for a Plumbing Website That Rank | K1 | target: plumber websites | link: /plumber-websites
 - [ ] HVAC Marketing Ideas for the Slow Season | K2 | target: hvac website design | link: /hvac-websites
 - [ ] The Hidden Costs of a Cheap Contractor Website | K9 | target: contractor website cost | link: /blog/how-much-does-a-contractor-website-cost

@@ -1,5 +1,87 @@
 POSTS = [
 {
+ "slug":"get-more-google-reviews","date":"2026-11-06",
+ "tag":"Local SEO",
+ "read":6,
+ "title":"How to Get More Google Reviews for a Home Service Business",
+ "h1":"Local SEO for contractors: how to get more <em>Google reviews</em>",
+ "desc":"Local SEO for contractors: get more Google reviews by asking at the right time, texting a direct link and replying, without breaking Google's rules.",
+ "answer":"Ask every customer, right after a job goes well, and send a direct link to your Google review form by text so leaving a review takes under a minute. Make asking part of your normal job closeout, reply to every review, and never pay for reviews, offer discounts for them or only ask the customers you expect to be happy.",
+ "toc":[("why","Why do Google reviews matter so much for local SEO for contractors?"),("when","When is the best time to ask a customer for a review?"),("link","How do you make leaving a review as easy as possible?"),("what-to-say","What should you say when you ask for a review?"),("system","How do you make review requests a habit for your whole crew?"),("reply","Should you reply to every Google review?"),("rules","What are the review rules you cannot break?")],
+ "faqs":[("Can I offer a discount or gift card in exchange for a Google review?","No. Google's policies do not allow offering incentives for reviews, and the FTC has rules against buying reviews too. You can thank customers for their business however you like, but the review request itself should never be tied to a reward."),
+  ("What should I do about a fake or unfair review?","Reply calmly and professionally so future customers see your side, and if the review breaks Google's policies, such as a review from someone who was never a customer, flag it for removal from your Google Business Profile. Do not argue in the reply or share private job details.")],
+ "body":"""
+<p>Most homeowners look at your star rating and your review count before they ever call. When three companies show up on the map for "AC repair" or "roof leak repair," the one with more recent, detailed reviews usually gets the call. That makes reviews one of the most practical parts of local SEO for contractors, and one of the few you can improve every single week. The good news is that getting more Google reviews does not take tricks. It takes asking every customer, at the right moment, in a way that is easy to say yes to.</p>
+
+<h2 id="why">Why do Google reviews matter so much for local SEO for contractors?</h2>
+<p>Reviews do two jobs at once. First, they help you show up. Google says prominence is one of the main things behind local results, and the number of reviews, how recent they are and your rating are part of how it judges that. We cover the full picture in our guide to <a href="/blog/rank-in-google-map-pack">ranking in the Google map pack</a>, and this post goes deeper on the review part.</p>
+<p>Second, reviews help you get picked. A homeowner comparing listings reads a few reviews to answer simple questions. Did they show up on time? Was the price fair? Did they clean up? A steady stream of honest reviews that mention real jobs answers those questions better than anything you can write about yourself.</p>
+<p>Recent reviews matter too. A company with a strong rating but nothing new in a year can look less active than a competitor collecting reviews every week.</p>
+
+<h2 id="when">When is the best time to ask a customer for a review?</h2>
+<p>Ask while the good feeling is still fresh. For most trades, that means the same day the job is finished:</p>
+<ul>
+<li><b>HVAC and plumbing:</b> right after the system is running or the leak is fixed and the customer has seen it work.</li>
+<li><b>Roofing and painting:</b> at the final walkthrough, once the homeowner has looked at the finished work and the site is clean.</li>
+<li><b>Cleaning, lawn care and pest control:</b> after a visit where the customer said something positive, or after the first few visits on a recurring plan.</li>
+<li><b>Garage door and electrical:</b> as soon as the door opens smoothly or the power is back on, while the customer is still relieved.</li>
+</ul>
+<p>Waiting a week usually means the customer has moved on. The request gets buried, and the details they would have mentioned are fuzzy.</p>
+
+<h2 id="link">How do you make leaving a review as easy as possible?</h2>
+<p>Every extra step loses people. "Look us up on Google and leave a review" asks the customer to search, find the right listing, scroll and tap. A direct link skips all of that.</p>
+<ol>
+<li><b>Get your review link.</b> In your Google Business Profile, look for the option to ask for reviews or share a review form. It gives you a short link that opens the review box for your business.</li>
+<li><b>Send it by text.</b> Most homeowners read texts quickly and can tap a link on their phone in seconds. Email works as a backup.</li>
+<li><b>Put it where customers already look.</b> Add it to your invoice, your job completion email and a small card or sticker your techs can leave behind with a QR code.</li>
+<li><b>Link to it from your website.</b> A "leave us a review" button on your contact or reviews page helps past customers who want to come back and say something.</li>
+</ol>
+
+<h2 id="what-to-say">What should you say when you ask for a review?</h2>
+<p>Keep it short, personal and specific to the job. The best requests come from the person who did the work, in person first, followed by a text with the link. In person, something like this works:</p>
+<p>"Thanks for having us out today. Reviews really help a small local business like ours. I am going to text you a link, and if you have a minute, we would be grateful if you shared how it went."</p>
+<p>Then the text:</p>
+<p>"Hi [customer name], this is [your name] from [your company]. Thanks again for today. If you have a minute, here is a direct link to leave us a Google review: [link]. It helps other homeowners find us."</p>
+<p>A few tips that make the request work better:</p>
+<ul>
+<li>Use the customer's name and mention the job.</li>
+<li>Ask once, and send one friendly reminder a few days later at most.</li>
+<li>Invite them to mention the service and their town if they want. Reviews that say "replaced our water heater in Plano" are more useful to the next homeowner than "great job."</li>
+<li>Do not tell customers what to write or what rating to give.</li>
+</ul>
+
+<h2 id="system">How do you make review requests a habit for your whole crew?</h2>
+<p>Most contractors know they should ask for reviews. The problem is remembering to do it on a busy day. The fix is to make asking part of closing out every job, not something you do when you think of it.</p>
+<ul>
+<li><b>Add it to the job checklist.</b> Right next to "clean up" and "collect payment," add "ask for a review and send the link."</li>
+<li><b>Automate the text.</b> If your scheduling or invoicing tool can send a message when a job is marked complete, set it to include your review link.</li>
+<li><b>Ask every customer.</b> Not just the ones who seemed thrilled. More on why below.</li>
+<li><b>Talk about it in team meetings.</b> Share new reviews with the crew, especially ones that mention a tech by name. People like seeing their work recognized.</li>
+</ul>
+<p>Even a small shop that asks every customer will usually see reviews add up faster than one that waits for people to leave them on their own.</p>
+
+<h2 id="reply">Should you reply to every Google review?</h2>
+<p>Yes. Replies show future customers that a real person runs the business and cares about the outcome. They also show Google the profile is active.</p>
+<ul>
+<li><b>Positive reviews:</b> thank the customer by name, mention the job if it fits and keep it to a sentence or two.</li>
+<li><b>Negative reviews:</b> stay calm, acknowledge the problem, and offer to make it right by phone. Never argue or share private details. A fair, polite reply often does more for your reputation than the bad review takes away.</li>
+<li><b>Fake reviews:</b> if a review clearly breaks Google's rules, such as one from someone who was never a customer, you can flag it for removal from your profile.</li>
+</ul>
+<p>Your reviews also belong on your website. A reviews section near your call button gives visitors the same proof they saw on the map. Good <a href="/home-service-website-design">contractor website design</a> puts real reviews and real job photos front and center instead of generic stock images.</p>
+
+<h2 id="rules">What are the review rules you cannot break?</h2>
+<p>Some shortcuts can get reviews removed or your profile restricted, and some can create legal trouble. Avoid all of these:</p>
+<ul>
+<li><b>No paying or rewarding for reviews.</b> Google does not allow incentives like discounts, gift cards or entries into a drawing in exchange for reviews. The FTC also has rules against buying reviews.</li>
+<li><b>No review gating.</b> Do not ask only the customers you expect to be happy, or send unhappy customers somewhere else first. Ask everyone the same way.</li>
+<li><b>No fake reviews.</b> Do not write reviews yourself or ask employees, family or friends to review the business as if they were customers.</li>
+<li><b>No review stations in your office or truck.</b> Let customers leave reviews on their own phones, in their own words.</li>
+</ul>
+<p>Honest reviews build slowly, but they last. A profile full of real customers describing real jobs is something no competitor can copy.</p>
+<p>If you would rather not manage this yourself, our <a href="/local-seo-for-contractors">local SEO for contractors</a> service includes automated review requests by text after each job, along with Google Business Profile management and citations. It is part of the Get Found plan, $248 per month total including your website. You can see every plan on our <a href="/pricing">pricing page</a> or <a href="/get-started">get started here</a> and have your new site live 48 hours after the onboarding form.</p>
+"""
+},
+{
  "slug":"how-many-pages-contractor-website","date":"2026-11-04",
  "tag":"Website tips",
  "read":6,
