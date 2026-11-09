@@ -1,5 +1,93 @@
 POSTS = [
 {
+ "slug":"plumbing-service-pages-that-rank","date":"2026-11-09",
+ "tag":"Website tips",
+ "read":7,
+ "title":"How to Write Plumbing Service Pages That Rank",
+ "h1":"How to write service pages for <em>plumber websites</em> that rank",
+ "desc":"How to write service pages for plumber websites that rank and get calls: titles, opening lines, problem signs, process, pricing, FAQs and local proof.",
+ "answer":"A plumbing service page that ranks covers one service, names it and your main city in the title and heading, and answers what a homeowner wants to know: the signs of the problem, what you do when you arrive, rough cost factors and how fast you can come. Write it in your own words for your own area, then end every section with a way to call.",
+ "toc":[("one-service","What should one plumbing service page cover?"),("title","How should you write the title and heading?"),("opening","What goes in the first few lines?"),("sections","Which sections help plumber websites rank and get calls?"),("local","How do you make a service page local without copying it for every town?"),("links","How should service pages link to each other?"),("mistakes","What makes a plumbing service page fail?")],
+ "faqs":[("How long should a plumbing service page be?","Long enough to answer what homeowners ask about that service, and no longer. For most plumbing services that means several short sections with clear headings, a few FAQs and a call button after each section. A page padded out to hit a word count reads worse and does not help you rank."),
+  ("Can I copy service descriptions from a manufacturer or another plumber's site?","No. Copied text gives Google no reason to rank your page over the original, and copying another company's site can create legal problems too. Write in your own words, using the questions your customers actually ask and the details of how your company does the job.")],
+ "body":"""
+<p>Most plumbers know they should have a separate page for each major service. Fewer know what to put on those pages. A page with a heading that says "Drain Cleaning" and three generic sentences will not rank, and it will not convince anyone to call. Good plumber websites treat every service page as an answer to one specific search, written for a homeowner with that exact problem. This guide walks through how to write a plumbing service page, section by section, so it has a real chance to show up on Google and turn visits into calls.</p>
+<p>If you are still deciding which services deserve their own page, start with our guide on <a href="/blog/how-many-pages-contractor-website">how many pages a contractor website needs</a>. This post picks up once you know which pages you are writing.</p>
+
+<h2 id="one-service">What should one plumbing service page cover?</h2>
+<p>One service, explained well. "Water heater repair and replacement" can share a page because homeowners often do not know which one they need. "Drains, sewers, water heaters and gas lines" on one page is too much, because Google cannot tell what the page is mainly about and visitors have to dig for their problem.</p>
+<p>A simple test: if a homeowner would type it into Google as its own search, and you want more of that job, it gets its own page. For many plumbers that list looks something like this:</p>
+<ul>
+<li>Emergency plumbing</li>
+<li>Drain cleaning</li>
+<li>Water heater repair and replacement, including tankless</li>
+<li>Leak detection and slab leaks</li>
+<li>Sewer line repair and replacement</li>
+<li>Repiping</li>
+</ul>
+<p>Write the page for the job you most want to book first. If tankless installs are your best margin, that page gets your time before the toilet repair page does.</p>
+
+<h2 id="title">How should you write the title and heading?</h2>
+<p>The page title is the blue link people see on Google. The heading, or H1, is the big line at the top of the page. Both should say plainly what the page is and where you do it.</p>
+<ul>
+<li><b>Title:</b> service, main city, company name. For example, "Water Heater Repair and Replacement in Tulsa | Smith Plumbing". Keep it short enough that Google does not cut it off.</li>
+<li><b>Heading:</b> a natural version of the same idea, such as "Water heater repair and replacement in Tulsa and Broken Arrow".</li>
+<li><b>Web address:</b> short and readable, like /water-heater-repair. Skip dates, numbers and long strings.</li>
+</ul>
+<p>Avoid clever headings. "Hot water, no worries" might look nice on a truck, but it does not tell Google or a homeowner what the page is about.</p>
+
+<h2 id="opening">What goes in the first few lines?</h2>
+<p>The first screen on a phone decides whether someone stays. Right under the heading, answer the three questions every visitor has: do you handle this, do you come to my area, and how do I reach you now.</p>
+<p>A strong opening is two or three sentences, followed by a call button. Something like: "Leaking tank, no hot water or a pilot light that will not stay lit? Our licensed plumbers repair and replace gas, electric and tankless water heaters across Tulsa and Broken Arrow, usually the same or next day. Call now or request a visit below."</p>
+<p>That one paragraph names the problem in the homeowner's words, the service, the area and the next step. Put your license and Google rating just below it if they are not already in your header.</p>
+
+<h2 id="sections">Which sections help plumber websites rank and get calls?</h2>
+<p>After the opening, build the page from the questions you hear on the phone. Not every page needs every section, but most strong plumbing service pages include these:</p>
+<ol>
+<li><b>Signs you need this service.</b> List what the homeowner notices: rusty water, a rumbling tank, water pooling at the base, a drain that gurgles, a sewer smell in the basement. People search for symptoms, so writing them out helps you match those searches.</li>
+<li><b>What you do when you arrive.</b> Walk through the visit in plain steps: inspect, explain the options, give the price before starting, do the work, test it, clean up. This lowers the fear of the unknown.</li>
+<li><b>Repair or replace.</b> For water heaters, sewer lines and pipes, explain how you help a customer decide. Age, the type of damage and how often it has failed are honest factors to mention.</li>
+<li><b>What affects the cost.</b> You do not have to publish prices. You can explain what changes the price, such as tank size, fuel type, access and permits. If you do share a starting price or call out fee, keep it current.</li>
+<li><b>Timing and availability.</b> Say when you can usually come and whether you handle this as an emergency. Only promise what you deliver.</li>
+<li><b>Brands and types you work on.</b> Gas, electric, tankless, the brands you install, PEX or copper. These details answer real searches and show you know the work.</li>
+<li><b>Proof.</b> Real photos from your own jobs and a few real reviews that mention this service. Never write or edit reviews yourself.</li>
+<li><b>FAQs.</b> Three to five short questions and answers taken from real calls, like "Can you replace my water heater the same day?" or "Do you need to dig up my yard to fix a sewer line?"</li>
+</ol>
+<p>Put a call button after every couple of sections. Someone reading about the signs of a slab leak may be ready to call before they reach the bottom.</p>
+
+<h2 id="local">How do you make a service page local without copying it for every town?</h2>
+<p>A common shortcut is to copy the drain cleaning page 20 times and swap in a new city name. Those pages are nearly identical, which gives Google little reason to rank any of them, and visitors can tell.</p>
+<p>A better approach is to make one strong service page feel local:</p>
+<ul>
+<li>Name your main city in the title and heading, and list the other towns you serve on the page.</li>
+<li>Mention local details you actually deal with, such as older homes with cast iron drains in certain neighborhoods, hard water, or freezing pipes in winter.</li>
+<li>Use photos and reviews from jobs in your area, with the town named when the customer is comfortable with it.</li>
+<li>Keep your business name, phone number and service area consistent with your Google Business Profile.</li>
+</ul>
+<p>The map pack depends mostly on your Google Business Profile, reviews and how close you are to the searcher, so your service pages work best alongside that work. Our <a href="/local-seo-for-contractors">local SEO for contractors</a> page explains how those pieces fit together.</p>
+
+<h2 id="links">How should service pages link to each other?</h2>
+<p>Links between your own pages help visitors find the right service and help Google understand how your site fits together. Keep it simple:</p>
+<ul>
+<li>Your main Services page links to every service page with a short description.</li>
+<li>Each service page links to one or two closely related ones. A drain cleaning page can point to sewer line repair. A leak detection page can point to repiping.</li>
+<li>Use clear link text like "sewer line repair", not "click here".</li>
+<li>Every service page links to your contact or booking page and shows your phone number.</li>
+</ul>
+
+<h2 id="mistakes">What makes a plumbing service page fail?</h2>
+<p>Most weak service pages share the same few problems:</p>
+<ul>
+<li><b>Too thin.</b> A heading and two generic sentences answer nothing.</li>
+<li><b>Written for plumbers.</b> Homeowners search "water heater leaking from bottom", not "tank failure". Use their words and explain any trade terms you need.</li>
+<li><b>Copied text.</b> Manufacturer descriptions or text copied from another site give Google no reason to pick you.</li>
+<li><b>No clear next step.</b> A great page with no call button near the top still loses the call.</li>
+<li><b>Never updated.</b> Old prices, a brand you no longer install or a phone number that changed all cost trust.</li>
+</ul>
+<p>Writing service pages takes time, but each good one keeps working for you. If you would rather have them written for you, every site in our <a href="/plumber-websites">plumber websites</a> service comes with service pages written for your company and your towns, a mobile call bar and a short request form. Plans start at $349 setup and $99 a month with no contracts, and you can see every option on our <a href="/pricing">pricing page</a>. Your site goes live 48 hours after you <a href="/get-started">fill the onboarding form</a>.</p>
+"""
+},
+{
  "slug":"get-more-google-reviews","date":"2026-11-06",
  "tag":"Local SEO",
  "read":6,
