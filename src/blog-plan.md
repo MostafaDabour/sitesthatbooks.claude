@@ -40,9 +40,9 @@ When fewer than 5 unchecked topics remain, the agent adds 10 new ones at the bot
 - [x] How Many Pages Does a Contractor Website Need? (how-many-pages-contractor-website) 2026-11-04
 - [x] How to Get More Google Reviews for a Home Service Business (get-more-google-reviews) 2026-11-06
 - [x] How to Write Service Pages for a Plumbing Website That Rank (plumbing-service-pages-that-rank) 2026-11-09
+- [x] HVAC Marketing Ideas for the Slow Season (hvac-slow-season-marketing) 2026-11-11
 
 ## Up next
-- [ ] HVAC Marketing Ideas for the Slow Season | K2 | target: hvac website design | link: /hvac-websites
 - [ ] The Hidden Costs of a Cheap Contractor Website | K9 | target: contractor website cost | link: /blog/how-much-does-a-contractor-website-cost
 - [ ] Electrician Marketing: How to Get More Local Service Calls | K5 | target: electrician website design | link: /electrician-websites
 - [ ] Missed Calls Are Costing You Jobs: How to Fix It | K7 | target: done for you website for contractors | link: /pricing

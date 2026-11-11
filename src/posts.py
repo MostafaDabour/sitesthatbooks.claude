@@ -1,5 +1,90 @@
 POSTS = [
 {
+ "slug":"hvac-slow-season-marketing","date":"2026-11-11",
+ "tag":"Lead generation",
+ "read":7,
+ "title":"HVAC Marketing Ideas for the Slow Season",
+ "h1":"HVAC marketing ideas for the slow season, from tune-up offers to <em>HVAC website design</em>",
+ "desc":"HVAC marketing ideas for the slow season: tune-up offers, maintenance plans, replacement pages and HVAC website design fixes that fill quiet months.",
+ "answer":"The slow season is the best time to fill next month's schedule and fix what will cost you calls when the weather turns. Push maintenance tune-ups and plans, call past customers about aging systems, update your Google profile, and use the quiet weeks to tighten your HVAC website design so it is ready for the next rush.",
+ "toc":[("why","Why is the slow season a marketing opportunity for HVAC companies?"),("tuneups","How do you sell tune-ups and maintenance plans in the off season?"),("past","How can past customers fill the schedule?"),("replacement","Why push system replacements when it is quiet?"),("website","Which HVAC website design fixes should you make before the rush?"),("google","What should you update on Google during the slow months?"),("avoid","What slow season marketing should HVAC companies skip?")],
+ "faqs":[("When is the slow season for most HVAC companies?","For most of the US it is the spring and fall shoulder months, when it is neither hot enough for heavy cooling calls nor cold enough for heating calls. The exact weeks depend on your climate, so look at your own call history from the last couple of years and plan around the dips you actually see."),
+  ("Should I cut my marketing budget in the slow season?","Not across the board. Paid ads for emergency repair searches often cost more per booked job when few people are searching, so it can make sense to scale those down. The work that pays off later, like your website, your Google profile, reviews and outreach to past customers, is worth keeping or increasing while you have time.")],
+ "body":"""
+<p>Every HVAC owner knows the pattern. The phones ring nonstop in the first heat wave and the first cold snap, then go quiet for weeks in between. The quiet weeks feel like lost money, but they are also the only time you have to market the business properly. This guide covers practical HVAC marketing ideas for the slow season, from tune-up offers to the HVAC website design fixes worth making before the next rush, so the shoulder months bring in work instead of just waiting for the weather.</p>
+
+<h2 id="why">Why is the slow season a marketing opportunity for HVAC companies?</h2>
+<p>In peak season you are too busy to market and you do not need to. In the slow season you have techs with open hours, office staff with time to make calls and homeowners who are not in a panic. That last part matters. A homeowner with no heat at 10 p.m. calls whoever shows up first. A homeowner thinking about a new system in April compares companies, reads reviews and looks closely at websites.</p>
+<p>So slow season marketing has two jobs:</p>
+<ul>
+<li><b>Fill the schedule now</b> with planned work like tune-ups, maintenance visits and replacements.</li>
+<li><b>Get ready for the next rush</b> so the emergency calls come to you instead of the competitor down the road.</li>
+</ul>
+
+<h2 id="tuneups">How do you sell tune-ups and maintenance plans in the off season?</h2>
+<p>Tune-ups are the natural slow season product. They are easy to say yes to, they keep techs busy and they put your company in front of the equipment before it fails. A few ways to sell more of them:</p>
+<ol>
+<li><b>Time the offer to the season ahead.</b> Promote AC tune-ups in spring before the heat and furnace tune-ups in fall before the cold. Homeowners understand "get it checked before you need it".</li>
+<li><b>Make the price clear.</b> A simple, published tune-up price is easier to book than "call for a quote". Spell out what the visit includes.</li>
+<li><b>Turn tune-ups into plans.</b> Every tune-up visit is a chance to offer a maintenance plan that covers both seasons. Plan members give you booked work every slow season and are more likely to call you first for repairs.</li>
+<li><b>Give it its own page.</b> A dedicated maintenance plan page with what is included, the price and a sign-up form sells better than a line buried on the home page.</li>
+</ol>
+<p>Only promise what your plan actually includes, and keep any offer terms simple enough to explain in one sentence.</p>
+
+<h2 id="past">How can past customers fill the schedule?</h2>
+<p>Your customer list is the cheapest marketing you have. These people already trust you, and many of them have equipment that is getting older every year. Use the quiet weeks to:</p>
+<ul>
+<li><b>Send tune-up reminders</b> by text or email to everyone you serviced last year who is not on a plan.</li>
+<li><b>Call customers with older systems.</b> If your software tracks install dates or equipment age, sort by it and reach out about an inspection before the season.</li>
+<li><b>Ask for reviews</b> from recent happy customers while you have time to follow up. Our guide on <a href="/blog/get-more-google-reviews">getting more Google reviews</a> covers how to ask without being pushy.</li>
+<li><b>Ask for referrals.</b> A short note thanking customers and inviting them to pass your number to neighbors costs almost nothing.</li>
+</ul>
+
+<h2 id="replacement">Why push system replacements when it is quiet?</h2>
+<p>A replacement installed on your schedule is better for everyone than one done in a rush during a heat wave. The homeowner has time to compare options, you can schedule the crew properly and nobody is sleeping in a hot house while they wait.</p>
+<p>To bring in planned replacement work:</p>
+<ul>
+<li>Have techs note aging or struggling equipment on every tune-up and follow up with a written estimate.</li>
+<li>Explain financing clearly if you offer it, on the estimate and on your website.</li>
+<li>Build a replacement page that answers what homeowners ask: signs it is time to replace, what affects the price, how long the install takes and what happens to the old unit.</li>
+<li>Talk about comfort and efficiency in plain words instead of model numbers.</li>
+</ul>
+
+<h2 id="website">Which HVAC website design fixes should you make before the rush?</h2>
+<p>The slow season is the right time to work on your site, because you will not have time once the calls start. Good <a href="/hvac-websites">HVAC website design</a> is mostly about making it fast and obvious to call. Before the next season, check these:</p>
+<ol>
+<li><b>Phone number on every screen.</b> On a phone, there should be a tap-to-call button that stays visible as visitors scroll.</li>
+<li><b>Seasonal message at the top.</b> Your first screen should match the season. In late spring, lead with AC repair and tune-ups. In fall, lead with heating. If you cannot change it yourself, make sure whoever runs your site can do it quickly.</li>
+<li><b>Separate service pages.</b> AC repair, furnace repair, heat pumps, replacement and maintenance plans each deserve their own page, so each can show up for its own search.</li>
+<li><b>Service area spelled out.</b> List the cities and neighborhoods you cover in plain text, not just on a map image.</li>
+<li><b>A short request form.</b> Name, phone, what is wrong and a time that works. Long forms lose people.</li>
+<li><b>Speed.</b> Load your own site on your phone over cellular data. If you are waiting, so are your customers.</li>
+</ol>
+<p>For a full checklist of what belongs on the site, see <a href="/blog/what-should-an-hvac-website-include">what an HVAC website should include</a>.</p>
+
+<h2 id="google">What should you update on Google during the slow months?</h2>
+<p>Your Google Business Profile is often the first thing a homeowner sees, so give it some attention while you have time. Our page on <a href="/local-seo-for-contractors">local SEO for contractors</a> goes deeper, but the slow season basics are:</p>
+<ul>
+<li>Check your hours, phone number, services and service area are correct.</li>
+<li>Add recent photos of real jobs, your trucks and your team.</li>
+<li>Post seasonal updates, such as tune-up availability or maintenance plan details.</li>
+<li>Reply to any reviews you have not answered yet.</li>
+<li>Make sure the website link on your profile goes to a page that works well on a phone.</li>
+</ul>
+<p>If showing up in the map results is your main goal, our guide to <a href="/blog/rank-in-google-map-pack">ranking in the Google map pack</a> explains what Google looks at.</p>
+
+<h2 id="avoid">What slow season marketing should HVAC companies skip?</h2>
+<p>Not every idea is worth the time. A few common ones that tend to waste money or hurt your reputation:</p>
+<ul>
+<li><b>Deep discounts on repairs.</b> They attract price shoppers and train customers to wait for a sale. A clear tune-up price or plan offer does more.</li>
+<li><b>Running emergency repair ads at full budget.</b> When few people are searching, you may pay more for each booked job. Adjust to the season.</li>
+<li><b>Fake urgency.</b> "Prices going up tomorrow" claims that are not true damage trust. So do invented reviews or results.</li>
+<li><b>Starting a website project in peak season.</b> If your site needs work, start it now, not in July.</li>
+</ul>
+<p>If your site is the weak link, we can handle it for you. Our <a href="/hvac-websites">HVAC websites</a> come with seasonal messaging, separate service pages, a mobile call bar and a short request form, and we update them when the weather turns. Plans start at $349 setup and $99 a month with no contracts, and you can compare options on our <a href="/pricing">pricing page</a>. Your site goes live 48 hours after you <a href="/get-started">fill the onboarding form</a>, so there is still time to be ready before the next rush.</p>
+"""},
+
+{
  "slug":"plumbing-service-pages-that-rank","date":"2026-11-09",
  "tag":"Website tips",
  "read":7,
