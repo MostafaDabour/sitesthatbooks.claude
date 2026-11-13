@@ -41,9 +41,9 @@ When fewer than 5 unchecked topics remain, the agent adds 10 new ones at the bot
 - [x] How to Get More Google Reviews for a Home Service Business (get-more-google-reviews) 2026-11-06
 - [x] How to Write Service Pages for a Plumbing Website That Rank (plumbing-service-pages-that-rank) 2026-11-09
 - [x] HVAC Marketing Ideas for the Slow Season (hvac-slow-season-marketing) 2026-11-11
+- [x] The Hidden Costs of a Cheap Contractor Website (hidden-costs-cheap-contractor-website) 2026-11-13
 
 ## Up next
-- [ ] The Hidden Costs of a Cheap Contractor Website | K9 | target: contractor website cost | link: /blog/how-much-does-a-contractor-website-cost
 - [ ] Electrician Marketing: How to Get More Local Service Calls | K5 | target: electrician website design | link: /electrician-websites
 - [ ] Missed Calls Are Costing You Jobs: How to Fix It | K7 | target: done for you website for contractors | link: /pricing
 - [ ] Landscaping Website SEO: Get Booked Before Spring | K6 | target: landscaping website design | link: /landscaping-websites

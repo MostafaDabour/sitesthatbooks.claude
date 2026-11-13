@@ -1,5 +1,82 @@
 POSTS = [
 {
+ "slug":"hidden-costs-cheap-contractor-website","date":"2026-11-13",
+ "tag":"Pricing",
+ "read":7,
+ "title":"The Hidden Costs of a Cheap Contractor Website",
+ "h1":"The hidden costs behind a low <em>contractor website cost</em>",
+ "desc":"A low contractor website cost can hide lost calls, add-on fees, rebuilds and a domain you do not own. Here is what a cheap site really costs you.",
+ "answer":"A cheap website rarely stays cheap. The real contractor website cost includes the calls a slow or confusing site loses, the add-on and change fees that show up after launch, the time you spend fixing it yourself and the rebuild you need when it stops working. Judge a website by what it costs over a few years and how many jobs it books, not by the first invoice.",
+ "toc":[("why","Why can a low contractor website cost end up expensive?"),("calls","How does a cheap website cost you calls?"),("google","What does a cheap website cost you on Google?"),("fees","What fees show up after a cheap website launches?"),("time","How much of your own time does a cheap site take?"),("ownership","What happens if you do not own your domain or site?"),("spot","How do you spot a cheap website that will cost more later?")],
+ "faqs":[("Is a cheap website better than no website at all?","Usually yes, as long as it loads fast on a phone, shows your phone number clearly and lists your real services and service area. A basic site that does those things beats having nothing. The trouble starts when a cheap site is slow, generic or broken, because then it can push away the customers who found you."),
+  ("How do I know if my current cheap website is costing me jobs?","Load it on your own phone over cellular data and try to call and send a request the way a customer would. Ask a few recent customers how they found you and whether they looked at your site. If people say they called a competitor first, or your form messages never arrive, the site is likely costing you work.")],
+ "body":"""
+<p>A $300 website or a free builder trial looks like a smart way to save money. For a lot of home service owners, it turns out to be the most expensive option they ever tried. The price on the first invoice is only one part of your contractor website cost. The bigger part is what the site fails to do and what you pay later to fix it. This guide walks through the hidden costs of a cheap website so you can spot them before you sign up, or recognize them if you are already living with one.</p>
+
+<h2 id="why">Why can a low contractor website cost end up expensive?</h2>
+<p>A website has one job for a plumber, roofer, HVAC company or electrician: turn a homeowner who is searching into a phone call or a booked estimate. A cheap site can look fine and still fail at that job. When it does, you do not get a bill for the work you lost. You just get a quieter phone and no clear reason why.</p>
+<p>That is what makes these costs hidden. They show up in three places:</p>
+<ul>
+<li><b>Lost jobs</b> from visitors who leave without calling.</li>
+<li><b>Extra fees</b> that were not in the original price.</li>
+<li><b>Your time</b>, spent fixing, updating or rebuilding the site.</li>
+</ul>
+<p>If you want the full picture of typical price ranges first, read our guide on <a href="/blog/how-much-does-a-contractor-website-cost">contractor website cost</a>. This post focuses on what those ranges leave out.</p>
+
+<h2 id="calls">How does a cheap website cost you calls?</h2>
+<p>Most homeowners find a contractor on a phone, often when something is already wrong. They give your site a few seconds. Cheap sites tend to lose them in the same handful of ways:</p>
+<ul>
+<li><b>Slow loading.</b> Heavy templates, oversized photos and cheap hosting make pages crawl on cellular data. People hit the back button and call the next company.</li>
+<li><b>No tap to call button.</b> If your number is buried in the footer or shown as an image, many visitors will not dig for it.</li>
+<li><b>Generic words.</b> Template text like "quality service you can trust" does not tell anyone that you fix tankless water heaters in their town.</li>
+<li><b>Stock photos.</b> Homeowners can tell. Real photos of your trucks, crew and work build more trust than a smiling model in a hard hat.</li>
+<li><b>Broken or long forms.</b> A form with ten fields, or one that sends messages to an inbox nobody checks, quietly loses leads every week.</li>
+</ul>
+<p>Think about the value of one average job for your business. If a weak site loses even one of those a month, it has cost you far more than a better site would have.</p>
+
+<h2 id="google">What does a cheap website cost you on Google?</h2>
+<p>Many low priced sites are built to look good in a sales demo, not to be found. Common gaps include missing page titles, one page that lists every service instead of a page per service, no service area details and no basic technical setup like a sitemap. Some cheap builders also make the site slow or hard for Google to read.</p>
+<p>The result is a site that only shows up when someone searches your exact business name. Those people already know you. The homeowner searching for a roof repair near them never sees you at all. Fixing that later often means rewriting pages and restructuring the site, which is a cost you pay on top of the original build. Our page on <a href="/local-seo-for-contractors">local SEO for contractors</a> explains what Google looks at for trade businesses.</p>
+
+<h2 id="fees">What fees show up after a cheap website launches?</h2>
+<p>The low headline price often covers only the build. After launch, the bills start to arrive. Watch for:</p>
+<ul>
+<li><b>Hosting and SSL</b> charged separately, sometimes at a higher renewal rate after the first year.</li>
+<li><b>Paid add-ons</b> for basic features like forms, booking buttons, reviews or removing the builder's branding.</li>
+<li><b>Change fees</b> billed by the hour every time you need a new service page, a new town, updated prices or a photo swap.</li>
+<li><b>Fix fees</b> when a plugin update breaks something or the form stops sending.</li>
+<li><b>Email or domain charges</b> that were bundled for a short time and then renewed at full price.</li>
+</ul>
+<p>None of these is unusual on its own. Together, they can turn a cheap website into one of your more expensive monthly bills, with none of the ongoing work you would get from a plan that includes updates. Before you sign, ask for the total cost for the first year and every year after, in writing.</p>
+
+<h2 id="time">How much of your own time does a cheap site take?</h2>
+<p>Do it yourself builders and bargain freelancers often shift work onto you. You write the copy, find the photos, figure out the settings and chase down fixes. Evenings spent dragging boxes around a page editor are evenings you are not quoting jobs, running crews or resting.</p>
+<p>There is also the back and forth. A freelancer who takes a week to answer a simple change request costs you time and, in a busy season, lost calls while the wrong hours or an old phone number sit on your site.</p>
+
+<h2 id="ownership">What happens if you do not own your domain or site?</h2>
+<p>This is the hidden cost that hurts the most when it hits. Some cheap offers register your domain in the provider's name, or build the site on a system you cannot move. If you cancel, change providers or the freelancer disappears, you can lose:</p>
+<ul>
+<li>Your web address, which is printed on your trucks, cards and yard signs.</li>
+<li>Your pages and written content.</li>
+<li>Whatever Google rankings the site had built up.</li>
+</ul>
+<p>Getting the domain back can take weeks, and starting over on a new address means reprinting materials and rebuilding trust with Google. Always make sure the domain is registered to you and that you know what happens to the site if you leave.</p>
+
+<h2 id="spot">How do you spot a cheap website that will cost more later?</h2>
+<p>Price alone does not tell you much. A low price can be fair if the work is solid. Use these checks before you buy, or to judge the site you have now:</p>
+<ol>
+<li><b>Ask for the total over three years.</b> Setup, hosting, renewals, changes and add-ons, all in one number.</li>
+<li><b>Ask what is included after launch.</b> Updates, new pages and SEO work should be spelled out, not "available for a fee".</li>
+<li><b>Check live examples on a phone.</b> Look at sites they built for other home service businesses. Are they fast, and is calling easy?</li>
+<li><b>Confirm the copy is written for your trade and towns.</b> If you have to write it all, count that as part of the price.</li>
+<li><b>Confirm ownership.</b> Your domain, your logo, your photos and your content belong to you.</li>
+<li><b>Check the contract.</b> A long lock-in on a cheap site makes it hard to leave when it is not working.</li>
+</ol>
+<p>Our guide to <a href="/home-service-website-design">contractor website design</a> covers what a site built to book jobs should include, and our post on <a href="/blog/contractor-website-cost-monthly-vs-one-time">monthly plans vs one-time builds</a> shows how to compare total cost over time.</p>
+<p>If you want a site that is low cost without the hidden costs, that is what we built SitesThatBook for. Our Launch plan is $349 setup and $99 a month with hosting, updates and SEO content included, no contracts, and your site goes live 48 hours after you fill the onboarding form. If you do not love it on the launch call and we cannot fix it on the call, you get your setup fee back. See every plan and the full <a href="/pricing">contractor website cost breakdown</a>, or <a href="/get-started">get started here</a>.</p>
+"""},
+
+{
  "slug":"hvac-slow-season-marketing","date":"2026-11-11",
  "tag":"Lead generation",
  "read":7,
