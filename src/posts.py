@@ -1,5 +1,96 @@
 POSTS = [
 {
+ "slug":"electrician-marketing-local-service-calls","date":"2026-11-16",
+ "tag":"Marketing",
+ "read":7,
+ "title":"Electrician Marketing: Get More Local Service Calls",
+ "h1":"Electrician marketing that brings in more <em>local service calls</em>",
+ "desc":"Electrician marketing for more local service calls: Google, reviews, referral partners and electrician website design that turns visits into calls.",
+ "answer":"Most local service calls for electricians come from Google search, the map listing, reviews and word of mouth from past customers and trade partners. The fastest gains come from a complete Google Business Profile, a steady flow of reviews, a few referral relationships and electrician website design that makes calling you easy. Do those well before you spend more on ads.",
+ "toc":[("where","Where do electricians actually get local service calls?"),("google","How should an electrician show up on Google?"),("website","What does electrician website design have to do with marketing?"),("jobs","Which electrical jobs should you market first?"),("partners","Who can send an electrician steady referrals?"),("customers","How do you get more work from past customers?"),("ads","When should an electrician pay for ads?"),("start","What should you do first this month?")],
+ "faqs":[("What is the cheapest way for an electrician to get more calls?","Start with what costs little or nothing: finish your Google Business Profile, ask every happy customer for a review, and stay in touch with past customers and a few trade partners. These take time and habit more than money, and they tend to keep working long after you set them up."),
+  ("Do electricians need social media to get local work?","It can help, but it is rarely where emergency or service calls start. Homeowners with a dead outlet or a tripping breaker usually search Google and call. If you have limited time, put it into your Google listing, reviews and website first, then use social media to show finished jobs and stay familiar to your area.")],
+ "body":"""
+<p>Most electricians do not need more marketing. They need the right few things done well. A homeowner with a tripping breaker, a flickering panel or a new EV charger to install will usually search on their phone, look at a few names and call the one that looks local, licensed and easy to reach. Good electrician marketing makes sure you are that name. This guide covers where local service calls really come from, how electrician website design fits in, and what to work on first.</p>
+
+<h2 id="where">Where do electricians actually get local service calls?</h2>
+<p>For most residential and light commercial electricians, calls come from a short list of places:</p>
+<ul>
+<li><b>Google search and the map listing</b> when someone types "electrician near me" or a specific job like "panel upgrade."</li>
+<li><b>Reviews</b>, which decide which of those listings gets the call.</li>
+<li><b>Past customers</b> who call you again or pass your name to a neighbor.</li>
+<li><b>Trade and business partners</b> such as general contractors, realtors and property managers.</li>
+<li><b>Paid ads</b>, which can add volume once the basics are working.</li>
+</ul>
+<p>Notice that almost every one of these ends the same way: the person looks you up before they call. That is why your listing and your website matter even when the lead started as a referral.</p>
+
+<h2 id="google">How should an electrician show up on Google?</h2>
+<p>Your Google Business Profile is the free listing that appears on the map. For an electrician it is often the single biggest source of new calls, so treat it like a storefront:</p>
+<ul>
+<li>Choose "Electrician" as your primary category and add secondary categories only where they truly fit your work.</li>
+<li>Set your real service area, the towns you actually drive to.</li>
+<li>List your services one by one, such as panel upgrades, EV charger installation, lighting, generators and troubleshooting.</li>
+<li>Add real photos of your truck, crew, panels and finished work. Swap in new ones every month or so.</li>
+<li>Keep hours accurate, and say clearly if you take emergency calls.</li>
+</ul>
+<p>Reviews sit right next to all of this. A steady stream of recent, detailed reviews helps you rank and helps you win the click. Our guides on <a href="/blog/rank-in-google-map-pack">ranking in the Google map pack</a> and <a href="/local-seo-for-contractors">local SEO for contractors</a> go deeper on both.</p>
+
+<h2 id="website">What does electrician website design have to do with marketing?</h2>
+<p>Every channel above sends people to the same place before they pick up the phone. A referral from a realtor still gets searched. A map listing still gets a tap on "Website." If the site is slow, vague or hard to use on a phone, you pay for that lead and then lose it.</p>
+<p>Strong electrician website design supports your marketing in three ways:</p>
+<ol>
+<li><b>It turns visits into calls.</b> A tap to call button, a short request form and your service area near the top make the next step obvious.</li>
+<li><b>It builds trust fast.</b> License details, insurance, real photos and reviews answer the safety question homeowners have about electrical work.</li>
+<li><b>It helps you rank.</b> A separate page for each main service and clear service area content give Google more reasons to show you for specific searches.</li>
+</ol>
+<p>If you want a checklist of what the site itself should include, see our post on <a href="/blog/electrician-website-must-haves">electrician website must haves</a>. If you would rather have it built for you, our <a href="/electrician-websites">electrician website design</a> page shows how we set up sites for electrical contractors.</p>
+
+<h2 id="jobs">Which electrical jobs should you market first?</h2>
+<p>Not every job is worth the same to your business. Pick two or three services you want more of and make them easy to find everywhere: on your Google listing, in your photos, in your review requests and on their own pages of your website. Common choices include:</p>
+<ul>
+<li><b>Panel upgrades and service changes</b>, often needed for older homes, additions and new appliances.</li>
+<li><b>EV charger installation</b>, a job homeowners search for by name.</li>
+<li><b>Whole home generators and transfer switches</b>, which get attention around storm season.</li>
+<li><b>Lighting and remodel wiring</b>, which pairs well with contractor referrals.</li>
+<li><b>Troubleshooting and repairs</b>, the everyday service calls that keep trucks busy and build a customer list.</li>
+</ul>
+<p>When you focus, your marketing says something specific. "We install EV chargers in your town" gets more calls than "all your electrical needs."</p>
+
+<h2 id="partners">Who can send an electrician steady referrals?</h2>
+<p>Referral partners are some of the best marketing an electrician can have, because the trust is already built. Good partners to reach out to include:</p>
+<ul>
+<li><b>General contractors and remodelers</b> who need a reliable electrician on kitchens, basements and additions.</li>
+<li><b>Realtors and home inspectors</b> who see electrical issues come up before a sale closes.</li>
+<li><b>Property managers</b> who need someone dependable for repairs across many units.</li>
+<li><b>Other trades</b> like HVAC and solar companies who run into electrical work they do not handle.</li>
+</ul>
+<p>Keep it simple. Introduce yourself, show up on time for the first job, and make it easy for them to send people your way. A direct link to your website and a phone number that is always answered goes a long way.</p>
+
+<h2 id="customers">How do you get more work from past customers?</h2>
+<p>A customer who already trusts you is the easiest call you will ever get. Many electricians lose that work simply because the customer forgot their name. A few small habits help:</p>
+<ul>
+<li>Leave a sticker on the panel with your company name and phone number.</li>
+<li>Ask for a review while the customer is still happy, ideally the same day.</li>
+<li>Send a short follow up a few months later, or before storm season if you do generators.</li>
+<li>Thank people who refer a neighbor, even with just a quick call or note.</li>
+</ul>
+
+<h2 id="ads">When should an electrician pay for ads?</h2>
+<p>Ads can bring in calls quickly, but they work best when the basics are already in place. If your Google listing is thin, you have only a handful of reviews and your website is hard to use on a phone, ads mostly buy you more people who leave without calling. Once those pieces are solid, ads can fill gaps in slow weeks or push the specific jobs you want more of. Our page on <a href="/google-ads-for-contractors">Google Ads for contractors</a> explains how to think about that choice.</p>
+
+<h2 id="start">What should you do first this month?</h2>
+<p>If you only have a few hours, work through this list in order:</p>
+<ol>
+<li>Finish every section of your Google Business Profile and add fresh photos.</li>
+<li>Ask your last ten happy customers for a review.</li>
+<li>Pick the two or three jobs you want more of and make sure each one has its own page on your site.</li>
+<li>Check your website on your own phone. Can you tap to call within a second or two?</li>
+<li>Reach out to one general contractor or realtor you would like to work with.</li>
+</ol>
+<p>If your website is the weak link, we can help. SitesThatBook builds done for you websites for electricians and other home service businesses for $349 setup and $99 a month, live 48 hours after you fill out the onboarding form, with no contracts. See the <a href="{PRICING}">pricing</a> or <a href="{GET}">get started here</a>.</p>
+"""
+},
+{
  "slug":"hidden-costs-cheap-contractor-website","date":"2026-11-13",
  "tag":"Pricing",
  "read":7,

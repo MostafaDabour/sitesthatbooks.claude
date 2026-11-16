@@ -42,13 +42,23 @@ When fewer than 5 unchecked topics remain, the agent adds 10 new ones at the bot
 - [x] How to Write Service Pages for a Plumbing Website That Rank (plumbing-service-pages-that-rank) 2026-11-09
 - [x] HVAC Marketing Ideas for the Slow Season (hvac-slow-season-marketing) 2026-11-11
 - [x] The Hidden Costs of a Cheap Contractor Website (hidden-costs-cheap-contractor-website) 2026-11-13
+- [x] Electrician Marketing: Get More Local Service Calls (electrician-marketing-local-service-calls) 2026-11-16
 
 ## Up next
-- [ ] Electrician Marketing: How to Get More Local Service Calls | K5 | target: electrician website design | link: /electrician-websites
 - [ ] Missed Calls Are Costing You Jobs: How to Fix It | K7 | target: done for you website for contractors | link: /pricing
 - [ ] Landscaping Website SEO: Get Booked Before Spring | K6 | target: landscaping website design | link: /landscaping-websites
 - [ ] Garage Door Company Marketing: Website, Ads and Reviews | K4 | target: contractor website design | link: /garage-door-websites
 - [ ] Roofing Website Must Haves for Storm Season | K3 | target: roofing website design | link: /roofing-websites
+- [ ] Plumbing Website Design for Drain and Sewer Jobs | K1 | target: plumbing website design | link: /plumber-websites
+- [ ] What Does a Website Cost for a New Contractor Business? | K9 | target: contractor website cost | link: /pricing
+- [ ] HVAC Website Design That Sells Maintenance Plans | K2 | target: hvac website design | link: /hvac-websites
+- [ ] Local SEO for Contractors Who Serve Several Towns | K10 | target: local seo for contractors | link: /local-seo-for-contractors
+- [ ] Online Booking for Contractors: How It Fits With Your Jobber Website | K8 | target: jobber website | link: /compare/sitesthatbook-vs-jobber-website
+- [ ] Electrician Website Design for EV Charger and Panel Upgrade Leads | K5 | target: electrician website design | link: /electrician-websites
+- [ ] Lawn Care Website Design That Wins Recurring Customers | K6 | target: landscaping website design | link: /landscaping-websites
+- [ ] What to Prepare Before Your Done for You Website Build | K7 | target: done for you website for contractors | link: /pricing
+- [ ] Roofing Website Design for Insurance Claim Jobs | K3 | target: roofing website design | link: /roofing-websites
+- [ ] Pest Control Website Design: What Homeowners Look For | K4 | target: contractor website design | link: /pest-control-websites
 
 ## Writing rules (every post)
 - US English, plain and practical, written for the business owner, not marketers.
