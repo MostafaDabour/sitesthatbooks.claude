@@ -43,9 +43,9 @@ When fewer than 5 unchecked topics remain, the agent adds 10 new ones at the bot
 - [x] HVAC Marketing Ideas for the Slow Season (hvac-slow-season-marketing) 2026-11-11
 - [x] The Hidden Costs of a Cheap Contractor Website (hidden-costs-cheap-contractor-website) 2026-11-13
 - [x] Electrician Marketing: Get More Local Service Calls (electrician-marketing-local-service-calls) 2026-11-16
+- [x] Missed Calls Are Costing You Jobs: How to Fix It (missed-calls-costing-jobs) 2026-11-18
 
 ## Up next
-- [ ] Missed Calls Are Costing You Jobs: How to Fix It | K7 | target: done for you website for contractors | link: /pricing
 - [ ] Landscaping Website SEO: Get Booked Before Spring | K6 | target: landscaping website design | link: /landscaping-websites
 - [ ] Garage Door Company Marketing: Website, Ads and Reviews | K4 | target: contractor website design | link: /garage-door-websites
 - [ ] Roofing Website Must Haves for Storm Season | K3 | target: roofing website design | link: /roofing-websites

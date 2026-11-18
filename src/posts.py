@@ -1,5 +1,92 @@
 POSTS = [
 {
+ "slug":"missed-calls-costing-jobs","date":"2026-11-18",
+ "tag":"Marketing",
+ "read":7,
+ "title":"Missed Calls Are Costing You Jobs: How to Fix It",
+ "h1":"Missed calls are costing you jobs. Here is how to fix it, and where a <em>done for you website for contractors</em> fits",
+ "desc":"Missed calls cost contractors real jobs. Simple fixes, missed call text back and how a done for you website for contractors helps catch every lead.",
+ "answer":"When a homeowner calls a contractor and nobody answers, they usually call the next name on the list, so every missed call can be a lost job. The fix is a simple system: know how many calls you miss, answer or text back fast, and give people a way to reach you that does not depend on you picking up. A done for you website for contractors with missed call text back and instant follow up can handle much of that for you.",
+ "toc":[("why","Why do missed calls cost contractors so many jobs?"),("count","How do you find out how many calls you are missing?"),("when","When do home service businesses miss the most calls?"),("fixes","What are the simplest ways to stop missing calls?"),("textback","How does missed call text back work?"),("website","How can your website take pressure off the phone?"),("dfy","Can a done for you website for contractors handle this for you?"),("start","What should you do this week?")],
+ "faqs":[("Is missed call text back the same as an answering service?","No. An answering service puts a live person on the line to take a message or book the job. Missed call text back sends the caller an automatic text right after a call goes unanswered, so they know you saw it and can reply by text. Many contractors use text back on its own, and some pair it with an answering service for after hours."),
+  ("Will customers be annoyed by an automatic text after a missed call?","Most people are glad to hear back quickly, as long as the message is short, friendly and clearly from your business. Use your company name, say you are on a job, and ask what they need help with. Then make sure a real person follows up soon, because the text only works if someone answers it.")],
+ "body":"""
+<p>You spend money and time getting the phone to ring: your Google listing, reviews, ads, truck wraps and your website. Then the call comes in while you are on a roof, under a house or driving between jobs, and it goes to voicemail. For many home service businesses, missed calls are the biggest leak in the whole marketing plan. This guide shows how to measure the problem, the simple fixes that work, and how a done for you website for contractors can catch the leads you are already paying for.</p>
+
+<h2 id="why">Why do missed calls cost contractors so many jobs?</h2>
+<p>Think about how a homeowner calls a contractor. They search on their phone, look at a few names and tap to call the first one that looks right. If nobody answers, they do not wait. They go back to the list and tap the next one.</p>
+<p>That is especially true for urgent work:</p>
+<ul>
+<li>A burst pipe, a dead furnace or a garage door stuck open will not wait for a callback tomorrow.</li>
+<li>A roof leak after a storm sends people down the list until someone picks up.</li>
+<li>Even planned jobs like a new lawn care plan or a paint project tend to go to whoever responds first and sounds organized.</li>
+</ul>
+<p>Most callers also do not leave voicemails. So a missed call often leaves no trace except a number in your call log that you may never get to. The job did not disappear. It went to a competitor who answered.</p>
+
+<h2 id="count">How do you find out how many calls you are missing?</h2>
+<p>You cannot fix what you cannot see. Before you change anything, spend a week or two counting:</p>
+<ol>
+<li><b>Check your phone's call history</b> or your phone provider's dashboard for missed and unanswered calls.</li>
+<li><b>Note the time of day</b> for each one: during jobs, at lunch, after hours or on weekends.</li>
+<li><b>Count how many you called back</b> and how quickly you reached them.</li>
+<li><b>Ask new customers how they found you</b> so you know which calls came from Google, referrals or ads.</li>
+</ol>
+<p>Many owners are surprised by the number. Even a handful of missed calls a week can add up to a lot of lost work over a year, depending on your average job size.</p>
+
+<h2 id="when">When do home service businesses miss the most calls?</h2>
+<p>The pattern is usually predictable once you look at it:</p>
+<ul>
+<li><b>During jobs,</b> when your hands are full or it is not safe to answer.</li>
+<li><b>Busy seasons,</b> like the first heat wave for HVAC, spring for landscaping or storm season for roofing, when calls stack up faster than you can take them.</li>
+<li><b>Early mornings, evenings and weekends,</b> when homeowners have time to deal with the house and you are off the clock.</li>
+<li><b>Lunch and drive time,</b> when the phone is in the truck and you are not.</li>
+</ul>
+<p>Knowing your pattern tells you which fix to use. A solo owner who misses calls during jobs needs something different from a crew that misses calls only after 6 PM.</p>
+
+<h2 id="fixes">What are the simplest ways to stop missing calls?</h2>
+<p>You do not need to do all of these. Pick the ones that fit your pattern:</p>
+<ul>
+<li><b>Fix your voicemail greeting.</b> Say your business name, that you are on a job, and when they can expect a call back. Mention that they can also text this number if that is true.</li>
+<li><b>Set a callback rule.</b> For example, every missed call gets a call back within 15 minutes of finishing the current task. Speed matters more than a perfect script.</li>
+<li><b>Share the load.</b> Forward calls to a spouse, office helper or crew lead during set hours, so the phone does not depend on one person.</li>
+<li><b>Use an answering service</b> for nights and weekends if you take emergency work.</li>
+<li><b>Turn on missed call text back,</b> so every caller gets a quick message even when nobody can pick up.</li>
+<li><b>Use one phone number everywhere.</b> If your Google listing, website and trucks show different numbers, some calls may ring phones nobody checks.</li>
+</ul>
+
+<h2 id="textback">How does missed call text back work?</h2>
+<p>Missed call text back is simple. When a call to your business number goes unanswered, the system sends the caller an automatic text within seconds. A good message looks like this:</p>
+<p>"Hi, this is [your company name]. Sorry we missed you, we are on a job right now. What can we help with? Reply here and we will get back to you shortly."</p>
+<p>That one text does three things. It tells the caller they reached a real business. It gives them an easy way to explain the problem without calling again. And it buys you time to finish what you are doing before you reply. Many homeowners would rather text anyway, so you often get the address, the problem and photos before you even call back.</p>
+<p>The catch is that someone still has to answer the texts. Treat them like a hot lead, not a message to check at the end of the day.</p>
+
+<h2 id="website">How can your website take pressure off the phone?</h2>
+<p>Your website can catch people who would rather not call, and answer the questions that clog up your phone:</p>
+<ul>
+<li><b>A short request form</b> on every page with only the fields you need: name, phone, address and what they need.</li>
+<li><b>Instant follow up on form leads,</b> so the person gets a text or email right away saying you received it.</li>
+<li><b>Clear hours and service area,</b> so people outside your area or looking for a time you do not work can tell before they call.</li>
+<li><b>An FAQ</b> that answers common questions about pricing, scheduling and what to expect.</li>
+<li><b>A tap to call button that rings the right phone,</b> the one that is set up to text back when you miss it.</li>
+</ul>
+<p>If your site is missing these, our guide to <a href="/home-service-website-design">contractor website design</a> shows what we build into every home service site.</p>
+
+<h2 id="dfy">Can a done for you website for contractors handle this for you?</h2>
+<p>Setting up all of this yourself means juggling a website builder, a phone system, a texting tool and a CRM, then making them talk to each other. A done for you website for contractors puts it in one place and someone else keeps it running.</p>
+<p>At SitesThatBook, the Launch plan is $349 setup and $99 a month for your website, hosting, updates and SEO blog posts. The Get Found add on, $248 a month in total, adds Google Business Profile work, automated review requests and local citations, which our <a href="/local-seo-for-contractors">local SEO for contractors</a> page covers. The Get Booked add on is $747 a month in total and adds a managed Google Ads campaign, a CRM with instant lead follow up and missed call text back. Ad spend is paid directly to Google. Your site goes live 48 hours after we receive your onboarding form, and there are no contracts.</p>
+<p>You can compare the plans side by side on our <a href="/pricing">done for you website for contractors</a> pricing page. If you want to know more about how this kind of service works in general, read <a href="/blog/done-for-you-website-for-contractors">is a done for you website worth it</a>.</p>
+
+<h2 id="start">What should you do this week?</h2>
+<ol>
+<li>Count your missed calls for the last two weeks and note when they happened.</li>
+<li>Record a new voicemail greeting with your business name and callback time.</li>
+<li>Make sure the same phone number shows on your Google listing, website and trucks.</li>
+<li>Set a callback rule and stick to it for one week.</li>
+<li>Decide whether you want to set up missed call text back yourself or have it done for you.</li>
+</ol>
+<p>Every call you catch is a job you already paid to earn. When you are ready to plug the leak, <a href="/get-started">get started here</a> and we will set it up with you.</p>
+"""},
+{
  "slug":"electrician-marketing-local-service-calls","date":"2026-11-16",
  "tag":"Marketing",
  "read":7,
