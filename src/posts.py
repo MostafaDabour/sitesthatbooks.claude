@@ -1,5 +1,93 @@
 POSTS = [
 {
+ "slug":"landscaping-website-seo-before-spring","date":"2026-11-20",
+ "tag":"SEO",
+ "read":7,
+ "title":"Landscaping Website SEO: Get Booked Before Spring",
+ "h1":"Landscaping website SEO: how to use <em>landscaping website design</em> to get booked before spring",
+ "desc":"Landscaping website design and SEO steps to make in winter so your site shows up and books jobs when spring searches start.",
+ "answer":"Search pages take weeks or months to get found on Google, so the work that books your spring has to happen in late fall and winter. Fix your landscaping website design first: clear service pages for spring jobs, pages for the towns you serve, a fast mobile site and an easy quote form. Then update your Google Business Profile and collect reviews so you are ready when homeowners start searching.",
+ "toc":[("why","Why does landscaping SEO have to start before spring?"),("search","What do homeowners search for in early spring?"),("pages","Which pages should a landscaping website have before the rush?"),("design","How does landscaping website design affect your rankings?"),("towns","How do you show up in the towns you actually serve?"),("google","What should you update on Google over the winter?"),("timeline","What is a simple winter to spring SEO timeline?")],
+ "faqs":[("How long does it take for a new landscaping page to show up on Google?","It varies. Some pages get indexed in days, but ranking well for a competitive local search often takes weeks or months, and it depends on your competition, your Google Business Profile and your reviews. That is why pages for spring services should be live by late winter at the latest, not in the first warm week."),
+  ("Should I take my spring services off the website in winter?","No. Keep your spring cleanup, mulch, planting and lawn care pages live all year. Pages that stay up and keep getting small updates tend to do better than pages you remove and add back. In winter, you can add a short note that you are booking spring work now, so early planners can get on your schedule.")],
+ "body":"""
+<p>Every landscaper knows the spring rush. The weather turns, the phone lights up and everyone wants cleanup, mulch and a lawn plan at the same time. The companies that get those calls are usually not the ones who started marketing in March. They are the ones whose websites were already showing up on Google when homeowners started searching. This guide covers landscaping website SEO you can do over the winter, from fixing your landscaping website design to updating your Google listing, so spring bookings come to you instead of the crew down the road.</p>
+
+<h2 id="why">Why does landscaping SEO have to start before spring?</h2>
+<p>SEO is slow on purpose. When you add or improve a page, Google has to find it, read it and decide where it belongs compared with every other landscaper in your area. That takes time, and you cannot speed it up by paying more.</p>
+<p>Spring demand works the other way. It arrives fast and all at once. If your pages go live the same week the searches start, you spend the busiest weeks of the year waiting to be found. If they went live in December or January, they have had time to settle in before anyone is looking.</p>
+<p>Winter is also the only time most owners have room to think about the website. Crews are lighter, the schedule is open and you can actually sit down with your photos and service list.</p>
+
+<h2 id="search">What do homeowners search for in early spring?</h2>
+<p>Before you write anything, think about the words your customers type. Early spring searches tend to be about specific jobs, often with a town name or "near me" on the end. Common examples include:</p>
+<ul>
+<li>Spring cleanup and yard cleanup</li>
+<li>Mulch installation and bed edging</li>
+<li>Weekly lawn mowing and lawn care plans</li>
+<li>Aeration, overseeding and fertilizing</li>
+<li>Shrub trimming and planting</li>
+<li>Patio, walkway and retaining wall installs for bigger plans</li>
+</ul>
+<p>A good way to check your own market is to type these into Google on your phone and see who shows up. Look at the map listings and the websites below them. Those are the businesses you are competing with for spring calls.</p>
+
+<h2 id="pages">Which pages should a landscaping website have before the rush?</h2>
+<p>Google ranks pages, not businesses. If all of your services are listed on one page, that page has a hard time showing up for any single job. Give the services that matter most in spring their own pages:</p>
+<ol>
+<li><b>Spring cleanup.</b> What is included, when you start booking and how to get on the list.</li>
+<li><b>Lawn care and mowing.</b> How often you come, what a season looks like and the towns you cover.</li>
+<li><b>Mulch and bed care.</b> Types of mulch you use, edging and weeding.</li>
+<li><b>Aeration and overseeding,</b> if you offer them.</li>
+<li><b>Your main project service,</b> such as patios or retaining walls, for homeowners planning bigger work.</li>
+</ol>
+<p>Each page should name the service clearly in the heading, explain it in plain words, show photos of your own work and end with a clear way to ask for a quote. Answer the questions people actually ask, like when you start in spring and whether they need to be home.</p>
+<p>Keep these pages live all year. A spring cleanup page that has been up since last season has a head start over one written this February.</p>
+
+<h2 id="design">How does landscaping website design affect your rankings?</h2>
+<p>Design and SEO are not separate jobs. Google pays attention to how people experience your site, and so do homeowners. A few design basics make a real difference:</p>
+<ul>
+<li><b>Fast on a phone.</b> Most homeowners search on their phones. Large, uncompressed photo galleries are a common reason landscaping sites load slowly.</li>
+<li><b>Clear headings.</b> A heading like "Spring Cleanup in Your Town" tells both Google and the visitor what the page is about. "Welcome" tells them nothing.</li>
+<li><b>Click to call and a short form</b> near the top of every page, not only on the contact page.</li>
+<li><b>Real photos with simple file names and descriptions,</b> so Google understands what is in them.</li>
+<li><b>Easy navigation</b> that puts your main services one tap from the home page.</li>
+</ul>
+<p>If your current site is hard to update or slow, winter is the time to fix it. See our <a href="/landscaping-websites">landscaping website design</a> page for how we build sites made to rank and book jobs.</p>
+
+<h2 id="towns">How do you show up in the towns you actually serve?</h2>
+<p>A homeowner searching "lawn care in" a nearby town wants a company that works there. Your website should make your service area obvious.</p>
+<ul>
+<li>List the towns and neighborhoods you serve on your home page and service pages.</li>
+<li>If a few towns bring in most of your work, give each one a short page that talks about that area and shows jobs you have done there.</li>
+<li>Write each town page fresh. Copying one page and swapping the town name rarely helps and can look like spam.</li>
+<li>Make sure your business name, address and phone number match everywhere they appear online.</li>
+</ul>
+<p>Our guide to <a href="/local-seo-for-contractors">local SEO for contractors</a> goes deeper on service areas and local rankings.</p>
+
+<h2 id="google">What should you update on Google over the winter?</h2>
+<p>Your website and your Google Business Profile work together. Before spring, take an hour to clean up your profile:</p>
+<ul>
+<li>Check your primary category and add secondary ones only for work you really do.</li>
+<li>Add each spring service to the services section, using the words customers use.</li>
+<li>Upload new photos from last season's best jobs.</li>
+<li>Set your hours, including any seasonal changes, so people are not calling a closed office.</li>
+<li>Link your profile to the matching page on your website.</li>
+<li>Ask last season's happy customers for reviews now, while you have time to follow up.</li>
+</ul>
+<p>A late winter post saying you are booking spring cleanups is a simple way to show your profile is active.</p>
+
+<h2 id="timeline">What is a simple winter to spring SEO timeline?</h2>
+<p>You do not need to do everything at once. A simple plan for most US markets looks like this, adjusted for when spring arrives where you work:</p>
+<ol>
+<li><b>Late fall:</b> list your spring services and towns, look at who ranks for them and gather your best photos from the season.</li>
+<li><b>Early winter:</b> fix site speed and mobile problems, then publish or rewrite your spring service pages.</li>
+<li><b>Midwinter:</b> add town pages for your main areas, update your Google Business Profile and ask for reviews.</li>
+<li><b>Late winter:</b> add a "now booking spring" note to your home page and service pages, and make sure every form and phone link works.</li>
+<li><b>Spring:</b> answer fast, keep adding new job photos and keep asking for reviews as work wraps up.</li>
+</ol>
+<p>If you would rather have this done for you, our plans start at $349 setup plus $99 a month, and your site goes live 48 hours after you send the onboarding form. You can see the details on our <a href="/pricing">pricing</a> page, or <a href="/get-started">get started</a> now so your site is ready well before the spring rush.</p>
+"""},
+
+{
  "slug":"missed-calls-costing-jobs","date":"2026-11-18",
  "tag":"Marketing",
  "read":7,
