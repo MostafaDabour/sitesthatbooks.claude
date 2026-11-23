@@ -1,5 +1,90 @@
 POSTS = [
 {
+ "slug":"garage-door-company-marketing","date":"2026-11-23",
+ "tag":"Marketing",
+ "read":7,
+ "title":"Garage Door Company Marketing: Website, Ads and Reviews",
+ "h1":"Garage door company marketing: how <em>contractor website design</em>, ads and reviews work together",
+ "desc":"Garage door company marketing made simple: how contractor website design, Google ads and reviews work together to bring in repair and install calls.",
+ "answer":"Garage door marketing works best as three pieces that support each other. Your website turns searchers into calls, reviews convince homeowners to pick you, and ads add extra calls once the first two are solid. Start with a fast, clear website and a steady review habit, then add ads to fill slow weeks or push the jobs you want more of.",
+ "toc":[("calls","What kinds of calls does a garage door company need to win?"),("website","What does good contractor website design look like for a garage door company?"),("pages","Which pages should a garage door website have?"),("reviews","How do reviews help a garage door company get picked?"),("ads","When should a garage door company run ads?"),("order","What order should you tackle your marketing in?")],
+ "faqs":[("Do I need a website if most of my garage door calls come from Google Maps?","Yes. Many homeowners tap through from your map listing to your website before they call, especially for bigger jobs like a new door or opener. Your website is where they check your photos, services and service area. A thin or missing site can lose the call to the next listing, even if your map ranking is good."),
+  ("Should my garage door repair and installation services be on separate pages?","Yes. A homeowner with a broken spring and a homeowner shopping for a new insulated door are looking for different things. Separate pages let each one find the answer fast, and they give Google a clear page to show for each kind of search. Keep both pages linked from your home page and menu.")],
+ "body":"""
+<p>A garage door company lives on two kinds of work: urgent repairs that need someone today and bigger installs that homeowners shop around for. Garage door company marketing has to win both. The good news is you do not need a dozen tools to do it. You need a website that turns visits into calls, a steady flow of reviews and, when the basics are solid, ads that add more calls on demand. This guide explains how those three fit together and where contractor website design makes the biggest difference for a garage door business.</p>
+
+<h2 id="calls">What kinds of calls does a garage door company need to win?</h2>
+<p>Before you spend a dollar on marketing, be clear about the jobs you want. Most garage door companies see a mix like this:</p>
+<ul>
+<li><b>Urgent repairs.</b> Broken springs, a door off its track, a door stuck open or a car trapped inside. These homeowners want someone fast and usually call the first company that looks trustworthy.</li>
+<li><b>Opener problems.</b> Openers that stop working, remotes and keypads that fail, or a homeowner who wants a quieter or smart opener.</li>
+<li><b>New door installs.</b> A bigger decision. These homeowners compare styles, look at photos and often get more than one quote.</li>
+<li><b>Maintenance and tune ups.</b> Smaller jobs that can turn into repeat customers and future installs.</li>
+</ul>
+<p>Each of these behaves differently. Repair callers move fast and care about speed and trust. Install shoppers take their time and care about photos, options and reviews. Your marketing should serve both, and your website is where they meet.</p>
+
+<h2 id="website">What does good contractor website design look like for a garage door company?</h2>
+<p>Good contractor website design is not about fancy effects. It is about making it easy for a stressed homeowner on a phone to call you, and easy for a careful shopper to trust you. For a garage door company, that means:</p>
+<ul>
+<li><b>Your phone number at the top of every page,</b> with click to call on mobile. Someone with a door stuck open is not going to dig for it.</li>
+<li><b>A clear headline</b> that says what you do and where, such as garage door repair and installation in your city.</li>
+<li><b>Real photos of your trucks, techs and finished doors.</b> Stock photos make you look like every other listing.</li>
+<li><b>Your service area spelled out,</b> with the towns you cover listed by name.</li>
+<li><b>A short quote form</b> for install shoppers who would rather not call.</li>
+<li><b>Fast loading on a phone.</b> Slow pages lose urgent callers before the page even appears.</li>
+<li><b>Your hours and whether you take same day or after hours calls,</b> stated plainly.</li>
+</ul>
+<p>If you want to see how we put this together for garage door businesses specifically, take a look at our <a href="/garage-door-websites">garage door website design</a> page. For the bigger picture on what to expect from any builder, see our guide to <a href="/home-service-website-design">contractor website design</a>.</p>
+
+<h2 id="pages">Which pages should a garage door website have?</h2>
+<p>A single page that lists everything you do has a hard time showing up for any one search. Give your main services their own pages so homeowners land on exactly what they need:</p>
+<ol>
+<li><b>Home page.</b> Who you are, where you work, your main services and how to reach you.</li>
+<li><b>Garage door repair.</b> Springs, cables, rollers, tracks and doors off track, with a clear call button.</li>
+<li><b>Opener repair and installation.</b> The brands and types you work on, and what a new opener install involves.</li>
+<li><b>New garage doors.</b> Styles, materials and insulation options, with plenty of photos of doors you have installed.</li>
+<li><b>Service area.</b> The towns you cover, and short pages for your biggest towns if you want to rank in each one.</li>
+<li><b>About and reviews.</b> Your story, your team and what customers say.</li>
+<li><b>Contact or quote request.</b> Phone, form and hours in one place.</li>
+</ol>
+<p>Write each page in plain words and answer the questions homeowners ask, like whether it is safe to open a door with a broken spring and how long an install takes. Our guide on <a href="/local-seo-for-contractors">local SEO for contractors</a> explains how service pages and town pages help you show up nearby.</p>
+
+<h2 id="reviews">How do reviews help a garage door company get picked?</h2>
+<p>When a homeowner sees several garage door companies on Google, reviews are often what decides the call. They look at how many you have, how recent they are and what people say. A company with a steady stream of recent, detailed reviews usually looks safer than one with a few old ones.</p>
+<p>Make asking a habit, not a project:</p>
+<ul>
+<li>Have techs ask in person at the end of a job, when the door is working and the customer is happy.</li>
+<li>Follow up the same day with a text that includes a direct link to your Google review page.</li>
+<li>Reply to every review, good or bad, in a calm and helpful way.</li>
+<li>Show a few real reviews on your website, near your call button and quote form.</li>
+</ul>
+<p>Never buy reviews or write them yourself. It breaks Google's rules and can get reviews removed or your listing suspended. For a full walkthrough, see our guide on <a href="/blog/get-more-google-reviews">getting more Google reviews</a>.</p>
+
+<h2 id="ads">When should a garage door company run ads?</h2>
+<p>Ads can bring in calls quickly, which makes them tempting for a trade where many jobs are urgent. But ads only work as well as the page they send people to. If an ad lands on a slow page with a buried phone number and no photos, you pay for the click and the homeowner calls someone else.</p>
+<p>Ads make the most sense when:</p>
+<ul>
+<li>Your website loads fast, shows real work and makes calling easy.</li>
+<li>You have enough recent reviews to look trustworthy next to competitors.</li>
+<li>You want more of a specific job, such as new door installs, or need to fill slow weeks.</li>
+<li>You can track calls and booked jobs, not just clicks.</li>
+</ul>
+<p>Keep ads tight. Target only the towns you serve, send each ad to the matching service page and block searches that will never book, like people looking for jobs or parts. Our page on <a href="/google-ads-for-contractors">Google Ads for contractors</a> covers how to think about it.</p>
+
+<h2 id="order">What order should you tackle your marketing in?</h2>
+<p>If you are starting from scratch or your marketing feels scattered, work in this order:</p>
+<ol>
+<li><b>Fix the website first.</b> Fast, mobile friendly, clear phone number, real photos, separate repair and install pages.</li>
+<li><b>Clean up your Google Business Profile.</b> Correct category, hours, service area, photos and a link to your website.</li>
+<li><b>Start a review habit.</b> Ask after every good job and reply to every review.</li>
+<li><b>Add town pages</b> for the areas that bring in the most work.</li>
+<li><b>Add ads last,</b> once the first four are working, so every click lands somewhere that turns it into a call.</li>
+</ol>
+<p>Each step makes the next one work better. A strong website makes reviews more convincing, and strong reviews make ads cheaper to win with.</p>
+<p>If you would rather have the website part handled for you, our plans start at $349 setup plus $99 a month, and your site goes live 48 hours after you send the onboarding form. There are no contracts, and if you do not love the site on your launch call and we cannot fix it on the call, you get your setup fee back. See our <a href="/pricing">pricing</a> or <a href="/get-started">get started</a> today.</p>
+"""},
+
+{
  "slug":"landscaping-website-seo-before-spring","date":"2026-11-20",
  "tag":"SEO",
  "read":7,

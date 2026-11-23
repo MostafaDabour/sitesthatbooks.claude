@@ -45,9 +45,9 @@ When fewer than 5 unchecked topics remain, the agent adds 10 new ones at the bot
 - [x] Electrician Marketing: Get More Local Service Calls (electrician-marketing-local-service-calls) 2026-11-16
 - [x] Missed Calls Are Costing You Jobs: How to Fix It (missed-calls-costing-jobs) 2026-11-18
 - [x] Landscaping Website SEO: Get Booked Before Spring (landscaping-website-seo-before-spring) 2026-11-20
+- [x] Garage Door Company Marketing: Website, Ads and Reviews (garage-door-company-marketing) 2026-11-23
 
 ## Up next
-- [ ] Garage Door Company Marketing: Website, Ads and Reviews | K4 | target: contractor website design | link: /garage-door-websites
 - [ ] Roofing Website Must Haves for Storm Season | K3 | target: roofing website design | link: /roofing-websites
 - [ ] Plumbing Website Design for Drain and Sewer Jobs | K1 | target: plumbing website design | link: /plumber-websites
 - [ ] What Does a Website Cost for a New Contractor Business? | K9 | target: contractor website cost | link: /pricing
