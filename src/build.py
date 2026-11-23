@@ -121,7 +121,8 @@ def footer():
   <li><a href="{L("google-ads-for-contractors")}">Google Ads for contractors</a></li>
   <li><a href="{L("done-for-you-vs-website-builder")}">Done for you vs DIY builder</a></li>
   {"".join(f'<li><a href="{L("compare/"+c["slug"])}">vs {c["name"]}</a></li>' for c in COMPARES)}
-  <li><a href="{L("pricing")}">Pricing</a></li></ul></div>
+  <li><a href="{L("pricing")}">Pricing</a></li>
+  <li><a href="{L("contractor-website-cost-calculator")}">Website cost calculator</a></li></ul></div>
  <div><h3>Company</h3><ul>
   <li><a href="{L("about")}">About</a></li><li><a href="{L("how-it-works")}">How it works</a></li><li><a href="{L("our-work")}">Our work</a></li>
   <li><a href="{L("faq")}">FAQ</a></li><li><a href="{L("blog")}">Blog</a></li><li><a href="{L("contact")}">Contact</a></li>
@@ -946,6 +947,101 @@ def compare_page():
          "Compare a done-for-you home service website with DIY builders like Wix and Squarespace and with a typical agency on cost, time, SEO and updates.",
          body, priority="0.6", schema=[crumbs_schema([("Home",""),("Compare","done-for-you-vs-website-builder")])])
 
+# ---------------------------------------------------------------- cost calculator (free tool, linkable asset)
+CALC_JS = r'''<script>
+(function(){
+var $=function(id){return document.getElementById(id)};
+var fmt=function(n){return "$"+Math.round(n).toLocaleString("en-US")};
+var OPTS=[
+ {k:"diy",name:"DIY builder",note:"Wix, Squarespace or GoDaddy"},
+ {k:"free",name:"Freelancer",note:"One-time build plus care"},
+ {k:"agency",name:"Agency",note:"Custom build plus retainer"},
+ {k:"stb",name:"SitesThatBook Launch",note:"$349 setup, $99/month"}
+];
+function v(id){var x=parseFloat($(id).value);return isNaN(x)||x<0?0:x}
+function calc(){
+ var yrs=v("c-years"),hr=v("c-hour"),chg=Math.min(v("c-changes"),24),posts=Math.min(v("c-posts"),2),job=v("c-job");
+ var months=yrs*12,ch=chg*yrs,bp=posts*months;
+ var r={};
+ r.diy={cash:v("a-diy-mo")*months, time:(v("a-diy-setup")+ch*1+bp*3)};
+ r.free={cash:v("a-free-build")+v("a-free-mo")*months+ch*v("a-free-chg")+bp*v("a-free-post"), time:6};
+ r.agency={cash:v("a-ag-build")+v("a-ag-mo")*months+ch*v("a-ag-chg")+bp*v("a-ag-post"), time:10};
+ r.stb={cash:349+99*months, time:1.5};
+ var rows="",best=null;
+ OPTS.forEach(function(o){var x=r[o.k];x.total=x.cash+x.time*hr;if(!best||x.total<r[best].total)best=o.k;});
+ OPTS.forEach(function(o){var x=r[o.k];
+  var jobs=job>0?(x.total/job):0;
+  rows+='<tr'+(o.k===best?' class="best"':'')+'><th scope="row">'+o.name+'<small>'+o.note+'</small></th><td data-l="Cash you pay">'+fmt(x.cash)+'</td><td data-l="Your time">'+Math.round(x.time)+' hrs<small>'+fmt(x.time*hr)+'</small></td><td data-l="Total cost"><b>'+fmt(x.total)+'</b></td><td data-l="Jobs to cover it">'+(job>0?jobs.toFixed(1):"-")+'</td></tr>';
+ });
+ $("c-out").innerHTML=rows;
+ $("c-sum").textContent="Over "+yrs+(yrs===1?" year":" years")+", the lowest total cost with your numbers is "+OPTS.filter(function(o){return o.k===best})[0].name+" at "+fmt(r[best].total)+", counting your time at "+fmt(hr)+" an hour.";
+}
+document.querySelectorAll(".calc input,.calc select").forEach(function(el){el.addEventListener("input",calc)});
+calc();
+var cp=$("c-copy");if(cp)cp.addEventListener("click",function(){var t=$("c-embed");t.select();try{navigator.clipboard.writeText(t.value)}catch(e){document.execCommand("copy")}cp.textContent="Copied";setTimeout(function(){cp.textContent="Copy link code"},1600)});
+})();
+</script>'''
+
+def calc_field(id_, label, val, hint="", step="1", maxv=""):
+    mx = f' max="{maxv}"' if maxv else ""
+    h = f'<span class="hint">{hint}</span>' if hint else ""
+    return f'<div class="field"><label for="{id_}">{label}</label><input id="{id_}" type="number" inputmode="decimal" min="0" step="{step}"{mx} value="{val}">{h}</div>'
+
+def cost_calculator():
+    path = "contractor-website-cost-calculator"
+    faqs = [
+     ("How much does a contractor website cost?","Most home service businesses pay about $20 to $50 a month for a DIY builder plus their own time, $1,000 to $5,000 upfront for a freelancer, or $3,000 to $15,000 or more upfront for an agency. Done-for-you plans like SitesThatBook cost $349 setup and $99 a month. Use the calculator to compare total cost over 1, 3 or 5 years with your own numbers."),
+     ("Why does the calculator count my time?","A DIY website is only cheap if your hours are free. Every evening spent writing pages, fixing forms or posting updates is time you are not quoting or running jobs, so the calculator puts a dollar value on it."),
+     ("Where do the default prices come from?","They are typical US market ranges for small trade websites, not quotes from any company. Open the assumptions panel and replace them with the real quotes you have in hand for an exact comparison."),
+     ("Can I link to this calculator from my site?","Yes. Use the link code at the bottom of the page. It is free to share with your members, clients or readers."),
+    ]
+    assumptions = f'''<details class="calc-adv"><summary>Edit the price assumptions</summary>
+<p class="form-note">Defaults are typical US market figures for a small trade website, not quotes. Swap in your real quotes.</p>
+<div class="calc-grid">
+ <fieldset><legend>DIY builder</legend>{calc_field("a-diy-mo","Plan and apps per month ($)",45)}{calc_field("a-diy-setup","Your hours to build it",20)}</fieldset>
+ <fieldset><legend>Freelancer</legend>{calc_field("a-free-build","Build price ($)",2500,step="100")}{calc_field("a-free-mo","Hosting and care per month ($)",30)}{calc_field("a-free-chg","Per change ($)",75)}{calc_field("a-free-post","Per blog post ($)",100)}</fieldset>
+ <fieldset><legend>Agency</legend>{calc_field("a-ag-build","Build price ($)",7500,step="100")}{calc_field("a-ag-mo","Care plan per month ($)",100)}{calc_field("a-ag-chg","Per change ($)",125)}{calc_field("a-ag-post","Per blog post ($)",200)}</fieldset>
+</div>
+<p class="form-note">DIY time assumes 1 hour per change and 3 hours per blog post. Freelancer and agency time covers meetings and reviews. SitesThatBook includes 2 content updates and 2 SEO blog posts a month, and takes about 10 minutes of onboarding plus a launch call.</p>
+</details>'''
+    embed = esc(f'<a href="{SITE}/{path}">Contractor website cost calculator</a> by SitesThatBook')
+    body = hero("Free tool","Contractor website <em>cost calculator</em>",
+        "Compare the real cost of a DIY builder, a freelancer, an agency and a done-for-you plan over 1, 3 or 5 years. It counts what most quotes leave out: hosting, changes, blog posts and your own time.",
+        crumbs=[("Home",""),("Website cost calculator","")], ctas=False) + f'''
+<section class="section"><div class="wrap">
+<div class="calc" id="calculator">
+ <div class="calc-grid">
+  <div class="field"><label for="c-years">Compare over</label><select id="c-years"><option value="1">1 year</option><option value="3" selected>3 years</option><option value="5">5 years</option></select></div>
+  {calc_field("c-hour","What an hour of your time is worth ($)",75,"Your billable rate or what you would pay a tech")}
+  {calc_field("c-changes","Website changes you need per year",6,"New services, towns, photos, prices. Max 24",maxv="24")}
+  {calc_field("c-posts","Blog posts per month",1,"0 to 2",maxv="2")}
+  {calc_field("c-job","Your average job value ($)",800,"Used to show how many jobs cover the cost",step="50")}
+ </div>
+ {assumptions}
+ <div class="table-wrap"><table class="calc-table"><thead><tr><th scope="col">Option</th><th scope="col">Cash you pay</th><th scope="col">Your time</th><th scope="col">Total cost</th><th scope="col">Jobs to cover it</th></tr></thead><tbody id="c-out"></tbody></table></div>
+ <p class="calc-sum" id="c-sum" aria-live="polite"></p>
+</div>
+</div></section>
+<section class="section mist"><div class="wrap"><div class="section-head"><h2>What most website quotes leave out</h2></div><div class="grid g3">
+<div class="card"><h3>Cash is only half the bill</h3><p>A builder at $45 a month looks cheapest until you add 20 hours of setup and an hour for every change. Price your time honestly and the order often flips.</p></div>
+<div class="card"><h3>Changes add up fast</h3><p>New services, new towns, seasonal offers and fresh photos. With an hourly freelancer or agency, every one is a new invoice.</p></div>
+<div class="card"><h3>Content is where rankings come from</h3><p>Blog posts and service pages help you show up for more searches. Paying $100 to $200 a post adds up quickly over 3 years.</p></div>
+</div></div></section>
+<section class="section"><div class="wrap stack" style="max-width:820px">
+<h2>How to read your results</h2>
+<p>The total cost column adds what you pay in cash to the value of your own hours. The jobs column shows how many average jobs it takes to pay for each option over the period you picked. For most trades, one extra booked job a month covers any reasonable website, so the bigger question is which option brings in the most calls. Our guides on <a href="{L("blog/how-much-does-a-contractor-website-cost")}">how much a contractor website costs</a> and <a href="{L("blog/contractor-website-cost-monthly-vs-one-time")}">monthly plans vs one-time builds</a> go deeper, and you can see what is included on our <a href="{L("pricing")}">pricing page</a>.</p>
+<h2>Questions</h2>
+{faq_block(faqs)}
+<h2>Share this calculator</h2>
+<p>Run a contractor association, a trade blog or a coaching group? Link to this calculator so your members can check a quote before they sign. Copy the code below into your page.</p>
+<div class="embed"><textarea id="c-embed" readonly rows="2" aria-label="Link code">{embed}</textarea><button class="btn btn-ghost btn-sm" type="button" id="c-copy">Copy link code</button></div>
+</div></section>{cta_band()}{CALC_JS}'''
+    app = {"@type":"WebApplication","name":"Contractor website cost calculator","url":f"{SITE}/{path}","applicationCategory":"BusinessApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@id":SITE+"/#org"},
+           "description":"Free calculator comparing the total cost of a DIY builder, freelancer, agency and done-for-you website for home service contractors over 1, 3 or 5 years."}
+    page(path, "Contractor Website Cost Calculator (Free)",
+         "Free contractor website cost calculator. Compare DIY builders, freelancers, agencies and done-for-you plans over 1, 3 or 5 years, including your time.",
+         body, priority="0.8", schema=[app, faq_schema(faqs), crumbs_schema([("Home",""),("Website cost calculator",path)])])
+
 def comparison_pages():
     for c in COMPARES:
         path = "compare/" + c["slug"]
@@ -1080,6 +1176,9 @@ Contact: {PHONE}, {EMAIL}, 30 N Gould St, Sheridan, WY 82801.
 - [Local SEO for contractors]({SITE}/local-seo-for-contractors)
 - [Google Ads for contractors]({SITE}/google-ads-for-contractors)
 
+## Free tools
+- [Contractor website cost calculator]({SITE}/contractor-website-cost-calculator)
+
 ## Comparisons
 - [Done for you vs DIY builder vs agency]({SITE}/done-for-you-vs-website-builder)
 {chr(10).join(f"- [{c['title']}]({SITE}/compare/{c['slug']})" for c in COMPARES)}
@@ -1102,5 +1201,5 @@ if __name__ == "__main__":
     shutil.copy("assets/favicon.ico", os.path.join(OUT,"favicon.ico"))
     home(); industries(); pricing(); how_it_works(); our_work(); about(); faq_page(); get_started(); contact(); thanks()
     for t in TRADES: trade_page(t)
-    services(); compare_page(); comparison_pages(); blog(); legal(); not_found(); extras()
+    services(); cost_calculator(); compare_page(); comparison_pages(); blog(); legal(); not_found(); extras()
     print(f"{MODE}: {len(PAGES)} indexable pages -> {OUT}/")

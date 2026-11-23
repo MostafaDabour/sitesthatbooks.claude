@@ -287,6 +287,7 @@ POSTS = [
 <li><b>Extra fees</b> that were not in the original price.</li>
 <li><b>Your time</b>, spent fixing, updating or rebuilding the site.</li>
 </ul>
+<p>Want to run the numbers for your own business? Try our free <a href="/contractor-website-cost-calculator">contractor website cost calculator</a> to compare a DIY builder, a freelancer, an agency and a monthly plan over 1, 3 or 5 years.</p>
 <p>If you want the full picture of typical price ranges first, read our guide on <a href="/blog/how-much-does-a-contractor-website-cost">contractor website cost</a>. This post focuses on what those ranges leave out.</p>
 
 <h2 id="calls">How does a cheap website cost you calls?</h2>
@@ -1042,6 +1043,7 @@ POSTS = [
 <li><b>One-time build.</b> You pay a freelancer or agency to design and build the site. When it launches, the project is done. Hosting, changes and SEO are usually separate, either as a small monthly care fee or billed by the hour when you need something.</li>
 <li><b>Monthly plan.</b> You pay a setup fee to get the site built, then a fixed monthly amount. The provider keeps the site online, makes updates and often handles ongoing SEO work as part of that payment.</li>
 </ul>
+<p>Want to run the numbers for your own business? Try our free <a href="/contractor-website-cost-calculator">contractor website cost calculator</a> to compare a DIY builder, a freelancer, an agency and a monthly plan over 1, 3 or 5 years.</p>
 <p>Neither model is better by default. The question is which one gives you a site that keeps bringing in calls for the least total money and hassle.</p>
 <h2 id="upfront">What do you pay upfront with each model?</h2>
 <p>This is where the two models look the most different. A one-time build puts most of the cost at the start. Freelancers commonly charge somewhere in the low thousands for a small trade site, and agencies often charge several thousand or more. These are common ranges, not quotes, and your price depends on page count, who writes the copy and how custom the design is.</p>
@@ -2259,6 +2261,7 @@ POSTS = [
 <li><b>Marketing agencies</b>: commonly $3,000 to $15,000 or more upfront, plus monthly care and hosting fees.</li>
 <li><b>Done-for-you subscriptions</b>: a smaller setup fee and a monthly plan that covers hosting, updates and content. At SitesThatBook that is $349 setup and $99 a month.</li>
 </ul>
+<p>Want to run the numbers for your own business? Try our free <a href="/contractor-website-cost-calculator">contractor website cost calculator</a> to compare a DIY builder, a freelancer, an agency and a monthly plan over 1, 3 or 5 years.</p>
 <h2 id="hidden">The costs people forget</h2>
 <p>The build price is only part of the bill. Before you compare quotes, check who pays for these:</p>
 <ul>
