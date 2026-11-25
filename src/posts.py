@@ -1,5 +1,78 @@
 POSTS = [
 {
+ "slug":"roofing-website-storm-season","date":"2026-11-25",
+ "tag":"Website tips",
+ "read":6,
+ "title":"Roofing Website Must Haves for Storm Season",
+ "h1":"<em>Roofing website design</em> for storm season: the must haves before the next big storm",
+ "desc":"Storm season roofing website design: the pages, buttons and updates that help your site handle a rush of leak and damage calls after a big storm.",
+ "answer":"A storm ready roofing website has a dedicated storm damage page, an emergency leak or tarp option, one tap calling, a short form with photo upload and a clear line about how fast you respond. Set it up before storm season, then update your home page and Google profile within hours of a big storm so homeowners know you are local, open and taking calls.",
+ "toc":[("test","Why does storm season test a roofing website?"),("musthaves","What does storm ready roofing website design include?"),("after","What should you change on your site right after a big storm?"),("rush","How do you handle more requests than your crew can take?"),("chasers","How do you show homeowners you are not a storm chaser?"),("offseason","What should you do with your storm content between seasons?")],
+ "faqs":[("Should I build a separate page for every storm?","Usually not. One strong storm damage page that you update after each event works better than a pile of short pages for individual storms. Add a dated note at the top about the latest storm and the areas you are serving, and keep the rest of the page as your evergreen guide to inspections, repairs and next steps."),
+  ("What if I cannot answer the phone during a storm rush?","Make the form do more of the work. Ask whether there is an active leak, let homeowners upload a photo and tell them exactly when to expect a call back. A clear expectation keeps many people from moving on to the next roofer, and the leak question lets you call the most urgent jobs first.")],
+ "body":"""
+<p>Most roofers know the pattern. Things are steady for weeks, then a hail or wind storm rolls through and the phone lights up for days. That rush is where good roofing website design pays for itself. Homeowners with a leak or missing shingles grab their phone, search for a roofer nearby and call the first company that looks local, open and trustworthy. This guide covers the storm season must haves for a roofing website, what to change in the hours after a storm and how to keep your site working when you have more requests than crew.</p>
+
+<h2 id="test">Why does storm season test a roofing website?</h2>
+<p>On a normal week, a homeowner researching a new roof takes their time. They compare a few websites, read reviews and request estimates over several days. After a storm, the same homeowner behaves very differently:</p>
+<ul>
+<li>They are on a phone, often standing in the yard or looking at a water stain on the ceiling.</li>
+<li>They want to know one thing fast: can you come look at it, and when?</li>
+<li>They are wary, because door knockers from out of town show up in the neighborhood within days.</li>
+<li>Many of them are calling several roofers at once and will go with whoever responds clearly.</li>
+</ul>
+<p>A site that is slow, hard to use on a phone or silent about storm damage loses these homeowners in seconds. A site built for this moment turns the rush into booked inspections.</p>
+
+<h2 id="musthaves">What does storm ready roofing website design include?</h2>
+<p>Set these up before storm season starts. Trying to add them in the middle of a rush rarely goes well.</p>
+<ol>
+<li><b>A dedicated storm damage page.</b> One page that covers hail and wind damage, what your inspection includes and what happens next. This is the page you link from your home page, your Google profile and any storm ads.</li>
+<li><b>An emergency leak or tarp option.</b> If you offer emergency tarping or temporary leak repair, say so clearly and give it its own button or form choice. A homeowner with water coming in wants that, not a full replacement quote.</li>
+<li><b>One tap calling everywhere.</b> A sticky call button at the bottom of the screen on mobile, plus your phone number in the header of every page.</li>
+<li><b>A short form with photo upload.</b> Name, phone, address, a simple choice like "active leak", "visible damage" or "not sure", and an optional photo. Photos help you sort urgent jobs before you call back.</li>
+<li><b>A clear response time line.</b> Something honest like "We return storm calls the same day" or "Expect a call within 24 hours." Only promise what your team can actually keep.</li>
+<li><b>Your service area in plain text.</b> List the towns and neighborhoods you cover. After a storm, homeowners want proof you work on their street, not just their state.</li>
+<li><b>Simple safety advice.</b> A few lines telling homeowners not to climb on the roof, how to limit water damage inside and what to photograph for their own records.</li>
+</ol>
+<p>Keep the pages light. Big uncompressed photos and auto playing video slow a site down on mobile data, which is exactly how most storm searches happen.</p>
+
+<h2 id="after">What should you change on your site right after a big storm?</h2>
+<p>Within a few hours of a major storm, make a handful of quick updates so your site matches what homeowners are looking for:</p>
+<ul>
+<li><b>Add a short banner to the home page.</b> For example: "Hail in the north side neighborhoods? We are inspecting roofs this week. Request a free storm inspection." Link it to your storm damage page.</li>
+<li><b>Update the top of the storm damage page</b> with a dated note about the storm and the areas you are serving.</li>
+<li><b>Check your hours and response time line.</b> If you are adding evening or weekend inspections, say so. If response times are slower than usual, say that too.</li>
+<li><b>Post on your Google Business Profile</b> with the same message and a link to the storm page. Your <a href="/local-seo-for-contractors">local SEO</a> work matters most in these weeks, because many homeowners start on the map.</li>
+<li><b>Test your own form and call button</b> from a phone. A broken form during a storm week costs far more than it does in a slow month.</li>
+</ul>
+<p>None of this needs a redesign. If your site is built well, these are small edits that take minutes, which is another reason to set up the storm page ahead of time.</p>
+
+<h2 id="rush">How do you handle more requests than your crew can take?</h2>
+<p>A big storm can bring more requests than you can answer by phone. Your website can help you stay organized instead of losing jobs to whoever picks up first:</p>
+<ul>
+<li><b>Sort by urgency.</b> The "active leak" choice on your form tells you who to call first. Homeowners with cosmetic damage can usually wait a few days.</li>
+<li><b>Set expectations on the thank you message.</b> Tell people what happens next and roughly when. A homeowner who knows you will call tomorrow is less likely to keep shopping.</li>
+<li><b>Send every request to your phone right away.</b> Make sure form alerts go to a phone someone checks, not an inbox nobody opens during a busy week.</li>
+<li><b>Plan for missed calls.</b> Voicemail that points callers to your storm form, or a text back when you miss a call, keeps the lead alive while your crew is on roofs.</li>
+</ul>
+
+<h2 id="chasers">How do you show homeowners you are not a storm chaser?</h2>
+<p>Homeowners have heard the warnings about out of town crews who show up after a storm, collect a deposit and disappear. Your website is the best place to show you are the opposite. Put these where storm visitors will see them:</p>
+<ul>
+<li>Your local address or home base and how long you have worked in the area.</li>
+<li>Photos of your own crew, trucks and finished roofs in nearby towns.</li>
+<li>Real Google reviews from local homeowners, ideally ones that mention storm repairs.</li>
+<li>Your license number and proof of insurance, where your state requires them.</li>
+<li>Your workmanship warranty, explained in plain words.</li>
+</ul>
+<p>Keep the tone calm. A roofer who explains the process step by step and avoids pressure reads as the safe choice, which is what nervous homeowners want after a storm.</p>
+
+<h2 id="offseason">What should you do with your storm content between seasons?</h2>
+<p>Do not delete your storm damage page when things quiet down. Remove the dated banner from the home page, change the note at the top of the storm page to general guidance and leave the rest in place. A page that stays live all year has more time to show up in search, so it is ready the next time a storm hits.</p>
+<p>The quiet months are also the time to add new project photos from the season, ask happy storm customers for reviews and fix anything that broke during the rush. For the bigger picture on what a roofing site needs year round, read <a href="/blog/roofing-website-design">what makes a roofing website win estimates</a>.</p>
+<p>If you want this handled for you, our <a href="/roofing-websites">roofing website design</a> includes a storm damage section, project galleries, one tap calling and a short request form with photo upload, written for your company and live 48 hours after you <a href="{GET}">fill the onboarding form</a>. Plans start at $349 setup and $99 a month with no contracts. Get Found adds local search help for $149 a month. See the details on our <a href="{PRICING}">pricing page</a>.</p>
+"""},
+{
  "slug":"garage-door-company-marketing","date":"2026-11-23",
  "tag":"Marketing",
  "read":7,

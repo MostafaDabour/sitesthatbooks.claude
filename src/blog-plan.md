@@ -46,9 +46,9 @@ When fewer than 5 unchecked topics remain, the agent adds 10 new ones at the bot
 - [x] Missed Calls Are Costing You Jobs: How to Fix It (missed-calls-costing-jobs) 2026-11-18
 - [x] Landscaping Website SEO: Get Booked Before Spring (landscaping-website-seo-before-spring) 2026-11-20
 - [x] Garage Door Company Marketing: Website, Ads and Reviews (garage-door-company-marketing) 2026-11-23
+- [x] Roofing Website Must Haves for Storm Season (roofing-website-storm-season) 2026-11-25
 
 ## Up next
-- [ ] Roofing Website Must Haves for Storm Season | K3 | target: roofing website design | link: /roofing-websites
 - [ ] Plumbing Website Design for Drain and Sewer Jobs | K1 | target: plumbing website design | link: /plumber-websites
 - [ ] What Does a Website Cost for a New Contractor Business? | K9 | target: contractor website cost | link: /pricing
 - [ ] HVAC Website Design That Sells Maintenance Plans | K2 | target: hvac website design | link: /hvac-websites
