@@ -1095,7 +1095,7 @@ def blog():
 </article></div></section>{post_cards(related_posts(p), "Keep reading", eyebrow="More articles", mist=True)}{cta_band()}'''
         art = {"@type":["Article","BlogPosting"],"@id":SITE+"/blog/"+p["slug"]+"#article","headline":p["title"],"image":SITE+"/assets/og-image.png","inLanguage":"en-US","url":SITE+"/blog/"+p["slug"],"description":p["desc"],"datePublished":post_date(p),"dateModified":p.get("updated") or post_date(p),
                "author":{"@type":"Organization","name":"SitesThatBook"},"publisher":{"@id":SITE+"/#org"},"mainEntityOfPage":SITE+"/blog/"+p["slug"]}
-        page("blog/"+p["slug"], p["title"]+(" | SitesThatBook" if len(p["title"])<=48 else ""), p["desc"], b, active="blog", og_type="article", priority="0.6",
+        page("blog/"+p["slug"], p["title"]+(" | SitesThatBook" if len(p["title"])<=44 else ""), p["desc"], b, active="blog", og_type="article", priority="0.6",
              schema=[art, faq_schema(p["faqs"]), crumbs_schema([("Home",""),("Blog","blog"),(p["title"],"blog/"+p["slug"])])])
 
 def legal():
