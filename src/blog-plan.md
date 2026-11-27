@@ -50,6 +50,13 @@ When fewer than 5 unchecked topics remain, the agent adds 10 new ones at the bot
 - [x] Plumbing Website Design for Drain and Sewer Jobs (plumbing-website-drain-sewer-jobs) 2026-11-27
 
 ## Up next
+<!-- Topics below the line were picked from OpenSEO keyword research (US, 2026-11-28): low difficulty (KD 0 to 3) with real search volume, plus Search Console queries already showing impressions. Write these first, in order. -->
+- [ ] Best Roofing Website Designs: What the Top Sites Do Differently | K3 | target: best roofing website designs | link: /roofing-websites
+- [ ] Contractor Website Examples: What the Best Ones Have in Common | K4 | target: contractor website examples | link: /home-service-website-design (show our real ORO, GNR and A & I sites from /our-work, invent nothing)
+- [ ] Construction Company Website Ideas That Win More Bids | K4 | target: construction company website ideas | link: /general-contractor-website-design
+- [ ] Construction SEO: A Plain Guide for General Contractors | K10 | target: construction seo | link: /local-seo-for-contractors and /general-contractor-website-design
+- [ ] HVAC Website Examples: 8 Features the Best Ones Share | K2 | target: hvac website examples | link: /hvac-websites
+- [ ] Plumbing Website Templates vs a Done for You Site | K1 | target: plumbing website template | link: /plumber-websites
 - [ ] What Does a Website Cost for a New Contractor Business? | K9 | target: contractor website cost | link: /pricing
 - [ ] HVAC Website Design That Sells Maintenance Plans | K2 | target: hvac website design | link: /hvac-websites
 - [ ] Local SEO for Contractors Who Serve Several Towns | K10 | target: local seo for contractors | link: /local-seo-for-contractors
