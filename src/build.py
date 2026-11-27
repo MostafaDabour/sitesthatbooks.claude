@@ -1143,6 +1143,8 @@ def extras():
     open(os.path.join(OUT,"robots.txt"),"w").write(robots)
     open(os.path.join(OUT,"_headers"),"w").write("/assets/*\n  Cache-Control: public, max-age=2592000\n/styles.css\n  Cache-Control: public, max-age=86400\n")
     open(os.path.join(OUT,INDEXNOW_KEY+".txt"),"w").write(INDEXNOW_KEY)
+    # extra ownership/verification key file supplied by owner (2026-11-28)
+    open(os.path.join(OUT,"061c87f58c14483f803faee72ddfe39f.txt"),"w").write("061c87f58c14483f803faee72ddfe39f")
     redirects = ["/detailing / 301","/hvac /hvac-websites 301","/roofing /roofing-websites 301","/cleaning /cleaning-business-websites 301",
                  "/landscaping /landscaping-websites 301","/work /our-work 301"]
     open(os.path.join(OUT,"_redirects"),"w").write("\n".join(redirects) + "\n")
