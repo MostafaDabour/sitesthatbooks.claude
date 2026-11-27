@@ -47,9 +47,9 @@ When fewer than 5 unchecked topics remain, the agent adds 10 new ones at the bot
 - [x] Landscaping Website SEO: Get Booked Before Spring (landscaping-website-seo-before-spring) 2026-11-20
 - [x] Garage Door Company Marketing: Website, Ads and Reviews (garage-door-company-marketing) 2026-11-23
 - [x] Roofing Website Must Haves for Storm Season (roofing-website-storm-season) 2026-11-25
+- [x] Plumbing Website Design for Drain and Sewer Jobs (plumbing-website-drain-sewer-jobs) 2026-11-27
 
 ## Up next
-- [ ] Plumbing Website Design for Drain and Sewer Jobs | K1 | target: plumbing website design | link: /plumber-websites
 - [ ] What Does a Website Cost for a New Contractor Business? | K9 | target: contractor website cost | link: /pricing
 - [ ] HVAC Website Design That Sells Maintenance Plans | K2 | target: hvac website design | link: /hvac-websites
 - [ ] Local SEO for Contractors Who Serve Several Towns | K10 | target: local seo for contractors | link: /local-seo-for-contractors

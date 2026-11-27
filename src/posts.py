@@ -1,5 +1,86 @@
 POSTS = [
 {
+ "slug":"plumbing-website-drain-sewer-jobs","date":"2026-11-27",
+ "tag":"Website tips",
+ "read":6,
+ "title":"Plumbing Website Design for Drain and Sewer Jobs",
+ "h1":"<em>Plumbing website design</em> for drain and sewer jobs: turn clog calls into bigger work",
+ "desc":"Plumbing website design for drain and sewer jobs: the pages, camera inspection details and proof that turn clog calls into booked sewer line work.",
+ "answer":"A plumbing website that wins drain and sewer jobs gives each one its own path: a fast way to book an urgent clog, a page that explains camera inspections, and a sewer line page that walks through repair options and what drives the cost. Add real inspection photos, honest guidance on when a line needs repair and a clear next step on every page.",
+ "toc":[("different","Why do drain and sewer jobs need their own place on your site?"),("pages","Which drain and sewer pages should a plumbing website have?"),("camera","How should your site explain camera inspections?"),("cost","How do you talk about sewer line cost without quoting a price?"),("options","How do you explain repair options in plain words?"),("proof","What proof helps a homeowner say yes to sewer work?"),("design","What plumbing website design details book more drain and sewer jobs?")],
+ "faqs":[("Should I show sewer camera videos on my website?","Short clips or still frames from real inspections can help a lot, as long as the homeowner agrees and nothing shows their address. A few seconds of a root intrusion or a cracked pipe, with one plain sentence explaining what the viewer is seeing, makes the problem real for someone deciding whether to book an inspection."),
+  ("Do I need separate pages for drain cleaning and sewer line repair?","Yes, in most cases. Someone with a slow kitchen sink and someone with sewage backing up into a basement are searching for different things and need different answers. Separate pages let each one match what people search for, and you can link them together so a drain cleaning visitor can learn about the main line if the problem keeps coming back.")],
+ "body":"""
+<p>Drain cleaning brings in a steady stream of calls. Sewer line work brings in some of the biggest tickets a residential plumber sees. The trouble is that many plumbing websites treat both as one line in a services list, so a homeowner with a recurring backup never learns why it keeps happening or why they should trust you with the fix. Good plumbing website design gives drain and sewer jobs their own path, from the urgent clog to the camera inspection to the repair. This guide covers the pages, explanations and proof that help turn those calls into booked work.</p>
+
+<h2 id="different">Why do drain and sewer jobs need their own place on your site?</h2>
+<p>Drain and sewer customers arrive in very different states of mind, often on the same day:</p>
+<ul>
+<li><b>The urgent caller.</b> A toilet is overflowing or the basement floor drain is backing up. They want someone out today and will call the first plumber who looks able to come.</li>
+<li><b>The repeat clog.</b> The same drain has been snaked twice this year. They are frustrated and starting to wonder if something bigger is wrong.</li>
+<li><b>The planner.</b> Another plumber or an inspector told them the sewer line needs work. They are comparing companies and want to understand their options before spending real money.</li>
+</ul>
+<p>One generic services page cannot serve all three. The urgent caller needs a phone button, not a long explanation. The planner needs the explanation. When your site separates these paths, each visitor finds what they came for without digging, and you stop losing the bigger jobs to a competitor who simply explained things better.</p>
+
+<h2 id="pages">Which drain and sewer pages should a plumbing website have?</h2>
+<p>Build pages only for work you actually do. For most residential plumbers who handle drains and sewers, that looks like this:</p>
+<ol>
+<li><b>Drain cleaning.</b> Kitchen, bathroom, tub and floor drains. Focus on speed, what you use to clear the line and what happens if the clog keeps coming back.</li>
+<li><b>Main line or sewer backup.</b> For the homeowner with water coming up through the lowest drain in the house. This page should lead with your phone number and your real availability.</li>
+<li><b>Sewer camera inspection.</b> What it is, when it makes sense and what the customer gets at the end.</li>
+<li><b>Sewer line repair and replacement.</b> The options you offer, how you decide between them and what the job looks like from start to finish.</li>
+<li><b>Hydro jetting</b>, if you offer it, as its own page or a clear section on the drain cleaning page.</li>
+</ol>
+<p>Link these pages to each other. A drain cleaning page should point to camera inspections for repeat problems, and the inspection page should point to sewer line repair. If you want a deeper look at how to structure each one, our guide to <a href="/blog/plumbing-service-pages-that-rank">plumbing service pages that rank</a> walks through the sections.</p>
+
+<h2 id="camera">How should your site explain camera inspections?</h2>
+<p>The camera inspection is often the step between a cheap drain call and a large sewer job, so it deserves clear, calm writing. Many homeowners have never heard of one. Answer the questions they would ask you in their driveway:</p>
+<ul>
+<li><b>What is it?</b> A small camera on a cable goes into the line so you can see what is causing the problem instead of guessing.</li>
+<li><b>When does it make sense?</b> Repeat clogs, slow drains throughout the house, sewage smells, soggy spots in the yard or an older home with original pipes.</li>
+<li><b>What do they get?</b> Say whether you show them the video on site, send a copy or write up what you found. Homeowners like knowing they will see the problem for themselves.</li>
+<li><b>Who is it for?</b> If you inspect sewer lines for people buying a home, say so. It is a separate group of customers with a clear reason to book.</li>
+</ul>
+<p>Keep this page free of scare tactics. A line like "most inspections show a line that just needs a good cleaning" (if that matches your experience) builds more trust than warnings about collapse.</p>
+
+<h2 id="cost">How do you talk about sewer line cost without quoting a price?</h2>
+<p>Homeowners worry about sewer line cost more than almost anything else in plumbing. If your site says nothing, many will assume the worst or leave to find a site that explains it. You do not need to post prices. Explain what drives the cost instead:</p>
+<ul>
+<li>How long the damaged section is and how deep the line runs</li>
+<li>What sits above it, such as a lawn, a driveway, a sidewalk or mature trees</li>
+<li>Whether a spot repair will do or the whole line needs replacing</li>
+<li>Local permit and inspection requirements</li>
+<li>Whether the work reaches past the property line, where your city may have its own rules</li>
+</ul>
+<p>Then tell them how they get a real number: an inspection first, then a written estimate. If you offer financing, say so plainly and link to the details. This kind of honest explanation is what separates a site that books planners from one that only gets emergency calls.</p>
+
+<h2 id="options">How do you explain repair options in plain words?</h2>
+<p>Sewer repair is full of terms homeowners do not know. Pick the methods you really offer and give each one a short, plain description: what it is, when it fits and what the yard looks like afterward. If you offer a trenchless option, explain that it usually means less digging, and be honest about when it is not possible, such as a line that has collapsed or sagged badly.</p>
+<p>A simple comparison section works well. For each option, cover how much digging is involved, roughly how long the work takes and what kinds of damage it suits. Avoid promising that one method is always better. Homeowners can tell when a page is steering them, and the planner type of customer is already reading a few competitors' sites.</p>
+
+<h2 id="proof">What proof helps a homeowner say yes to sewer work?</h2>
+<p>A sewer job is a big decision made by someone who cannot see the problem. Proof closes that gap:</p>
+<ul>
+<li><b>Real photos.</b> Camera stills of roots or cracks, the crew at work and the finished yard. Your own photos beat stock images every time.</li>
+<li><b>Short job stories.</b> Two or three sentences each: what the homeowner noticed, what the camera showed and what you did. Only use real jobs, with permission.</li>
+<li><b>Reviews that mention sewer or drain work.</b> Place them on the matching pages, not only on a general reviews page.</li>
+<li><b>License, insurance and warranty.</b> State them near the estimate button, and explain what your workmanship warranty covers in plain words.</li>
+<li><b>Cleanup.</b> Say what happens to the lawn, driveway or landscaping when the job is done. It is one of the first things a homeowner pictures.</li>
+</ul>
+
+<h2 id="design">What plumbing website design details book more drain and sewer jobs?</h2>
+<p>A few plumbing website design choices make a big difference for this kind of work:</p>
+<ul>
+<li><b>Two buttons, two jobs.</b> On drain and backup pages, lead with a tap to call button. On inspection and sewer line pages, pair the call button with a short "request an inspection" form.</li>
+<li><b>Ask the right form questions.</b> Is water backing up right now? Which drains are affected? How old is the house? Has the line been snaked before? These help you call the urgent jobs first and show up prepared.</li>
+<li><b>Photo upload.</b> Let homeowners send a photo of the backup or the wet spot in the yard.</li>
+<li><b>Fast on a phone.</b> Many of these visitors are standing in a flooded basement. A slow page loses them.</li>
+<li><b>Local wording.</b> Mention the towns you serve and local conditions you really see, like older clay or cast iron lines in certain neighborhoods or tree roots on mature streets. Pair this with solid <a href="/local-seo-for-contractors">local SEO for contractors</a> so these pages show up for nearby searches.</li>
+</ul>
+<p>If you would rather have this built for you, our <a href="/plumber-websites">plumbing website design</a> service sets up the pages, buttons and forms that drain and sewer customers need, written around the work you actually do. Most sites are live within 48 hours of the onboarding form. When you are ready, <a href="/get-started">get started here</a>.</p>
+"""
+},
+{
  "slug":"roofing-website-storm-season","date":"2026-11-25",
  "tag":"Website tips",
  "read":6,
