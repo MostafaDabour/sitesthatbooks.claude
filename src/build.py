@@ -584,7 +584,7 @@ def pricing():
     table = '<div class="table-wrap"><table><thead><tr><th scope="col">Feature</th><th scope="col">Launch</th><th scope="col">Get Found</th><th scope="col">Get Booked</th></tr></thead><tbody>' + "".join(f'<tr><th scope="row">{a}</th>{cell(b)}{cell(c)}{cell(d)}</tr>' for a,b,c,d in rows) + "</tbody></table></div>"
     pf = [("Why is there a setup fee?",f"The {SETUP} covers writing your copy, designing your pages, setting up forms, SEO and connecting your domain. It is the only upfront cost."),
           ("What does the $99 a month cover?","Hosting, SSL security, 2 content updates, 2 SEO blog posts and a monthly traffic report. Your site stays fast, secure and growing."),
-          ("Are Google Ads costs included in Get Booked?","Get Booked is $747 a month in total: Launch {MONTHLY}, Get Found $149 and $499 for managing your campaign, the CRM and follow up tools. Your ad spend is paid directly to Google, so you control the budget."),
+          ("Are Google Ads costs included in Get Booked?",f"Get Booked is $747 a month in total: Launch {MONTHLY}, Get Found $149 and $499 for managing your campaign, the CRM and follow up tools. Your ad spend is paid directly to Google, so you control the budget."),
           ("Can I upgrade or downgrade?","Yes. Add Get Found or Get Booked anytime, or drop back to Launch at the end of any month."),
           ("Can I cancel?","Yes. No contracts. Cancel anytime.")]
     body = hero("Pricing",f"Simple pricing. <em>{SETUP}</em> setup, <em>{MONTHLY}</em> a month.","No contracts, no hidden fees. Every plan starts with Launch. Add local SEO or ads when you want more calls.",crumbs=[("Home",""),("Pricing","")]) + f'''

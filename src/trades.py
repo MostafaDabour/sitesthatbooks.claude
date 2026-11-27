@@ -321,9 +321,9 @@ TRADES = [
  "slug":"general-contractor-website-design","name":"General Contractor","who":"general contractors","icon":"contractor",
  "kw":"General contractor website design",
  "title":"General Contractor Website Design | SitesThatBook",
- "meta":"General contractor website design that shows your projects and wins bids. Done for you, $349 setup, $99/month, live in 48 hours.",
+ "meta":"General contractor website design that shows your projects and wins bids. Done-for-you contractor websites from $349 setup and $99/month, live in 48 hours.",
  "h1":"General contractor website design that <em>wins bids</em>",
- "lede":"Remodels, additions and new builds are big decisions, and homeowners check you out long before they call. Our general contractor website design shows your finished projects, your licensing and your process so the right clients ask for a bid.",
+ "lede":"Remodels, additions and new builds are big decisions, and homeowners check you out long before they call. Our general contractor website design gives you a contractor website that shows your finished projects, your licensing and your process so the right clients ask for a bid.",
  "searches":["general contractor near me","kitchen remodel contractor","home addition contractor","basement finishing contractor","licensed general contractor reviews"],
  "pains":[
   ("Your best projects are hidden","Finished kitchens, additions and basements sit in your phone. Homeowners hiring for a big job want to see that work before they call."),
@@ -340,6 +340,26 @@ TRADES = [
   ("Service area list","Every city and suburb you build in, written out for local search."),
  ],
  "pages":["Home with featured projects and trust badges","Services: remodels, additions, new builds and more","About your company, license and team","Reviews and project gallery","Contact with bid request form"],
+ "extra":'<section class="section" id="gc-guide"><div class="wrap" style="max-width:860px"><div class="prose">'
+ '<span class="eyebrow">General contractor websites</span>'
+ '<h2>What makes a good general contractor website?</h2>'
+ '<p>A homeowner planning a remodel or an addition is about to spend a lot of money with someone they have never met. They visit two or three general contractor websites, look at the work, check for a license and decide who gets to bid. The sites that win that comparison tend to do the same things well:</p>'
+ '<ul><li><b>Real project photos first.</b> Finished kitchens, baths, basements and additions from your own jobs, grouped by project type, with before and after shots where you have them.</li>'
+ '<li><b>Proof you are legitimate.</b> License number, insurance, years in business and reviews where homeowners look for them, not buried in the footer.</li>'
+ '<li><b>One page per service.</b> Kitchen remodeling, bathroom remodeling, basement finishing, additions and new construction each get their own page, written the way people search for them.</li>'
+ '<li><b>A clear process.</b> Consultation, design, permits, build and final walkthrough explained step by step, so a first time remodeler knows what happens after they call.</li>'
+ '<li><b>A bid form that qualifies.</b> Project type, rough budget, timeline and address, so you can spot serious projects before you drive out.</li>'
+ '<li><b>Your service area spelled out.</b> Every city and suburb you build in, so Google can match you to local searches.</li>'
+ '<li><b>Fast on a phone.</b> Most homeowners research on their phone first. A slow or cramped site loses them before they see your work.</li></ul>'
+ '<h2>Remodeling, additions and new construction on one site</h2>'
+ '<p>Most general contractors do more than one kind of job, and each one is searched differently. Someone typing kitchen remodel contractor is not looking for the same thing as someone searching for a home addition contractor. We give each service its own page and its own gallery, then link them together so a homeowner who lands on one can see everything else you build. That structure is also what helps a contractor website rank for more than its business name.</p>'
+ '<h2>How much does a general contractor website cost?</h2>'
+ '<p>Common ranges in the US: a DIY website builder runs about $20 to $50 a month plus your own time, a freelancer often charges $1,000 to $5,000 upfront, and an agency commonly charges $3,000 to $15,000 or more, with hosting and changes billed on top. These are market ranges, not quotes. Our general contractor website design is $349 to set up and $99 a month, with hosting, content updates and 2 SEO blog posts included and no contract. To compare options with your own numbers, try our free <a href="/contractor-website-cost-calculator">contractor website cost calculator</a>, or read <a href="/blog/how-much-does-a-contractor-website-cost">how much a contractor website costs</a>.</p>'
+ '<h2>A general contractor website vs a construction website template</h2>'
+ '<p>A construction website template gives you a layout. You still have to write every page, pick and resize photos, set up forms, handle SEO and keep it updated. That is fine if you enjoy it and have the evenings. Most general contractors would rather be on site. With a done-for-you build, we write the copy for your services and service area, set up the bid form and SEO, and you review it all on a launch call. See how the two approaches compare in <a href="/done-for-you-vs-website-builder">done for you vs website builder</a>.</p>'
+ '<h2>General contractor website examples</h2>'
+ '<p>The A &amp; I Contracting site on this page is a real example: a family owned remodeling contractor in the Denver metro, with services, project photos and a clear way to request a bid. You can see more live sites on <a href="/our-work">our work page</a>, and the full list of trades we build for on <a href="/home-service-website-design">home service website design</a>.</p>'
+ '</div></div></section>',
  "proof":"ai","proof_note":"A & I Contracting is a family owned remodeling contractor serving the Denver metro since 2004. This is the live site we built for them.",
  "example":("Example booking alert","Kitchen remodel bid request","Tue 10:30 AM"),
  "faqs":[
@@ -347,7 +367,9 @@ TRADES = [
   ("Can I show different galleries for remodels and new builds?","Yes. Each project type gets its own gallery so homeowners see the work that matches their job."),
   ("Have you built a website for a general contractor before?","Yes. We built the site for A & I Contracting, a family owned remodeling contractor in Denver. You can see it on this page and on our work page."),
   ("Can the bid form filter out small jobs?","Yes. The form asks for project type, budget range and timeline, so you can see which requests are worth a site visit."),
-  ("What does it cost?","$349 setup and $99 a month with hosting, updates and 2 SEO blog posts included. No contract."),
+  ("What should a general contractor website include?","Project galleries by job type, your license and insurance near the top, a separate page for each service, a step by step process section, a bid request form and a list of the cities you serve."),
+ ("Do general contractors need SEO?","If you want homeowners to find you when they search for a remodel or addition in your area, yes. Separate service pages, your service area and a fast mobile site are the foundation. We set that up on every build."),
+ ("What does it cost?","$349 setup and $99 a month with hosting, updates and 2 SEO blog posts included. No contract."),
  ],
 },
 ]

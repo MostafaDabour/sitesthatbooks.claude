@@ -2039,7 +2039,7 @@ POSTS = [
 """},
 {
  "slug":"rank-in-google-map-pack","date":"2026-10-19","tag":"Local SEO","read":7,
- "title":"How to Rank in Google's Map Pack as a Home Service Business",
+ "title":"How to Rank in the Google Map Pack: Home Service Guide",
  "h1":"Local SEO for contractors: how to rank in the <em>Google map pack</em>",
  "desc":"Local SEO for contractors: how the Google map pack picks the three businesses it shows, and the steps that move a home service company into it.",
  "answer":"Google picks map pack businesses on three things it names itself: relevance, distance and prominence. You cannot change where the searcher stands, so you win by making your profile and website clearly match the job, keeping your details consistent everywhere, and building steady reviews and local mentions over time.",

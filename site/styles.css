@@ -98,8 +98,8 @@ p{margin:0}
 .page-hero{padding-block:64px 70px}
 .page-hero .hero-copy{max-width:780px}
 .crumbs{font-size:.88rem;color:var(--on-navy-muted)}
-.crumbs a{color:var(--on-navy);text-decoration:none}
-.crumbs a:hover{text-decoration:underline}
+.crumbs a{color:var(--on-navy);text-decoration:underline;text-underline-offset:3px;text-decoration-color:rgba(255,255,255,.45)}
+.crumbs a:hover{text-decoration-color:currentColor}
 @media (max-width:900px){.hero-grid{grid-template-columns:1fr;gap:40px;padding-block:52px 60px}}
 
 /* Phone mock + tickets */
